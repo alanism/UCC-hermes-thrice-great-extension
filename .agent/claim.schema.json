@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "acdf.claim.v1",
+  "title": "ACDF task claim",
+  "type": "object",
+  "required": [
+    "task_id",
+    "agent_id",
+    "claimed_at",
+    "active_plan_hash",
+    "allowed_files",
+    "forbidden_files",
+    "status"
+  ],
+  "properties": {
+    "task_id": {"type": "string", "pattern": "^[A-Z]+[0-9]+\\.[0-9]+[A-Z]?$"},
+    "agent_id": {"type": "string", "minLength": 1},
+    "claimed_at": {"type": "string", "format": "date-time"},
+    "active_plan_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "allowed_files": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "forbidden_files": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "status": {"enum": ["IN_PROGRESS", "DONE", "BLOCKED", "FAILED"]},
+    "completed_at": {"type": "string", "format": "date-time"},
+    "receipt": {"type": "string"},
+    "revalidated_plan_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "revalidated_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": true
+}
