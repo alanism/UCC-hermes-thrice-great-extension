@@ -1,0 +1,15 @@
+# Historical documents are evidence, never active agent authority.
+docs/archive/**
+
+# Generated/private/runtime surfaces are not agent context.
+dist/**
+tmp/**
+local/**
+sessions/**
+memories/**
+logs/**
+outputs/**
+learner_data/**
+private/**
+.env
+auth.json

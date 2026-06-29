@@ -57,7 +57,7 @@
   "archive_policy": {
     "archive_path": "docs/archive/",
     "archive_is_authority": false,
-    "current_state": "not_initialized",
+    "current_state": "initialized",
     "required_before_implementation": true
   },
   "claim_control": {

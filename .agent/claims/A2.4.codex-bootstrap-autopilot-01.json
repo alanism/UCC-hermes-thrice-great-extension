@@ -1,0 +1,26 @@
+{
+  "task_id": "A2.4",
+  "agent_id": "codex-bootstrap-autopilot-01",
+  "claimed_at": "2026-06-29T23:43:07Z",
+  "active_plan_hash": "sha256:bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543",
+  "allowed_files": [
+    ".agent/claims/A2.4.codex-bootstrap-autopilot-01.json",
+    ".agent/state.log",
+    ".agentignore",
+    "docs/archive/.gitkeep",
+    "docs/active/authority.json",
+    "docs/active/sources.manifest.json",
+    "docs/active/receipts/A2.4.md"
+  ],
+  "forbidden_files": [
+    "scripts/**",
+    "tests/**",
+    "plugins/**",
+    "profiles/**",
+    "schemas/**",
+    "skills/**"
+  ],
+  "completed_at": "2026-06-29T23:43:40Z",
+  "receipt": "docs/active/receipts/A2.4.md",
+  "status": "DONE"
+}
