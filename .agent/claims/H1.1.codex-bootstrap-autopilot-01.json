@@ -1,0 +1,24 @@
+{
+  "task_id": "H1.1",
+  "agent_id": "codex-bootstrap-autopilot-01",
+  "claimed_at": "2026-06-29T21:26:26Z",
+  "active_plan_hash": "sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564",
+  "allowed_files": [
+    ".agent/claims/H1.1.codex-bootstrap-autopilot-01.json",
+    ".agent/state.log",
+    "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
+    "docs/active/recon/**",
+    "docs/active/receipts/H1.1.md",
+    "docs/active/authority.json"
+  ],
+  "forbidden_files": [
+    "C:/Users/alani/AppData/Local/hermes/hermes-agent/**",
+    "plugins/**",
+    "profiles/**",
+    "schemas/**",
+    "skills/**"
+  ],
+  "completed_at": "2026-06-29T21:28:01Z",
+  "receipt": "docs/active/receipts/H1.1.md",
+  "status": "DONE"
+}

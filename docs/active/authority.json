@@ -33,7 +33,7 @@
     },
     "compatibility_matrix": {
       "path": "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
-      "sha256": "e509741eb9d6c46b992691c75b1dde63c4ca1e7b23db7248aea9a9ebdeb8f2ee"
+      "sha256": "3e65a2325732681b75e1afd8d89bc4d64010e07673f90b9e75d12c0de92c6799"
     },
     "trust_boundaries": {
       "path": "docs/active/TRUST_BOUNDARIES.md",
