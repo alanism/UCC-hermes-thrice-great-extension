@@ -43,7 +43,7 @@ The builder must reject or omit all non-allowlisted content, including:
 2. Canonicalize source and destination paths before copying.
 3. Reject source/destination overlap and path escape.
 4. Reject symlinks/reparse points in selected payload paths.
-5. Emit a sorted file inventory and content hashes for later release work.
+5. Emit a sorted file inventory and content hashes as a sibling sidecar outside the install payload.
 6. Validate `distribution.yaml` at the staging root before install.
 7. Run a forbidden-path scan before any Hermes install probe.
 8. `dist/` remains Git-ignored; generated payload is evidence, not source authority.

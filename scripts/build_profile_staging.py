@@ -25,7 +25,7 @@ ALLOWLIST_DIRS = (
     "schemas",
     "benchmarks",
 )
-INVENTORY_NAME = "payload-inventory.json"
+INVENTORY_SUFFIX = ".inventory.json"
 
 
 class StagingError(RuntimeError):
@@ -99,16 +99,18 @@ def _sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def _write_inventory(staging: Path) -> None:
+def _inventory_text(staging: Path) -> str:
     files = [
         {"path": path.relative_to(staging).as_posix(), "sha256": _sha256(path)}
         for path in sorted(staging.rglob("*"))
-        if path.is_file() and path.name != INVENTORY_NAME
+        if path.is_file()
     ]
-    (staging / INVENTORY_NAME).write_text(
-        json.dumps({"schema_version": "ucc.profile_payload_inventory.v1", "files": files}, indent=2)
-        + "\n",
-        encoding="utf-8",
+    return (
+        json.dumps(
+            {"schema_version": "ucc.profile_payload_inventory.v1", "files": files},
+            indent=2,
+        )
+        + "\n"
     )
 
 
@@ -124,16 +126,27 @@ def build(source_arg: Path, output_arg: Path) -> Path:
 
     output.parent.mkdir(parents=True, exist_ok=True)
     temporary = Path(tempfile.mkdtemp(prefix=f".{output.name}-", dir=output.parent))
+    inventory_target = output.with_name(f"{output.name}{INVENTORY_SUFFIX}")
+    inventory_temporary: Path | None = None
     try:
         _copy_selected(source, temporary)
-        _write_inventory(temporary)
+        inventory_text = _inventory_text(temporary)
         if output.exists():
             if _is_reparse_point(output):
                 raise StagingError("OUTPUT_REPARSE_POINT", f"refusing to replace reparse-point output: {output}")
             shutil.rmtree(output)
         temporary.replace(output)
+        descriptor, inventory_name = tempfile.mkstemp(
+            prefix=f".{output.name}-inventory-", dir=output.parent
+        )
+        os.close(descriptor)
+        inventory_temporary = Path(inventory_name)
+        inventory_temporary.write_text(inventory_text, encoding="utf-8")
+        inventory_temporary.replace(inventory_target)
     except Exception:
         shutil.rmtree(temporary, ignore_errors=True)
+        if inventory_temporary is not None:
+            inventory_temporary.unlink(missing_ok=True)
         raise
     return output
 

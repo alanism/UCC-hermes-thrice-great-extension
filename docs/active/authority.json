@@ -41,7 +41,7 @@
     },
     "staging_payload_policy": {
       "path": "docs/active/STAGING_PAYLOAD_POLICY.md",
-      "sha256": "629545186ea6712cd427c56c41923aa67ebd91c13f1df47da248a0727133f9eb"
+      "sha256": "74d6ade529503b1743683f79f42aeb8f7d54e944826140c3a4a557bc94455fd5"
     },
     "model_reviews": {
       "path": "docs/active/MODEL_REVIEWS.md",

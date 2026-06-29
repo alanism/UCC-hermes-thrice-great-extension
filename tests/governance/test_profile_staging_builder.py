@@ -42,7 +42,7 @@ class ProfileStagingBuilderTests(unittest.TestCase):
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_text(content, encoding="utf-8")
 
-    def test_copies_only_allowlisted_payload_and_emits_inventory(self) -> None:
+    def test_copies_only_allowlisted_payload_and_emits_sibling_inventory(self) -> None:
         with tempfile.TemporaryDirectory() as temp:
             base = Path(temp)
             source = base / "source"
@@ -67,14 +67,14 @@ class ProfileStagingBuilderTests(unittest.TestCase):
                 "schemas/probe.json",
                 "benchmarks/probe.txt",
             }
-            self.assertTrue(expected_payload.issubset(actual))
-            self.assertIn("payload-inventory.json", actual)
+            self.assertEqual(expected_payload, actual)
             self.assertFalse(any(name.startswith((".agent/", "docs/", "local/")) for name in actual))
             self.assertNotIn(".env", actual)
             self.assertNotIn("auth.json", actual)
             self.assertNotIn("README.md", actual)
 
-            inventory = json.loads((output / "payload-inventory.json").read_text(encoding="utf-8"))
+            inventory_path = output.with_name(f"{output.name}.inventory.json")
+            inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
             self.assertEqual(sorted(expected_payload), sorted(item["path"] for item in inventory["files"]))
 
     def test_rebuild_removes_stale_non_allowlisted_output(self) -> None:

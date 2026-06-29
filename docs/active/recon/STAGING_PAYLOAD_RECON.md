@@ -21,7 +21,7 @@ The staging builder is deny-by-default. It copies only:
 - `schemas/**`
 - `benchmarks/**`
 
-It creates `payload-inventory.json` containing the path and SHA-256 digest of every copied file. A fresh temporary tree replaces the prior output, so stale output cannot survive a rebuild. Source/output overlap, path escape, symlinks, and Windows reparse points are rejected.
+It creates `dist/hermes-thrice-great-profile.inventory.json` as a sibling sidecar containing the path and SHA-256 digest of every copied file. The sidecar is never installed. A fresh temporary tree replaces the prior output, so stale output cannot survive a rebuild. Source/output overlap, path escape, symlinks, and Windows reparse points are rejected.
 
 ## Test evidence
 
