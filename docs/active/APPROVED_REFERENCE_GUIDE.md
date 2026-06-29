@@ -4,7 +4,7 @@ Status: ACTIVE FOR PLANNING. It authorizes planning and test design only; Stage 
 
 ## Product definition
 
-Hermes Thrice Great is an installable UCC profile distribution for a pinned Hermes release. It supplies reusable profile guidance, UCC skills, deterministic educational-evidence processing, and local approval/ledger controls through supported Hermes extension points.
+Hermes Thrice Great is a UCC source/control repository that generates an allowlisted installable profile payload for a pinned Hermes release. It supplies reusable profile guidance, UCC skills, deterministic educational-evidence processing, and local approval/ledger controls through supported Hermes extension points.
 
 It is not Hermes source, a general learning-content generator, a live Discord bot, or a multi-family SaaS system.
 
@@ -32,6 +32,8 @@ The MVP is correct only when it can, offline and with synthetic data:
 10. Write ledger records atomically inside a private configured data root.
 11. Operate with web, messaging, and unrestricted terminal/filesystem capabilities disabled by default.
 12. Produce task receipts and preserve ACDF claim/state history.
+
+The install source for item 1 is only `dist/hermes-thrice-great-profile/`. Installing the repository root is a correctness and privacy failure.
 
 ## Contract doctrine
 

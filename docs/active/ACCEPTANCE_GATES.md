@@ -15,6 +15,8 @@ All gates are binary. A documented unknown is a FAIL until its recon task closes
 - Any ambiguous executable/import path or unprovable checkout identity produces FAIL and human escalation; a plausible written explanation cannot pass.
 - Exact Hermes package version and executing commit are pinned.
 - Native profile distribution, skills, plugin, CLI command, and custom distribution-owned paths are characterized on Windows.
+- An allowlisted builder generates `dist/hermes-thrice-great-profile/`; the generated inventory contains only policy-approved paths and no governance/private paths.
+- Pinned Hermes installs the generated staging tree successfully. Any attempt to use the repository root is rejected by the project's acceptance tooling.
 - Stock offline smoke commands pass.
 - No Hermes internal edit is proposed.
 

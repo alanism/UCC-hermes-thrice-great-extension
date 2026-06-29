@@ -14,7 +14,7 @@ Status: EXECUTING IDENTITY CONFIRMED; H1 remains open pending native extension/i
 | Profile mechanism | `distribution.yaml`, `config.yaml`, `SOUL.md`, `hermes profile install` | Confirmed in installed Hermes docs and code. |
 | Skill format | `skills/<category-or-slug>/<slug>/SKILL.md` or distribution-local `skills/<slug>/SKILL.md` | Exact discovery behavior must be characterized by H2. |
 | Plugin format | `plugin.yaml` plus Python `register(ctx)` | Confirmed in installed Hermes plugin docs. |
-| Profile plugin delivery | Proposed explicit `distribution_owned: [plugins/hermes-thrice-great, ...]` | Must be proven by an isolated install test before use. |
+| Profile payload delivery | Generated allowlisted `dist/hermes-thrice-great-profile/`; never repository root | H1.3 proved pinned Hermes copies all non-user-excluded source entries regardless of `distribution_owned`; staging is mandatory. |
 | Stock offline smoke | `hermes --version`; `hermes profile list`; `hermes --help` | Must pass without model/network calls. |
 | UCC offline smoke | Target public contract: `python scripts/run_ucc_smoke.py --offline` | Script is future work; must install into a temporary `HERMES_HOME`. |
 | Update policy | Pinned for the MVP | Drift reported only; no phase-start updates. |
@@ -25,7 +25,7 @@ Status: EXECUTING IDENTITY CONFIRMED; H1 remains open pending native extension/i
 2. Package version `0.16.0` does not by itself identify post-release commits; H1 must bind package metadata and exact HEAD together.
 3. This repository has no `distribution.yaml`, `SOUL.md`, `config.yaml`, or plugin yet.
 4. Current skill files are flat and named `*.SKILL.md`; Hermes expects `SKILL.md` inside skill directories.
-5. Profile-distribution copying of the custom `plugins/hermes-thrice-great/`, root `schemas/`, and root `benchmarks/` paths must be tested.
+5. Custom plugin/schema/benchmark paths copy correctly, but the pinned installer does not enforce `distribution_owned` as an allowlist. The project staging builder must enforce the boundary before install.
 6. The exact restricted toolset configuration keys must be read from the pinned Hermes config schema; prose instructions in `SOUL.md` are not a security boundary.
 
 H1.1 confirmed executable path, import path, editable-install source, exact clean HEAD, and version metadata. Gate H1 converts the candidate into the milestone binding pin only after H1.2–H1.5 also prove native distribution/skill/plugin behavior and stock offline smoke. `origin/main` need not equal HEAD. Any future ambiguous executable/import path or unprovable checkout identity requires human escalation and H1 FAIL; prose explanation alone cannot pass.

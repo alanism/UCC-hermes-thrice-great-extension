@@ -24,7 +24,8 @@ Before A1, T0.*, H1.*, and A2.* may run only under a dated human declaration in 
 | H1.1 | Prove executing Hermes identity and select exact package/HEAD pin. | T0.2 | `docs/active/HERMES_COMPATIBILITY_MATRIX.md`, `docs/active/recon/**`, temporary probe output | Upstream Hermes | Automated probe resolves executable, import file, editable `direct_url.json`, exact HEAD, version metadata, and `origin/main` separately. Ambiguity is FAIL plus human escalation; prose cannot pass. | `H1.1.md` | H1 |
 | H1.2 | Characterize local profile-distribution install/update in a temporary Hermes home. | H1.1 | `docs/active/recon/**` | Profile distribution | Manual isolated install transcript; no persistent profile or network action. | `H1.2.md` | H1 |
 | H1.3 | Characterize custom distribution-owned plugin/schema/benchmark paths. | H1.2 | `docs/active/recon/**`, temporary OS directory | Distribution/plugin | Installed inventory proves exact copy/update behavior. | `H1.3.md` | H1 |
-| H1.4 | Characterize skill discovery, plugin enablement/CLI API, arbitrary profile names, and restricted config keys. | H1.2 | `docs/active/recon/**` | Profile/skills/plugin | Pinned-source citations and offline command evidence. | `H1.4.md` | H1 |
+| H1.3A | Adopt and prove generated allowlisted staging payload after H1.3 copy-scope finding. | H1.3 | governance docs, staging builder/test, ignored `dist/**`, recon evidence | Packaging boundary | RED/GREEN allowlist tests; forbidden-path scan; pinned Hermes installs only generated staging tree. | `H1.3A.md` | H1 |
+| H1.4 | Characterize skill discovery, plugin enablement/CLI API, arbitrary profile names, and restricted config keys. | H1.3A | `docs/active/recon/**` | Profile/skills/plugin | Pinned-source citations and offline command evidence. | `H1.4.md` | H1 |
 | H1.5 | Finalize matrix and stock offline smoke definition; report upstream drift without updating. | H1.3, H1.4 | `HERMES_COMPATIBILITY_MATRIX.md`, `docs/active/UPSTREAM_SMOKE_TEST.md` | Compatibility | Stock smoke passes; exact pin and known incompatibilities are explicit. | `H1.5.md` | H1 |
 
 ## Phase 2 — ACDF authority machinery
@@ -94,7 +95,7 @@ All rows permit only `tests/**` and `fixtures/**` named by the task. Production/
 
 | ID | Task | Depends | Allowed files | Graph scope | Validation / evidence | Receipt | Gate |
 |---|---|---|---|---|---|---|---|
-| P6.1 | Add minimum `distribution.yaml`, reusable `SOUL.md`, `.env.EXAMPLE`, and restricted `config.yaml`. | T4.8, S5.3 | named root profile files | Profile | Isolated install tests GREEN; no secret or hardcoded `thoth`. | `P6.1.md` | PR1 |
+| P6.1 | Add minimum profile payload sources and generate the staging tree. | T4.8, S5.3 | named profile sources, staging builder inputs, ignored `dist/**` | Profile | Isolated staging-tree install tests GREEN; repo-root install rejected; no secret or hardcoded `thoth`. | `P6.1.md` | PR1 |
 | P6.2 | Add minimum plugin manifest/skeleton and proven distribution-owned paths. | P6.1, T4.8 | `plugins/hermes-thrice-great/**`, `distribution.yaml` | Plugin | Plugin discovered but performs no untested core behavior; delivery test GREEN. | `P6.2.md` | PR1 |
 | P6.3 | Prove installs as `ucc` and `thoth`, config isolation, update preservation, and stock smoke. | P6.2 | tests/receipts only | Profile | Alias equivalence/install lifecycle tests GREEN in temporary homes with synthetic install fixtures only; stock smoke unchanged; output warns PR1 is not safe-to-operate. | `P6.3.md` | PR1 |
 

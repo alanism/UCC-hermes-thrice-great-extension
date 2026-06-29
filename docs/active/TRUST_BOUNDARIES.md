@@ -6,7 +6,7 @@ Hermes is an external pinned runtime. Only documented public profile, distributi
 
 ## B2 — Distribution content
 
-`distribution.yaml`, `SOUL.md`, `config.yaml`, packaged skills, plugin code, schemas, and benchmark assets are distribution-owned. Install/update behavior must never overwrite Hermes user-owned memories, sessions, credentials, logs, or `local/` customizations.
+The source/control repository is not an install payload. Only the generated allowlisted staging tree under `dist/hermes-thrice-great-profile/` crosses into Hermes profile installation. `distribution.yaml`, `SOUL.md`, `config.yaml`, packaged skills, plugin code, selected schemas, and selected benchmark assets are staging-owned. Governance, claims, receipts, Git metadata, source docs, learner data, and secrets must never cross this boundary. Install/update behavior must never overwrite Hermes user-owned memories, sessions, credentials, logs, or `local/` customizations.
 
 ## B3 — Plugin boundary
 

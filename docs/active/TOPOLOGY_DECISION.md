@@ -24,9 +24,15 @@ Status: SELECTED FOR PLANNING; implementation blocked until Gate H1 confirms the
 
 ## Selected topology
 
-This repository becomes the installable **Hermes Thrice Great** profile distribution. It is not a copy of Hermes.
+This repository remains the **Hermes Thrice Great** source, governance, and control repository. It is not a copy of Hermes and it is never installed directly as a Hermes profile.
 
-Planned distribution-owned runtime surface:
+The sole MVP install payload is a generated, deny-by-default staging tree:
+
+```text
+dist/hermes-thrice-great-profile/
+```
+
+Planned generated runtime surface:
 
 ```text
 distribution.yaml
@@ -38,14 +44,16 @@ schemas/
 benchmarks/
 ```
 
-The default install name is `ucc`. A user may install the same distribution as `hermes-thrice-great` or a personal alias such as `thoth`:
+The default install name is `ucc`. A user may install the generated staging tree as `hermes-thrice-great` or a personal alias such as `thoth`:
 
 ```powershell
-hermes profile install . --name ucc
-hermes profile install . --name thoth
+hermes profile install .\dist\hermes-thrice-great-profile --name ucc
+hermes profile install .\dist\hermes-thrice-great-profile --name thoth
 ```
 
 The profile name is installation state, not product identity. No runtime module may require the literal name `thoth`.
+
+`STAGING_PAYLOAD_POLICY.md` is the binding allowlist/exclusion contract. The pinned Hermes installer copies every non-user-excluded top-level entry, so repository-root installation is forbidden.
 
 ## Upstream policy
 
@@ -57,4 +65,4 @@ The profile name is installation state, not product identity. No runtime module 
 
 ## Rollback
 
-Uninstall or disable the `ucc` profile/plugin. Stock Hermes remains independently installed and unchanged.
+Uninstall or disable the `ucc` profile/plugin and delete/regenerate the ignored staging tree. Stock Hermes and the source/control repository remain independently unchanged.

@@ -4,7 +4,7 @@ Status: ACTIVE PLAN; planning only. Runtime implementation is forbidden until Ga
 
 ## Executive summary
 
-Hermes Thrice Great will remain an independent UCC profile distribution for a pinned Hermes runtime. It will use Hermes-native `distribution.yaml`, `SOUL.md`, profile configuration, skill directories, and plugin extension points. It will not vendor or patch Hermes.
+Hermes Thrice Great will remain an independent UCC source/governance repository for a pinned Hermes runtime. It will generate an allowlisted profile payload under `dist/hermes-thrice-great-profile/` using Hermes-native `distribution.yaml`, `SOUL.md`, profile configuration, skill directories, and plugin extension points. The repository root is never installed. It will not vendor or patch Hermes.
 
 The MVP proves an offline, deterministic learning-evidence loop with synthetic data: normalized SMC → semantically valid CALM/PRESSURE receipts → valid pairing → diagnosis facts → parent brief → proposal → parent approval event → atomic local ledger. Branding and optional mock adapters come after that proof.
 
@@ -23,7 +23,7 @@ Early recon and governance machinery precede Gate A1's automated claim checker. 
 
 ## Planned runtime structure
 
-The exact files are created only by test-gated tasks:
+Source files are created only by test-gated tasks. The install surface is generated:
 
 ```text
 distribution.yaml
@@ -38,6 +38,7 @@ schemas/
 benchmarks/
 tests/
 scripts/
+dist/hermes-thrice-great-profile/   # generated, ignored, sole install payload
 ```
 
 `ucc` is the default installed profile. `thoth` is an optional local install name, never a hardcoded dependency.
@@ -65,8 +66,9 @@ Tasks:
 2. Record the exact release/tag/commit and Python constraint.
 3. Characterize local `hermes profile install <path> --name <name>` in a temporary `HERMES_HOME`.
 4. Characterize custom `distribution_owned` paths for plugin, schemas, and benchmarks.
-5. Characterize skill discovery, plugin enablement, CLI registration, profile naming, and restricted config keys.
-6. Capture stock offline smoke behavior.
+5. Prove the project allowlist builder excludes every non-approved source/control path and install only its generated staging tree.
+6. Characterize skill discovery, plugin enablement, CLI registration, profile naming, and restricted config keys.
+7. Capture stock offline smoke behavior.
 
 No upstream update or source edit is permitted. Upstream drift is reported only.
 
@@ -169,7 +171,7 @@ Exit: S1.
 Objective: make this repository installable as a Hermes profile distribution.
 
 - Add `distribution.yaml`, `SOUL.md`, and restricted `config.yaml` only after profile tests are RED.
-- Deliver the plugin and data through H1-proven distribution-owned paths.
+- Deliver the plugin and data through the H1-proven generated staging tree; direct repository-root install is forbidden.
 - Install into temporary homes as `ucc` and `thoth`; compare semantic behavior.
 - Keep credentials in `.env.EXAMPLE`/documented local setup only; no secrets committed.
 - Prove stock Hermes remains unchanged.
