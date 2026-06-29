@@ -1,0 +1,90 @@
+LS Life Sciences
+Matter and Energy in Organisms and Ecosystems
+MS-LS1-6 Construct a scientific explanation based on evidence for the role of photosynthesis in the cycling of matter and flow of energy into and out of organisms.
+How do plants use and change energy? (7-V.1)
+Identify the photosynthetic organism (7-V.2)
+MS-LS1-7 Develop a model to describe how food is rearranged through chemical reactions forming new molecules that support growth and/or release energy as this matter moves through an organism.
+The chemistry of cellular respiration (7-O.2)
+MS-LS2-1 Analyze and interpret data to provide evidence for the effects of resource availability on organisms and populations of organisms in an ecosystem.
+Use food chains to predict changes in populations (7-X.4)
+MS-LS2-3 Develop a model to describe the cycling of matter and flow of energy among living and nonliving parts of an ecosystem.
+How does matter move in food chains? (7-X.1)
+Interpret food webs I (7-X.2)
+Interpret food webs II (7-X.3)
+The carbon cycle (7-DD.4)
+MS-LS2-4 Construct an argument supported by empirical evidence that changes to physical or biological components of an ecosystem affect populations.
+Use food chains to predict changes in populations (7-X.4)
+Investigate primary succession on a volcanic island (7-X.6)
+Coral reef biodiversity and human uses: explore a problem (7-Y.1)
+Interdependent Relationships in Ecosystems
+MS-LS2-2 Construct an explanation that predicts patterns of interactions among organisms across multiple ecosystems.
+Classify ecological relationships (7-X.)
+Classify symbiotic relationships (7-X.5)
+MS-LS2-5 Evaluate competing design solutions for maintaining biodiversity and ecosystem services.
+Coral reef biodiversity and human uses: explore a problem (7-Y.1)
+Coral reef biodiversity and human uses: evaluate solutions (7-Y.2)
+ESS Earth and Space Systems
+History of Earth
+MS-ESS2-2 Construct an explanation based on evidence for how geoscience processes have changed Earth's surface at varying time and spatial scales.
+How do rock layers form? (7-AA.4)
+Label Earth layers (7-BB.1)
+Label Earth features at tectonic plate boundaries (7-BB.2)
+Describe tectonic plate boundaries around the world (7-BB.3)
+MS-ESS2-3 Analyze and interpret data on the distribution of fossils and rocks, continental shapes, and seafloor structures to provide evidence of the past plate motions.
+Evidence of continental drift and plate tectonics (7-BB.)
+Label Earth features at tectonic plate boundaries (7-BB.2)
+Describe tectonic plate boundaries around the world (7-BB.3)
+Earth's Systems
+MS-ESS2-1 Develop a model to describe the cycling of Earth's materials and the flow of energy that drives this process.
+Introduction to the rock cycle (7-AA.2)
+Classify rocks as igneous, sedimentary, or metamorphic (7-AA.3)
+Label parts of rock cycle diagrams (7-AA.5)
+Select parts of rock cycle diagrams (7-AA.6)
+MS-ESS3-1 Construct a scientific explanation based on evidence for how the uneven distributions of Earth's mineral, energy, and groundwater resources are the result of past and current geoscience processes.
+Petroleum formation and distribution on Earth (7-Z.)
+Renewable and nonrenewable energy resources (7-Z.)
+Human Impacts
+MS-ESS3-2 Analyze and interpret data on natural hazards to forecast future catastrophic events and inform the development of technologies to mitigate their effects.
+Analyze natural hazard maps (7-GG.1)
+PS Physical Sciences
+Structure and Properties of Matter
+MS-PS1-1 Develop models to describe the atomic composition of simple molecules and extended structures.
+How are substances represented by chemical formulas and models? (7-E.2)
+Identify chemical formulas for ball-and-stick models (7-E.3)
+Describe the atomic composition of molecules (7-E.4)
+Classify elements and compounds using chemical formulas (7-E.5)
+Classify elements and compounds using models (7-E.6)
+MS-PS1-3 Gather and make sense of information to describe that synthetic materials come from natural resources and impact society.
+Synthetic materials (7-F.8)
+MS-PS1-4 Develop a model that predicts and describes changes in particle motion, temperature, and state of a pure substance when thermal energy is added or removed.
+How does particle motion affect temperature? (7-K.1)
+Particle motion and changes of state (7-K.2)
+How does particle motion affect gas pressure? (7-K.3)
+Identify how particle motion affects temperature and pressure (7-K.4)
+Chemical Reactions
+MS-PS1-2 Analyze and interpret data on the properties of substances before and after the substances interact to determine if a chemical reaction has occurred.
+Compare physical and chemical changes (7-F.5)
+Explore chemical structure and properties: soapmaking (7-F.6)
+Explore chemical structure and properties: food flavors (7-F.7)
+Synthetic materials (7-F.8)
+MS-PS1-5 Develop and use a model to describe how the total number of atoms does not change in a chemical reaction and thus mass is conserved.
+Count atoms and molecules in chemical reactions (7-F.2)
+Calculate amounts of reactants or products in chemical reactions (7-F.3)
+MS-PS1-6 Undertake a design project to construct, test, and modify a device that either releases or absorbs thermal energy by chemical processes.
+Describe energy changes in chemical reactions (7-F.4)
+ETS Engineering, Technology, and Applications of Science
+Engineering Design
+MS-ETS1-1 Define the criteria and constraints of a design problem with sufficient precision to ensure a successful solution, taking into account relevant scientific principles and potential impacts on people and the natural environment that may limit possible solutions.
+Identify parts of the engineering-design process (7-C.1)
+Explore the engineering-design process: going to the Moon! (7-C.4)
+Coral reef biodiversity and human uses: evaluate solutions (7-Y.2)
+MS-ETS1-2 Evaluate competing design solutions using a systematic process to determine how well they meet the criteria and constraints of the problem.
+Identify parts of the engineering-design process (7-C.1)
+Evaluate tests of engineering-design solutions (7-C.2)
+Explore the engineering-design process: going to the Moon! (7-C.4)
+Coral reef biodiversity and human uses: evaluate solutions (7-Y.2)
+MS-ETS1-3 Analyze data from tests to determine similarities and differences among several design solutions to identify the best characteristics of each that can be combined into a new solution to better meet the criteria for success.
+Use data from tests to compare engineering-design solutions (7-C.3)
+Coral reef biodiversity and human uses: evaluate solutions (7-Y.2)
+MS-ETS1-4 Develop a model to generate data for iterative testing and modification of a proposed object, tool, or process such that an optimal design can be achieved.
+Explore the engineering-design process: going to the Moon! (7-C.4)

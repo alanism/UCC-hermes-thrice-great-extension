@@ -1,0 +1,77 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ucc.receipt.v1",
+  "title": "UCC Canonical Receipt",
+  "description": "The durable evidence artifact produced by every assessment. TXT is rendered FROM this, never the reverse.",
+  "type": "object",
+  "required": ["schema_version", "source", "assessment", "student", "session", "summary", "events", "receipt_integrity"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "ucc.receipt.v1" },
+    "source": {
+      "type": "object",
+      "required": ["app_id", "app_version", "generated_at"],
+      "additionalProperties": false,
+      "properties": {
+        "app_id": { "type": "string", "pattern": "^assessment\\.[a-z0-9_]+$" },
+        "app_version": { "type": "string" },
+        "generated_at": { "type": "string", "format": "date-time" }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "required": ["domain", "name", "mode", "duration_seconds", "reported_grade"],
+      "additionalProperties": false,
+      "properties": {
+        "domain": { "enum": ["math", "reading"] },
+        "name": { "type": "string" },
+        "mode": { "enum": ["calm", "pressure"] },
+        "duration_seconds": { "type": "integer", "minimum": 0 },
+        "reported_grade": { "type": ["integer", "null"], "minimum": 0, "maximum": 12 }
+      }
+    },
+    "student": {
+      "type": "object",
+      "required": ["student_id", "display_name", "pseudonymous"],
+      "additionalProperties": false,
+      "properties": {
+        "student_id": { "type": "string" },
+        "display_name": { "type": "string" },
+        "pseudonymous": { "type": "boolean" }
+      }
+    },
+    "session": {
+      "type": "object",
+      "required": ["session_id", "started_at", "completed_at", "timer_policy", "completion_status"],
+      "additionalProperties": false,
+      "properties": {
+        "session_id": { "type": "string" },
+        "started_at": { "type": "string", "format": "date-time" },
+        "completed_at": { "type": "string", "format": "date-time" },
+        "timer_policy": { "type": "string" },
+        "completion_status": { "enum": ["completed", "aborted", "expired", "partial"] }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["items_completed", "correct", "incorrect", "timeouts", "average_time_seconds", "max_grade_or_level_reached", "performance_index", "score_status"],
+      "additionalProperties": false,
+      "properties": {
+        "items_completed": { "type": "integer", "minimum": 0 },
+        "correct": { "type": "integer", "minimum": 0 },
+        "incorrect": { "type": "integer", "minimum": 0 },
+        "timeouts": { "type": "integer", "minimum": 0 },
+        "average_time_seconds": { "type": "number", "minimum": 0 },
+        "max_grade_or_level_reached": { "type": "string" },
+        "performance_index": { "type": ["integer", "null"], "minimum": 0, "maximum": 100 },
+        "score_status": { "enum": ["usable", "limited", "degraded", "void", "suppressed"] }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "ucc.assessment_event.v1" }
+    },
+    "receipt_integrity": { "$ref": "ucc.receipt_integrity.v1" },
+    "human_readable_receipt": { "type": "string" }
+  }
+}

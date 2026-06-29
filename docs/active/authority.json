@@ -1,0 +1,75 @@
+{
+  "schema_version": "acdf.authority.v1",
+  "status": "planning_active",
+  "implementation_authorized": false,
+  "activated_at": "2026-06-29T19:14:06Z",
+  "revised_at": "2026-06-29T19:43:27Z",
+  "previous_plan_hash": "sha256:fc2e490aa99678fe7bd2ad888e8d30970c37a5eaab107e150e78602740e89782",
+  "active_plan_hash": "sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564",
+  "binding_artifacts": {
+    "build_plan": {
+      "path": "docs/active/BUILD_PLAN.md",
+      "sha256": "6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564"
+    },
+    "task_board": {
+      "path": "docs/active/PROJECT_TASKS.md",
+      "sha256": "3c08a154336bac410e7ac037eb548e9d752da9864b13d34311bd6a1cbee4dc5c"
+    },
+    "architecture": {
+      "path": "docs/active/architecture.mmd",
+      "sha256": "1ece8d7391bdf50084a8e591c9c04c3a44ae120f59bae8b4a37bb557bd61d84d"
+    },
+    "reference_guide": {
+      "path": "docs/active/APPROVED_REFERENCE_GUIDE.md",
+      "sha256": "a28283534a45cf7fa9f4dbe28cd935459696124adf6a4b6cc7be8a80f270e4a1"
+    },
+    "acceptance_gates": {
+      "path": "docs/active/ACCEPTANCE_GATES.md",
+      "sha256": "719b30a83c9e3ef248ab068bf6d75c57adefd0e46c7f5cd0031bac86522f2b18"
+    },
+    "topology_decision": {
+      "path": "docs/active/TOPOLOGY_DECISION.md",
+      "sha256": "5a6ec0e361dab1e765aad7b06189dd866cfdd7cb2612cd4c2c1da39bbf94c6fc"
+    },
+    "compatibility_matrix": {
+      "path": "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
+      "sha256": "e509741eb9d6c46b992691c75b1dde63c4ca1e7b23db7248aea9a9ebdeb8f2ee"
+    },
+    "trust_boundaries": {
+      "path": "docs/active/TRUST_BOUNDARIES.md",
+      "sha256": "b2918bd4570af6096377b673c00e630a56b1e737829d0c296120b8a8d24333c9"
+    },
+    "model_reviews": {
+      "path": "docs/active/MODEL_REVIEWS.md",
+      "sha256": "196bc3e1483f6127615f2091132cfc7ea373e2aa73766ed45ebf9a7cf6a6e1eb"
+    },
+    "bootstrap_protocol": {
+      "path": "docs/active/BOOTSTRAP_PROTOCOL.md",
+      "sha256": "a94273fecfa1c8f30d6743287b3e658c1764e48703463634d477a465c5ea45fa"
+    }
+  },
+  "source_manifest": "docs/active/sources.manifest.json",
+  "readiness_report": "docs/active/READINESS_REPORT.md",
+  "archive_policy": {
+    "archive_path": "docs/archive/",
+    "archive_is_authority": false,
+    "current_state": "not_initialized",
+    "required_before_implementation": true
+  },
+  "claim_control": {
+    "claims_path": ".agent/claims/",
+    "state_log": ".agent/state.log",
+    "required_before_code": true,
+    "current_state": "planned_not_operational"
+  },
+  "bootstrap_execution": {
+    "protocol": "docs/active/BOOTSTRAP_PROTOCOL.md",
+    "human_declaration_present": false,
+    "authorized": false
+  },
+  "stop_conditions": "docs/active/BUILD_PLAN.md#stop-conditions",
+  "supersedes_external_drafts": [
+    "sha256:b1a99b8bf7e966edec4857ac53c6f97a8f79e10565ef7dc2fe072b3d1cbfe874",
+    "sha256:59bbdf14188b5919b99c3c30a7d123798998d6dbd0130f38a901def74981448a"
+  ]
+}

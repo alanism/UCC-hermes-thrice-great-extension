@@ -1,0 +1,92 @@
+{
+  "schema_version": "ca_social_studies_manifest.v1",
+  "benchmark_system": "California Social Studies",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T08:34:44.045Z",
+  "source_folder": "/Users/alannguyen/Documents/Vibe Code/UCC-learning campaign/California Common Core Math Standards by Grade",
+  "source_files": [
+    {
+      "filename": "California Common Core Social Studies Grade 1.txt",
+      "grade": "1",
+      "sha256": "7644e7fd91f2dec17e36b89ee793945828aae42b7dd378530c1889f16bc430ef"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 2.txt",
+      "grade": "2",
+      "sha256": "4a595fbbabc716f5b13a960774a75871c8284741f28479ae0d7fca541aac9ae4"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 3.txt",
+      "grade": "3",
+      "sha256": "801409d3c470f3e66ae839f1e279f5060f33f82fdfee9374316c026e11933474"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 4.txt",
+      "grade": "4",
+      "sha256": "6c92fed18c30295c73fdfc603fa16029b9dec84ece9ebce30a7f41168b81ea89"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 5.txt",
+      "grade": "5",
+      "sha256": "78b849cf69454cd8ef3f295680419652d65fb0e8cf21aa551f7ccf168b043655"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 6.txt",
+      "grade": "6",
+      "sha256": "af8061b19c1b872f20b3c5a49bfa95e5a1498c4388ca18e7172e3ec05263870a"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 7.txt",
+      "grade": "7",
+      "sha256": "e3fc693001ade09ecbd6dfdc611fc71e222d0c3cefcbe3d93ecddba3b2db3cbf"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade 8.txt",
+      "grade": "8",
+      "sha256": "a02eb5fc82a4dee84be4295d6fb821150af5922fe41042a04ee3da79658c738e"
+    },
+    {
+      "filename": "California Common Core Social Studies Grade HS.txt",
+      "grade": "HS",
+      "sha256": "cee67d7ca580463008a2297d826f3f75a33a7aba6f579449426a6b7fb2eb4396"
+    }
+  ],
+  "source_normalizations": [
+    {
+      "grade": "7",
+      "source_cluster_code": "7.1",
+      "normalized_cluster_code": "7.10",
+      "occurrence": 2,
+      "reason": "Sequence-supported source typo between 7.9 and 7.11; user approved intuitive normalization."
+    },
+    {
+      "grade": "8",
+      "source_cluster_code": "8.1",
+      "normalized_cluster_code": "8.10",
+      "occurrence": 2,
+      "reason": "Sequence-supported source typo between 8.9 and 8.11; user approved intuitive normalization."
+    }
+  ],
+  "extraction_scope": "California Social Studies clusters/substandards plus Grades 6–8 Historical and Social Sciences Analysis Skills; appended RH.6-8 standards excluded by specification.",
+  "counts": {
+    "nodes": 386,
+    "edges": 36,
+    "nodes_by_grade": {
+      "1": 17,
+      "2": 13,
+      "3": 19,
+      "4": 21,
+      "5": 44,
+      "6": 62,
+      "7": 75,
+      "8": 83,
+      "HS": 52
+    }
+  },
+  "generation": {
+    "ingest": "node benchmarks/ca_social_studies/scripts/ingest_ca_social_studies.js",
+    "diagrams": "node benchmarks/ca_social_studies/scripts/generate_mermaid_diagrams.js",
+    "validate": "node benchmarks/ca_social_studies/scripts/validate_benchmark_pack.js",
+    "smoke_test": "node benchmarks/ca_social_studies/tests/benchmark_pack_smoke_test.js"
+  }
+}

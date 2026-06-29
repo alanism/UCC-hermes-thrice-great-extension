@@ -1,0 +1,90 @@
+{
+  "schema_version": "ucc_ela_capability_tags.v1",
+  "tags": [
+    {
+      "id": "collaborative_discussion",
+      "label": "Collaborative discussion",
+      "description": "Exchanging information and ideas orally or in writing with others."
+    },
+    {
+      "id": "reading_comprehension",
+      "label": "Reading comprehension",
+      "description": "Understanding literary, informational, and multimedia texts."
+    },
+    {
+      "id": "close_reading",
+      "label": "Close reading",
+      "description": "Reading closely to determine explicit and implicit meaning."
+    },
+    {
+      "id": "main_idea",
+      "label": "Main idea",
+      "description": "Identifying central ideas and key details."
+    },
+    {
+      "id": "theme",
+      "label": "Theme",
+      "description": "Identifying themes in literary texts."
+    },
+    {
+      "id": "inference",
+      "label": "Inference",
+      "description": "Drawing conclusions from textual evidence."
+    },
+    {
+      "id": "point_of_view",
+      "label": "Point of view",
+      "description": "Identifying and comparing narrator, speaker, author perspective, and bias."
+    },
+    {
+      "id": "text_structure",
+      "label": "Text structure",
+      "description": "Understanding sequence, cause/effect, compare/contrast, problem/solution, and organization."
+    },
+    {
+      "id": "vocabulary_morphology",
+      "label": "Vocabulary and morphology",
+      "description": "Prefixes, suffixes, roots, word relationships, connotation, denotation, and context clues."
+    },
+    {
+      "id": "figurative_language",
+      "label": "Figurative language",
+      "description": "Simile, metaphor, allusion, personification, and rhetorical effect."
+    },
+    {
+      "id": "writing_structure",
+      "label": "Writing structure",
+      "description": "Topic sentences, organization, transitions, sentence ordering, and paragraph structure."
+    },
+    {
+      "id": "argument_claim_evidence",
+      "label": "Argument, claim, and evidence",
+      "description": "Claims, reasons, evidence, counterclaims, argument tracing, and support."
+    },
+    {
+      "id": "rhetoric_media_literacy",
+      "label": "Rhetoric and media literacy",
+      "description": "Purpose, audience, tone, bias, appeals, rhetoric, and persuasive strategies."
+    },
+    {
+      "id": "language_conventions",
+      "label": "Language conventions",
+      "description": "Grammar, usage, mechanics, sentence construction, punctuation, and frequently confused words."
+    },
+    {
+      "id": "research_citation",
+      "label": "Research and citation",
+      "description": "Sources, plagiarism, citations, works cited, and evidence use."
+    },
+    {
+      "id": "oral_presentation",
+      "label": "Oral presentation",
+      "description": "Presenting information and ideas formally in academic contexts."
+    },
+    {
+      "id": "explanation_reconstruction",
+      "label": "Explanation and reconstruction",
+      "description": "Explaining, summarizing, paraphrasing, and reconstructing meaning in the learner's own words."
+    }
+  ]
+}

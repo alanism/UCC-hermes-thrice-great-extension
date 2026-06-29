@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ucc.receipt_integrity.v1",
+  "title": "UCC Receipt Integrity",
+  "type": "object",
+  "required": ["status", "blocking_issues", "warnings"],
+  "additionalProperties": false,
+  "properties": {
+    "status": { "enum": ["clean", "limited", "degraded", "void", "suppressed"] },
+    "blocking_issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "message"],
+        "additionalProperties": false,
+        "properties": {
+          "code": { "type": "string" },
+          "message": { "type": "string" }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["code", "message"],
+        "additionalProperties": false,
+        "properties": {
+          "code": { "type": "string" },
+          "message": { "type": "string" }
+        }
+      }
+    },
+    "checks": {
+      "type": "object",
+      "description": "Boolean result of each integrity check. Optional but recommended for audit.",
+      "additionalProperties": { "type": "boolean" }
+    }
+  }
+}

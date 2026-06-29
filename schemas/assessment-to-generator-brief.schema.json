@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ucc.assessment_to_generator_brief.v1",
+  "title": "UCC Assessment-to-Generator Brief",
+  "description": "Math Generator consumes THIS, never a raw receipt. Produced from validated evidence only.",
+  "type": "object",
+  "required": ["schema_version", "brief_id", "created_at", "student", "source_receipts", "diagnosis", "generation_request", "guardrails"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": "ucc.assessment_to_generator_brief.v1" },
+    "brief_id": { "type": "string" },
+    "created_at": { "type": "string", "format": "date-time" },
+    "student": {
+      "type": "object",
+      "required": ["student_id", "display_name", "reported_grade"],
+      "additionalProperties": false,
+      "properties": {
+        "student_id": { "type": "string" },
+        "display_name": { "type": "string" },
+        "reported_grade": { "type": ["integer", "null"] }
+      }
+    },
+    "source_receipts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["receipt_id", "assessment", "mode", "integrity_status"],
+        "additionalProperties": false,
+        "properties": {
+          "receipt_id": { "type": "string" },
+          "assessment": { "type": "string" },
+          "mode": { "enum": ["calm", "pressure"] },
+          "integrity_status": { "enum": ["clean", "limited", "degraded"] }
+        }
+      }
+    },
+    "diagnosis": {
+      "type": "object",
+      "required": ["domain", "target_skill_id", "target_skill_label", "observed_error_types", "confidence", "evidence_count", "modeled_interpretation"],
+      "additionalProperties": false,
+      "properties": {
+        "domain": { "enum": ["math", "reading"] },
+        "target_skill_id": { "type": "string" },
+        "target_skill_label": { "type": "string" },
+        "observed_error_types": { "type": "array", "items": { "type": "string" } },
+        "pressure_delta": { "type": ["number", "null"] },
+        "confidence": { "enum": ["low", "medium", "high"] },
+        "evidence_count": { "type": "integer", "minimum": 1 },
+        "modeled_interpretation": { "type": "string" }
+      }
+    },
+    "generation_request": {
+      "type": "object",
+      "required": ["practice_type", "item_count", "target_accuracy_band", "representation_stage"],
+      "additionalProperties": false,
+      "properties": {
+        "practice_type": { "const": "structured_variation_set" },
+        "item_count": { "type": "integer", "minimum": 1, "maximum": 30 },
+        "target_accuracy_band": { "type": "string" },
+        "representation_stage": { "enum": ["concrete", "pictorial", "abstract"] },
+        "include_strategy_prompt": { "type": "boolean" },
+        "include_visual_model": { "type": "boolean" },
+        "include_explanation_after_attempt": { "type": "boolean" },
+        "avoid_new_concepts": { "type": "boolean" }
+      }
+    },
+    "guardrails": {
+      "type": "object",
+      "required": ["do_not_claim_mastery", "do_not_use_clinical_language", "return_telemetry"],
+      "additionalProperties": false,
+      "properties": {
+        "do_not_claim_mastery": { "const": true },
+        "do_not_use_clinical_language": { "const": true },
+        "return_telemetry": { "const": true }
+      }
+    },
+    "degradation": {
+      "type": "object",
+      "required": ["deterministic_validated", "probabilistic_mode", "evidence_completeness", "known_issues", "recommendation"],
+      "additionalProperties": false,
+      "properties": {
+        "deterministic_validated": { "type": "boolean" },
+        "probabilistic_mode": { "type": "boolean" },
+        "evidence_completeness": { "enum": ["full", "partial", "minimal"] },
+        "known_issues": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["code", "message"],
+            "properties": {
+              "code": { "type": "string" },
+              "message": { "type": "string" }
+            }
+          }
+        },
+        "recommendation": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "geography_economics_tags.v1",
+  "tags": [
+    {
+      "id": "maps_location",
+      "label": "Maps and location",
+      "description": "Maps, grids, latitude/longitude, regions, landmarks, spatial orientation."
+    },
+    {
+      "id": "physical_geography",
+      "label": "Physical geography",
+      "description": "Landforms, climate, water, resources, environment, regions."
+    },
+    {
+      "id": "human_geography",
+      "label": "Human geography",
+      "description": "Settlements, cities, migration, population, culture, land use."
+    },
+    {
+      "id": "migration_movement",
+      "label": "Migration and movement",
+      "description": "Movement of people, goods, ideas, religions, empires, refugees, and diasporas."
+    },
+    {
+      "id": "trade_exchange",
+      "label": "Trade and exchange",
+      "description": "Trade routes, markets, goods, cultural diffusion, commerce."
+    },
+    {
+      "id": "scarcity_resources",
+      "label": "Scarcity and resources",
+      "description": "Resource limits, production, consumption, land, water, labor, incentives."
+    },
+    {
+      "id": "economic_systems",
+      "label": "Economic systems",
+      "description": "Agriculture, industry, capitalism, labor, taxes, public goods, government services."
+    },
+    {
+      "id": "technology_infrastructure",
+      "label": "Technology and infrastructure",
+      "description": "Transportation, communications, agriculture, railroads, water systems, industry."
+    }
+  ]
+}

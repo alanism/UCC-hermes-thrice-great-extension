@@ -1,0 +1,2681 @@
+N Number and Quantity
+N-RN The Real Number System
+Extend the properties of exponents to rational exponents.
+N-RN.1 Explain how the definition of the meaning of rational exponents follows from extending the properties of integer exponents to those values, allowing for a notation for radicals in terms of rational exponents.
+Evaluate integers raised to positive rational exponents (A1-S.1)
+Evaluate integers raised to rational exponents (A1-S.2)
+Convert between rational exponents and radicals (A1-EE.9)
+N-RN.2 Rewrite expressions involving radicals and rational exponents using the properties of exponents.
+Multiplication with rational exponents (A1-S.3)
+Division with rational exponents (A1-S.4)
+Power rule with rational exponents (A1-S.5)
+Simplify expressions involving rational exponents (A1-S.6)
+Simplify radical expressions (A1-EE.1)
+Simplify radical expressions with variables (A1-EE.2)
+Simplify radical expressions involving fractions (A1-EE.3)
+Multiply radical expressions (A1-EE.4)
+Add and subtract radical expressions (A1-EE.5)
+Simplify radical expressions using the distributive property (A1-EE.6)
+Simplify radical expressions using conjugates (A1-EE.7)
+Simplify radical expressions: mixed review (A1-EE.8)
+Convert between rational exponents and radicals (A1-EE.9)
+Use properties of rational and irrational numbers.
+N-RN.3 Explain why the sum or product of two rational numbers is rational; that the sum of a rational number and an irrational number is irrational; and that the product of a nonzero rational number and an irrational number is irrational.
+Sort rational and irrational numbers (A1-A.10)
+Classify rational and irrational numbers (A1-A.11)
+Properties of operations on rational and irrational numbers (A1-A.12)
+Checkpoint opportunity
+Checkpoint: Radicals and rational exponents (A1-EE.10)
+N-Q Quantities
+Reason quantitatively and use units to solve problems.
+N-Q.1 Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.
+Scale drawings: word problems (A1-E.1)
+Unit prices with unit conversions (A1-E.4)
+Multi-step problems with unit conversions (A1-E.5)
+Rate of travel: word problems (A1-E.6)
+Weighted averages: word problems (A1-E.7)
+N-Q.2 Define appropriate quantities for the purpose of descriptive modeling.
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Solve a system of equations using any method: word problems (A1-O.15)
+Write exponential functions: word problems (A1-V.8)
+Exponential growth and decay: word problems (A1-V.9)
+Solve quadratic equations: word problems (A1-Z.7)
+N-Q.3 Choose a level of accuracy appropriate to limitations on measurement when reporting quantities.
+Precision (A1-D.4)
+Greatest possible error (A1-D.5)
+Minimum and maximum area and volume (A1-D.6)
+Percent error (A1-D.7)
+Percent error: area and volume (A1-D.8)
+Checkpoint opportunity
+Checkpoint: Units and quantities (A1-E.8)
+A Algebra
+A-SSE Seeing Structure in Expressions
+Interpret the structure of expressions.
+A-SSE.1 Interpret expressions that represent a quantity in terms of its context.
+A-SSE.1.a Interpret parts of an expression, such as terms, factors, and coefficients.
+Sort factors of variable expressions (A1-B.8)
+Polynomial vocabulary (A1-W.1)
+Interpret parts of quadratic expressions: word problems (A1-Y.13)
+A-SSE.1.b Interpret complicated expressions by viewing one or more of their parts as a single entity.
+Interpret parts of quadratic expressions: word problems (A1-Y.13)
+A-SSE.2 Use the structure of an expression to identify ways to rewrite it.
+Simplify linear expressions using properties (A1-B.7)
+Simplify variable expressions involving like terms and the distributive property (A1-B.9)
+Simplify exponential expressions using the multiplication rule (A1-R.7)
+Simplify exponential expressions using the division rule (A1-R.8)
+Simplify exponential expressions using the multiplication and division rules (A1-R.9)
+Simplify exponential expressions using the power rule (A1-R.10)
+Evaluate expressions using exponent rules (A1-R.12)
+Identify equivalent exponential expressions I (A1-R.13)
+Identify equivalent exponential expressions II (A1-R.14)
+Factor out a monomial (A1-X.3)
+Factor quadratics with leading coefficient 1 (A1-X.5)
+Factor quadratics with other leading coefficients (A1-X.6)
+Factor quadratics: special cases (A1-X.7)
+Factor by grouping (A1-X.8)
+Factor using a quadratic pattern (A1-X.9)
+Simplify radical expressions (A1-EE.1)
+Simplify radical expressions with variables (A1-EE.2)
+Simplify radical expressions involving fractions (A1-EE.3)
+Simplify radical expressions: mixed review (A1-EE.8)
+Write expressions in equivalent forms to solve problems.
+A-SSE.3 Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.
+A-SSE.3.a Factor a quadratic expression to reveal the zeros of the function it defines.
+Factor quadratics using algebra tiles (A1-X.4)
+Factor quadratics with leading coefficient 1 (A1-X.5)
+Factor quadratics with other leading coefficients (A1-X.6)
+Factor quadratics: special cases (A1-X.7)
+Solve a quadratic equation by factoring (A1-Z.3)
+Find the roots of factored quadratic functions (A1)
+A-SSE.3.b Complete the square in a quadratic expression to reveal the maximum or minimum value of the function it defines.
+Characteristics of quadratic functions: equations (A1-Y.2)
+Write a quadratic function in vertex form (A1-Y.6)
+Complete the square (A1-Z.4)
+A-SSE.3.c Use the properties of exponents to transform expressions for exponential functions.
+Evaluate expressions using exponent rules (A1-R.12)
+Evaluate an exponential function (A1-V.1)
+Checkpoint opportunity
+Checkpoint: Quadratic and exponential expressions (A1-AA.14)
+A-APR Arithmetic with Polynomials and Rational Expressions
+Perform arithmetic operations on polynomials.
+A-APR.1 Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials.
+Model polynomials with algebra tiles (A1-W.2)
+Add and subtract polynomials using algebra tiles (A1-W.3)
+Add and subtract polynomials (A1-W.4)
+Add polynomials to find perimeter (A1-W.5)
+Multiply a polynomial by a monomial (A1-W.6)
+Multiply two binomials using algebra tiles (A1-W.7)
+Multiply two binomials (A1-W.8)
+Multiply two binomials: special cases (A1-W.9)
+Multiply polynomials using area models (A1-W.10)
+Multiply polynomials (A1-W.11)
+Checkpoint opportunity
+Checkpoint: Polynomial operations (A1-W.15)
+A-CED Creating Equations
+Create equations that describe numbers or relationships.
+A-CED.1 Create equations and inequalities in one variable including ones with absolute value and use them to solve problems.
+Write variable equations (A1-C.1)
+Model and solve linear equations using algebra tiles (A1-C.6)
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Consecutive integer problems (A1-C.11)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Weighted averages: word problems (A1-E.7)
+Write inequalities from graphs (A1-F.2)
+Write compound inequalities from graphs (A1-F.13)
+Write absolute value equations from graphs (A1-H.3)
+Write exponential functions: word problems (A1-V.8)
+Solve quadratic equations: word problems (A1-Z.7)
+A-CED.2 Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.
+Write direct variation equations (A1-J.2)
+Slope-intercept form: graph an equation (A1-L.4)
+Slope-intercept form: write an equation from a graph (A1-L.5)
+Slope-intercept form: write an equation (A1-L.6)
+Slope-intercept form: write an equation from a table (A1-L.7)
+Write linear equations in standard form (A1-L.9)
+Standard form: graph a line from an equation (A1-L.11)
+Point-slope form: graph an equation (A1-L.14)
+Point-slope form: write an equation (A1-L.15)
+Write a linear function: word problems (A1-N.8)
+Graph exponential functions (A1-V.2)
+Write exponential functions: word problems (A1-V.8)
+Graph quadratic functions in vertex form (A1-Y.5)
+Write a quadratic function in vertex form (A1-Y.6)
+Graph quadratic functions in standard form (A1-Y.7)
+Write a quadratic function in vertex form from its vertex and another point (A1-Y.11)
+Write a quadratic function in standard form from its vertex and another point (A1-Y.)
+Write a quadratic function in factored form from its x-intercepts and another point (A1-Y.12)
+Write a quadratic function in standard form from its x-intercepts and another point (A1-Y.)
+Write linear and exponential functions: word problems (A1-AA.5)
+Write linear and exponential functions from tables (A1-AA.6)
+Write linear, quadratic, and exponential functions from tables (A1-AA.7)
+A-CED.3 Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context.
+Write a linear function: word problems (A1-N.8)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Solve a system of equations using substitution: word problems (A1-O.9)
+Solve a system of equations using elimination: word problems (A1-O.11)
+Solve a system of equations using any method: word problems (A1-O.15)
+Write two-variable inequalities: word problems (A1-P.5)
+A-CED.4 Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations.
+Rearrange multi-variable equations (A1-C.18)
+Linear equations: solve for y (A1-L.8)
+Checkpoint opportunity
+Checkpoint: Modeling with linear equations and inequalities (A1-P.9)
+Checkpoint: Modeling with linear, quadratic, and exponential equations and inequalities (A1-AA.15)
+A-REI Reasoning with Equations and Inequalities
+Understand solving equations as a process of reasoning and explain the reasoning.
+A-REI.1 Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.
+Properties of equality (A1-C.4)
+Identify equivalent equations (A1-C.5)
+Solve linear equations: complete the solution (A1-C.14)
+Solve equations and inequalities in one variable.
+A-REI.3 Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.
+Model and solve linear equations using algebra tiles (A1-C.6)
+Solve one-step linear equations (A1-C.7)
+Solve two-step linear equations (A1-C.8)
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Solve linear equations with variables on one side (A1-C.10)
+Solve linear equations with variables on both sides (A1-C.12)
+Solve linear equations: mixed review (A1-C.13)
+Solve linear equations: complete the solution (A1-C.14)
+Create linear equations with no solutions or infinitely many solutions (A1-C.16)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Rearrange multi-variable equations (A1-C.18)
+Identify solutions to inequalities (A1-F.3)
+Solve one-step linear inequalities: addition and subtraction (A1-F.4)
+Solve one-step linear inequalities: multiplication and division (A1-F.5)
+Solve one-step linear inequalities (A1-F.6)
+Solve two-step linear inequalities (A1-F.8)
+Solve multi-step linear inequalities (A1-F.10)
+Solve compound inequalities (A1-F.14)
+A-REI.3.1 Solve one-variable equations and inequalities involving absolute value, graphing the solutions and interpreting them in context.
+Solve absolute value equations (A1-H.1)
+Graph solutions to absolute value equations (A1-H.2)
+Solve absolute value inequalities (A1-H.4)
+Graph solutions to absolute value inequalities (A1-H.5)
+A-REI.4 Solve quadratic equations in one variable.
+A-REI.4.a Use the method of completing the square to transform any quadratic equation in x into an equation of the form (x – p)² = q that has the same solutions. Derive the quadratic formula from this form.
+Complete the square (A1-Z.4)
+A-REI.4.b Solve quadratic equations by inspection (e.g., for x² = 49), taking square roots, completing the square, the quadratic formula and factoring, as appropriate to the initial form of the equation. Recognize when the quadratic formula gives complex solutions and write them as a ± bi for real numbers a and b.
+Solve a quadratic equation using square roots (A1-Z.1)
+Solve a quadratic equation using the zero product property (A1-Z.2)
+Solve a quadratic equation by factoring (A1-Z.3)
+Complete the square (A1-Z.4)
+Solve a quadratic equation by completing the square (A1-Z.5)
+Solve a quadratic equation using the quadratic formula (A1-Z.6)
+Solve quadratic equations: word problems (A1-Z.7)
+Using the discriminant (A1-Z.8)
+Checkpoint opportunity
+Checkpoint: Quadratic equations (A1-Z.11)
+Checkpoint: Solve equations and inequalities (A1)
+Solve systems of equations.
+A-REI.5 Prove that, given a system of two equations in two variables, replacing one equation by the sum of that equation and a multiple of the other produces a system with the same solutions.
+Solve a system of equations using elimination (A1-O.10)
+Solve a system of equations using elimination: word problems (A1-O.11)
+A-REI.6 Solve systems of linear equations exactly and approximately (e.g., with graphs), focusing on pairs of linear equations in two variables.
+Is (x, y) a solution to the system of equations? (A1-O.1)
+Solve a system of equations by graphing (A1-O.2)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Find the number of solutions to a system of equations by graphing (A1-O.4)
+Find the number of solutions to a system of equations (A1-O.5)
+Classify a system of equations by graphing (A1-O.6)
+Solve a system of equations using substitution (A1-O.8)
+Solve a system of equations using substitution: word problems (A1-O.9)
+Solve a system of equations using elimination (A1-O.10)
+Solve a system of equations using elimination: word problems (A1-O.11)
+Solve a system of equations using any method (A1-O.14)
+Solve a system of equations using any method: word problems (A1-O.15)
+A-REI.7 Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically.
+Solve a system of linear and quadratic equations by graphing (A1-Z.9)
+Solve a system of linear and quadratic equations (A1-Z.10)
+Represent and solve equations and inequalities graphically.
+A-REI.10 Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).
+Relate the graph of a linear equation to its solutions (A1-L.2)
+Find values using function graphs (A1-M.6)
+Complete a function table from a graph (A1-M.9)
+Complete a function table from an equation (A1-M.10)
+Complete a table and graph a linear function (A1-N.3)
+A-REI.11 Explain why the x-coordinates of the points where the graphs of the equations y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, make tables of values, or find successive approximations. Include cases where f(x) and/or g(x) are linear, polynomial, rational, absolute value, exponential, and logarithmic functions.
+Find solutions using a table (A1-M.11)
+Approximate solutions using a table (A1-M.12)
+Solve a system of equations by graphing (A1-O.2)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Find the number of solutions to a system of equations by graphing (A1-O.4)
+A-REI.12 Graph the solutions to a linear inequality in two variables as a half-plane (excluding the boundary in the case of a strict inequality), and graph the solution set to a system of linear inequalities in two variables as the intersection of the corresponding half-planes.
+Does (x, y) satisfy the inequality? (A1-P.1)
+Graph a two-variable linear inequality (A1-P.3)
+Write a linear inequality from a graph (A1-P.4)
+Is (x, y) a solution to the system of linear inequalities? (A1-P.6)
+Solve systems of linear inequalities by graphing (A1-P.7)
+Checkpoint opportunity
+Checkpoint: Solve equations using graphs and tables (A1-M.19)
+Checkpoint: Systems of equations and inequalities (A1-P.8)
+F Functions
+F-IF Interpreting Functions
+Understand the concept of a function and use function notation.
+F-IF.1 Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).
+Domain and range of relations (A1-M.2)
+Identify independent and dependent variables (A1-M.3)
+Identify functions (A1-M.4)
+Identify functions: vertical line test (A1-M.5)
+Find values using function graphs (A1-M.6)
+Complete a function table from a graph (A1-M.9)
+Complete a function table from an equation (A1-M.10)
+Domain and range of linear functions: graphs (A1-N.9)
+Domain and range of exponential functions: graphs (A1-V.5)
+Domain and range of exponential functions: equations (A1-V.6)
+Domain and range of quadratic functions: graphs (A1-Y.9)
+Domain and range of quadratic functions: equations (A1-Y.10)
+Domain and range of absolute value functions: graphs (A1-BB.3)
+Domain and range of absolute value functions: equations (A1-BB.4)
+Domain and range of square root functions: graphs (A1-FF.2)
+Domain and range of square root functions: equations (A1-FF.3)
+F-IF.2 Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.
+Find values using function graphs (A1-M.6)
+Evaluate a function (A1-M.7)
+Evaluate a function: plug in an expression (A1-M.8)
+Complete a function table from a graph (A1-M.9)
+Complete a function table from an equation (A1-M.10)
+Interpret functions using everyday language (A1-M.13)
+Evaluate piecewise-defined functions (A1-Q.1)
+Evaluate an exponential function (A1-V.1)
+Complete a function table: quadratic functions (A1-Y.3)
+Complete a function table: absolute value functions (A1-BB.1)
+F-IF.3 Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers.
+Identify arithmetic and geometric sequences (A1-U.1)
+Arithmetic sequences (A1-U.2)
+Geometric sequences (A1-U.3)
+Evaluate variable expressions for number sequences (A1-U.4)
+Evaluate recursive formulas for sequences (A1-U.5)
+Identify a sequence as explicit or recursive (A1-U.6)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write a formula for a recursive sequence (A1-U.9)
+Sequences: mixed review (A1-U.12)
+Interpret functions that arise in applications in terms of the context.
+F-IF.4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship.
+Find the slope of a graph (A1-K.1)
+Find the slope from two points (A1-K.2)
+Find the slope from a table (A1-K.3)
+Slope-intercept form: find the slope and y-intercept (A1-L.3)
+Slope-intercept form: graph an equation (A1-L.4)
+Standard form: find x- and y-intercepts (A1-L.10)
+Standard form: graph a line from an equation (A1-L.11)
+Point-slope form: graph an equation (A1-L.14)
+Identify graphs: word problems (A1-M.14)
+Identify linear functions from graphs and equations (A1-N.1)
+Identify linear functions from tables (A1-N.2)
+Complete a table and graph a linear function (A1-N.3)
+Evaluate a linear function from its graph: word problems (A1-N.4)
+Graph exponential functions (A1-V.2)
+Match exponential functions and graphs I (A1-V.3)
+Match exponential functions and graphs II (A1-V.4)
+Characteristics of quadratic functions: graphs (A1-Y.1)
+Characteristics of quadratic functions: equations (A1-Y.2)
+Graph quadratic functions in vertex form (A1-Y.5)
+Graph quadratic functions in standard form (A1-Y.7)
+Match quadratic functions and graphs (A1-Y.8)
+Identify linear, quadratic, and exponential functions from graphs (A1-AA.2)
+Identify linear, quadratic, and exponential functions from tables (A1-AA.4)
+Graph an absolute value function (A1-BB.2)
+F-IF.5 Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes.
+Domain and range of linear functions: graphs (A1-N.9)
+Domain and range of linear functions: word problems (A1-N.10)
+Domain and range of exponential functions: graphs (A1-V.5)
+Domain and range of exponential functions: equations (A1-V.6)
+Domain and range of quadratic functions: graphs (A1-Y.9)
+Domain and range of quadratic functions: equations (A1-Y.10)
+Domain and range of absolute value functions: graphs (A1-BB.3)
+Domain and range of absolute value functions: equations (A1-BB.4)
+Domain and range of square root functions: graphs (A1-FF.2)
+Domain and range of square root functions: equations (A1-FF.3)
+F-IF.6 Calculate and interpret the average rate of change of a function (presented symbolically or as a table) over a specified interval. Estimate the rate of change from a graph.
+Rate of change: tables (A1-M.15)
+Rate of change: graphs (A1-M.16)
+Estimate average rate of change from a graph (A1-M.)
+Checkpoint opportunity
+Checkpoint: Function concepts (A1-M.17)
+Checkpoint: Average rate of change (A1-M.18)
+Analyze functions using different representations.
+F-IF.7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+F-IF.7.a Graph linear and quadratic functions and show intercepts, maxima, and minima.
+Slope-intercept form: graph an equation (A1-L.4)
+Standard form: graph a line from an equation (A1-L.11)
+Point-slope form: graph an equation (A1-L.14)
+Characteristics of quadratic functions: graphs (A1-Y.1)
+Graph quadratic functions in vertex form (A1-Y.5)
+Graph quadratic functions in standard form (A1-Y.7)
+Match quadratic functions and graphs (A1-Y.8)
+F-IF.7.b Graph square root, cube root, and piecewise-defined functions, including step functions and absolute value functions.
+Graph piecewise-defined functions (A1-Q.2)
+Graph an absolute value function (A1-BB.2)
+Graph square root functions (A1-FF.4)
+Graph cube root functions (A1-FF.5)
+F-IF.7.e Graph exponential and logarithmic functions, showing intercepts and end behavior, and trigonometric functions, showing period, midline, and amplitude.
+Graph exponential functions (A1-V.2)
+Match exponential functions and graphs I (A1-V.3)
+Match exponential functions and graphs II (A1-V.4)
+F-IF.8 Write a function defined by an expression in different but equivalent forms to reveal and explain different properties of the function.
+F-IF.8.a Use the process of factoring and completing the square in a quadratic function to show zeros, extreme values, and symmetry of the graph, and interpret these in terms of a context.
+Write a quadratic function in vertex form (A1-Y.6)
+Solve a quadratic equation by factoring (A1-Z.3)
+Solve a quadratic equation by completing the square (A1-Z.5)
+F-IF.8.b Use the properties of exponents to interpret expressions for exponential functions.
+Evaluate an exponential function (A1-V.1)
+Match exponential functions and graphs I (A1-V.3)
+Match exponential functions and graphs II (A1-V.4)
+Exponential functions over unit intervals (A1-AA.9)
+F-IF.9 Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions).
+Compare linear functions: graphs and equations (A1-N.11)
+Compare linear functions: tables, graphs, and equations (A1-N.12)
+Checkpoint opportunity
+Checkpoint: Analyze, interpret, and compare functions (A1-BB.7)
+Checkpoint: Graph and analyze functions (A1-FF.8)
+F-BF Building Functions
+Build a function that models a relationship between two quantities.
+F-BF.1 Write a function that describes a relationship between two quantities.
+F-BF.1.a Determine an explicit expression, a recursive process, or steps for calculation from a context.
+Write a linear function: word problems (A1-N.8)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write a formula for a recursive sequence (A1-U.9)
+Write exponential functions: word problems (A1-V.8)
+Write linear and exponential functions from tables (A1-AA.6)
+Write linear, quadratic, and exponential functions from tables (A1-AA.7)
+F-BF.1.b Combine standard function types using arithmetic operations.
+Add and subtract polynomials (A1-W.4)
+Multiply polynomials (A1-W.11)
+Add and subtract functions (A1-CC.1)
+Multiply functions (A1-CC.2)
+F-BF.2 Write arithmetic and geometric sequences both recursively and with an explicit formula, use them to model situations, and translate between the two forms.
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write a formula for a recursive sequence (A1-U.9)
+Convert a recursive formula to an explicit formula (A1-U.10)
+Convert an explicit formula to a recursive formula (A1-U.11)
+Checkpoint opportunity
+Checkpoint: Sequences (A1-U.13)
+Build new functions from existing functions.
+F-BF.3 Identify the effect on the graph of replacing f(x) by f(x) + k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology.
+Transformations of linear functions (A1-N.13)
+Transformations of quadratic functions (A1-Y.4)
+Transformations of absolute value functions: translations and reflections (A1-BB.5)
+Transformations of absolute value functions: translations, reflections, and dilations (A1-BB.6)
+Function transformation rules (A1-DD.1)
+Translations of functions (A1-DD.2)
+Reflections of functions (A1-DD.3)
+Dilations of functions (A1-DD.4)
+Transformations of functions (A1-DD.5)
+Describe function transformations (A1-DD.6)
+F-BF.4 Find inverse functions.
+F-BF.4.a Solve an equation of the form f(x) = c for a simple function f that has an inverse and write an expression for the inverse.
+Find the inverse of a linear function (A1-CC.3)
+Checkpoint opportunity
+Checkpoint: Build functions (A1-CC.4)
+Checkpoint: Function transformations (A1-DD.7)
+F-LE Linear, Quadratic, and Exponential Models
+Construct and compare linear, quadratic, and exponential models and solve problems.
+F-LE.1 Distinguish between situations that can be modeled with linear functions and with exponential functions.
+F-LE.1.a Prove that linear functions grow by equal differences over equal intervals, and that exponential functions grow by equal factors over equal intervals.
+Linear functions over unit intervals (A1-AA.8)
+Exponential functions over unit intervals (A1-AA.9)
+Describe linear and exponential growth and decay (A1-AA.10)
+F-LE.1.b Recognize situations in which one quantity changes at a constant rate per unit interval relative to another.
+Identify linear and exponential functions from graphs (A1-AA.1)
+Identify linear and exponential functions from tables (A1-AA.3)
+Write linear and exponential functions: word problems (A1-AA.5)
+F-LE.1.c Recognize situations in which a quantity grows or decays by a constant percent rate per unit interval relative to another.
+Exponential growth and decay (A1-V.)
+Exponential growth and decay: word problems (A1-V.9)
+Identify linear and exponential functions from graphs (A1-AA.1)
+Identify linear and exponential functions from tables (A1-AA.3)
+Write linear and exponential functions: word problems (A1-AA.5)
+F-LE.2 Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).
+Slope-intercept form: write an equation from a graph (A1-L.5)
+Slope-intercept form: write an equation (A1-L.6)
+Slope-intercept form: write an equation from a table (A1-L.7)
+Point-slope form: write an equation (A1-L.15)
+Point-slope form: write an equation from a graph (A1-L.16)
+Slopes of parallel and perpendicular lines (A1-L.18)
+Write an equation for a parallel or perpendicular line (A1-L.19)
+Write a linear function: word problems (A1-N.8)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write exponential functions from tables and graphs (A1-V.7)
+Write exponential functions: word problems (A1-V.8)
+Write linear and exponential functions from tables (A1-AA.6)
+F-LE.3 Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly, quadratically, or (more generally) as a polynomial function.
+Compare linear and exponential growth (A1-AA.11)
+Compare linear, exponential, and quadratic growth (A1-AA.12)
+Interpret expressions for functions in terms of the situation they model.
+F-LE.5 Interpret the parameters in a linear or exponential function in terms of a context.
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Interpret the slope and y-intercept of a linear function (A1-N.7)
+Exponential growth and decay: word problems (A1-V.9)
+Compound interest: word problems (A1-V.10)
+F-LE.6 Apply quadratic functions to physical problems, such as the motion of an object under the force of gravity.
+Solve quadratic equations: word problems (A1-Z.7)
+Checkpoint opportunity
+Checkpoint: Compare linear and exponential functions (A1-AA.13)
+S Statistics and Probability
+S-ID Interpreting Categorical and Quantitative Data
+Summarize, represent, and interpret data on a single count or measurement variable.
+S-ID.1 Represent data with plots on the real number line (dot plots, histograms, and box plots).
+Create line plots (A1-HH.1)
+Interpret line plots (A1-HH.2)
+Create histograms (A1-HH.3)
+Interpret histograms (A1-HH.4)
+Create bar graphs, line graphs, and histograms (A1-HH.5)
+Interpret bar graphs, line graphs, and histograms (A1-HH.6)
+Box plots (A1-HH.9)
+S-ID.2 Use statistics appropriate to the shape of the data distribution to compare center (median, mean) and spread (interquartile range, standard deviation) of two or more different data sets.
+Mean, median, mode, and range (A1-II.2)
+Calculate quartiles and interquartile range (A1-II.3)
+Standard deviation of a population (A1-II.6)
+Standard deviation of a sample (A1-II.)
+Choose appropriate measures of center and variation (A1-II.7)
+S-ID.3 Interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).
+Box plots (A1-HH.9)
+Identify an outlier and describe the effect of removing it (A1-II.5)
+Checkpoint opportunity
+Checkpoint: Line plots, histograms, and box plots (A1-HH.12)
+Checkpoint: Compare data sets (A1-II.8)
+Summarize, represent, and interpret data on two categorical and quantitative variables.
+S-ID.5 Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.
+Create and interpret two-way frequency tables (A1-JJ.)
+S-ID.6 Represent data on two quantitative variables on a scatter plot, and describe how the variables are related.
+S-ID.6.a Fit a function to the data; use functions fitted to data to solve problems in the context of the data.
+Interpret lines of best fit: word problems (A1-JJ.6)
+Find the equation of a regression line (A1-JJ.7)
+Interpret regression lines (A1-JJ.8)
+Analyze a regression line of a data set (A1-JJ.9)
+Exponential regression (A1-JJ.10)
+S-ID.6.b Informally assess the fit of a function by plotting and analyzing residuals.
+Interpret a scatter plot (A1-JJ.1)
+S-ID.6.c Fit a linear function for a scatter plot that suggests a linear association.
+Write equations for lines of best fit (A1-JJ.5)
+Checkpoint opportunity
+Checkpoint: Two-way frequency tables (A1-KK.11)
+Interpret linear models
+S-ID.7 Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.
+Interpret lines of best fit: word problems (A1-JJ.6)
+Interpret regression lines (A1-JJ.8)
+Analyze a regression line of a data set (A1-JJ.9)
+S-ID.8 Compute (using technology) and interpret the correlation coefficient of a linear fit.
+Match correlation coefficients to scatter plots (A1-JJ.3)
+Calculate correlation coefficients (A1-JJ.4)
+S-ID.9 Distinguish between correlation and causation.
+Correlation and causation (A1-JJ.11)
+Checkpoint opportunity
+Checkpoint: Linear modeling (A1-JJ.12)
+N Number and Quantity
+N-CN The Complex Number System
+Perform arithmetic operations with complex numbers.
+N-CN.1 Know there is a complex number i such that i2 = –1, and every complex number has the form a + bi with a and b real.
+Introduction to complex numbers (A2-K.1)
+N-CN.2 Use the relation i2 = –1 and the commutative, associative, and distributive properties to add, subtract, and multiply complex numbers.
+Add and subtract complex numbers (A2-K.2)
+Multiply complex numbers (A2-K.4)
+Powers of i (A2-K.8)
+Use complex numbers in polynomial identities and equations.
+N-CN.7 Solve quadratic equations with real coefficients that have complex solutions.
+Solve a quadratic equation using square roots (A2-O.1)
+Solve a quadratic equation by completing the square (A2-O.5)
+Solve a quadratic equation using the quadratic formula (A2-O.6)
+Using the discriminant (A2-O.8)
+N-CN.8 Extend polynomial identities to the complex numbers.
+Solve polynomial equations (A2-Q.1)
+Complex conjugate theorem (A2-Q.5)
+Conjugate root theorems (A2-Q.6)
+N-CN.9 Know the Fundamental Theorem of Algebra; show that it is true for quadratic polynomials.
+Fundamental Theorem of Algebra (A2-Q.8)
+A Algebra
+A-SSE Seeing Structure in Expressions
+Interpret the structure of expressions.
+A-SSE.1 Interpret expressions that represent a quantity in terms of its context.
+A-SSE.1.a Interpret parts of an expression, such as terms, factors, and coefficients.
+Polynomial vocabulary (A2-L.1)
+Sort factors of single-variable expressions (A2-M.1)
+Sort factors of multi-variable expressions (A2-M.2)
+Interpret parts of quadratic expressions: word problems (A2-N.14)
+A-SSE.1.b Interpret complicated expressions by viewing one or more of their parts as a single entity.
+Interpret parts of quadratic expressions: word problems (A2-N.14)
+A-SSE.2 Use the structure of an expression to identify ways to rewrite it.
+Pascal's triangle and the Binomial Theorem (A2-L.9)
+Binomial Theorem I (A2-L.10)
+Binomial Theorem II (A2-L.11)
+Factor using a quadratic pattern (A2-M.6)
+Factor by grouping (A2-M.7)
+Factor sums and differences of cubes (A2-M.8)
+Factor polynomials (A2-M.9)
+Simplify radical expressions with variables I (A2-R.4)
+Simplify radical expressions with variables II (A2-R.5)
+Simplify radical expressions using conjugates (A2-R.11)
+Convert between rational exponents and radicals (A2-T.2)
+Simplify expressions involving rational exponents I (A2-T.6)
+Simplify expressions involving rational exponents II (A2-T.7)
+Simplify rational expressions (A2-X.4)
+Write expressions in equivalent forms to solve problems.
+A-SSE.4 Derive the formula for the sum of a finite geometric series (when the common ratio is not 1), and use the formula to solve problems.
+Find the sum of a finite geometric series (A2-NN.4)
+A-APR Arithmetic with Polynomials and Rational Expressions
+Perform arithmetic operations on polynomials.
+Understand the relationship between zeros and factors of polynomials
+A-APR.2 Know and apply the Remainder Theorem: For a polynomial p(x) and a number a, the remainder on division by x – a is p(a), so p(a) = 0 if and only if (x – a) is a factor of p(x).
+Evaluate polynomials using synthetic division (A2-L.7)
+Write a quadratic function from its zeros (A2-N.10)
+Factor theorem (A2-Q.)
+Find the roots of factored polynomials (A2-Q.2)
+Write a polynomial from its roots (A2-Q.3)
+Factor a polynomial given a root (A2-Q.)
+A-APR.3 Identify zeros of polynomials when suitable factorizations are available, and use the zeros to construct a rough graph of the function defined by the polynomial.
+Solve a quadratic equation using the zero product property (A2-O.2)
+Find the roots of factored polynomials (A2-Q.2)
+Match polynomials and graphs using zeros (A2-Q.10)
+Use zeros to match quadratic functions and graphs (A2)
+Use polynomial identities to solve problems.
+A-APR.4 Prove polynomial identities and use them to describe numerical relationships.
+Factor sums and differences of cubes (A2-M.8)
+A-APR.5 Know and apply the Binomial Theorem for the expansion of (x + y)n in powers of x and y for a positive integer n, where x and y are any numbers, with coefficients determined for example by Pascal's Triangle.
+Pascal's triangle (A2-L.8)
+Pascal's triangle and the Binomial Theorem (A2-L.9)
+Binomial Theorem I (A2-L.10)
+Binomial Theorem II (A2-L.11)
+Rewrite rational expressions.
+A-APR.6 Rewrite simple rational expressions in different forms; write a(x)/b(x) in the form q(x) + r(x)/b(x), where a(x), b(x), q(x), and r(x) are polynomials with the degree of r(x) less than the degree of b(x), using inspection, long division, or, for the more complicated examples, a computer algebra system.
+Divide polynomials using long division (A2-L.4)
+Simplify rational expressions (A2-X.4)
+A-APR.7 Understand that rational expressions form a system analogous to the rational numbers, closed under addition, subtraction, multiplication, and division by a nonzero rational expression; add, subtract, multiply, and divide rational expressions.
+Multiply and divide rational expressions (A2-X.5)
+Add and subtract rational expressions (A2-X.6)
+Simplify complex fractions (A2-X.7)
+A-CED Creating Equations
+Create equations that describe numbers or relationships.
+A-CED.1 Create equations and inequalities in one variable including ones with absolute value and use them to solve problems.
+Solve linear equations (A2-B.1)
+Solve linear equations: word problems (A2-B.3)
+Write inequalities from graphs (A2-C.2)
+Solve linear inequalities (A2-C.3)
+Solve quadratic inequalities (A2-O.10)
+A-CED.2 Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.
+Graph a linear function (A2-D.2)
+Write the equation of a linear function (A2-D.3)
+Graph an absolute value function (A2-H.3)
+Graph a quadratic function (A2-N.5)
+Write a quadratic function in vertex form from its vertex and another point (A2-N.11)
+Write a quadratic function in standard form from its vertex and another point (A2-N.)
+Write a quadratic function in factored form from its x-intercepts and another point (A2-N.12)
+Write a quadratic function in standard form from its x-intercepts and another point (A2-N.)
+Write a quadratic function from three points (A2-N.13)
+Graph square root functions (A2-S.2)
+Graph cube root functions (A2-S.3)
+Write and solve direct variation equations (A2-Y.1)
+Write and solve inverse variation equations (A2-Y.2)
+Write joint and combined variation equations I (A2-Y.4)
+Write joint and combined variation equations II (A2-Y.6)
+Solve variation equations (A2-Y.7)
+Write exponential functions: word problems (A2-Z.3)
+Graph exponential functions (A2-Z.4)
+Graph logarithmic functions (A2-BB.2)
+Write equations of sine functions from graphs (A2-KK.2)
+Write equations of sine functions using properties (A2-KK.3)
+Graph sine functions (A2-KK.4)
+Write equations of cosine functions from graphs (A2-KK.7)
+Write equations of cosine functions using properties (A2-KK.8)
+Graph cosine functions (A2-KK.9)
+Write equations of sine and cosine functions from graphs (A2-KK.12)
+Write equations of sine and cosine functions using properties (A2-KK.13)
+Graph sine and cosine functions (A2-KK.14)
+A-CED.3 Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context.
+Solve a system of equations by graphing: word problems (A2-E.3)
+Solve a system of equations using substitution: word problems (A2-E.7)
+Solve a system of equations using elimination: word problems (A2-E.9)
+Solve a system of equations using any method: word problems (A2-E.11)
+Write two-variable linear inequalities: word problems (A2-F.1)
+A-CED.4 Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations.
+Rearrange multi-variable equations (A2-B.4)
+A-REI Reasoning with Equations and Inequalities
+Understand solving equations as a process of reasoning and explain the reasoning.
+A-REI.2 Solve simple rational and radical equations in one variable, and give examples showing how extraneous solutions may arise.
+Solve radical equations (A2-S.4)
+Solve rational equations (A2-X.8)
+Solve equations and inequalities in one variable.
+A-REI.3.1 Solve one-variable equations and inequalities involving absolute value, graphing the solutions and interpreting them in context.
+Solve absolute value equations (A2-G.1)
+Graph solutions to absolute value equations (A2-G.2)
+Solve absolute value inequalities (A2-G.4)
+Graph solutions to absolute value inequalities (A2-G.5)
+Represent and solve equations and inequalities graphically.
+A-REI.11 Explain why the x-coordinates of the points where the graphs of the equations y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, make tables of values, or find successive approximations. Include cases where f(x) and/or g(x) are linear, polynomial, rational, absolute value, exponential, and logarithmic functions.
+Find solutions using a table (A2-A.7)
+Approximate solutions using a table (A2-A.8)
+Solve a system of equations by graphing (A2-E.2)
+Solve a system of equations by graphing: word problems (A2-E.3)
+Find the number of solutions to a system of equations (A2-E.4)
+Solve a system of quadratic equations by graphing: parabolas (A2-P.)
+F Functions
+F-IF Interpreting Functions
+Interpret functions that arise in applications in terms of the context.
+F-IF.4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship.
+Identify graphs: word problems (A2-A.6)
+Find the slope of a linear function (A2-D.1)
+Graph a linear function (A2-D.2)
+Graph an absolute value function (A2-H.3)
+Characteristics of quadratic functions: graphs (A2-N.1)
+Characteristics of quadratic functions: equations (A2-N.2)
+Graph a quadratic function (A2-N.5)
+Match quadratic functions and graphs (A2-N.7)
+Match polynomials and graphs (A2-Q.11)
+Graph square root functions (A2-S.2)
+Graph cube root functions (A2-S.3)
+Rational functions: asymptotes and excluded values (A2-X.1)
+Classify variation (A2-Y.3)
+Find the constant of variation (A2-Y.5)
+Graph exponential functions (A2-Z.4)
+Match exponential functions and graphs (A2-Z.5)
+Graph logarithmic functions (A2-BB.2)
+F-IF.5 Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes.
+Domain and range (A2-A.1)
+Domain and range of absolute value functions: graphs (A2-H.1)
+Domain and range of absolute value functions: equations (A2-H.2)
+Domain and range of quadratic functions: graphs (A2-N.8)
+Domain and range of quadratic functions: equations (A2-N.9)
+Domain and range of polynomials (A2-Q.12)
+Domain and range of radical functions (A2-S.1)
+Domain and range of reciprocal functions (A2-X.)
+Domain and range of exponential functions (A2-Z.1)
+Domain and range of logarithmic functions (A2-BB.1)
+F-IF.6 Calculate and interpret the average rate of change of a function (presented symbolically or as a table) over a specified interval. Estimate the rate of change from a graph.
+Average rate of change (A2-A.9)
+Analyze functions using different representations.
+F-IF.7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+F-IF.7.b Graph square root, cube root, and piecewise-defined functions, including step functions and absolute value functions.
+Graph an absolute value function (A2-H.3)
+Graph piecewise-defined functions (A2-I.2)
+Graph square root functions (A2-S.2)
+Graph cube root functions (A2-S.3)
+F-IF.7.c Graph polynomial functions, identifying zeros when suitable factorizations are available, and showing end behavior.
+Graph a quadratic function (A2-N.5)
+Match quadratic functions and graphs (A2-N.7)
+Match polynomials and graphs (A2-Q.11)
+F-IF.7.e Graph exponential and logarithmic functions, showing intercepts and end behavior, and trigonometric functions, showing period, midline, and amplitude.
+Graph exponential functions (A2-Z.4)
+Match exponential functions and graphs (A2-Z.5)
+Graph logarithmic functions (A2-BB.2)
+Find properties of sine functions (A2-KK.1)
+Graph sine functions (A2-KK.4)
+Graph translations of sine functions (A2-KK.5)
+Find properties of cosine functions (A2-KK.6)
+Graph cosine functions (A2-KK.9)
+Graph translations of cosine functions (A2-KK.10)
+Graph sine and cosine functions (A2-KK.14)
+Graph translations of sine and cosine functions (A2-KK.15)
+F-IF.8 Write a function defined by an expression in different but equivalent forms to reveal and explain different properties of the function.
+Solve a quadratic equation by factoring (A2-O.3)
+Solve a quadratic equation by completing the square (A2-O.5)
+Evaluate exponential functions (A2-Z.2)
+Match exponential functions and graphs (A2-Z.5)
+Exponential functions over unit intervals (A2-Z.6)
+Solve exponential equations by rewriting the base (A2-CC.1)
+F-IF.9 Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions).
+F-BF Building Functions
+Build a function that models a relationship between two quantities.
+F-BF.1 Write a function that describes a relationship between two quantities.
+F-BF.1.b Combine standard function types using arithmetic operations.
+Add and subtract polynomials (A2-L.2)
+Multiply polynomials (A2-L.3)
+Add and subtract functions (A2-U.1)
+Multiply functions (A2-U.2)
+Divide functions (A2-U.3)
+Multiply and divide rational expressions (A2-X.5)
+Add and subtract rational expressions (A2-X.6)
+Build new functions from existing functions.
+F-BF.3 Identify the effect on the graph of replacing f(x) by f(x)+ k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology.
+Transformations of absolute value functions (A2-H.4)
+Function transformation rules (A2-W.1)
+Translations of functions (A2-W.2)
+Reflections of functions (A2-W.3)
+Dilations of functions (A2-W.4)
+Transformations of functions (A2-W.5)
+Describe function transformations (A2-W.6)
+F-BF.4 Find inverse functions.
+F-BF.4.a Solve an equation of the form f(x) = c for a simple function f that has an inverse and write an expression for the inverse.
+Find inverse functions and relations (A2-V.4)
+Solve exponential equations using common logarithms (A2-CC.2)
+Solve exponential equations using natural logarithms (A2-CC.3)
+Solve logarithmic equations I (A2-CC.6)
+Solve logarithmic equations II (A2-CC.7)
+F-LE Linear, Quadratic, and Exponential Models
+Construct and compare linear, quadratic, and exponential models and solve problems.
+F-LE.4 For exponential models, express as a logarithm the solution to abct = d where a, c, and d are numbers and the base b is 2, 10, or e; evaluate the logarithm using technology.
+Convert between exponential and logarithmic form: rational bases (A2-AA.1)
+Convert between natural exponential and logarithmic form (A2-AA.2)
+Convert between exponential and logarithmic form: all bases (A2-AA.3)
+Evaluate logarithms (A2-AA.4)
+Solve exponential equations using common logarithms (A2-CC.2)
+Solve exponential equations using natural logarithms (A2-CC.3)
+F-LE.4.1 Prove simple laws of logarithms.
+Identify properties of logarithms (A2-AA.8)
+Product property of logarithms (A2-AA.9)
+Quotient property of logarithms (A2-AA.10)
+Power property of logarithms (A2-AA.11)
+Properties of logarithms: mixed review (A2-AA.12)
+F-LE.4.2 Use the definition of logarithms to translate between logarithms in any base.
+Convert between exponential and logarithmic form: rational bases (A2-AA.1)
+Convert between natural exponential and logarithmic form (A2-AA.2)
+Convert between exponential and logarithmic form: all bases (A2-AA.3)
+Change of base formula (A2-AA.6)
+F-LE.4.3 Understand and use the properties of logarithms to simplify logarithmic numeric expressions and to identify their approximate values.
+Evaluate logarithms (A2-AA.4)
+Evaluate natural logarithms (A2-AA.5)
+Evaluate logarithms using properties (A2-AA.13)
+F-TF Trigonometric Functions
+Extend the domain of trigonometric functions using the unit circle.
+F-TF.1 Understand radian measure of an angle as the length of the arc on the unit circle subtended by the angle.
+Convert between radians and degrees (A2-HH.1)
+Radians and arc length (A2-HH.2)
+F-TF.2 Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.
+Coterminal angles (A2-HH.5)
+Reference angles (A2-HH.6)
+Find trigonometric ratios using the unit circle (A2-II.6)
+F-TF.2.1 Graph all 6 basic trigonometric functions.
+Find properties of sine functions (A2-KK.1)
+Write equations of sine functions from graphs (A2-KK.2)
+Write equations of sine functions using properties (A2-KK.3)
+Graph sine functions (A2-KK.4)
+Find properties of cosine functions (A2-KK.6)
+Write equations of cosine functions from graphs (A2-KK.7)
+Write equations of cosine functions using properties (A2-KK.8)
+Graph cosine functions (A2-KK.9)
+Graph sine and cosine functions (A2-KK.14)
+Model periodic phenomena with trigonometric functions.
+F-TF.5 Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.
+Find properties of sine functions (A2-KK.1)
+Write equations of sine functions from graphs (A2-KK.2)
+Write equations of sine functions using properties (A2-KK.3)
+Find properties of cosine functions (A2-KK.6)
+Write equations of cosine functions from graphs (A2-KK.7)
+Write equations of cosine functions using properties (A2-KK.8)
+Prove and apply trigonometric identities.
+F-TF.8 Prove the Pythagorean identity sin2(θ) + cos2(θ) = 1 and use it to find sin(θ), cos(θ), or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle.
+Find trigonometric ratios using a Pythagorean or reciprocal identity (A2-LL.3)
+Find trigonometric ratios using multiple identities (A2-LL.4)
+G Geometry
+G-GPE Expressing Geometric Properties with Equations
+Translate between the geometric description and the equation for a conic section.
+G-GPE.3.1 Given a quadratic equation of the form ax2 + by2 + cx + dy + e = 0, use the method for completing the square to put the equation into standard form; identify whether the graph of the equation is a circle, ellipse, parabola, or hyperbola, and graph the equation.
+Graph a quadratic function (A2-N.5)
+Complete the square (A2-O.4)
+Graph parabolas (A2-DD.9)
+Convert equations of circles from general to standard form (A2-EE.5)
+Graph circles (A2-EE.7)
+S Statistics and Probability
+S-ID Interpreting Categorical and Quantitative Data
+Summarize, represent, and interpret data on a single count or measurement variable.
+S-ID.4 Use the mean and standard deviation of a data set to fit it to a normal distribution and to estimate population percentages. Recognize that there are data sets for which such a procedure is not appropriate. Use calculators, spreadsheets, and tables to estimate areas under the normal curve.
+Find probabilities using the normal distribution I (A2-QQ.2)
+Find z-values (A2-QQ.4)
+Find values of normal variables (A2-QQ.5)
+Distributions of sample means (A2-QQ.6)
+S-IC Making Inferences and Justifying Conclusions
+Understand and evaluate random processes underlying statistical experiments.
+S-IC.1 Understand statistics as a process for making inferences about population parameters based on a random sample from that population.
+Identify biased samples (A2-RR.1)
+S-IC.2 Decide if a specified model is consistent with results from a given data-generating process, e.g., using simulation.
+Make inferences and justify conclusions from sample surveys, experiments, and observational studies.
+S-IC.3 Recognize the purposes of and differences among sample surveys, experiments, and observational studies; explain how randomization relates to each.
+Experiment design (A2-RR.8)
+S-IC.4 Use data from a sample survey to estimate a population mean or proportion; develop a margin of error through the use of simulation models for random sampling.
+Find confidence intervals for population means (A2-RR.5)
+Find confidence intervals for population proportions (A2-RR.6)
+S-IC.5 Use data from a randomized experiment to compare two treatments; use simulations to decide if differences between parameters are significant.
+Analyze the results of an experiment using simulations (A2-RR.9)
+S-IC.6 Evaluate reports based on data.
+Interpret confidence intervals for population means (A2-RR.7)
+Analyze the results of an experiment using simulations (A2-RR.9)
+S-MD Using Probability to Make Decisions
+Use probability to evaluate outcomes of decisions.
+S-MD.6 Use probabilities to make fair decisions (e.g., drawing by lots, using a random number generator).
+S-MD.7 Analyze decisions and strategies using probability concepts (e.g., product testing, medical testing, pulling a hockey goalie at the end of a game).
+Choose the better bet (A2-PP.10)
+1.0 Students demonstrate knowledge of both the formal definition and the graphical interpretation of limit of values of functions. This knowledge includes one-sided limits, infinite limits, and limits at infinity. Students know the definition of convergence and divergence of a function as the domain variable approaches either a number or infinity:
+1.1 Students prove and use theorems evaluating the limits of sums, products, quotients, and composition of functions.
+Find limits using addition, subtraction, and multiplication laws (C-B.1)
+Find limits using the division law (C-B.2)
+Find limits using power and root laws (C-B.3)
+Find limits using limit laws (C-B.4)
+Find limits of polynomials and rational functions (C-B.5)
+Find limits involving factorization and rationalization (C-B.6)
+Find limits involving absolute value functions (C-B.7)
+Find the limit at a vertical asymptote of a rational function I (C-C.2)
+Find the limit at a vertical asymptote of a rational function II (C-C.3)
+Determine end behavior of polynomial and rational functions (C-D.2)
+1.2 Students use graphical calculators to verify and estimate limits.
+Find limits using graphs (C-A.1)
+Find one-sided limits using graphs (C-A.2)
+Determine if a limit exists (C-A.3)
+Find limits at vertical asymptotes using graphs (C-C.1)
+Determine end behavior using graphs (C-D.1)
+1.3 Students prove and use special limits, such as the limits of (sin(x))/x and (1-cos(x))/x as x tends to 0.
+Find limits involving trigonometric functions (C-B.8)
+2.0 Students demonstrate knowledge of both the formal definition and the graphical interpretation of continuity of a function.
+Identify graphs of continuous functions (C-E.1)
+Determine continuity using graphs (C-E.2)
+Determine one-sided continuity using graphs (C-E.3)
+Find and analyze points of discontinuity using graphs (C-E.4)
+Determine continuity on an interval using graphs (C-E.5)
+Determine the continuity of a piecewise function at a point (C-E.6)
+Make a piecewise function continuous (C-E.7)
+3.0 Students demonstrate an understanding and the application of the intermediate value theorem and the extreme value theorem.
+Intermediate Value Theorem (C-E.8)
+4.0 Students demonstrate an understanding of the formal definition of the derivative of a function at a point and the notion of differentiability:
+Find values of derivatives using limits (C-F.5)
+4.1 Students demonstrate an understanding of the derivative of a function as the slope of the tangent line to the graph of the function.
+Find the slope of a tangent line using limits (C-F.6)
+Find equations of tangent lines using limits (C-F.7)
+4.2 Students demonstrate an understanding of the interpretation of the derivative as an instantaneous rate of change. Students can use derivatives to solve a variety of problems from physics, chemistry, economics, and so forth that involve the rate of change of a function.
+Find instantaneous rates of change (C-F.3)
+Velocity as a rate of change (C-F.4)
+4.3 Students understand the relation between differentiability and continuity.
+4.4 Students derive derivative formulas and use them to find the derivatives of algebraic, trigonometric, inverse trigonometric, exponential, and logarithmic functions.
+Sum and difference rules (C-G.1)
+Product rule (C-G.2)
+Quotient rule (C-G.3)
+Power rule I (C-G.4)
+Power rule II (C-G.5)
+Find derivatives of polynomials (C-H.1)
+Find derivatives of rational functions (C-H.2)
+Find derivatives of sine and cosine functions (C-H.3)
+Find derivatives of other trigonometric functions (C-H.4)
+Find derivatives of exponential functions (C-H.5)
+Find derivatives of logarithmic functions (C-H.6)
+Find derivatives of inverse trigonometric functions (C-H.7)
+Find derivatives using the product rule I (C-H.9)
+Find derivatives using the product rule II (C-H.10)
+Find derivatives using the quotient rule I (C-H.11)
+Find derivatives using the quotient rule II (C-H.12)
+Find derivatives using logarithmic differentiation (C-I.3)
+5.0 Students know the chain rule and its proof and applications to the calculation of the derivative of a variety of composite functions.
+Chain rule (C-G.6)
+Find derivatives using the chain rule I (C-H.14)
+Find derivatives using the chain rule II (C-H.15)
+6.0 Students find the derivatives of parametrically defined functions and use implicit differentiation in a wide variety of problems in physics, chemistry, economics, and so forth.
+Find derivatives using implicit differentiation (C-I.1)
+Find tangent lines using implicit differentiation (C-I.2)
+7.0 Students compute derivatives of higher orders.
+Find higher derivatives of polynomials (C-J.1)
+Find higher derivatives of rational and radical functions (C-J.2)
+Find second derivatives of trigonometric, exponential, and logarithmic functions (C-J.3)
+Find higher derivatives of exponential and trigonometric functions (C-J.4)
+8.0 Students know and can apply Rolle's theorem, the mean value theorem, and L'Hôpital's rule.
+9.0 Students use differentiation to sketch, by hand, graphs of functions. They can identify maxima, minima, inflection points, and intervals in which the function is increasing and decreasing.
+10.0 Students know Newton's method for approximating the zeros of a function.
+11.0 Students use differentiation to solve optimization (maximum-minimum problems) in a variety of pure and applied contexts.
+12.0 Students use differentiation to solve related rate problems in a variety of pure and applied contexts.
+13.0 Students know the definition of the definite integral by using Riemann sums. They use this definition to approximate integrals.
+14.0 Students apply the definition of the integral to model problems in physics, economics, and so forth, obtaining results in terms of integrals.
+15.0 Students demonstrate knowledge and proof of the fundamental theorem of calculus and use it to interpret integrals as antiderivatives.
+16.0 Students use definite integrals in problems involving area, velocity, acceleration, volume of a solid, area of a surface of revolution, length of a curve, and work.
+17.0 Students compute, by hand, the integrals of a wide variety of functions by using techniques of integration, such as substitution, integration by parts, and trigonometric substitution. They can also combine these techniques when appropriate.
+18.0 Students know the definitions and properties of inverse trigonometric functions and the expression of these functions as indefinite integrals.
+19.0 Students compute, by hand, the integrals of rational functions by combining the techniques in standard 17.0 with the algebraic techniques of partial fractions and completing the square.
+20.0 Students compute the integrals of trigonometric functions by using the techniques noted above.
+21.0 Students understand the algorithms involved in Simpson's rule and Newton's method. They use calculators or computers or both to approximate integrals numerically.
+22.0 Students understand improper integrals as limits of definite integrals.
+23.0 Students demonstrate an understanding of the definitions of convergence and divergence of sequences and series of real numbers. By using such tests as the comparison test, ratio test, and alternate series test, they can determine whether a series converges.
+24.0 Students understand and can compute the radius (interval) of the convergence of power series.
+25.0 Students differentiate and integrate the terms of a power series in order to form new series from known ones.
+26.0 Students calculate Taylor polynomials and Taylor series of basic functions, including the remainder term.
+27.0 Students know the techniques of solution of selected elementary differential equations and their applications to a wide variety of situations, including growth-and-decay problems.
+G Geometry
+G-CO Congruence
+Experiment with transformations in the plane.
+G-CO.1 Know precise definitions of angle, circle, perpendicular line, parallel line, and line segment, based on the undefined notions of point, line, distance along a line, and distance around a circular arc.
+Angle vocabulary (G-C.1)
+G-CO.2 Represent transformations in the plane using, e.g., transparencies and geometry software; describe transformations as functions that take points in the plane as inputs and give other points as outputs. Compare transformations that preserve distance and angle to those that do not (e.g., translation versus horizontal stretch).
+Classify congruence transformations (G-H.1)
+Translations: graph the image (G-H.2)
+Translations: find the coordinates (G-H.3)
+Translations: write the rule (G-H.4)
+Reflections: graph the image (G-H.5)
+Reflections: find the coordinates (G-H.6)
+Rotations: graph the image (G-H.8)
+Rotations: find the coordinates (G-H.9)
+Reflections and rotations: write the rule (G-H.10)
+Dilations: graph the image (G-I.1)
+Dilations: find the coordinates (G-I.2)
+Dilations: find the scale factor (G-I.4)
+G-CO.3 Given a rectangle, parallelogram, trapezoid, or regular polygon, describe the rotations and reflections that carry it onto itself.
+Transformations that carry a polygon onto itself (G-H.15)
+G-CO.4 Develop definitions of rotations, reflections, and translations in terms of angles, circles, perpendicular lines, parallel lines, and line segments.
+Rotate polygons about a point (G-H.7)
+G-CO.5 Given a geometric figure and a rotation, reflection, or translation, draw the transformed figure using, e.g., graph paper, tracing paper, or geometry software. Specify a sequence of transformations that will carry a given figure onto another.
+Translations: graph the image (G-H.2)
+Reflections: graph the image (G-H.5)
+Rotations: graph the image (G-H.8)
+Sequences of congruence transformations: graph the image (G-H.12)
+Sequences of congruence transformations: choose the sequence (G-H.13)
+Sequences of congruence transformations: find the rules (G-H.14)
+Checkpoint opportunity
+Checkpoint: Definitions of geometric objects (G-D.9)
+Checkpoint: Congruence transformations (G-H.17)
+Checkpoint: Transformations in the plane (G-I.7)
+Understand congruence in terms of rigid motions.
+G-CO.6 Use geometric descriptions of rigid motions to transform figures and to predict the effect of a given rigid motion on a given figure; given two figures, use the definition of congruence in terms of rigid motions to decide if they are congruent.
+Sequences of congruence transformations: graph the image (G-H.12)
+Sequences of congruence transformations: choose the sequence (G-H.13)
+Transformations that carry a polygon onto itself (G-H.15)
+Congruence transformations: mixed review (G-H.16)
+Determine if two figures are congruent: justify your answer (G-K.4)
+G-CO.7 Use the definition of congruence in terms of rigid motions to show that two triangles are congruent if and only if corresponding pairs of sides and corresponding pairs of angles are congruent.
+Prove triangles are congruent using rigid motions (G-L.1)
+G-CO.8 Explain how the criteria for triangle congruence (ASA, SAS, and SSS) follow from the definition of congruence in terms of rigid motions.
+Checkpoint opportunity
+Checkpoint: Rigid motion and congruence (G-L.13)
+Prove geometric theorems.
+G-CO.9 Prove theorems about lines and angles.
+Perpendicular Bisector Theorem (G-B.9)
+Angle bisectors (G-C.6)
+Proofs involving angles (G-C.9)
+Transversals of parallel lines: solve for x (G-D.5)
+Proofs involving parallel lines I (G-D.7)
+Proofs involving parallel lines II (G-D.8)
+G-CO.10 Prove theorems about triangles.
+Proofs involving isosceles triangles (G-L.11)
+Construct the centroid or orthocenter of a triangle (G-N.7)
+Find the centroid of a triangle (G-N.8)
+Proofs involving triangles I (G-N.9)
+Proofs involving triangles II (G-N.10)
+G-CO.11 Prove theorems about parallelograms.
+Properties of parallelograms (G-O.6)
+Proving a quadrilateral is a parallelogram (G-O.7)
+Properties of rhombuses (G-O.8)
+Properties of squares and rectangles (G-O.9)
+Checkpoint opportunity
+Checkpoint: Line and angle theorems (G-D.10)
+Checkpoint: Triangle theorems (G-N.11)
+Checkpoint: Parallelogram theorems (G-O.16)
+Make geometric constructions.
+G-CO.12 Make formal geometric constructions with a variety of tools and methods (compass and straightedge, string, reflective devices, paper folding, dynamic geometric software, etc.).
+Construct a congruent segment (G-B.8)
+Construct the midpoint or perpendicular bisector of a segment (G-B.15)
+Construct an angle bisector (G-C.7)
+Construct a congruent angle (G-C.8)
+Construct a perpendicular line (G-D.2)
+Construct parallel lines (G-D.6)
+Construct an equilateral triangle or regular hexagon (G-G.5)
+Construct a square (G-G.6)
+Construct the circumcenter or incenter of a triangle (G-N.6)
+Construct the centroid or orthocenter of a triangle (G-N.7)
+Construct a tangent line to a circle (G-X.1)
+Construct the inscribed or circumscribed circle of a triangle (G-X.5)
+G-CO.13 Construct an equilateral triangle, a square, and a regular hexagon inscribed in a circle.
+Construct an equilateral triangle inscribed in a circle (G-X.2)
+Construct a square inscribed in a circle (G-X.3)
+Construct a regular hexagon inscribed in a circle (G-X.4)
+Checkpoint opportunity
+Checkpoint: Geometric constructions (G-X.6)
+G-SRT Similarity, Right Triangles, and Trigonometry
+Understand similarity in terms of similarity transformations.
+G-SRT.1 Verify experimentally the properties of dilations given by a center and a scale factor:
+G-SRT.1.a A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.
+Dilations: graph the image (G-I.1)
+Dilations and parallel lines (G-I.6)
+G-SRT.1.b The dilation of a line segment is longer or shorter in the ratio given by the scale factor.
+Dilations: find length, perimeter, and area (G-I.3)
+Dilations: find the scale factor (G-I.4)
+Dilations: find the scale factor and center of the dilation (G-I.5)
+G-SRT.2 Given two figures, use the definition of similarity in terms of similarity transformations to decide if they are similar; explain using similarity transformations the meaning of similarity for triangles as the equality of all corresponding pairs of angles and the proportionality of all corresponding pairs of sides.
+Identify similar figures (G-M.3)
+Side lengths and angle measures in similar figures (G-M.4)
+Similar triangles and similarity transformations (G-M.9)
+Determine if two figures are similar: justify your answer (G-M.10)
+G-SRT.3 Use the properties of similarity transformations to establish the Angle-Angle (AA) criterion for two triangles to be similar.
+Similarity rules for triangles (G-M.8)
+Checkpoint opportunity
+Checkpoint: Dilations (G-I.8)
+Checkpoint: Similarity transformations (G-M.18)
+Prove theorems involving similarity.
+G-SRT.4 Prove theorems about triangles.
+Proofs involving similarity in right triangles (G-M.17)
+Proofs involving triangles II (G-N.10)
+Prove the Pythagorean theorem (G-P.2)
+G-SRT.5 Use congruence and similarity criteria for triangles to solve problems and to prove relationships in geometric figures.
+SSS and SAS Theorems (G-L.2)
+Proving triangles congruent by SSS and SAS (G-L.3)
+ASA and AAS Theorems (G-L.4)
+Proving triangles congruent by ASA and AAS (G-L.5)
+SSS, SAS, ASA, and AAS Theorems (G-L.6)
+SSS Theorem in the coordinate plane (G-L.7)
+Proving triangles congruent by SSS, SAS, ASA, and AAS (G-L.8)
+Proofs involving corresponding parts of congruent triangles (G-L.9)
+Congruency in isosceles and equilateral triangles (G-L.10)
+Proofs involving isosceles triangles (G-L.11)
+Hypotenuse-Leg Theorem (G-L.12)
+Similar triangles and indirect measurement (G-M.5)
+Similarity rules for triangles (G-M.8)
+Triangle Proportionality Theorem (G-M.12)
+Similarity and altitudes in right triangles (G-M.13)
+Prove similarity statements (G-M.15)
+Prove proportions or angle congruences using similarity (G-M.16)
+Proofs involving triangles and quadrilaterals (G-O.14)
+Checkpoint opportunity
+Checkpoint: Triangle similarity and congruence (G-M.19)
+Define trigonometric ratios and solve problems involving right triangles.
+G-SRT.6 Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.
+Trigonometric ratios: sin, cos, and tan (G-Q.1)
+Trigonometric ratios with radicals: sin, cos, and tan (G-Q.2)
+Trigonometric ratios: csc, sec, and cot (G-Q.3)
+Trigonometric ratios in similar right triangles (G-Q.4)
+G-SRT.7 Explain and use the relationship between the sine and cosine of complementary angles.
+Sine and cosine of complementary angles (G-Q.9)
+G-SRT.8 Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.
+Pythagorean theorem (G-P.1)
+Converse of the Pythagorean theorem (G-P.3)
+Pythagorean Inequality Theorems (G-P.4)
+Trigonometric ratios: find a side length (G-Q.11)
+Trigonometric ratios: find an angle measure (G-Q.12)
+Solve a right triangle (G-Q.13)
+Trigonometric ratios: word problems (G-Q.)
+G-SRT.8.1 Derive and use the trigonometric ratios for special right triangles (30°, 60°, 90°and 45°, 45°, 90°).
+Special right triangles (G-Q.5)
+Find trigonometric functions of special angles (G-Q.6)
+Checkpoint opportunity
+Checkpoint: Right triangle trigonometry (G)
+Apply trigonometry to general triangles.
+G-SRT.9 Derive the formula A = 1/2 ab sin(C) for the area of a triangle by drawing an auxiliary line from a vertex perpendicular to the opposite side.
+Area of a triangle: sine formula (G-R.4)
+G-SRT.10 Prove the Laws of Sines and Cosines and use them to solve problems.
+Law of Sines (G-R.1)
+Law of Cosines (G-R.2)
+Area of a triangle: Law of Sines (G-R.5)
+G-SRT.11 Understand and apply the Law of Sines and the Law of Cosines to find unknown measurements in right and non-right triangles (e.g., surveying problems, resultant forces).
+Solve a triangle (G-R.3)
+Checkpoint opportunity
+Checkpoint: Laws of Sines and Cosines (G-R.6)
+G-C Circles
+Understand and apply theorems about circles.
+G-C.1 Prove that all circles are similar.
+Similarity of circles (G-M.11)
+G-C.2 Identify and describe relationships among inscribed angles, radii, and chords.
+Central angles and arc measures (G-W.2)
+Arcs and chords (G-W.9)
+Tangent lines (G-W.10)
+Inscribed angles (G-W.12)
+Angles in inscribed right triangles (G-W.13)
+Angles formed by chords, secants, and tangents (G-W.16)
+Segments formed by chords, secants, and tangents (G-W.17)
+G-C.3 Construct the inscribed and circumscribed circles of a triangle, and prove properties of angles for a quadrilateral inscribed in a circle.
+Construct the circumcenter or incenter of a triangle (G-N.6)
+Angles in inscribed quadrilaterals I (G-W.14)
+Angles in inscribed quadrilaterals II (G-W.15)
+Construct the inscribed or circumscribed circle of a triangle (G-X.5)
+G-C.4 Construct a tangent line from a point outside a given circle to the circle.
+Construct a tangent line to a circle (G-X.1)
+Checkpoint opportunity
+Checkpoint: Prove circles are similar (G-M.20)
+Checkpoint: Angles and lines in circles (G-W.18)
+Checkpoint: Inscribed and circumscribed circles (G-W.19)
+Find arc lengths and areas of sectors of circles.
+G-C.5 Derive using similarity the fact that the length of the arc intercepted by an angle is proportional to the radius, and define the radian measure of the angle as the constant of proportionality; derive the formula for the area of a sector. Convert between degrees and radians.
+Arc length (G-W.4)
+Area of sectors (G-W.7)
+Checkpoint opportunity
+Checkpoint: Arc length and area of sectors (G-W.20)
+G-GPE Expressing Geometric Properties with Equations
+Translate between the geometric description and the equation for a conic section.
+G-GPE.1 Derive the equation of a circle of given center and radius using the Pythagorean Theorem; complete the square to find the center and radius of a circle given by an equation.
+Derive equations of circles using the Pythagorean theorem (G-Y.4)
+Write equations of circles in standard form from graphs (G-Y.5)
+Write equations of circles in standard form using properties (G-Y.6)
+Convert equations of circles from general to standard form (G-Y.7)
+Find properties of circles from equations in general form (G-Y.8)
+Graph circles from equations in standard form (G-Y.9)
+Graph circles from equations in general form (G-Y.10)
+G-GPE.2 Derive the equation of a parabola given a focus and directrix.
+Find the focus or directrix of a parabola (G-Z.2)
+Write equations of parabolas in vertex form from graphs (G-Z.4)
+Write equations of parabolas in vertex form using the focus and directrix (G-Z.5)
+Write equations of parabolas in vertex form using properties (G-Z.6)
+Find properties of a parabola from equations in general form (G-Z.8)
+Graph parabolas (G-Z.9)
+G-GPE.3 Derive the equations of ellipses and hyperbolas given the foci, using the fact that the sum or difference of distances from the foci is constant.
+Write equations of ellipses in standard form using properties (A2-FF.5)
+Write equations of hyperbolas in standard form using properties (A2-GG.7)
+G-GPE.3.1 Given a quadratic equation of the form ax² + by² + cx + dy + e = 0, use the method for completing the square to put the equation into standard form; identify whether the graph of the equation is a circle, ellipse, parabola, or hyperbola, and graph the equation.
+Graph a quadratic function (A2-N.5)
+Complete the square (A2-O.4)
+Graph parabolas (A2-DD.9)
+Convert equations of circles from general to standard form (A2-EE.5)
+Graph circles (A2-EE.7)
+Convert equations of ellipses from general to standard form (A2-FF.6)
+Convert equations of hyperbolas from general to standard form (A2-GG.8)
+Checkpoint opportunity
+Checkpoint: Equations of circles (G-Y.11)
+Checkpoint: Equations of parabolas (G-Z.10)
+Use coordinates to prove simple geometric theorems algebraically.
+G-GPE.4 Use coordinates to prove simple geometric theorems algebraically.
+Classify shapes on the coordinate plane: justify your answer (G-O.13)
+Determine if a point lies on a circle (G-Y.3)
+G-GPE.5 Prove the slope criteria for parallel and perpendicular lines and use them to solve geometric problems (e.g., find the equation of a line parallel or perpendicular to a given line that passes through a given point).
+Slopes of parallel and perpendicular lines (G-E.4)
+Equations of parallel and perpendicular lines (G-E.5)
+Find the distance between a point and a line (G-E.6)
+Find the distance between two parallel lines (G-E.7)
+G-GPE.6 Find the point on a directed line segment between two given points that partitions the segment in a given ratio.
+Midpoints (G-B.6)
+Midpoint formula: find the midpoint (G-B.10)
+Partition a line segment in a given ratio (G-B.11)
+Midpoint formula: find the endpoint (G-B.12)
+G-GPE.7 Use coordinates to compute perimeters of polygons and areas of triangles and rectangles, e.g., using the distance formula.
+Distance formula (G-B.13)
+Area and perimeter in the coordinate plane I (G-S.7)
+Area and perimeter in the coordinate plane II (G-S.8)
+Checkpoint opportunity
+Checkpoint: Partition a line segment (G-B.16)
+Checkpoint: Coordinate proofs (G-E.8)
+Checkpoint: Parallel and perpendicular lines (G-E.9)
+Checkpoint: Area and perimeter in the coordinate plane (G-S.16)
+G-GMD Geometric Measurement and Dimension
+Explain volume formulas and use them to solve problems.
+G-GMD.1 Give an informal argument for the formulas for the circumference of a circle, area of a circle, volume of a cylinder, pyramid, and cone.
+G-GMD.2 Give an informal argument using Cavalieri's principle for the formulas for the volume of a sphere and other solid figures.
+G-GMD.3 Use volume formulas for cylinders, pyramids, cones, and spheres to solve problems.
+Volume of prisms and cylinders (G-U.7)
+Volume of pyramids and cones (G-U.8)
+Volume of spheres (G-U.9)
+Checkpoint opportunity
+Checkpoint: Volume (G-U.17)
+Visualize relationships between two-dimensional and three-dimensional objects.
+G-GMD.4 Identify the shapes of two-dimensional cross-sections of three-dimensional objects, and identify three-dimensional objects generated by rotations of two-dimensional objects.
+Cross sections of three-dimensional figures (G-T.4)
+Solids of revolution (G-T.5)
+G-GMD.5 Know that the effect of a scale factor k greater than zero on length, area, and volume is to multiply each by k, k², and k³, respectively; determine length, area and volume measures using scale factors.
+Scale drawings: word problems (G)
+Dilations: find the scale factor (G-I.4)
+Ratios in similar figures (G-M.1)
+Side lengths and angle measures in similar figures (G-M.4)
+Perimeters of similar figures (G-M.6)
+Areas of similar figures (G-M.14)
+Area and perimeter of similar figures (G-S.12)
+Surface area and volume of similar solids (G-U.12)
+G-GMD.6 Verify experimentally that in a triangle, angles opposite longer sides are larger, sides opposite larger angles are longer, and the sum of any two side lengths is greater than the remaining side length; apply these relationships to solve real-world and mathematical problems.
+Angle-side relationships in triangles (G-N.4)
+Triangle Inequality Theorem (G-N.5)
+Checkpoint opportunity
+Checkpoint: Cross sections and solids of revolution (G-T.6)
+G-MG Modeling with Geometry
+Apply geometric concepts in modeling situations.
+G-MG.1 Use geometric shapes, their measures, and their properties to describe objects (e.g., modeling a tree trunk or a human torso as a cylinder).
+Pythagorean theorem (G-P.1)
+G-MG.2 Apply concepts of density based on area and volume in modeling situations (e.g., persons per square mile, BTUs per cubic foot).
+Calculate density, mass, and volume (G-V.9)
+G-MG.3 Apply geometric methods to solve design problems (e.g., designing an object or structure to satisfy physical constraints or minimize cost; working with typographic grid systems based on ratios).
+Checkpoint opportunity
+Checkpoint: Geometric modeling and design (G-V.10)
+Checkpoint: Density (G-V.11)
+S Statistics and Probability
+S-CP Conditional Probability and the Rules of Probability
+Understand independence and conditional probability and use them to interpret data.
+S-CP.1 Describe events as subsets of a sample space (the set of outcomes) using characteristics (or categories) of the outcomes, or as unions, intersections, or complements of other events ("or," "and," "not").
+Theoretical and experimental probability (G-AA.1)
+Outcomes of compound events (G-AA.2)
+S-CP.2 Understand that two events A and B are independent if the probability of A and B occurring together is the product of their probabilities, and use this characterization to determine if they are independent.
+Identify independent and dependent events (G-AA.3)
+Probability of independent and dependent events (G-AA.4)
+Identify independent events (G-AA.10)
+S-CP.3 Understand the conditional probability of A given B as P(A and B)/P(B), and interpret independence of A and B as saying that the conditional probability of A given B is the same as the probability of A, and the conditional probability of B given A is the same as the probability of B.
+Find conditional probabilities (G-AA.11)
+Independence and conditional probability (G-AA.13)
+S-CP.4 Construct and interpret two-way frequency tables of data when two categories are associated with each object being classified. Use the two-way table as a sample space to decide if events are independent and to approximate conditional probabilities.
+Find probabilities using two-way frequency tables (G-AA.9)
+Find conditional probabilities using two-way frequency tables (G-AA.12)
+Independence and conditional probability (G-AA.13)
+S-CP.5 Recognize and explain the concepts of conditional probability and independence in everyday language and everyday situations.
+Independence and conditional probability (G-AA.13)
+Use the rules of probability to compute probabilities of compound events in a uniform probability model.
+S-CP.6 Find the conditional probability of A given B as the fraction of B's outcomes that also belong to A, and interpret the answer in terms of the model.
+Find conditional probabilities using two-way frequency tables (G-AA.12)
+Geometric probability (G-AA.14)
+S-CP.7 Apply the Addition Rule, P(A or B) = P(A) + P(B) — P(A and B), and interpret the answer in terms of the model.
+Find probabilities using the addition rule (G-AA.15)
+S-CP.8 Apply the general Multiplication Rule in a uniform probability model, P(A and B) = P(A)P(B|A) = P(B)P(A|B), and interpret the answer in terms of the model.
+Find conditional probabilities (G-AA.11)
+S-CP.9 Use permutations and combinations to compute probabilities of compound events and solve problems.
+Counting principle (G-AA.5)
+Permutations (G-AA.6)
+Permutation and combination notation (G-AA.7)
+Find probabilities using combinations and permutations (G-AA.8)
+Checkpoint opportunity
+Checkpoint: Understand independence and conditional probability (G-AA.16)
+Checkpoint: Probabilities of compound events (G-AA.17)
+S-MD Using Probability to Make Decisions
+Use probability to evaluate outcomes of decisions.
+S-MD.6 Use probabilities to make fair decisions (e.g., drawing by lots, using a random number generator).
+S-MD.7 Analyze decisions and strategies using probability concepts (e.g., product testing, medical testing, pulling a hockey goalie at the end of a game).
+MP1 Make sense of problems and persevere in solving them.
+Mathematically proficient students start by explaining to themselves the meaning of a problem and looking for entry points to its solution. They analyze givens, constraints, relationships, and goals. They make conjectures about the form and meaning of the solution and plan a solution pathway rather than simply jumping into a solution attempt. They consider analogous problems, and try special cases and simpler forms of the original problem in order to gain insight into its solution. They monitor and evaluate their progress and change course if necessary. Older students might, depending on the context of the problem, transform algebraic expressions or change the viewing window on their graphing calculator to get the information they need. Mathematically proficient students can explain correspondences between equations, verbal descriptions, tables, and graphs or draw diagrams of important features and relationships, graph data, and search for regularity or trends. Younger students might rely on using concrete objects or pictures to help conceptualize and solve a problem. Mathematically proficient students check their answers to problems using a different method, and they continually ask themselves, "Does this make sense?" They can understand the approaches of others to solving complex problems and identify correspondences between different approaches.
+Area and perimeter: word problems (A1-D.1)
+Rate of travel: word problems (A1-E.6)
+Solve a system of equations using any method: word problems (A1-O.15)
+Exponential growth and decay: word problems (A1-V.9)
+Analyze a regression line of a data set (A1-JJ.9)
+Solve a triangle (G-R.3)
+Solve a system of equations using any method: word problems (A2-E.11)
+Exponential growth and decay: word problems (A2-Z.9)
+Compound interest: word problems (A2-CC.4)
+Solve a triangle (A2-JJ.3)
+Expected values for a game of chance (A2-PP.9)
+Choose the better bet (A2-PP.10)
+Analyze the results of an experiment using simulations (A2-RR.9)
+Analyze a regression line of a data set (A2-SS.6)
+Exponential growth and decay: word problems (PC-K.5)
+Compound interest: word problems (PC-K.6)
+Solve a triangle (PC-R.17)
+Expected values for a game of chance (PC-DD.9)
+Choose the better bet (PC-DD.10)
+Analyze the results of an experiment using simulations (PC-FF.9)
+Analyze a regression line using statistics of a data set (PC-GG.7)
+Pythagorean theorem: word problems (A1)
+MP2 Reason abstractly and quantitatively.
+Mathematically proficient students make sense of quantities and their relationships in problem situations. They bring two complementary abilities to bear on problems involving quantitative relationships: the ability to decontextualize-to abstract a given situation and represent it symbolically and manipulate the representing symbols as if they have a life of their own, without necessarily attending to their referents-and the ability to contextualize, to pause as needed during the manipulation process in order to probe into the referents for the symbols involved. Quantitative reasoning entails habits of creating a coherent representation of the problem at hand; considering the units involved; attending to the meaning of quantities, not just how to compute them; and knowing and flexibly using different properties of operations and objects.
+Write and solve linear equations that represent diagrams (A1)
+Write variable equations (A1-C.1)
+Consecutive integer problems (A1-C.11)
+Rearrange multi-variable equations (A1-C.18)
+Convert rates and measurements: customary units (A1-E.2)
+Convert rates and measurements: metric units (A1-E.3)
+Weighted averages: word problems (A1-E.7)
+Write direct variation equations (A1-J.2)
+Write inverse variation equations (A1-J.5)
+Write and solve inverse variation equations (A1-J.6)
+Interpret functions using everyday language (A1-M.13)
+Write a linear function: word problems (A1-N.8)
+Interpret regression lines (A1-JJ.8)
+Cross sections of three-dimensional figures (G-T.4)
+Solids of revolution (G-T.5)
+Convert rates and measurements: customary units (G-V.1)
+Convert rates and measurements: metric units (G-V.2)
+Rearrange multi-variable equations (A2-B.4)
+Write and solve direct variation equations (A2-Y.1)
+Write and solve inverse variation equations (A2-Y.2)
+Convert between radians and degrees (A2-HH.1)
+Radians and arc length (A2-HH.2)
+Interpret regression lines (A2-SS.5)
+Convert between radians and degrees (PC-R.1)
+Radians and arc length (PC-R.2)
+Convert complex numbers between rectangular and polar form (PC-X.4)
+Interpret regression lines (PC-GG.5)
+MP3 Construct viable arguments and critique the reasoning of others.
+Mathematically proficient students understand and use stated assumptions, definitions, and previously established results in constructing arguments. They make conjectures and build a logical progression of statements to explore the truth of their conjectures. They are able to analyze situations by breaking them into cases, and can recognize and use counterexamples. They justify their conclusions, communicate them to others, and respond to the arguments of others. They reason inductively about data, making plausible arguments that take into account the context from which the data arose. Mathematically proficient students are also able to compare the effectiveness of two plausible arguments, distinguish correct logic or reasoning from that which is flawed, and-if there is a flaw in an argument-explain what it is. Elementary students can construct arguments using concrete referents such as objects, drawings, diagrams, and actions. Such arguments can make sense and be correct, even though they are not generalized or made formal until later grades. Later, students learn to determine domains to which an argument applies. Students at all grades can listen or read the arguments of others, decide whether they make sense, and ask useful questions to clarify or improve the arguments.
+Identify biased samples (A1-II.1)
+Proofs involving angles (G-C.9)
+Proofs involving parallel lines I (G-D.7)
+Proofs involving parallel lines II (G-D.8)
+Proving triangles congruent by SSS and SAS (G-L.3)
+Proving triangles congruent by ASA and AAS (G-L.5)
+Proving triangles congruent by SSS, SAS, ASA, and AAS (G-L.8)
+Proofs involving corresponding parts of congruent triangles (G-L.9)
+Prove similarity statements (G-M.15)
+Proofs involving triangles I (G-N.9)
+Proofs involving triangles II (G-N.10)
+Proofs involving triangles and quadrilaterals (G-O.14)
+Proofs involving quadrilaterals (G-O.15)
+Prove the Pythagorean theorem (G-P.2)
+Identify biased samples (A2-RR.1)
+Interpret confidence intervals for population means (A2-RR.7)
+Experiment design (A2-RR.8)
+Identify biased samples (PC-FF.1)
+Interpret confidence intervals for population means (PC-FF.7)
+Experiment design (PC-FF.8)
+MP4 Model with mathematics.
+Mathematically proficient students can apply the mathematics they know to solve problems arising in everyday life, society, and the workplace. In early grades, this might be as simple as writing an addition equation to describe a situation. In middle grades, a student might apply proportional reasoning to plan a school event or analyze a problem in the community. By high school, a student might use geometry to solve a design problem or use a function to describe how one quantity of interest depends on another. Mathematically proficient students who can apply what they know are comfortable making assumptions and approximations to simplify a complicated situation, realizing that these may need revision later. They are able to identify important quantities in a practical situation and map their relationships using such tools as diagrams, two-way tables, graphs, flowcharts and formulas. They can analyze those relationships mathematically to draw conclusions. They routinely interpret their mathematical results in the context of the situation and reflect on whether the results make sense, possibly improving the model if it has not served its purpose.
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Scale drawings: word problems (A1-E.1)
+Scale drawings: word problems (G)
+Evaluate a linear function from its graph: word problems (A1-N.4)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Solve a system of equations using any method: word problems (A1-O.15)
+Exponential growth and decay: word problems (A1-V.9)
+Find the equation of a regression line (A1-JJ.7)
+Probability of independent and dependent events (A1-KK.7)
+Solve linear equations: word problems (A2-B.3)
+Solve a system of equations using any method: word problems (A2-E.11)
+Exponential growth and decay: word problems (A2-Z.9)
+Compound interest: word problems (A2-CC.4)
+Find probabilities using two-way frequency tables (A2-OO.5)
+Probability of independent and dependent events (A2-OO.7)
+Find conditional probabilities using two-way frequency tables (A2-OO.10)
+Write the probability distribution for a game of chance (A2-PP.8)
+Interpret confidence intervals for population means (A2-RR.7)
+Find the equation of a regression line (A2-SS.4)
+Exponential growth and decay: word problems (PC-K.5)
+Compound interest: word problems (PC-K.6)
+Solve a system of equations by graphing: word problems (PC-N.2)
+Find probabilities using two-way frequency tables (PC-CC.4)
+Find conditional probabilities using two-way frequency tables (PC-CC.8)
+Write the probability distribution for a game of chance (PC-DD.8)
+Interpret confidence intervals for population means (PC-FF.7)
+Find the equation of a regression line (PC-GG.4)
+MP5 Use appropriate tools strategically.
+Mathematically proficient students consider the available tools when solving a mathematical problem. These tools might include pencil and paper, concrete models, a ruler, a protractor, a calculator, a spreadsheet, a computer algebra system, a statistical package, or dynamic geometry software. Proficient students are sufficiently familiar with tools appropriate for their grade or course to make sound decisions about when each of these tools might be helpful, recognizing both the insight to be gained and their limitations. For example, mathematically proficient high school students analyze graphs of functions and solutions generated using a graphing calculator. They detect possible errors by strategically using estimation and other mathematical knowledge. When making mathematical models, they know that technology can enable them to visualize the results of varying assumptions, explore consequences, and compare predictions with data. Mathematically proficient students at various grade levels are able to identify relevant external mathematical resources, such as digital content located on a website, and use them to pose or solve problems. They are able to use technological tools to explore and deepen their understanding of concepts.
+Model and solve linear equations using algebra tiles (A1-C.6)
+Complete a table and graph a linear function (A1-N.3)
+Solve a system of equations by graphing (A1-O.2)
+Model polynomials with algebra tiles (A1-W.2)
+Add and subtract polynomials using algebra tiles (A1-W.3)
+Multiply two binomials using algebra tiles (A1-W.7)
+Characteristics of quadratic functions: graphs (A1-Y.1)
+Find the equation of a regression line (A1-JJ.7)
+Translations: graph the image (G-H.2)
+Reflections: graph the image (G-H.5)
+Rotations: graph the image (G-H.8)
+Dilations: graph the image (G-I.1)
+Construct an equilateral triangle inscribed in a circle (G-X.2)
+Construct a square inscribed in a circle (G-X.3)
+Construct a regular hexagon inscribed in a circle (G-X.4)
+Compass directions and vectors (G-BB.1)
+Graph a resultant vector using the triangle method (G-BB.5)
+Graph a resultant vector using the parallelogram method (G-BB.6)
+Complete a table for a function graph (A2-A.5)
+Solve a system of equations by graphing (A2-E.2)
+Characteristics of quadratic functions: graphs (A2-N.1)
+Find properties of sine functions (A2-KK.1)
+Find properties of cosine functions (A2-KK.6)
+Find probabilities using the normal distribution I (A2-QQ.2)
+Find probabilities using the normal distribution II (A2-QQ.3)
+Find the equation of a regression line (A2-SS.4)
+Transformation matrices: graph the image (A2-TT.17)
+Characteristics of quadratic functions (PC-D.2)
+Solve a system of equations by graphing (PC-N.1)
+Transformation matrices: graph the image (PC-Q.18)
+Find properties of sine functions (PC-S.1)
+Find properties of cosine functions (PC-S.6)
+Addition in the complex plane (PC-W.3)
+Subtraction in the complex plane (PC-W.4)
+Midpoints in the complex plane (PC-W.7)
+Distance in the complex plane (PC-W.8)
+Graph a resultant vector using the triangle method (PC-Y.5)
+Graph a resultant vector using the parallelogram method (PC-Y.6)
+Find probabilities using the normal distribution I (PC-EE.3)
+Find the equation of a regression line (PC-GG.4)
+MP6 Attend to precision.
+Mathematically proficient students try to communicate precisely to others. They try to use clear definitions in discussion with others and in their own reasoning. They state the meaning of the symbols they choose, including using the equal sign consistently and appropriately. They are careful about specifying units of measure, and labeling axes to clarify the correspondence with quantities in a problem. They calculate accurately and efficiently, express numerical answers with a degree of precision appropriate for the problem context. In the elementary grades, students give carefully formulated explanations to each other. By the time they reach high school they have learned to examine claims and make explicit use of definitions.
+Classify rational and irrational numbers (A1-A.11)
+Solve linear equations: complete the solution (A1-C.14)
+Precision (A1-D.4)
+Greatest possible error (A1-D.5)
+Minimum and maximum area and volume (A1-D.6)
+Percent error (A1-D.7)
+Percent error: area and volume (A1-D.8)
+Identify functions (A1-M.4)
+Polynomial vocabulary (A1-W.1)
+Describe linear and exponential growth and decay (A1-AA.10)
+Domain and range of absolute value functions: graphs (A1-BB.3)
+Domain and range of absolute value functions: equations (A1-BB.4)
+Match correlation coefficients to scatter plots (A1-JJ.3)
+Dilations: find the scale factor (G-I.4)
+Precision (G-V.4)
+Greatest possible error (G-V.5)
+Minimum and maximum area and volume (G-V.6)
+Percent error (G-V.7)
+Percent error: area and volume (G-V.8)
+Identify functions (A2-A.2)
+Solve linear equations: complete the solution (A2-B.2)
+Polynomial vocabulary (A2-L.1)
+Domain and range of radical functions (A2-S.1)
+Identify inverse functions (A2-V.1)
+Describe function transformations (A2-W.6)
+Describe linear and exponential growth and decay (A2-Z.8)
+Domain and range of logarithmic functions (A2-BB.1)
+Identify an outlier and describe the effect of removing it (A2-RR.4)
+Properties of matrices (A2-TT.8)
+Identify functions (PC-A.2)
+Identify inverse functions (PC-B.1)
+Describe function transformations (PC-C.6)
+Describe linear and exponential growth and decay (PC-H.5)
+Domain and range of logarithmic functions (PC-J.1)
+Domain and range of radical functions (PC-L.3)
+Properties of matrices (PC-Q.8)
+Identify an outlier and describe the effect of removing it (PC-FF.4)
+Classify rational and irrational numbers (PC)
+MP7 Look for and make use of structure.
+Mathematically proficient students look closely to discern a pattern or structure. Young students, for example, might notice that three and seven more is the same amount as seven and three more, or they may sort a collection of shapes according to how many sides the shapes have. Later, students will see 7 × 8 equals the well remembered 7 × 5 + 7 × 3, in preparation for learning about the distributive property. In the expression x² + 9x + 14, older students can see the 14 as 2 × 7 and the 9 as 2 + 7. They recognize the significance of an existing line in a geometric figure and can use the strategy of drawing an auxiliary line for solving problems. They also can step back for an overview and shift perspective. They can see complicated things, such as some algebraic expressions, as single objects or as being composed of several objects. For example, they can see 5 – 3(x – y)² as 5 minus a positive number times a square and use that to realize that its value cannot be more than 5 for any real numbers x and y.
+Solve a system of equations using augmented matrices: word problems (A1-O.13)
+Simplify exponential expressions using exponent rules (A1-R.11)
+Factor quadratics with other leading coefficients (A1-X.6)
+Factor quadratics: special cases (A1-X.7)
+Factor by grouping (A1-X.8)
+Solve a quadratic equation by factoring (A1-Z.3)
+Complete the square (A1-Z.4)
+Solve a quadratic equation by completing the square (A1-Z.5)
+Simplify radical expressions: mixed review (A1-EE.8)
+Simplify rational expressions (A1-GG.2)
+Arcs and chords (G-W.9)
+Inscribed angles (G-W.12)
+Angles in inscribed quadrilaterals I (G-W.14)
+Angles in inscribed quadrilaterals II (G-W.15)
+Find properties of circles from equations in general form (G-Y.8)
+Add, subtract, multiply, and divide complex numbers (A2-K.6)
+Factor quadratics (A2-M.5)
+Factor using a quadratic pattern (A2-M.6)
+Factor by grouping (A2-M.7)
+Factor sums and differences of cubes (A2-M.8)
+Write a quadratic function from its zeros (A2-N.10)
+Solve a quadratic equation by factoring (A2-O.3)
+Solve a quadratic equation by factoring (G)
+Complete the square (A2-O.4)
+Solve a quadratic equation by completing the square (A2-O.5)
+Write a polynomial from its roots (A2-Q.3)
+Multiplication with rational exponents (A2-T.3)
+Division with rational exponents (A2-T.4)
+Simplify expressions involving rational exponents I (A2-T.6)
+Simplify expressions involving rational exponents II (A2-T.7)
+Simplify rational expressions (A2-X.4)
+Solve exponential equations using common logarithms (A2-CC.2)
+Solve exponential equations using natural logarithms (A2-CC.3)
+Write equations of parabolas in vertex form using properties (A2-DD.6)
+Write equations of circles in standard form using properties (A2-EE.4)
+Find properties of circles from equations in general form (A2-EE.6)
+Write equations of ellipses in standard form using properties (A2-FF.5)
+Write equations of hyperbolas in standard form using properties (A2-GG.7)
+Write equations of sine functions using properties (A2-KK.3)
+Write equations of cosine functions using properties (A2-KK.8)
+Solve a system of equations using augmented matrices: word problems (A2-TT.19)
+Solve a quadratic equation by factoring (PC-D.6)
+Solve a quadratic equation by completing the square (PC-D.7)
+Write a polynomial from its roots (PC-F.2)
+Operations with rational exponents (PC-M.3)
+Write equations of sine functions using properties (PC-S.3)
+Write equations of cosine functions using properties (PC-S.8)
+Add, subtract, multiply, and divide complex numbers (PC-V.6)
+MP8 Look for and express regularity in repeated reasoning.
+Mathematically proficient students notice if calculations are repeated, and look both for general methods and for shortcuts. Upper elementary students might notice when dividing 25 by 11 that they are repeating the same calculations over and over again, and conclude they have a repeating decimal. By paying attention to the calculation of slope as they repeatedly check whether points are on the line through (1, 2) with slope 3, middle school students might abstract the equation (y – 2)/(x – 1) = 3. Noticing the regularity in the way terms cancel when expanding (x – 1)(x + 1), (x – 1)(x² + x + 1), and (x – 1)(x³ + x² + x + 1) might lead them to the general formula for the sum of a geometric series. As they work to solve a problem, mathematically proficient students maintain oversight of the process, while attending to the details. They continually evaluate the reasonableness of their intermediate results.
+Find the constant of variation (A1-J.1)
+Find the slope of a graph (A1-K.1)
+Arithmetic sequences (A1-U.2)
+Geometric sequences (A1-U.3)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Identify linear, quadratic, and exponential functions from graphs (A1-AA.2)
+Identify linear, quadratic, and exponential functions from tables (A1-AA.4)
+Slopes of lines (G-E.1)
+Find the slope of a linear function (A2-D.1)
+Find the slope of a linear function (PC)
+Powers of i (A2-K.8)
+Pascal's triangle (A2-L.8)
+Pascal's triangle and the Binomial Theorem (A2-L.9)
+Binomial Theorem I (A2-L.10)
+Binomial Theorem II (A2-L.11)
+Function transformation rules (A2-W.1)
+Find terms of an arithmetic sequence (A2-MM.1)
+Find terms of a geometric sequence (A2-MM.2)
+Write a formula for an arithmetic sequence (A2-MM.6)
+Write a formula for a geometric sequence (A2-MM.7)
+Write a formula for a recursive sequence (A2-MM.8)
+Pascal's triangle (PC-E.9)
+Binomial Theorem I (PC-E.11)
+Binomial Theorem II (PC-E.12)
+Powers of i (PC-V.8)
+Find terms of a sequence (PC-AA.1)
+Find a recursive formula (PC-AA.4)
+Find recursive and explicit formulas (PC-AA.5)
+Properties of operations on rational and irrational numbers (PC)
+N Number and Quantity
+N-Q Quantities
+Reason quantitatively and use units to solve problems.
+N-Q.1 Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.
+Scale drawings: word problems (A1-E.1)
+Unit prices with unit conversions (A1-E.4)
+Multi-step problems with unit conversions (A1-E.5)
+Rate of travel: word problems (A1-E.6)
+Weighted averages: word problems (A1-E.7)
+Convert square and cubic units of length (G-V.3)
+N-Q.2 Define appropriate quantities for the purpose of descriptive modeling.
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Solve a system of equations using any method: word problems (A1-O.15)
+Write exponential functions: word problems (A1-V.8)
+Exponential growth and decay: word problems (A1-V.9)
+N-Q.3 Choose a level of accuracy appropriate to limitations on measurement when reporting quantities.
+Precision (A1-D.4)
+Greatest possible error (A1-D.5)
+Minimum and maximum area and volume (A1-D.6)
+Percent error (A1-D.7)
+Percent error: area and volume (A1-D.8)
+Checkpoint opportunity
+Checkpoint: Units and quantities (A1-E.8)
+A Algebra
+A-SSE Seeing Structure in Expressions
+Interpret the structure of expressions.
+A-SSE.1 Interpret expressions that represent a quantity in terms of its context.
+A-SSE.1.a Interpret parts of an expression, such as terms, factors, and coefficients.
+Sort factors of variable expressions (A1-B.8)
+A-SSE.1.b Interpret complicated expressions by viewing one or more of their parts as a single entity.
+A-CED Creating Equations
+Create equations that describe numbers or relationships.
+A-CED.1 Create equations and inequalities in one variable including ones with absolute value and use them to solve problems.
+Write variable equations (A1-C.1)
+Model and solve linear equations using algebra tiles (A1-C.6)
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Consecutive integer problems (A1-C.11)
+Weighted averages: word problems (A1-E.7)
+Write inequalities from graphs (A1-F.2)
+Write compound inequalities from graphs (A1-F.13)
+Write absolute value equations from graphs (A1-H.3)
+A-CED.2 Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.
+Write direct variation equations (A1-J.2)
+Slope-intercept form: graph an equation (A1-L.4)
+Slope-intercept form: write an equation from a graph (A1-L.5)
+Slope-intercept form: write an equation (A1-L.6)
+Slope-intercept form: write an equation from a table (A1-L.7)
+Write linear equations in standard form (A1-L.9)
+Standard form: graph a line from an equation (A1-L.11)
+Point-slope form: graph an equation (A1-L.14)
+Point-slope form: write an equation (A1-L.15)
+Write a linear function: word problems (A1-N.8)
+Graph exponential functions (A1-V.2)
+Write exponential functions from tables and graphs (A1-V.7)
+Write exponential functions: word problems (A1-V.8)
+Write linear and exponential functions: word problems (A1-AA.5)
+Write linear and exponential functions from tables (A1-AA.6)
+A-CED.3 Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context.
+Write a linear function: word problems (A1-N.8)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Solve a system of equations using substitution: word problems (A1-O.9)
+Solve a system of equations using elimination: word problems (A1-O.11)
+Solve a system of equations using any method: word problems (A1-O.15)
+Write two-variable inequalities: word problems (A1-P.5)
+A-CED.4 Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations.
+Rearrange multi-variable equations (A1-C.18)
+Linear equations: solve for y (A1-L.8)
+Checkpoint opportunity
+Checkpoint: Modeling with linear equations and inequalities (A1-P.9)
+Checkpoint: Expressions, equations, and inequalities (A1)
+A-REI Reasoning with Equations and Inequalities
+Understand solving equations as a process of reasoning and explain the reasoning.
+A-REI.1 Explain each step in solving a simple equation as following from the equality of numbers asserted at the previous step, starting from the assumption that the original equation has a solution. Construct a viable argument to justify a solution method.
+Properties of equality (A1-C.4)
+Identify equivalent equations (A1-C.5)
+Solve linear equations: complete the solution (A1-C.14)
+Solve equations and inequalities in one variable.
+A-REI.3 Solve linear equations and inequalities in one variable, including equations with coefficients represented by letters.
+Model and solve linear equations using algebra tiles (A1-C.6)
+Solve one-step linear equations (A1-C.7)
+Solve two-step linear equations (A1-C.8)
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Solve linear equations with variables on one side (A1-C.10)
+Solve linear equations with variables on both sides (A1-C.12)
+Solve linear equations: mixed review (A1-C.13)
+Solve linear equations: complete the solution (A1-C.14)
+Create linear equations with no solutions or infinitely many solutions (A1-C.16)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Rearrange multi-variable equations (A1-C.18)
+Identify solutions to inequalities (A1-F.3)
+Solve one-step linear inequalities: addition and subtraction (A1-F.4)
+Solve one-step linear inequalities: multiplication and division (A1-F.5)
+Solve one-step linear inequalities (A1-F.6)
+Solve two-step linear inequalities (A1-F.8)
+Solve multi-step linear inequalities (A1-F.10)
+Solve compound inequalities (A1-F.14)
+A-REI.3.1 Solve one-variable equations and inequalities involving absolute value, graphing the solutions and interpreting them in context.
+Solve absolute value equations (A1-H.1)
+Graph solutions to absolute value equations (A1-H.2)
+Solve absolute value inequalities (A1-H.4)
+Graph solutions to absolute value inequalities (A1-H.5)
+Checkpoint opportunity
+Checkpoint: Solve equations and inequalities (A1)
+Solve systems of equations.
+A-REI.5 Prove that, given a system of two equations in two variables, replacing one equation by the sum of that equation and a multiple of the other produces a system with the same solutions.
+Solve a system of equations using elimination (A1-O.10)
+Solve a system of equations using elimination: word problems (A1-O.11)
+A-REI.6 Solve systems of linear equations exactly and approximately (e.g., with graphs), focusing on pairs of linear equations in two variables.
+Is (x, y) a solution to the system of equations? (A1-O.1)
+Solve a system of equations by graphing (A1-O.2)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Find the number of solutions to a system of equations by graphing (A1-O.4)
+Find the number of solutions to a system of equations (A1-O.5)
+Classify a system of equations by graphing (A1-O.6)
+Solve a system of equations using substitution (A1-O.8)
+Solve a system of equations using substitution: word problems (A1-O.9)
+Solve a system of equations using elimination (A1-O.10)
+Solve a system of equations using elimination: word problems (A1-O.11)
+Solve a system of equations using any method (A1-O.14)
+Solve a system of equations using any method: word problems (A1-O.15)
+Represent and solve equations and inequalities graphically.
+A-REI.10 Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).
+Relate the graph of a linear equation to its solutions (A1-L.2)
+Find values using function graphs (A1-M.6)
+Complete a function table from a graph (A1-M.9)
+Complete a table and graph a linear function (A1-N.3)
+A-REI.11 Explain why the x-coordinates of the points where the graphs of the equations y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, make tables of values, or find successive approximations. Include cases where f(x) and/or g(x) are linear, polynomial, rational, absolute value, exponential, and logarithmic functions.
+Find solutions using a table (A1-M.11)
+Approximate solutions using a table (A1-M.12)
+Solve a system of equations by graphing (A1-O.2)
+Solve a system of equations by graphing: word problems (A1-O.3)
+Find the number of solutions to a system of equations by graphing (A1-O.4)
+A-REI.12 Graph the solutions to a linear inequality in two variables as a half-plane (excluding the boundary in the case of a strict inequality), and graph the solution set to a system of linear inequalities in two variables as the intersection of the corresponding half-planes.
+Does (x, y) satisfy the inequality? (A1-P.1)
+Graph a two-variable linear inequality (A1-P.3)
+Write a linear inequality from a graph (A1-P.4)
+Is (x, y) a solution to the system of linear inequalities? (A1-P.6)
+Solve systems of linear inequalities by graphing (A1-P.7)
+Checkpoint opportunity
+Checkpoint: Systems of equations and inequalities (A1-P.8)
+Checkpoint: Solve equations using graphs and tables (A1)
+F Functions
+F-IF Interpreting Functions
+Understand the concept of a function and use function notation.
+F-IF.1 Understand that a function from one set (called the domain) to another set (called the range) assigns to each element of the domain exactly one element of the range. If f is a function and x is an element of its domain, then f(x) denotes the output of f corresponding to the input x. The graph of f is the graph of the equation y = f(x).
+Domain and range of relations (A1-M.2)
+Identify independent and dependent variables (A1-M.3)
+Identify functions (A1-M.4)
+Identify functions: vertical line test (A1-M.5)
+Find values using function graphs (A1-M.6)
+Complete a function table from a graph (A1-M.9)
+Domain and range of linear functions: graphs (A1-N.9)
+Domain and range of exponential functions: graphs (A1-V.5)
+Domain and range of exponential functions: equations (A1-V.6)
+F-IF.2 Use function notation, evaluate functions for inputs in their domains, and interpret statements that use function notation in terms of a context.
+Find values using function graphs (A1-M.6)
+Complete a function table from a graph (A1-M.9)
+Interpret functions using everyday language (A1-M.13)
+Evaluate an exponential function (A1-V.1)
+Evaluate a linear function (A1)
+F-IF.3 Recognize that sequences are functions, sometimes defined recursively, whose domain is a subset of the integers.
+Identify arithmetic and geometric sequences (A1-U.1)
+Arithmetic sequences (A1-U.2)
+Geometric sequences (A1-U.3)
+Evaluate variable expressions for number sequences (A1-U.4)
+Evaluate recursive formulas for sequences (A1-U.5)
+Identify a sequence as explicit or recursive (A1-U.6)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write a formula for a recursive sequence (A1-U.9)
+Sequences: mixed review (A1-U.12)
+Interpret functions that arise in applications in terms of the context.
+F-IF.4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship.
+Find the slope of a graph (A1-K.1)
+Find the slope from two points (A1-K.2)
+Find the slope from a table (A1-K.3)
+Slope-intercept form: find the slope and y-intercept (A1-L.3)
+Slope-intercept form: graph an equation (A1-L.4)
+Standard form: find x- and y-intercepts (A1-L.10)
+Standard form: graph a line from an equation (A1-L.11)
+Point-slope form: graph an equation (A1-L.14)
+Identify graphs: word problems (A1-M.14)
+Identify linear functions from graphs and equations (A1-N.1)
+Identify linear functions from tables (A1-N.2)
+Complete a table and graph a linear function (A1-N.3)
+Evaluate a linear function from its graph: word problems (A1-N.4)
+Graph exponential functions (A1-V.2)
+Match exponential functions and graphs I (A1-V.3)
+Match exponential functions and graphs II (A1-V.4)
+Identify linear and exponential functions from graphs (A1-AA.1)
+Identify linear and exponential functions from tables (A1-AA.3)
+F-IF.5 Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes.
+Domain and range of linear functions: word problems (A1-N.10)
+Domain and range of exponential functions: graphs (A1-V.5)
+Domain and range of exponential functions: equations (A1-V.6)
+F-IF.6 Calculate and interpret the average rate of change of a function (presented symbolically or as a table) over a specified interval. Estimate the rate of change from a graph.
+Rate of change: tables (A1-M.15)
+Rate of change: graphs (A1-M.16)
+Estimate average rate of change from a graph (A1-M.)
+Analyze functions using different representations.
+F-IF.7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+F-IF.7.a Graph linear and quadratic functions and show intercepts, maxima, and minima.
+Slope-intercept form: graph an equation (A1-L.4)
+Standard form: graph a line from an equation (A1-L.11)
+Point-slope form: graph an equation (A1-L.14)
+F-IF.7.e Graph exponential and logarithmic functions, showing intercepts and end behavior, and trigonometric functions, showing period, midline, and amplitude.
+Graph exponential functions (A1-V.2)
+Match exponential functions and graphs I (A1-V.3)
+Match exponential functions and graphs II (A1-V.4)
+F-IF.9 Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions).
+Compare linear functions: graphs and equations (A1-N.11)
+Compare linear functions: tables, graphs, and equations (A1-N.12)
+Checkpoint opportunity
+Checkpoint: Function concepts (A1)
+Checkpoint: Graph and interpret functions (A1)
+Checkpoint: Average rate of change (A1)
+F-BF Building Functions
+Build a function that models a relationship between two quantities.
+F-BF.1 Write a function that describes a relationship between two quantities.
+F-BF.1.a Determine an explicit expression, a recursive process, or steps for calculation from a context.
+Write a linear function: word problems (A1-N.8)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write a formula for a recursive sequence (A1-U.9)
+Write exponential functions: word problems (A1-V.8)
+Write linear and exponential functions from tables (A1-AA.6)
+F-BF.1.b Combine standard function types using arithmetic operations.
+F-BF.2 Write arithmetic and geometric sequences both recursively and with an explicit formula, use them to model situations, and translate between the two forms.
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write a formula for a recursive sequence (A1-U.9)
+Convert a recursive formula to an explicit formula (A1-U.10)
+Convert an explicit formula to a recursive formula (A1-U.11)
+Build new functions from existing functions.
+F-BF.3 Identify the effect on the graph of replacing f(x) by f(x) + k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology.
+Transformations of linear functions (A1-N.13)
+Function transformation rules (A1-DD.1)
+Checkpoint opportunity
+Checkpoint: Sequences (A1-U.13)
+Checkpoint: Build functions (A1)
+F-LE Linear, Quadratic, and Exponential Models
+Construct and compare linear, quadratic, and exponential models and solve problems.
+F-LE.1 Distinguish between situations that can be modeled with linear functions and with exponential functions.
+F-LE.1.a Prove that linear functions grow by equal differences over equal intervals, and that exponential functions grow by equal factors over equal intervals.
+Linear functions over unit intervals (A1-AA.8)
+Exponential functions over unit intervals (A1-AA.9)
+Describe linear and exponential growth and decay (A1-AA.10)
+F-LE.1.b Recognize situations in which one quantity changes at a constant rate per unit interval relative to another.
+Identify linear and exponential functions from graphs (A1-AA.1)
+Identify linear and exponential functions from tables (A1-AA.3)
+Write linear and exponential functions: word problems (A1-AA.5)
+F-LE.1.c Recognize situations in which a quantity grows or decays by a constant percent rate per unit interval relative to another.
+Exponential growth and decay (A1-V.)
+Exponential growth and decay: word problems (A1-V.9)
+Identify linear and exponential functions from graphs (A1-AA.1)
+Identify linear and exponential functions from tables (A1-AA.3)
+Write linear and exponential functions: word problems (A1-AA.5)
+F-LE.2 Construct linear and exponential functions, including arithmetic and geometric sequences, given a graph, a description of a relationship, or two input-output pairs (include reading these from a table).
+Slope-intercept form: write an equation from a graph (A1-L.5)
+Slope-intercept form: write an equation (A1-L.6)
+Slope-intercept form: write an equation from a table (A1-L.7)
+Point-slope form: write an equation (A1-L.15)
+Point-slope form: write an equation from a graph (A1-L.16)
+Write an equation for a parallel or perpendicular line (A1-L.19)
+Write a linear function: word problems (A1-N.8)
+Write a formula for an arithmetic sequence (A1-U.7)
+Write variable expressions for geometric sequences (A1-U.8)
+Write exponential functions from tables and graphs (A1-V.7)
+Write exponential functions: word problems (A1-V.8)
+Write linear and exponential functions from tables (A1-AA.6)
+F-LE.3 Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly, quadratically, or (more generally) as a polynomial function.
+Compare linear and exponential growth (A1-AA.11)
+Interpret expressions for functions in terms of the situation they model.
+F-LE.5 Interpret the parameters in a linear or exponential function in terms of a context.
+Solve one-step and two-step linear equations: word problems (A1-C.9)
+Solve linear equations with variables on both sides: word problems (A1-C.17)
+Interpret the slope and y-intercept of a linear function (A1-N.7)
+Exponential growth and decay: word problems (A1-V.9)
+Compound interest: word problems (A1-V.10)
+Checkpoint opportunity
+Checkpoint: Compare linear and exponential functions (A1-AA.13)
+G Geometry
+G-CO Congruence
+Experiment with transformations in the plane.
+G-CO.1 Know precise definitions of angle, circle, perpendicular line, parallel line, and line segment, based on the undefined notions of point, line, distance along a line, and distance around a circular arc.
+Angle vocabulary (G-C.1)
+G-CO.2 Represent transformations in the plane using, e.g., transparencies and geometry software; describe transformations as functions that take points in the plane as inputs and give other points as outputs. Compare transformations that preserve distance and angle to those that do not (e.g., translation versus horizontal stretch).
+Classify congruence transformations (G-H.1)
+Translations: graph the image (G-H.2)
+Translations: find the coordinates (G-H.3)
+Translations: write the rule (G-H.4)
+Reflections: graph the image (G-H.5)
+Reflections: find the coordinates (G-H.6)
+Rotations: graph the image (G-H.8)
+Rotations: find the coordinates (G-H.9)
+Dilations: graph the image (G-I.1)
+Dilations: find the coordinates (G-I.2)
+Dilations: find the scale factor (G-I.4)
+G-CO.3 Given a rectangle, parallelogram, trapezoid, or regular polygon, describe the rotations and reflections that carry it onto itself.
+Transformations that carry a polygon onto itself (G-H.15)
+G-CO.4 Develop definitions of rotations, reflections, and translations in terms of angles, circles, perpendicular lines, parallel lines, and line segments.
+Rotate polygons about a point (G-H.7)
+G-CO.5 Given a geometric figure and a rotation, reflection, or translation, draw the transformed figure using, e.g., graph paper, tracing paper, or geometry software. Specify a sequence of transformations that will carry a given figure onto another.
+Translations: graph the image (G-H.2)
+Reflections: graph the image (G-H.5)
+Rotations: graph the image (G-H.8)
+Sequences of congruence transformations: graph the image (G-H.12)
+Sequences of congruence transformations: choose the sequence (G-H.13)
+Sequences of congruence transformations: find the rules (G-H.14)
+Checkpoint opportunity
+Checkpoint: Definitions of geometric objects (G-D.9)
+Checkpoint: Congruence transformations (G-H.17)
+Checkpoint: Transformations in the plane (G)
+Understand congruence in terms of rigid motions.
+G-CO.6 Use geometric descriptions of rigid motions to transform figures and to predict the effect of a given rigid motion on a given figure; given two figures, use the definition of congruence in terms of rigid motions to decide if they are congruent.
+Sequences of congruence transformations: graph the image (G-H.12)
+Transformations that carry a polygon onto itself (G-H.15)
+Congruence transformations: mixed review (G-H.16)
+Determine if two figures are congruent: justify your answer (G-K.4)
+Prove triangles are congruent using rigid motions (G-L.1)
+G-CO.7 Use the definition of congruence in terms of rigid motions to show that two triangles are congruent if and only if corresponding pairs of sides and corresponding pairs of angles are congruent.
+Prove triangles are congruent using rigid motions (G-L.1)
+G-CO.8 Explain how the criteria for triangle congruence (ASA, SAS, and SSS) follow from the definition of congruence in terms of rigid motions.
+Checkpoint opportunity
+Checkpoint: Rigid motion and congruence (G-L.13)
+Make geometric constructions.
+G-CO.12 Make formal geometric constructions with a variety of tools and methods (compass and straightedge, string, reflective devices, paper folding, dynamic geometric software, etc.).
+Construct a congruent segment (G-B.8)
+Construct the midpoint or perpendicular bisector of a segment (G-B.15)
+Construct an angle bisector (G-C.7)
+Construct a congruent angle (G-C.8)
+Construct a perpendicular line (G-D.2)
+Construct parallel lines (G-D.6)
+Construct an equilateral triangle or regular hexagon (G-G.5)
+Construct a square (G-G.6)
+G-CO.13 Construct an equilateral triangle, a square, and a regular hexagon inscribed in a circle.
+Construct an equilateral triangle inscribed in a circle (G-X.2)
+Construct a square inscribed in a circle (G-X.3)
+Construct a regular hexagon inscribed in a circle (G-X.4)
+Checkpoint opportunity
+Checkpoint: Geometric constructions (G)
+G-GPE Expressing Geometric Properties with Equations
+Use coordinates to prove simple geometric theorems algebraically.
+G-GPE.4 Use coordinates to prove simple geometric theorems algebraically.
+Classify shapes on the coordinate plane: justify your answer (G-O.13)
+G-GPE.5 Prove the slope criteria for parallel and perpendicular lines and use them to solve geometric problems (e.g., find the equation of a line parallel or perpendicular to a given line that passes through a given point).
+Slopes of parallel and perpendicular lines (G-E.4)
+Equations of parallel and perpendicular lines (G-E.5)
+Find the distance between a point and a line (G-E.6)
+Find the distance between two parallel lines (G-E.7)
+G-GPE.7 Use coordinates to compute perimeters of polygons and areas of triangles and rectangles, e.g., using the distance formula.
+Distance formula (G-B.13)
+Area and perimeter in the coordinate plane I (G-S.7)
+Area and perimeter in the coordinate plane II (G-S.8)
+Checkpoint opportunity
+Checkpoint: Area and perimeter in the coordinate plane (G-S.16)
+Checkpoint: Parallel and perpendicular lines (G)
+S Statistics and Probability
+S-ID Interpreting Categorical and Quantitative Data
+Summarize, represent, and interpret data on a single count or measurement variable.
+S-ID.1 Represent data with plots on the real number line (dot plots, histograms, and box plots).
+Create line plots (A1-HH.1)
+Interpret line plots (A1-HH.2)
+Create histograms (A1-HH.3)
+Interpret histograms (A1-HH.4)
+Create bar graphs, line graphs, and histograms (A1-HH.5)
+Interpret bar graphs, line graphs, and histograms (A1-HH.6)
+Box plots (A1-HH.9)
+S-ID.2 Use statistics appropriate to the shape of the data distribution to compare center (median, mean) and spread (interquartile range, standard deviation) of two or more different data sets.
+Mean, median, mode, and range (A1-II.2)
+Calculate quartiles and interquartile range (A1-II.3)
+Standard deviation of a population (A1-II.6)
+Standard deviation of a sample (A1-II.)
+Choose appropriate measures of center and variation (A1-II.7)
+S-ID.3 Interpret differences in shape, center, and spread in the context of the data sets, accounting for possible effects of extreme data points (outliers).
+Box plots (A1-HH.9)
+Identify an outlier and describe the effect of removing it (A1-II.5)
+Checkpoint opportunity
+Checkpoint: Line plots, histograms, and box plots (A1-HH.12)
+Checkpoint: Compare data sets (A1-II.8)
+Summarize, represent, and interpret data on two categorical and quantitative variables.
+S-ID.5 Summarize categorical data for two categories in two-way frequency tables. Interpret relative frequencies in the context of the data (including joint, marginal, and conditional relative frequencies). Recognize possible associations and trends in the data.
+Create and interpret two-way frequency tables (A1-JJ.)
+S-ID.6 Represent data on two quantitative variables on a scatter plot, and describe how the variables are related.
+S-ID.6.a Fit a function to the data; use functions fitted to data to solve problems in the context of the data.
+Find the equation of a regression line (A1-JJ.7)
+Interpret regression lines (A1-JJ.8)
+Analyze a regression line of a data set (A1-JJ.9)
+S-ID.6.b Informally assess the fit of a function by plotting and analyzing residuals.
+Interpret a scatter plot (A1-JJ.1)
+S-ID.6.c Fit a linear function for a scatter plot that suggests a linear association.
+Write equations for lines of best fit (A1-JJ.5)
+Checkpoint opportunity
+Checkpoint: Two-way frequency tables (A1-KK.11)
+Interpret linear models.
+S-ID.7 Interpret the slope (rate of change) and the intercept (constant term) of a linear model in the context of the data.
+Interpret the slope and y-intercept of a linear function (A1-N.7)
+Interpret lines of best fit: word problems (A1-JJ.6)
+Interpret regression lines (A1-JJ.8)
+Analyze a regression line of a data set (A1-JJ.9)
+S-ID.8 Compute (using technology) and interpret the correlation coefficient of a linear fit.
+Match correlation coefficients to scatter plots (A1-JJ.3)
+Calculate correlation coefficients (A1-JJ.4)
+S-ID.9 Distinguish between correlation and causation.
+Correlation and causation (A1-JJ.11)
+Checkpoint opportunity
+Checkpoint: Linear modeling (A1-JJ.12)
+N Number and Quantity
+N-RN The Real Number System
+Extend the properties of exponents to rational exponents.
+N-RN.1 Explain how the definition of the meaning of rational exponents follows from extending the properties of integer exponents to those values, allowing for a notation for radicals in terms of rational exponents.
+Evaluate integers raised to positive rational exponents (A1-S.1)
+Evaluate integers raised to rational exponents (A1-S.2)
+Convert between rational exponents and radicals (A1-EE.9)
+N-RN.2 Rewrite expressions involving radicals and rational exponents using the properties of exponents.
+Multiplication with rational exponents (A1-S.3)
+Division with rational exponents (A1-S.4)
+Power rule with rational exponents (A1-S.5)
+Simplify expressions involving rational exponents (A1-S.6)
+Simplify radical expressions (A1-EE.1)
+Simplify radical expressions with variables (A1-EE.2)
+Simplify radical expressions involving fractions (A1-EE.3)
+Multiply radical expressions (A1-EE.4)
+Add and subtract radical expressions (A1-EE.5)
+Simplify radical expressions using the distributive property (A1-EE.6)
+Simplify radical expressions using conjugates (A1-EE.7)
+Simplify radical expressions: mixed review (A1-EE.8)
+Convert between rational exponents and radicals (A1-EE.9)
+Use properties of rational and irrational numbers.
+N-RN.3 Explain why the sum or product of two rational numbers is rational; that the sum of a rational number and an irrational number is irrational; and that the product of a nonzero rational number and an irrational number is irrational.
+Sort rational and irrational numbers (A1-A.10)
+Classify rational and irrational numbers (A1-A.11)
+Properties of operations on rational and irrational numbers (A1-A.12)
+Checkpoint opportunity
+Checkpoint: Radicals and rational exponents (A1-EE.10)
+N-CN The Complex Number System
+Perform arithmetic operations with complex numbers.
+N-CN.1 Know there is a complex number i such that i2 = –1, and every complex number has the form a + bi with a and b real.
+Introduction to complex numbers (A2-K.1)
+N-CN.2 Use the relation i2 = –1 and the commutative, associative, and distributive properties to add, subtract, and multiply complex numbers.
+Add and subtract complex numbers (A2-K.2)
+Multiply complex numbers (A2-K.4)
+Powers of i (A2-K.8)
+Use complex numbers in polynomial identities and equations.
+N-CN.7 Solve quadratic equations with real coefficients that have complex solutions.
+Solve a quadratic equation using square roots (A2-O.1)
+Using the discriminant (A2-O.8)
+N-CN.8 Extend polynomial identities to the complex numbers.
+Complex conjugate theorem (A2-Q.5)
+Conjugate root theorems (A2-Q.6)
+N-CN.9 Know the Fundamental Theorem of Algebra; show that it is true for quadratic polynomials.
+A Algebra
+A-SSE Seeing Structure in Expressions
+Interpret the structure of expressions.
+A-SSE.1 Interpret expressions that represent a quantity in terms of its context.
+A-SSE.1.a Interpret parts of an expression, such as terms, factors, and coefficients.
+Interpret parts of quadratic expressions: word problems (A1-Y.13)
+Sort factors of single-variable expressions (A2-M.1)
+Sort factors of multi-variable expressions (A2-M.2)
+A-SSE.1.b Interpret complicated expressions by viewing one or more of their parts as a single entity.
+Interpret parts of quadratic expressions: word problems (A1-Y.13)
+A-SSE.2 Use the structure of an expression to identify ways to rewrite it.
+Simplify exponential expressions using the multiplication rule (A1-R.7)
+Simplify exponential expressions using the division rule (A1-R.8)
+Simplify exponential expressions using the multiplication and division rules (A1-R.9)
+Simplify exponential expressions using the power rule (A1-R.10)
+Evaluate expressions using exponent rules (A1-R.12)
+Identify equivalent exponential expressions I (A1-R.13)
+Identify equivalent exponential expressions II (A1-R.14)
+Simplify expressions involving rational exponents (A1-S.6)
+Factor quadratics with leading coefficient 1 (A1-X.5)
+Factor quadratics with other leading coefficients (A1-X.6)
+Factor quadratics: special cases (A1-X.7)
+Factor by grouping (A1-X.8)
+Factor using a quadratic pattern (A1-X.9)
+Simplify radical expressions (A1-EE.1)
+Simplify radical expressions with variables (A1-EE.2)
+Simplify radical expressions involving fractions (A1-EE.3)
+Simplify radical expressions: mixed review (A1-EE.8)
+Write expressions in equivalent forms to solve problems.
+A-SSE.3 Choose and produce an equivalent form of an expression to reveal and explain properties of the quantity represented by the expression.
+A-SSE.3.a Factor a quadratic expression to reveal the zeros of the function it defines.
+Factor quadratics using algebra tiles (A1-X.4)
+Factor quadratics with leading coefficient 1 (A1-X.5)
+Factor quadratics with other leading coefficients (A1-X.6)
+Factor quadratics: special cases (A1-X.7)
+Solve a quadratic equation by factoring (A1-Z.3)
+Find the roots of factored quadratic functions (A1)
+A-SSE.3.b Complete the square in a quadratic expression to reveal the maximum or minimum value of the function it defines.
+Characteristics of quadratic functions: equations (A1-Y.2)
+Write a quadratic function in vertex form (A1-Y.6)
+Complete the square (A1-Z.4)
+A-SSE.3.c Use the properties of exponents to transform expressions for exponential functions.
+Evaluate expressions using exponent rules (A1-R.12)
+Checkpoint opportunity
+Checkpoint: Write and interpret equivalent expressions (A1)
+A-APR Arithmetic with Polynomials and Rational Expressions
+Perform arithmetic operations on polynomials.
+A-APR.1 Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials.
+Model polynomials with algebra tiles (A1-W.2)
+Add and subtract polynomials using algebra tiles (A1-W.3)
+Add and subtract polynomials (A1-W.4)
+Add polynomials to find perimeter (A1-W.5)
+Multiply a polynomial by a monomial (A1-W.6)
+Multiply two binomials using algebra tiles (A1-W.7)
+Multiply two binomials (A1-W.8)
+Multiply two binomials: special cases (A1-W.9)
+Multiply polynomials (A1-W.11)
+Checkpoint opportunity
+Checkpoint: Polynomial operations (A1-W.15)
+A-CED Creating Equations
+Create equations that describe numbers or relationships.
+A-CED.2 Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.
+Graph quadratic functions in vertex form (A1-Y.5)
+Write a quadratic function in vertex form (A1-Y.6)
+Graph quadratic functions in standard form (A1-Y.7)
+Write a quadratic function in vertex form from its vertex and another point (A1-Y.11)
+Write a quadratic function in factored form from its x-intercepts and another point (A1-Y.12)
+Write linear, quadratic, and exponential functions from tables (A1-AA.7)
+A-CED.4 Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations.
+Rearrange multi-variable equations (A2-B.4)
+A-REI Reasoning with Equations and Inequalities
+Solve equations and inequalities in one variable.
+A-REI.4 Solve quadratic equations in one variable.
+A-REI.4.a Use the method of completing the square to transform any quadratic equation in x into an equation of the form (x – p)2 = q that has the same solutions. Derive the quadratic formula from this form.
+Complete the square (A1-Z.4)
+A-REI.4.b Solve quadratic equations by inspection (e.g., for x2 = 49), taking square roots, completing the square, the quadratic formula and factoring, as appropriate to the initial form of the equation. Recognize when the quadratic formula gives complex solutions and write them as a ± bi for real numbers a and b.
+Solve a quadratic equation using the zero product property (A1-Z.2)
+Solve a quadratic equation by factoring (A1-Z.3)
+Complete the square (A1-Z.4)
+Solve a quadratic equation by completing the square (A1-Z.5)
+Solve a quadratic equation using the quadratic formula (A1-Z.6)
+Solve quadratic equations: word problems (A1-Z.7)
+Using the discriminant (A1-Z.8)
+Solve a quadratic equation using square roots (A2-O.1)
+Solve systems of equations.
+A-REI.7 Solve a simple system consisting of a linear equation and a quadratic equation in two variables algebraically and graphically.
+Solve a system of linear and quadratic equations by graphing (A1-Z.9)
+Solve a system of linear and quadratic equations (A1-Z.10)
+F Functions
+F-IF Interpreting Functions
+Interpret functions that arise in applications in terms of the context.
+F-IF.4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship.
+Identify graphs: word problems (A1-M.14)
+Characteristics of quadratic functions: graphs (A1-Y.1)
+Characteristics of quadratic functions: equations (A1-Y.2)
+Graph quadratic functions in vertex form (A1-Y.5)
+Graph quadratic functions in standard form (A1-Y.7)
+Match quadratic functions and graphs (A1-Y.8)
+Identify linear, quadratic, and exponential functions from graphs (A1-AA.2)
+Identify linear, quadratic, and exponential functions from tables (A1-AA.4)
+F-IF.5 Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes.
+Domain and range of quadratic functions: graphs (A1-Y.9)
+Domain and range of quadratic functions: equations (A1-Y.10)
+Domain and range of absolute value functions: graphs (A1-BB.3)
+Domain and range of absolute value functions: equations (A1-BB.4)
+F-IF.6 Calculate and interpret the average rate of change of a function (presented symbolically or as a table) over a specified interval. Estimate the rate of change from a graph.
+Rate of change: tables (A1-M.15)
+Rate of change: graphs (A1-M.16)
+Analyze functions using different representations.
+F-IF.7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+F-IF.7.a Graph linear and quadratic functions and show intercepts, maxima, and minima.
+Characteristics of quadratic functions: graphs (A1-Y.1)
+Graph quadratic functions in standard form (A1-Y.7)
+Match quadratic functions and graphs (A1-Y.8)
+Graph a linear function (A2-D.2)
+Graph a quadratic function (A2-N.5)
+F-IF.7.b Graph square root, cube root, and piecewise-defined functions, including step functions and absolute value functions.
+Graph piecewise-defined functions (A1-Q.2)
+Graph an absolute value function (A1-BB.2)
+Graph square root functions (A1-FF.4)
+Graph cube root functions (A2-S.3)
+F-IF.8 Write a function defined by an expression in different but equivalent forms to reveal and explain different properties of the function.
+F-IF.8.a Use the process of factoring and completing the square in a quadratic function to show zeros, extreme values, and symmetry of the graph, and interpret these in terms of a context.
+Write a quadratic function in vertex form (A1-Y.6)
+Solve a quadratic equation by factoring (A1-Z.3)
+Solve a quadratic equation by completing the square (A1-Z.5)
+F-IF.8.b Use the properties of exponents to interpret expressions for exponential functions.
+Evaluate an exponential function (A1-V.1)
+Match exponential functions and graphs I (A1-V.3)
+Match exponential functions and graphs II (A1-V.4)
+Exponential functions over unit intervals (A1-AA.9)
+F-IF.9 Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions).
+Checkpoint opportunity
+Checkpoint: Interpret features of functions (A1)
+Checkpoint: Graph and analyze functions (A1)
+F-BF Building Functions
+Build a function that models a relationship between two quantities.
+F-BF.1 Write a function that describes a relationship between two quantities.
+F-BF.1.a Determine an explicit expression, a recursive process, or steps for calculation from a context.
+Write a linear function: word problems (A1-N.8)
+Write linear and exponential functions from tables (A1-AA.6)
+Write linear, quadratic, and exponential functions from tables (A1-AA.7)
+Write a formula for an arithmetic sequence (A2-MM.6)
+Write a formula for a geometric sequence (A2-MM.7)
+Write a formula for a recursive sequence (A2-MM.8)
+F-BF.1.b Combine standard function types using arithmetic operations.
+Add and subtract functions (A1-CC.1)
+Multiply functions (A1-CC.2)
+Divide functions (A2-U.3)
+Build new functions from existing functions.
+F-BF.3 Identify the effect on the graph of replacing f(x) by f(x) + k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology.
+Transformations of quadratic functions (A1-Y.4)
+Transformations of absolute value functions: translations and reflections (A1-BB.5)
+Transformations of absolute value functions: translations, reflections, and dilations (A1-BB.6)
+Function transformation rules (A1-DD.1)
+Translations of functions (A1-DD.2)
+Reflections of functions (A1-DD.3)
+Dilations of functions (A1-DD.4)
+Transformations of functions (A1-DD.5)
+Describe function transformations (A1-DD.6)
+F-BF.4 Find inverse functions.
+F-BF.4.a Solve an equation of the form f(x) = c for a simple function f that has an inverse and write an expression for the inverse.
+Find the inverse of a linear function (A1-CC.3)
+Checkpoint opportunity
+Checkpoint: Build functions (A1)
+F-LE Linear, Quadratic, and Exponential Models
+Construct and compare linear, quadratic, and exponential models and solve problems.
+F-LE.3 Observe using graphs and tables that a quantity increasing exponentially eventually exceeds a quantity increasing linearly, quadratically, or (more generally) as a polynomial function.
+Compare linear, exponential, and quadratic growth (A1-AA.12)
+Interpret expressions for functions in terms of the situation they model.
+F-LE.6 Apply quadratic functions to physical problems, such as the motion of an object under the force of gravity.
+Solve quadratic equations: word problems (A1-Z.7)
+Checkpoint opportunity
+Checkpoint: Quadratic equations (A1)
+F-TF Trigonometric Functions
+Prove and apply trigonometric identities
+F-TF.8 Prove the Pythagorean identity sin2(θ) + cos2(θ) = 1 and use it to find sin(θ), cos(θ), or tan(θ) given sin(θ), cos(θ), or tan(θ) and the quadrant of the angle.
+Find trigonometric ratios using a Pythagorean or reciprocal identity (A2-LL.3)
+Find trigonometric ratios using multiple identities (A2-LL.4)
+G Geometry
+G-CO Congruence
+Prove geometric theorems.
+G-CO.9 Prove theorems about lines and angles.
+Perpendicular Bisector Theorem (G-B.9)
+Angle bisectors (G-C.6)
+Proofs involving angles (G-C.9)
+Transversals of parallel lines: solve for x (G-D.5)
+Proofs involving parallel lines I (G-D.7)
+Proofs involving parallel lines II (G-D.8)
+G-CO.10 Prove theorems about triangles.
+Proofs involving isosceles triangles (G-L.11)
+Construct the centroid or orthocenter of a triangle (G-N.7)
+Find the centroid of a triangle (G-N.8)
+Proofs involving triangles I (G-N.9)
+Proofs involving triangles II (G-N.10)
+G-CO.11 Prove theorems about parallelograms.
+Properties of parallelograms (G-O.6)
+Proving a quadrilateral is a parallelogram (G-O.7)
+Properties of rhombuses (G-O.8)
+Properties of squares and rectangles (G-O.9)
+Checkpoint opportunity
+Checkpoint: Line and angle theorems (G-D.10)
+Checkpoint: Triangle theorems (G-N.11)
+Checkpoint: Parallelogram theorems (G-O.16)
+G-SRT Similarity, Right Triangles, and Trigonometry
+Understand similarity in terms of similarity transformations.
+G-SRT.1 Verify experimentally the properties of dilations given by a center and a scale factor:
+G-SRT.1.a A dilation takes a line not passing through the center of the dilation to a parallel line, and leaves a line passing through the center unchanged.
+Dilations: graph the image (G-I.1)
+Dilations and parallel lines (G-I.6)
+G-SRT.1.b The dilation of a line segment is longer or shorter in the ratio given by the scale factor.
+Dilations: find length, perimeter, and area (G-I.3)
+Dilations: find the scale factor (G-I.4)
+Dilations: find the scale factor and center of the dilation (G-I.5)
+G-SRT.2 Given two figures, use the definition of similarity in terms of similarity transformations to decide if they are similar; explain using similarity transformations the meaning of similarity for triangles as the equality of all corresponding pairs of angles and the proportionality of all corresponding pairs of sides.
+Identify similar figures (G-M.3)
+Side lengths and angle measures in similar figures (G-M.4)
+Similar triangles and similarity transformations (G-M.9)
+Determine if two figures are similar: justify your answer (G-M.10)
+G-SRT.3 Use the properties of similarity transformations to establish the Angle-Angle (AA) criterion for two triangles to be similar.
+Similarity rules for triangles (G-M.8)
+Checkpoint opportunity
+Checkpoint: Dilations (G-I.8)
+Checkpoint: Similarity transformations (G-M.18)
+Prove theorems involving similarity.
+G-SRT.4 Prove theorems about triangles.
+Proofs involving similarity in right triangles (G-M.17)
+Proofs involving triangles II (G-N.10)
+Prove the Pythagorean theorem (G-P.2)
+G-SRT.5 Use congruence and similarity criteria for triangles to solve problems and to prove relationships in geometric figures.
+SSS and SAS Theorems (G-L.2)
+Proving triangles congruent by SSS and SAS (G-L.3)
+ASA and AAS Theorems (G-L.4)
+Proving triangles congruent by ASA and AAS (G-L.5)
+SSS, SAS, ASA, and AAS Theorems (G-L.6)
+SSS Theorem in the coordinate plane (G-L.7)
+Proving triangles congruent by SSS, SAS, ASA, and AAS (G-L.8)
+Proofs involving corresponding parts of congruent triangles (G-L.9)
+Congruency in isosceles and equilateral triangles (G-L.10)
+Proofs involving isosceles triangles (G-L.11)
+Hypotenuse-Leg Theorem (G-L.12)
+Similar triangles and indirect measurement (G-M.5)
+Similarity rules for triangles (G-M.8)
+Triangle Proportionality Theorem (G-M.12)
+Similarity and altitudes in right triangles (G-M.13)
+Prove similarity statements (G-M.15)
+Prove proportions or angle congruences using similarity (G-M.16)
+Proofs involving triangles and quadrilaterals (G-O.14)
+Checkpoint opportunity
+Checkpoint: Triangle similarity and congruence (G-M.19)
+Define trigonometric ratios and solve problems involving right triangles.
+G-SRT.6 Understand that by similarity, side ratios in right triangles are properties of the angles in the triangle, leading to definitions of trigonometric ratios for acute angles.
+Trigonometric ratios: sin, cos, and tan (G-Q.1)
+Trigonometric ratios with radicals: sin, cos, and tan (G-Q.2)
+Trigonometric ratios: csc, sec, and cot (G-Q.3)
+Trigonometric ratios in similar right triangles (G-Q.4)
+G-SRT.7 Explain and use the relationship between the sine and cosine of complementary angles.
+Sine and cosine of complementary angles (G-Q.9)
+G-SRT.8 Use trigonometric ratios and the Pythagorean Theorem to solve right triangles in applied problems.
+Pythagorean theorem (G-P.1)
+Converse of the Pythagorean theorem (G-P.3)
+Pythagorean Inequality Theorems (G-P.4)
+Trigonometric ratios: find a side length (G-Q.11)
+Trigonometric ratios: find an angle measure (G-Q.12)
+Solve a right triangle (G-Q.13)
+Trigonometric ratios: word problems (G-Q.)
+G-SRT.8.1 Derive and use the trigonometric ratios for special right triangles (30°, 60°, 90° and 45°, 45°, 90°).
+Special right triangles (G-Q.5)
+Trigonometric ratios: find a side length (G-Q.11)
+Trigonometric ratios: find an angle measure (G-Q.12)
+Csc, sec, and cot of special angles (A2-II.8)
+Sin, cos, and tan of special angles: degrees (A2)
+Checkpoint opportunity
+Checkpoint: Right triangle trigonometry (G)
+G-C Circles
+Understand and apply theorems about circles.
+G-C.1 Prove that all circles are similar.
+Similarity of circles (G-M.11)
+G-C.2 Identify and describe relationships among inscribed angles, radii, and chords.
+Central angles and arc measures (G-W.2)
+Arcs and chords (G-W.9)
+Tangent lines (G-W.10)
+Inscribed angles (G-W.12)
+Angles in inscribed right triangles (G-W.13)
+Angles formed by chords, secants, and tangents (G-W.16)
+Segments formed by chords, secants, and tangents (G-W.17)
+G-C.3 Construct the inscribed and circumscribed circles of a triangle, and prove properties of angles for a quadrilateral inscribed in a circle.
+Construct the circumcenter or incenter of a triangle (G-N.6)
+Angles in inscribed quadrilaterals I (G-W.14)
+Angles in inscribed quadrilaterals II (G-W.15)
+Construct the inscribed or circumscribed circle of a triangle (G-X.5)
+G-C.4 Construct a tangent line from a point outside a given circle to the circle.
+Construct a tangent line to a circle (G-X.1)
+Checkpoint opportunity
+Checkpoint: Prove circles are similar (G-M.20)
+Checkpoint: Angles and lines in circles (G-W.18)
+Checkpoint: Circle constructions and angles in inscribed quadrilaterals (G)
+Find arc lengths and areas of sectors of circles.
+G-C.5 Derive using similarity the fact that the length of the arc intercepted by an angle is proportional to the radius, and define the radian measure of the angle as the constant of proportionality; derive the formula for the area of a sector. Convert between degrees and radians.
+Arc length (G-W.4)
+Area of sectors (G-W.7)
+Convert between radians and degrees (A2-HH.1)
+Radians and arc length (A2-HH.2)
+Checkpoint opportunity
+Checkpoint: Arc length and area of sectors (G-W.20)
+G-GPE Expressing Geometric Properties with Equations
+Translate between the geometric description and the equation for a conic section.
+G-GPE.1 Derive the equation of a circle of given center and radius using the Pythagorean Theorem; complete the square to find the center and radius of a circle given by an equation.
+Derive equations of circles using the Pythagorean theorem (G-Y.4)
+Write equations of circles in standard form from graphs (G-Y.5)
+Write equations of circles in standard form using properties (G-Y.6)
+Convert equations of circles from general to standard form (G-Y.7)
+Find properties of circles from equations in general form (G-Y.8)
+Graph circles from equations in standard form (G-Y.9)
+G-GPE.2 Derive the equation of a parabola given a focus and directrix.
+Find the vertex of a parabola (G-Z.1)
+Find the focus or directrix of a parabola (G-Z.2)
+Find the axis of symmetry of a parabola (G-Z.3)
+Write equations of parabolas in vertex form from graphs (G-Z.4)
+Write equations of parabolas in vertex form using the focus and directrix (G-Z.5)
+Write equations of parabolas in vertex form using properties (G-Z.6)
+Find properties of a parabola from equations in general form (G-Z.8)
+Graph parabolas (G-Z.9)
+Checkpoint opportunity
+Checkpoint: Equations of circles (G-Y.11)
+Checkpoint: Equations of parabolas (G-Z.10)
+Use coordinates to prove simple geometric theorems algebraically.
+G-GPE.4 Use coordinates to prove simple geometric theorems algebraically.
+Classify shapes on the coordinate plane: justify your answer (G-O.13)
+Determine if a point lies on a circle (G-Y.3)
+G-GPE.6 Find the point on a directed line segment between two given points that partitions the segment in a given ratio.
+Midpoints (G-B.6)
+Midpoint formula: find the midpoint (G-B.10)
+Partition a line segment in a given ratio (G-B.11)
+Midpoint formula: find the endpoint (G-B.12)
+Checkpoint opportunity
+Checkpoint: Partition a line segment (G-B.16)
+Checkpoint: Coordinate proofs (G-E.8)
+G-GMD Geometric Measurement and Dimension
+Explain volume formulas and use them to solve problems.
+G-GMD.1 Give an informal argument for the formulas for the circumference of a circle, area of a circle, volume of a cylinder, pyramid, and cone.
+G-GMD.3 Use volume formulas for cylinders, pyramids, cones, and spheres to solve problems.
+Volume of prisms and cylinders (G-U.7)
+Volume of pyramids and cones (G-U.8)
+Volume of spheres (G-U.9)
+G-GMD.5 Know that the effect of a scale factor k greater than zero on length, area, and volume is to multiply each by k, k2, and k3, respectively; determine length, area and volume measures using scale factors.
+Scale drawings: word problems (G)
+Dilations: find the scale factor (G-I.4)
+Ratios in similar figures (G-M.1)
+Side lengths and angle measures in similar figures (G-M.4)
+Perimeters of similar figures (G-M.6)
+Areas of similar figures (G-M.14)
+Area and perimeter of similar figures (G-S.12)
+Surface area and volume of similar solids (G-U.12)
+G-GMD.6 Verify experimentally that in a triangle, angles opposite longer sides are larger, sides opposite larger angles are longer, and the sum of any two side lengths is greater than the remaining side length; apply these relationships to solve real-world and mathematical problems.
+Angle-side relationships in triangles (G-N.4)
+Triangle Inequality Theorem (G-N.5)
+Checkpoint opportunity
+Checkpoint: Volume (G-U.17)
+S Statistics and Probability
+S-CP Conditional Probability and the Rules of Probability
+Understand independence and conditional probability and use them to interpret data.
+S-CP.1 Describe events as subsets of a sample space (the set of outcomes) using characteristics (or categories) of the outcomes, or as unions, intersections, or complements of other events ("or," "and," "not").
+Theoretical and experimental probability (G-AA.1)
+Outcomes of compound events (G-AA.2)
+S-CP.2 Understand that two events A and B are independent if the probability of A and B occurring together is the product of their probabilities, and use this characterization to determine if they are independent.
+Identify independent and dependent events (G-AA.3)
+Probability of independent and dependent events (G-AA.4)
+Identify independent events (G-AA.10)
+S-CP.3 Understand the conditional probability of A given B as P(A and B)/P(B), and interpret independence of A and B as saying that the conditional probability of A given B is the same as the probability of A, and the conditional probability of B given A is the same as the probability of B.
+Find conditional probabilities (G-AA.11)
+Independence and conditional probability (G-AA.13)
+S-CP.4 Construct and interpret two-way frequency tables of data when two categories are associated with each object being classified. Use the two-way table as a sample space to decide if events are independent and to approximate conditional probabilities.
+Create and interpret two-way frequency tables (A1-JJ.)
+Find probabilities using two-way frequency tables (G-AA.9)
+Find conditional probabilities using two-way frequency tables (G-AA.12)
+S-CP.5 Recognize and explain the concepts of conditional probability and independence in everyday language and everyday situations.
+Identify independent events (G-AA.10)
+Independence and conditional probability (G-AA.13)
+Use the rules of probability to compute probabilities of compound events in a uniform probability model.
+S-CP.6 Find the conditional probability of A given B as the fraction of B's outcomes that also belong to A, and interpret the answer in terms of the model.
+Find conditional probabilities (G-AA.11)
+Find conditional probabilities using two-way frequency tables (G-AA.12)
+Geometric probability (G-AA.14)
+S-CP.7 Apply the Addition Rule, P(A or B) = P(A) + P(B) — P(A and B), and interpret the answer in terms of the model.
+Find probabilities using the addition rule (G-AA.15)
+S-CP.8 Apply the general Multiplication Rule in a uniform probability model, P(A and B) = P(A)P(B|A) = P(B)P(A|B), and interpret the answer in terms of the model.
+Find conditional probabilities (G-AA.11)
+S-CP.9 Use permutations and combinations to compute probabilities of compound events and solve problems.
+Counting principle (G-AA.5)
+Permutations (G-AA.6)
+Permutation and combination notation (G-AA.7)
+Find probabilities using combinations and permutations (G-AA.8)
+Checkpoint opportunity
+Checkpoint: Understand independence and conditional probability (G-AA.16)
+Checkpoint: Probabilities of compound events (G-AA.17)
+S-MD Using Probability to Make Decisions
+Use probability to evaluate outcomes of decisions.
+S-MD.6 Use probabilities to make fair decisions (e.g., drawing by lots, using a random number generator).
+S-MD.7 Analyze decisions and strategies using probability concepts (e.g., product testing, medical testing, pulling a hockey goalie at the end of a game).
+N Number and Quantity
+N-CN The Complex Number System
+Use complex numbers in polynomial identities and equations.
+N-CN.8 Extend polynomial identities to the complex numbers.
+Solve polynomial equations (A2-Q.1)
+Complex conjugate theorem (A2-Q.5)
+Conjugate root theorems (A2-Q.6)
+N-CN.9 Know the Fundamental Theorem of Algebra; show that it is true for quadratic polynomials.
+Fundamental Theorem of Algebra (A2-Q.8)
+A Algebra
+A-SSE Seeing Structure in Expressions
+Interpret the structure of expressions.
+A-SSE.1 Interpret expressions that represent a quantity in terms of its context.
+A-SSE.1.a Interpret parts of an expression, such as terms, factors, and coefficients.
+Polynomial vocabulary (A2-L.1)
+Interpret parts of quadratic expressions: word problems (A2-N.14)
+A-SSE.1.b Interpret complicated expressions by viewing one or more of their parts as a single entity.
+Interpret parts of quadratic expressions: word problems (A2-N.14)
+A-SSE.2 Use the structure of an expression to identify ways to rewrite it.
+Pascal's triangle and the Binomial Theorem (A2-L.9)
+Binomial Theorem I (A2-L.10)
+Binomial Theorem II (A2-L.11)
+Factor out a monomial (A2-M.3)
+Factor using a quadratic pattern (A2-M.6)
+Factor by grouping (A2-M.7)
+Factor sums and differences of cubes (A2-M.8)
+Factor polynomials (A2-M.9)
+Simplify radical expressions with variables I (A2-R.4)
+Simplify radical expressions with variables II (A2-R.5)
+Simplify radical expressions using conjugates (A2-R.11)
+Simplify rational expressions (A2-X.4)
+Write expressions in equivalent forms to solve problems.
+A-SSE.4 Derive the formula for the sum of a finite geometric series (when the common ratio is not 1), and use the formula to solve problems.
+Find the sum of a finite geometric series (A2-NN.4)
+A-APR Arithmetic with Polynomials and Rational Expressions
+Perform arithmetic operations on polynomials.
+A-APR.1 Understand that polynomials form a system analogous to the integers, namely, they are closed under the operations of addition, subtraction, and multiplication; add, subtract, and multiply polynomials.
+Add and subtract polynomials (A2-L.2)
+Multiply polynomials (A2-L.3)
+Understand the relationship between zeros and factors of polynomials.
+A-APR.2 Know and apply the Remainder Theorem: For a polynomial p(x) and a number a, the remainder on division by x — a is p(a), so p(a) = 0 if and only if (x — a) is a factor of p(x).
+Evaluate polynomials using synthetic division (A2-L.7)
+Write a quadratic function from its zeros (A2-N.10)
+Factor theorem (A2-Q.)
+Find the roots of factored polynomials (A2-Q.2)
+Write a polynomial from its roots (A2-Q.3)
+Factor a polynomial given a root (A2-Q.)
+A-APR.3 Identify zeros of polynomials when suitable factorizations are available, and use the zeros to construct a rough graph of the function defined by the polynomial.
+Solve a quadratic equation using the zero product property (A2-O.2)
+Find the roots of factored polynomials (A2-Q.2)
+Match polynomials and graphs using zeros (A2-Q.10)
+Use zeros to match quadratic functions and graphs (A1)
+Use polynomial identities to solve problems.
+A-APR.4 Prove polynomial identities and use them to describe numerical relationships.
+Factor sums and differences of cubes (A2-M.8)
+A-APR.5 Know and apply the Binomial Theorem for the expansion of (x + y)n in powers of x and y for a positive integer n, where x and y are any numbers, with coefficients determined for example by Pascal's Triangle.
+Pascal's triangle (A2-L.8)
+Pascal's triangle and the Binomial Theorem (A2-L.9)
+Binomial Theorem I (A2-L.10)
+Binomial Theorem II (A2-L.11)
+Rewrite rational expressions.
+A-APR.6 Rewrite simple rational expressions in different forms; write a(x)/b(x) in the form q(x) + r(x)/b(x), where a(x), b(x), q(x), and r(x) are polynomials with the degree of r(x) less than the degree of b(x), using inspection, long division, or, for the more complicated examples, a computer algebra system.
+Divide polynomials using long division (A2-L.4)
+Simplify rational expressions (A2-X.4)
+A-APR.7 Understand that rational expressions form a system analogous to the rational numbers, closed under addition, subtraction, multiplication, and division by a nonzero rational expression; add, subtract, multiply, and divide rational expressions.
+Multiply and divide rational expressions (A2-X.5)
+Add and subtract rational expressions (A2-X.6)
+A-CED Creating Equations
+Create equations that describe numbers or relationships.
+A-CED.1 Create equations and inequalities in one variable including ones with absolute value and use them to solve problems. Include equations arising from linear and quadratic functions, and simple rational and exponential functions.
+Solve a quadratic equation by factoring (PC-D.6)
+Solve a quadratic equation by completing the square (PC-D.7)
+Solve rational equations (PC-G.2)
+A-CED.2 Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.
+Write the equation of a linear function (A2-D.3)
+Graph an absolute value function (A2-H.3)
+Graph a quadratic function (A2-N.5)
+Write a quadratic function in vertex form from its vertex and another point (A2-N.11)
+Write a quadratic function in factored form from its x-intercepts and another point (A2-N.12)
+Graph square root functions (A2-S.2)
+Graph cube root functions (A2-S.3)
+Write exponential functions: word problems (A2-Z.3)
+Graph exponential functions (A2-Z.4)
+Graph logarithmic functions (A2-BB.2)
+Write equations of sine functions from graphs (A2-KK.2)
+Write equations of sine functions using properties (A2-KK.3)
+Graph sine functions (A2-KK.4)
+Write equations of cosine functions from graphs (A2-KK.7)
+Write equations of cosine functions using properties (A2-KK.8)
+Graph cosine functions (A2-KK.9)
+Write equations of sine and cosine functions from graphs (A2-KK.12)
+Write equations of sine and cosine functions using properties (A2-KK.13)
+Graph sine and cosine functions (A2-KK.14)
+A-CED.3 Represent constraints by equations or inequalities, and by systems of equations and/or inequalities, and interpret solutions as viable or non-viable options in a modeling context.
+Solve a system of equations by graphing: word problems (A2-E.3)
+Solve a system of equations using substitution: word problems (A2-E.7)
+Solve a system of equations using elimination: word problems (A2-E.9)
+Solve a system of equations using any method: word problems (A2-E.11)
+Write two-variable linear inequalities: word problems (A2-F.1)
+A-CED.4 Rearrange formulas to highlight a quantity of interest, using the same reasoning as in solving equations.
+Rearrange multi-variable equations (A2-B.4)
+A-REI Reasoning with Equations and Inequalities
+Understand solving equations as a process of reasoning and explain the reasoning.
+A-REI.2 Solve simple rational and radical equations in one variable, and give examples showing how extraneous solutions may arise.
+Solve radical equations (A2-S.4)
+Solve rational equations (A2-X.8)
+Represent and solve equations and inequalities graphically.
+A-REI.11 Explain why the x-coordinates of the points where the graphs of the equations y = f(x) and y = g(x) intersect are the solutions of the equation f(x) = g(x); find the solutions approximately, e.g., using technology to graph the functions, make tables of values, or find successive approximations. Include cases where f(x) and/or g(x) are linear, polynomial, rational, absolute value, exponential, and logarithmic functions.
+Find solutions using a table (A2-A.7)
+Approximate solutions using a table (A2-A.8)
+Solve a system of equations by graphing (A2-E.2)
+Solve a system of equations by graphing: word problems (A2-E.3)
+Find the number of solutions to a system of equations (A2-E.4)
+Solve a system of quadratic equations by graphing: parabolas (A2-P.)
+F Functions
+F-IF Interpreting Functions
+Interpret functions that arise in applications in terms of the context.
+F-IF.4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship.
+Identify graphs: word problems (A2-A.6)
+Find the slope of a linear function (A2-D.1)
+Graph a linear function (A2-D.2)
+Graph an absolute value function (A2-H.3)
+Characteristics of quadratic functions: graphs (A2-N.1)
+Characteristics of quadratic functions: equations (A2-N.2)
+Graph a quadratic function (A2-N.5)
+Match quadratic functions and graphs (A2-N.7)
+Match polynomials and graphs (A2-Q.11)
+Graph square root functions (A2-S.2)
+Graph cube root functions (A2-S.3)
+Rational functions: asymptotes and excluded values (A2-X.1)
+Graph exponential functions (A2-Z.4)
+Match exponential functions and graphs (A2-Z.5)
+Graph logarithmic functions (A2-BB.2)
+F-IF.5 Relate the domain of a function to its graph and, where applicable, to the quantitative relationship it describes.
+Domain and range of absolute value functions: graphs (A2-H.1)
+Domain and range of absolute value functions: equations (A2-H.2)
+Domain and range of quadratic functions: graphs (A2-N.8)
+Domain and range of quadratic functions: equations (A2-N.9)
+Domain and range of polynomials (A2-Q.12)
+Domain and range of radical functions (A2-S.1)
+Domain and range of exponential functions (A2-Z.1)
+Domain and range of logarithmic functions (A2-BB.1)
+F-IF.6 Calculate and interpret the average rate of change of a function (presented symbolically or as a table) over a specified interval. Estimate the rate of change from a graph.
+Average rate of change (A2-A.9)
+Analyze functions using different representations.
+F-IF.7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+F-IF.7.b Graph square root, cube root, and piecewise-defined functions, including step functions and absolute value functions.
+Graph an absolute value function (A2-H.3)
+Graph piecewise-defined functions (A2-I.2)
+Graph square root functions (A2-S.2)
+Graph cube root functions (A2-S.3)
+F-IF.7.c Graph polynomial functions, identifying zeros when suitable factorizations are available, and showing end behavior.
+Graph a quadratic function (A2-N.5)
+Match quadratic functions and graphs (A2-N.7)
+Match polynomials and graphs (A2-Q.11)
+F-IF.7.e Graph exponential and logarithmic functions, showing intercepts and end behavior, and trigonometric functions, showing period, midline, and amplitude.
+Graph exponential functions (A2-Z.4)
+Match exponential functions and graphs (A2-Z.5)
+Graph logarithmic functions (A2-BB.2)
+Find properties of sine functions (A2-KK.1)
+Graph sine functions (A2-KK.4)
+Graph translations of sine functions (A2-KK.5)
+Find properties of cosine functions (A2-KK.6)
+Graph cosine functions (A2-KK.9)
+Graph translations of cosine functions (A2-KK.10)
+Graph sine and cosine functions (A2-KK.14)
+Graph translations of sine and cosine functions (A2-KK.15)
+F-IF.8 Write a function defined by an expression in different but equivalent forms to reveal and explain different properties of the function.
+Solve a quadratic equation by factoring (A2-O.3)
+Solve a quadratic equation by completing the square (A2-O.5)
+Evaluate exponential functions (A2-Z.2)
+Match exponential functions and graphs (A2-Z.5)
+Exponential functions over unit intervals (A2-Z.6)
+Solve exponential equations by rewriting the base (A2-CC.1)
+F-IF.9 Compare properties of two functions each represented in a different way (algebraically, graphically, numerically in tables, or by verbal descriptions).
+F-BF Building Functions
+Build a function that models a relationship between two quantities.
+F-BF.1 Write a function that describes a relationship between two quantities.
+F-BF.1.b Combine standard function types using arithmetic operations.
+Add and subtract polynomials (A2-L.2)
+Multiply polynomials (A2-L.3)
+Add and subtract functions (A2-U.1)
+Multiply functions (A2-U.2)
+Divide functions (A2-U.3)
+Multiply and divide rational expressions (A2-X.5)
+Add and subtract rational expressions (A2-X.6)
+Build new functions from existing functions.
+F-BF.3 Identify the effect on the graph of replacing f(x) by f(x) + k, kf(x), f(kx), and f(x + k) for specific values of k (both positive and negative); find the value of k given the graphs. Experiment with cases and illustrate an explanation of the effects on the graph using technology.
+Transformations of absolute value functions (A2-H.4)
+Function transformation rules (A2-W.1)
+Translations of functions (A2-W.2)
+Reflections of functions (A2-W.3)
+Dilations of functions (A2-W.4)
+Transformations of functions (A2-W.5)
+Describe function transformations (A2-W.6)
+F-BF.4 Find inverse functions.
+F-BF.4.a Solve an equation of the form f(x) = c for a simple function f that has an inverse and write an expression for the inverse.
+Find inverse functions and relations (A2-V.4)
+Solve exponential equations using common logarithms (A2-CC.2)
+Solve exponential equations using natural logarithms (A2-CC.3)
+Solve logarithmic equations I (A2-CC.6)
+Solve logarithmic equations II (A2-CC.7)
+F-LE Linear, Quadratic, and Exponential Models
+Construct and compare linear, quadratic, and exponential models and solve problems.
+F-LE.4 For exponential models, express as a logarithm the solution to abct = d where a, c, and d are numbers and the base b is 2, 10, or e; evaluate the logarithm using technology.
+Convert between exponential and logarithmic form: rational bases (A2-AA.1)
+Convert between natural exponential and logarithmic form (A2-AA.2)
+Convert between exponential and logarithmic form: all bases (A2-AA.3)
+Evaluate logarithms (A2-AA.4)
+Solve exponential equations using common logarithms (A2-CC.2)
+Solve exponential equations using natural logarithms (A2-CC.3)
+F-LE.4.1 Prove simple laws of logarithms.
+Identify properties of logarithms (A2-AA.8)
+Product property of logarithms (A2-AA.9)
+Quotient property of logarithms (A2-AA.10)
+Power property of logarithms (A2-AA.11)
+Properties of logarithms: mixed review (A2-AA.12)
+F-LE.4.2 Use the definition of logarithms to translate between logarithms in any base.
+Change of base formula (PC-I.3)
+F-LE.4.3 Understand and use the properties of logarithms to simplify logarithmic numeric expressions and to identify their approximate values.
+Evaluate logarithms (PC-I.2)
+Product property of logarithms (PC-I.4)
+Quotient property of logarithms (PC-I.5)
+Power property of logarithms (PC-I.6)
+Evaluate logarithms using properties (PC-I.8)
+F-TF Trigonometric Functions
+Extend the domain of trigonometric functions using the unit circle.
+F-TF.1 Understand radian measure of an angle as the length of the arc on the unit circle subtended by the angle.
+Convert between radians and degrees (A2-HH.1)
+Radians and arc length (A2-HH.2)
+F-TF.2 Explain how the unit circle in the coordinate plane enables the extension of trigonometric functions to all real numbers, interpreted as radian measures of angles traversed counterclockwise around the unit circle.
+Coterminal angles (A2-HH.5)
+Reference angles (A2-HH.6)
+Find trigonometric ratios using the unit circle (A2-II.6)
+F-TF.2.1 Graph all 6 basic trigonometric functions.
+Graph sine functions (PC-S.4)
+Graph cosine functions (PC-S.9)
+Graph sine and cosine functions (PC-S.14)
+Model periodic phenomena with trigonometric functions.
+F-TF.5 Choose trigonometric functions to model periodic phenomena with specified amplitude, frequency, and midline.
+Find properties of sine functions (A2-KK.1)
+Write equations of sine functions from graphs (A2-KK.2)
+Write equations of sine functions using properties (A2-KK.3)
+Find properties of cosine functions (A2-KK.6)
+Write equations of cosine functions from graphs (A2-KK.7)
+Write equations of cosine functions using properties (A2-KK.8)
+G Geometry
+G-SRT Similarity, Right Triangles, and Trigonometry
+Apply trigonometry to general triangles.
+G-SRT.9 Derive the formula A = 1/2 ab sin(C) for the area of a triangle by drawing an auxiliary line from a vertex perpendicular to the opposite side.
+Area of a triangle: sine formula (A2-JJ.4)
+G-SRT.10 Prove the Laws of Sines and Cosines and use them to solve problems.
+Law of Sines (A2-JJ.1)
+Law of Cosines (A2-JJ.2)
+Area of a triangle: Law of Sines (A2-JJ.5)
+G-SRT.11 Understand and apply the Law of Sines and the Law of Cosines to find unknown measurements in right and non-right triangles (e.g., surveying problems, resultant forces).
+Solve a triangle (A2-JJ.3)
+G-GPE Expressing Geometric Properties with Equations
+Translate between the geometric description and the equation for a conic section.
+G-GPE.3.1 Given a quadratic equation of the form ax2 + by2 + cx + dy + e = 0, use the method for completing the square to put the equation into standard form; identify whether the graph of the equation is a circle, ellipse, parabola, or hyperbola, and graph the equation.
+Write equations of parabolas in vertex form (PC-U.2)
+Graph parabolas (PC-U.3)
+Graph circles (PC-U.6)
+Convert equations of conic sections from general to standard form (PC-U.13)
+G-GMD Geometric Measurement and Dimension
+Visualize relationships between two-dimensional and three-dimensional objects.
+G-GMD.4 Identify the shapes of two-dimensional cross-sections of three-dimensional objects, and identify three-dimensional objects generated by rotations of two-dimensional objects.
+Cross sections of three-dimensional figures (G-T.4)
+Solids of revolution (G-T.5)
+G-MG Modeling with Geometry
+Apply geometric concepts in modeling situations.
+G-MG.1 Use geometric shapes, their measures, and their properties to describe objects (e.g., modeling a tree trunk or a human torso as a cylinder).
+Pythagorean theorem (G-P.1)
+G-MG.2 Apply concepts of density based on area and volume in modeling situations (e.g., persons per square mile, BTUs per cubic foot).
+Calculate density, mass, and volume (G-V.9)
+G-MG.3 Apply geometric methods to solve design problems (e.g., designing an object or structure to satisfy physical constraints or minimize cost; working with typographic grid systems based on ratios).
+S Statistics and Probability
+S-ID Interpreting Categorical and Quantitative Data
+Summarize, represent, and interpret data on a single count or measurement variable.
+S-ID.4 Use the mean and standard deviation of a data set to fit it to a normal distribution and to estimate population percentages. Recognize that there are data sets for which such a procedure is not appropriate. Use calculators, spreadsheets, and tables to estimate areas under the normal curve.
+Find probabilities using the normal distribution I (A2-QQ.2)
+Find z-values (A2-QQ.4)
+Find values of normal variables (A2-QQ.5)
+Distributions of sample means (A2-QQ.6)
+S-IC Making Inferences and Justifying Conclusions
+Understand and evaluate random processes underlying statistical experiments.
+S-IC.1 Understand statistics as a process for making inferences about population parameters based on a random sample from that population.
+Identify biased samples (A2-RR.1)
+S-IC.2 Decide if a specified model is consistent with results from a given data-generating process, e.g., using simulation.
+Make inferences and justify conclusions from sample surveys, experiments, and observational studies.
+S-IC.3 Recognize the purposes of and differences among sample surveys, experiments, and observational studies; explain how randomization relates to each.
+Experiment design (A2-RR.8)
+S-IC.4 Use data from a sample survey to estimate a population mean or proportion; develop a margin of error through the use of simulation models for random sampling.
+Find confidence intervals for population means (A2-RR.5)
+Find confidence intervals for population proportions (A2-RR.6)
+S-IC.5 Use data from a randomized experiment to compare two treatments; use simulations to decide if differences between parameters are significant.
+Analyze the results of an experiment using simulations (A2-RR.9)
+S-IC.6 Evaluate reports based on data.
+Interpret confidence intervals for population means (A2-RR.7)
+Analyze the results of an experiment using simulations (A2-RR.9)
+S-MD Using Probability to Make Decisions
+Use probability to evaluate outcomes of decisions.
+S-MD.6 Use probabilities to make fair decisions (e.g., drawing by lots, using a random number generator).
+S-MD.7 Analyze decisions and strategies using probability concepts (e.g., product testing, medical testing, pulling a hockey goalie at the end of a game).
+Choose the better bet (A2-PP.10)

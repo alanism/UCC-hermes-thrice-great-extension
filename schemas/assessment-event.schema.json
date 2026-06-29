@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "ucc.assessment_event.v1",
+  "title": "UCC Assessment Event",
+  "type": "object",
+  "required": ["event_id", "item_index", "skill_id", "skill_label", "grade_or_level", "prompt_type", "is_correct", "response_time_ms", "timer_tier"],
+  "additionalProperties": false,
+  "properties": {
+    "event_id": { "type": "string" },
+    "item_index": { "type": "integer", "minimum": 1 },
+    "skill_id": { "type": "string" },
+    "skill_label": { "type": "string" },
+    "grade_or_level": { "type": "string" },
+    "prompt_type": { "enum": ["multiple_choice", "numeric", "free_response", "visual_model"] },
+    "student_answer": { "type": ["string", "null"] },
+    "correct_answer": { "type": ["string", "null"] },
+    "is_correct": { "type": "boolean" },
+    "response_time_ms": { "type": "integer", "minimum": 0 },
+    "timer_tier": { "enum": ["calm", "pressure"] },
+    "difficulty_before": { "type": ["integer", "null"] },
+    "difficulty_after": { "type": ["integer", "null"] },
+    "error_type": { "type": ["string", "null"] },
+    "operation_match": { "type": ["boolean", "null"] },
+    "representation_stage": { "enum": ["concrete", "pictorial", "abstract", "unknown"] },
+    "is_timeout": { "type": "boolean" },
+    "metadata": { "type": "object" }
+  }
+}

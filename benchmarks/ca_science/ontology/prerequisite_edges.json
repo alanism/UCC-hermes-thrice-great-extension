@@ -1,0 +1,911 @@
+{
+  "schema_version": "ca_science_edges.v1",
+  "benchmark_system": "California Science",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T08:06:12.940Z",
+  "edges": [
+    {
+      "from": "CA.SCI.1.1-ESS1-1",
+      "to": "CA.SCI.2.2-ESS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-ESS1-2",
+      "to": "CA.SCI.5.5-ESS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-LS1-1",
+      "to": "CA.SCI.3.3-LS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-LS1-1",
+      "to": "CA.SCI.4.4-LS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "high",
+      "reason": "Early observation of external parts supports later structure-function argumentation."
+    },
+    {
+      "from": "CA.SCI.1.1-LS1-2",
+      "to": "CA.SCI.4.4-LS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-LS3-1",
+      "to": "CA.SCI.3.3-LS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-PS4-1",
+      "to": "CA.SCI.4.4-PS4-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-PS4-2",
+      "to": "CA.SCI.4.4-PS4-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-PS4-3",
+      "to": "CA.SCI.4.4-PS4-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.1-PS4-4",
+      "to": "CA.SCI.HS.HS-PS4-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.1.K-2-ETS1-1",
+      "to": "CA.SCI.2.K-2-ETS1-1",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.1.K-2-ETS1-2",
+      "to": "CA.SCI.2.K-2-ETS1-2",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.1.K-2-ETS1-3",
+      "to": "CA.SCI.2.K-2-ETS1-3",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.2.2-ESS1-1",
+      "to": "CA.SCI.4.4-ESS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-ESS2-1",
+      "to": "CA.SCI.3.3-ESS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-ESS2-2",
+      "to": "CA.SCI.3.3-ESS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-ESS2-3",
+      "to": "CA.SCI.7.MS-ESS2-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-LS2-1",
+      "to": "CA.SCI.3.3-LS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-LS2-2",
+      "to": "CA.SCI.7.MS-LS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-LS4-1",
+      "to": "CA.SCI.3.3-LS4-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-PS1-1",
+      "to": "CA.SCI.5.5-PS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-PS1-2",
+      "to": "CA.SCI.5.5-PS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-PS1-3",
+      "to": "CA.SCI.5.5-PS1-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.2-PS1-4",
+      "to": "CA.SCI.5.5-PS1-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.K-2-ETS1-1",
+      "to": "CA.SCI.3.3-5-ETS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ETS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.K-2-ETS1-2",
+      "to": "CA.SCI.3.3-5-ETS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ETS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.2.K-2-ETS1-3",
+      "to": "CA.SCI.3.3-5-ETS1-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ETS1-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-5-ETS1-1",
+      "to": "CA.SCI.4.3-5-ETS1-1",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.3.3-5-ETS1-2",
+      "to": "CA.SCI.4.3-5-ETS1-2",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.3.3-5-ETS1-3",
+      "to": "CA.SCI.4.3-5-ETS1-3",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.3.3-ESS2-1",
+      "to": "CA.SCI.4.4-ESS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-ESS2-2",
+      "to": "CA.SCI.4.4-ESS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-ESS3-1",
+      "to": "CA.SCI.4.4-ESS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS1-1",
+      "to": "CA.SCI.4.4-LS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS2-1",
+      "to": "CA.SCI.5.5-LS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS3-1",
+      "to": "CA.SCI.8.MS-LS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS3-2",
+      "to": "CA.SCI.6.MS-LS3-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS3-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS4-1",
+      "to": "CA.SCI.8.MS-LS4-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS4-2",
+      "to": "CA.SCI.8.MS-LS4-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS4-3",
+      "to": "CA.SCI.8.MS-LS4-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-LS4-4",
+      "to": "CA.SCI.8.MS-LS4-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-PS2-1",
+      "to": "CA.SCI.5.5-PS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-PS2-1",
+      "to": "CA.SCI.8.MS-PS2-2",
+      "relationship": "practice_progression",
+      "confidence": "high",
+      "reason": "Grade 3 force investigations support middle-school investigation of force, mass, and acceleration."
+    },
+    {
+      "from": "CA.SCI.3.3-PS2-2",
+      "to": "CA.SCI.8.MS-PS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-PS2-3",
+      "to": "CA.SCI.8.MS-PS2-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.3.3-PS2-4",
+      "to": "CA.SCI.8.MS-PS2-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.3-5-ETS1-1",
+      "to": "CA.SCI.5.3-5-ETS1-1",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.4.3-5-ETS1-2",
+      "to": "CA.SCI.5.3-5-ETS1-2",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.4.3-5-ETS1-3",
+      "to": "CA.SCI.5.3-5-ETS1-3",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.4.4-ESS1-1",
+      "to": "CA.SCI.5.5-ESS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-ESS2-1",
+      "to": "CA.SCI.5.5-ESS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-ESS2-2",
+      "to": "CA.SCI.5.5-ESS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-ESS3-1",
+      "to": "CA.SCI.5.5-ESS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-ESS3-2",
+      "to": "CA.SCI.7.MS-ESS3-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS3-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-LS1-1",
+      "to": "CA.SCI.5.5-LS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-LS1-2",
+      "to": "CA.SCI.6.MS-LS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS3-1",
+      "to": "CA.SCI.5.5-PS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS3-2",
+      "to": "CA.SCI.8.MS-PS3-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS3-3",
+      "to": "CA.SCI.6.MS-PS3-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS3-4",
+      "to": "CA.SCI.6.MS-PS3-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS4-1",
+      "to": "CA.SCI.8.MS-PS4-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS4-2",
+      "to": "CA.SCI.8.MS-PS4-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.4.4-PS4-3",
+      "to": "CA.SCI.8.MS-PS4-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.3-5-ETS1-1",
+      "to": "CA.SCI.6.MS-ETS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ETS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.3-5-ETS1-2",
+      "to": "CA.SCI.6.MS-ETS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ETS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.3-5-ETS1-3",
+      "to": "CA.SCI.6.MS-ETS1-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ETS1-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-ESS1-1",
+      "to": "CA.SCI.8.MS-ESS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-ESS1-2",
+      "to": "CA.SCI.8.MS-ESS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-ESS2-1",
+      "to": "CA.SCI.7.MS-ESS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-ESS2-2",
+      "to": "CA.SCI.7.MS-ESS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-ESS3-1",
+      "to": "CA.SCI.7.MS-ESS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The ESS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-LS1-1",
+      "to": "CA.SCI.6.MS-LS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-LS2-1",
+      "to": "CA.SCI.7.MS-LS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-LS2-1",
+      "to": "CA.SCI.7.MS-LS2-3",
+      "relationship": "conceptual_progression",
+      "confidence": "high",
+      "reason": "Models of matter movement in food webs support middle-school cycling and energy-flow explanations."
+    },
+    {
+      "from": "CA.SCI.5.5-PS1-1",
+      "to": "CA.SCI.7.MS-PS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-PS1-2",
+      "to": "CA.SCI.7.MS-PS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-PS1-3",
+      "to": "CA.SCI.7.MS-PS1-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-PS1-4",
+      "to": "CA.SCI.7.MS-PS1-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-PS2-1",
+      "to": "CA.SCI.8.MS-PS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.5.5-PS3-1",
+      "to": "CA.SCI.8.MS-PS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-ETS1-1",
+      "to": "CA.SCI.7.MS-ETS1-1",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.6.MS-ETS1-2",
+      "to": "CA.SCI.7.MS-ETS1-2",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.6.MS-ETS1-3",
+      "to": "CA.SCI.7.MS-ETS1-3",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.6.MS-ETS1-4",
+      "to": "CA.SCI.7.MS-ETS1-4",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS1-1",
+      "to": "CA.SCI.HS.HS-LS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS1-1",
+      "to": "CA.SCI.HS.HS-LS1-1",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Evidence that organisms are cellular supports molecular structure-function explanations in high school."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS1-2",
+      "to": "CA.SCI.HS.HS-LS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS1-3",
+      "to": "CA.SCI.HS.HS-LS1-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS1-4",
+      "to": "CA.SCI.HS.HS-LS1-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS1-5",
+      "to": "CA.SCI.HS.HS-LS1-5",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-5 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-LS3-2",
+      "to": "CA.SCI.HS.HS-LS3-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS3-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-PS3-3",
+      "to": "CA.SCI.HS.HS-PS3-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-PS3-4",
+      "to": "CA.SCI.HS.HS-PS3-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.6.MS-PS3-5",
+      "to": "CA.SCI.HS.HS-PS3-5",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-5 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-ETS1-1",
+      "to": "CA.SCI.8.MS-ETS1-1",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.7.MS-ETS1-2",
+      "to": "CA.SCI.8.MS-ETS1-2",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.7.MS-ETS1-3",
+      "to": "CA.SCI.8.MS-ETS1-3",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.7.MS-ETS1-4",
+      "to": "CA.SCI.8.MS-ETS1-4",
+      "relationship": "engineering_design_reuse",
+      "confidence": "medium",
+      "reason": "The same grade-band performance expectation is intentionally reused in another source grade; evidence may be collected through different phenomena and projects."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS1-6",
+      "to": "CA.SCI.HS.HS-LS1-6",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-6 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS1-7",
+      "to": "CA.SCI.HS.HS-LS1-7",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS1-7 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS2-1",
+      "to": "CA.SCI.HS.HS-LS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS2-2",
+      "to": "CA.SCI.HS.HS-LS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS2-3",
+      "to": "CA.SCI.HS.HS-LS2-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS2-4",
+      "to": "CA.SCI.HS.HS-LS2-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-LS2-5",
+      "to": "CA.SCI.HS.HS-LS2-5",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS2-5 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-PS1-1",
+      "to": "CA.SCI.HS.HS-PS1-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-PS1-2",
+      "to": "CA.SCI.HS.HS-PS1-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-PS1-3",
+      "to": "CA.SCI.HS.HS-PS1-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-PS1-4",
+      "to": "CA.SCI.HS.HS-PS1-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-PS1-5",
+      "to": "CA.SCI.HS.HS-PS1-5",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-5 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.7.MS-PS1-6",
+      "to": "CA.SCI.HS.HS-PS1-6",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS1-6 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS3-1",
+      "to": "CA.SCI.HS.HS-LS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS4-1",
+      "to": "CA.SCI.HS.HS-LS4-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS4-2",
+      "to": "CA.SCI.HS.HS-LS4-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS4-3",
+      "to": "CA.SCI.HS.HS-LS4-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS4-4",
+      "to": "CA.SCI.HS.HS-LS4-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS4-5",
+      "to": "CA.SCI.HS.HS-LS4-5",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-5 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-LS4-6",
+      "to": "CA.SCI.HS.HS-LS4-6",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The LS4-6 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS2-1",
+      "to": "CA.SCI.HS.HS-PS2-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS2-2",
+      "to": "CA.SCI.HS.HS-PS2-1",
+      "relationship": "practice_progression",
+      "confidence": "high",
+      "reason": "Middle-school force investigations support high-school quantitative analysis of Newtonian motion."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS2-2",
+      "to": "CA.SCI.HS.HS-PS2-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS2-3",
+      "to": "CA.SCI.HS.HS-PS2-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-3 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS2-4",
+      "to": "CA.SCI.HS.HS-PS2-4",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-4 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS2-5",
+      "to": "CA.SCI.HS.HS-PS2-5",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS2-5 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS3-1",
+      "to": "CA.SCI.HS.HS-PS3-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS3-2",
+      "to": "CA.SCI.HS.HS-PS3-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS3-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS4-1",
+      "to": "CA.SCI.HS.HS-PS4-1",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-1 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS4-2",
+      "to": "CA.SCI.HS.HS-PS4-2",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-2 idea reappears at a later level with greater conceptual or practice demands."
+    },
+    {
+      "from": "CA.SCI.8.MS-PS4-3",
+      "to": "CA.SCI.HS.HS-PS4-3",
+      "relationship": "conceptual_progression",
+      "confidence": "medium",
+      "reason": "The PS4-3 idea reappears at a later level with greater conceptual or practice demands."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "crosscutting_concepts.v1",
+  "concepts": [
+    {
+      "id": "patterns",
+      "label": "Patterns",
+      "description": "Observed patterns that organize, classify, or predict phenomena."
+    },
+    {
+      "id": "cause_effect",
+      "label": "Cause and effect",
+      "description": "Mechanisms and explanations for why events occur."
+    },
+    {
+      "id": "scale_proportion_quantity",
+      "label": "Scale, proportion, and quantity",
+      "description": "Size, time, proportion, quantity, and mathematical scale."
+    },
+    {
+      "id": "systems_system_models",
+      "label": "Systems and system models",
+      "description": "Systems, subsystems, boundaries, interactions, and models."
+    },
+    {
+      "id": "energy_matter",
+      "label": "Energy and matter",
+      "description": "Flows, cycles, conservation, and transfer of energy and matter."
+    },
+    {
+      "id": "structure_function",
+      "label": "Structure and function",
+      "description": "How shape, structure, or organization enables function."
+    },
+    {
+      "id": "stability_change",
+      "label": "Stability and change",
+      "description": "Change over time, equilibrium, feedback, and stability."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": "civic_reasoning_tags.v1",
+  "tags": [
+    {
+      "id": "citizenship",
+      "label": "Citizenship",
+      "description": "Rights, responsibilities, participation, public virtue, civic life."
+    },
+    {
+      "id": "rules_laws",
+      "label": "Rules and laws",
+      "description": "Why societies make rules and laws and how laws are enforced."
+    },
+    {
+      "id": "democracy",
+      "label": "Democracy",
+      "description": "Direct democracy, representative democracy, elections, consent of the governed."
+    },
+    {
+      "id": "constitutional_reasoning",
+      "label": "Constitutional reasoning",
+      "description": "Constitutional structure, rights, amendments, limits, and interpretation."
+    },
+    {
+      "id": "branches_of_government",
+      "label": "Branches of government",
+      "description": "Legislative, executive, judicial functions and checks and balances."
+    },
+    {
+      "id": "federalism",
+      "label": "Federalism",
+      "description": "Local, state, federal, tribal powers and relationships."
+    },
+    {
+      "id": "rights_obligations",
+      "label": "Rights and obligations",
+      "description": "Civil liberties, civil rights, duties, reciprocity, and civic responsibilities."
+    },
+    {
+      "id": "civil_society",
+      "label": "Civil society",
+      "description": "Voluntary associations, media, organizations, religion, public participation."
+    },
+    {
+      "id": "political_systems",
+      "label": "Political systems",
+      "description": "Democracy, monarchy, authoritarianism, totalitarianism, socialism, communism, fascism."
+    },
+    {
+      "id": "media_public_opinion",
+      "label": "Media and public opinion",
+      "description": "Free press, media influence, public agenda, campaigns, political communication."
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "https://hermes-agent.nousresearch.com/schemas/campaign-weekly-plan.json",
+  "meta": {
+    "description": "SYNTHETIC EXAMPLE — Replace all values with real data before use.",
+    "created": "2026-06-29T00:00:00Z",
+    "templateVersion": "1.0"
+  },
+  "weekId": "week-YYYY-MM-DD",
+  "learnerId": "learner-001",
+  "learnerName": "[Learner Name]",
+  "weekStart": "YYYY-MM-DD",
+  "weekEnd": "YYYY-MM-DD",
+  "schoolModelCanvasId": "smc-template-v1",
+  "weeklyTheme": "Example Theme — e.g., Ancient Civilizations",
+  "sourceContext": "SMC + parent conversation",
+  "activeCampaigns": [
+    {
+      "campaignId": "camp-math-001",
+      "name": "Mathematics — Fractions Foundations",
+      "type": "academic",
+      "priority": "high",
+      "description": "Introduce and practice fraction concepts: equivalence, addition with like denominators.",
+      "gradeLevel": "Grade 4",
+      "subject": "Mathematics",
+      "subtopic": "Fractions",
+      "stateStandard": "CCSS.MATH.CONTENT.4.NF.A.1",
+      "learningObjectives": [
+        "Explain equivalent fractions using visual models",
+        "Add fractions with like denominators",
+        "Compare fractions with different numerators and denominators"
+      ],
+      "materials": ["Fraction circles (printed)", "Whiteboard", "Practice worksheets"],
+      "activities": [
+        {
+          "day": "Monday",
+          "title": "Fraction Equality Exploration",
+          "duration": "30 min",
+          "description": "Use fraction circles to discover equivalent fractions (1/2 = 2/4)."
+        },
+        {
+          "day": "Wednesday",
+          "title": "Adding Like Fractions",
+          "duration": "25 min",
+          "description": "Add fractions with same denominators using visual aids."
+        },
+        {
+          "day": "Friday",
+          "title": "Fraction Comparison Challenge",
+          "duration": "20 min",
+          "description": "Compare pairs of fractions and justify answers."
+        }
+      ],
+      "assessmentCriteria": "Correctly answer 4/5 fraction equivalence and addition problems",
+      "successMetrics": {
+        "targetScore": 80,
+        "unit": "percent"
+      },
+      "parentRole": "Guide the learner through fraction circles, check answers, offer encouragement",
+      "notes": "Focus on visual understanding before abstract notation"
+    }
+  ],
+  "maintenanceCampaigns": [],
+  "weeklySchedule": [
+    {
+      "day": "Monday",
+      "date": "YYYY-MM-DD",
+      "slots": [
+        { "time": "09:00", "campaignId": "camp-math-001", "activity": "Fraction Equality Exploration", "duration": 30 }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "YYYY-MM-DD",
+      "slots": [
+        { "time": "09:00", "campaignId": "camp-math-001", "activity": "Adding Like Fractions", "duration": 25 }
+      ]
+    },
+    {
+      "day": "Friday",
+      "date": "YYYY-MM-DD",
+      "slots": [
+        { "time": "09:00", "campaignId": "camp-math-001", "activity": "Fraction Comparison Challenge", "duration": 20 }
+      ]
+    }
+  ],
+  "globalHermesInstructions": "Use CALM mode for assessment delivery. Deliver weekly nudge via Discord on Sunday evening."
+}

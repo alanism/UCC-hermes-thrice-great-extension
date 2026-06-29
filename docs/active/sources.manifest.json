@@ -1,0 +1,118 @@
+{
+  "schema_version": "acdf.sources.v1",
+  "hash_method_for_directories": "sha256 of UTF-8 lines sorted by relative path, each line: relative-path TAB file-sha256",
+  "sources": [
+    {
+      "source_id": "SRC_UCC_SYSTEM_DOCUMENT",
+      "location": "UCC_systems_document.docx",
+      "source_type": "spec",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:0a835f0f69f16121f17f4d6a4e002c0c4b8ae7417d23e0744a80db34d4b82f97",
+      "recency_ttl_days": 30,
+      "criticality": "critical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_MACRO_MESO_MICRO",
+      "location": "docs/macro-meso-micro-loop.md",
+      "source_type": "spec",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:1a85f4254f613083a415a03ecbc31d0ed2b1af0dd73a3580fab499936494bbca",
+      "recency_ttl_days": 30,
+      "criticality": "critical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_REPLICATING",
+      "location": "docs/REPLICATING.md",
+      "source_type": "historical_runbook",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:c93a3c77c0999daa8d6b3743a3a837a08e3961d7b6a9fd1752000aa8461eb31f",
+      "recency_ttl_days": 30,
+      "criticality": "noncritical",
+      "status": "active",
+      "note": "Contains obsolete source-fork/runtime paths; evidence only, not implementation authority."
+    },
+    {
+      "source_id": "SRC_UCC_SCHEMAS",
+      "location": "schemas/",
+      "source_type": "contract_sources",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:bd0785b800139fe8003aac75d102fd497a75778f10ba1fe1af66397eb23a4680",
+      "recency_ttl_days": 30,
+      "criticality": "critical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_UCC_SKILLS",
+      "location": "skills/",
+      "source_type": "skill_sources",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:3bae8cc2a1271d36621aa8ba5ba037a0d587811f2d3e3399fb077bbd9d55f455",
+      "recency_ttl_days": 30,
+      "criticality": "critical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_BENCHMARK_PACKS",
+      "location": "benchmarks/",
+      "source_type": "benchmark_sources",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:d761047732e77ba57bba21eb427e3340c607bd6ef15b60af790de12541cc339f",
+      "recency_ttl_days": 90,
+      "criticality": "critical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_ACDF_V7",
+      "location": "ACDF-v7/",
+      "source_type": "governance_spec",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:cf30775dfcd7828f0931b85bdd248c9038c854e15bcafb03ab85319cf8159dd1",
+      "recency_ttl_days": 60,
+      "criticality": "critical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_HERMES_LOCAL_PIN_CANDIDATE",
+      "location": "C:/Users/alani/AppData/Local/hermes/hermes-agent",
+      "source_type": "external_repo",
+      "last_ingested": "2026-06-30",
+      "content_hash": "git:2a5dc0ef3df433a36abed9ee544ea067d807c438",
+      "recency_ttl_days": 14,
+      "criticality": "critical",
+      "status": "active",
+      "note": "Candidate executing HEAD. H1 must reproduce executable/import/editable-install identity; banner upstream hashes are origin/main drift metadata."
+    },
+    {
+      "source_id": "SRC_ADVERSARIAL_REVIEW_A",
+      "location": "external-attachment:4da236d1-3d22-413c-b9db-cecd82c9f752",
+      "source_type": "model_review",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:ee08bec2b72268949021190636c3fa5a4a493a1cf547034bcf223e77a84315a0",
+      "recency_ttl_days": 30,
+      "criticality": "noncritical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_ADVERSARIAL_REVIEW_B",
+      "location": "external-attachment:c7a5a21c-bb7e-413b-9625-43d47f1475c5",
+      "source_type": "model_review",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:1e9012a78d44da0500478e3d54fda81f802a37d3a08653eabf014500a3a8ce2d",
+      "recency_ttl_days": 30,
+      "criticality": "noncritical",
+      "status": "active"
+    },
+    {
+      "source_id": "SRC_ADVERSARIAL_REVIEW_C",
+      "location": "external-attachment:9021c465-2c38-4294-9817-317f4ed434b9",
+      "source_type": "model_review",
+      "last_ingested": "2026-06-30",
+      "content_hash": "sha256:59a807cb7982471c854f50dcb6642fa51d296693fa615f0c237793af1b5d7e95",
+      "recency_ttl_days": 30,
+      "criticality": "noncritical",
+      "status": "active"
+    }
+  ]
+}

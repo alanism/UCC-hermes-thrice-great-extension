@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "description": "SYNTHETIC EXAMPLE TELEMETRY RECEIPT — Not real learner data. Replace with actual telemetry payloads.",
+    "templateVersion": "1.0",
+    "warning": "THIS IS FABRICATED EXAMPLE DATA. Do not use in production without replacing all values."
+  },
+  "session": {
+    "sessionId": "synthetic-session-20260629-001",
+    "learnerName": "[Learner Name]",
+    "grade": "Grade 4",
+    "subject": "Mixed (Mathematics & ELA)",
+    "assessmentDate": "2026-06-29T14:30:00Z",
+    "durationMinutes": 18,
+    "mode": "CALM",
+    "modeNote": "Child-led pacing; free response with optional hints"
+  },
+  "items": [
+    {
+      "itemId": "items/synth-math-4nf1",
+      "subject": "Mathematics",
+      "standard": "CCSS.MATH.CONTENT.4.NF.A.1",
+      "gradeLevel": "Grade 4",
+      "prompt": "Which fraction is equivalent to 1/2?",
+      "correctAnswer": "2/4",
+      "learnerResponse": "2/4",
+      "correct": true,
+      "attempts": 1,
+      "hintsUsed": 0,
+      "responseTimeSeconds": 12
+    },
+    {
+      "itemId": "items/synth-math-4nbt4",
+      "subject": "Mathematics",
+      "standard": "CCSS.MATH.CONTENT.4.NBT.B.4",
+      "gradeLevel": "Grade 4",
+      "prompt": "Subtract: 4,502 − 1,876 = ?",
+      "correctAnswer": "2,626",
+      "learnerResponse": "2,626",
+      "correct": true,
+      "attempts": 1,
+      "hintsUsed": 0,
+      "responseTimeSeconds": 45
+    },
+    {
+      "itemId": "items/synth-ela-4rl1",
+      "subject": "ELA",
+      "standard": "CCSS.ELA-LITERACY.RL.4.1",
+      "gradeLevel": "Grade 4",
+      "prompt": "Read the short passage. What did the main character learn at the end of the story?",
+      "correctAnswer": "That helping others brings joy",
+      "learnerResponse": "The character learned to share",
+      "correct": false,
+      "attempts": 2,
+      "hintsUsed": 1,
+      "responseTimeSeconds": 90
+    },
+    {
+      "itemId": "items/synth-math-3oa7",
+      "subject": "Mathematics",
+      "standard": "CCSS.MATH.CONTENT.3.OA.C.7",
+      "gradeLevel": "Grade 3",
+      "prompt": "What is 7 × 6?",
+      "correctAnswer": "42",
+      "learnerResponse": "42",
+      "correct": true,
+      "attempts": 1,
+      "hintsUsed": 0,
+      "responseTimeSeconds": 6
+    },
+    {
+      "itemId": "items/synth-ela-4w1",
+      "subject": "ELA",
+      "standard": "CCSS.ELA-LITERACY.W.4.1",
+      "gradeLevel": "Grade 4",
+      "prompt": "Write one sentence stating your opinion about the book (free response).",
+      "correctAnswer": "N/A — rubric-scored",
+      "learnerResponse": "I liked it because the dragon was funny",
+      "correct": true,
+      "attempts": 1,
+      "hintsUsed": 0,
+      "responseTimeSeconds": 35,
+      "rubricScore": 3,
+      "rubricMax": 4
+    },
+    {
+      "itemId": "items/synth-math-4md3",
+      "subject": "Mathematics",
+      "standard": "CCSS.MATH.CONTENT.4.MD.A.3",
+      "gradeLevel": "Grade 4",
+      "prompt": "A rectangle has a length of 8 cm and a width of 3 cm. What is the area?",
+      "correctAnswer": "24",
+      "learnerResponse": "22",
+      "correct": false,
+      "attempts": 2,
+      "hintsUsed": 1,
+      "responseTimeSeconds": 60
+    }
+  ],
+  "summary": {
+    "totalItems": 6,
+    "correct": 4,
+    "incorrect": 2,
+    "accuracyPercent": 67,
+    "averageResponseTimeSeconds": 41,
+    "hintsGiven": 2,
+    "mode": "CALM"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "learner_benchmark_overlay.v1",
+  "description": "A learner-specific overlay that marks Social Studies standards, reasoning skills, and story-map capabilities as mastered, learning, weak, no_evidence, advanced, or not_applicable.",
+  "node_status_values": [
+    "mastered",
+    "learning",
+    "weak",
+    "no_evidence",
+    "advanced",
+    "not_applicable"
+  ],
+  "evidence_strength_values": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "example": {
+    "learnerId": "aria",
+    "benchmarkSystem": "California Social Studies",
+    "generatedAt": "2026-06-27",
+    "nodes": [
+      {
+        "standardId": "CA.SS.5.5.5.1",
+        "status": "learning",
+        "evidenceStrength": "medium",
+        "latestEvidenceDate": "2026-06-22",
+        "evidenceSources": [
+          "history_story_map_receipt_founding_fathers"
+        ],
+        "notes": "Can identify taxes and protest as causes, but needs stronger source-based explanation of competing perspectives."
+      }
+    ],
+    "skillOverlay": [
+      {
+        "uccCapabilityTag": "source_evidence_reasoning",
+        "status": "learning",
+        "evidenceStrength": "medium",
+        "notes": "Uses evidence when prompted; needs to cite source before opinion."
+      },
+      {
+        "uccCapabilityTag": "perspective_taking",
+        "status": "learning",
+        "evidenceStrength": "medium",
+        "notes": "Can compare Patriot and Loyalist views with support."
+      }
+    ]
+  }
+}

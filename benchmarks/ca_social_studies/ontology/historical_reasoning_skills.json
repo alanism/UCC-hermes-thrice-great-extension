@@ -1,0 +1,50 @@
+{
+  "schema_version": "historical_reasoning_skills.v1",
+  "skills": [
+    {
+      "id": "chronology",
+      "label": "Chronology",
+      "description": "Ordering events, creating timelines, and relating events across time."
+    },
+    {
+      "id": "spatial_thinking",
+      "label": "Spatial thinking",
+      "description": "Using maps, regions, location, movement, and geography to explain history."
+    },
+    {
+      "id": "source_analysis",
+      "label": "Source analysis",
+      "description": "Using primary and secondary sources, documents, artifacts, and media."
+    },
+    {
+      "id": "point_of_view",
+      "label": "Point of view",
+      "description": "Identifying perspective, context, author position, and competing interpretations."
+    },
+    {
+      "id": "cause_effect",
+      "label": "Cause and effect",
+      "description": "Explaining short-term and long-term causes, consequences, and correlations."
+    },
+    {
+      "id": "continuity_change",
+      "label": "Continuity and change",
+      "description": "Identifying what changed, what persisted, and why."
+    },
+    {
+      "id": "historical_context",
+      "label": "Historical context",
+      "description": "Placing people and events in time, place, and social conditions."
+    },
+    {
+      "id": "interpretation",
+      "label": "Historical interpretation",
+      "description": "Recognizing that interpretations can differ and change with new evidence."
+    },
+    {
+      "id": "evidence_argument",
+      "label": "Evidence and argument",
+      "description": "Making claims, supporting them with evidence, and evaluating claims."
+    }
+  ]
+}

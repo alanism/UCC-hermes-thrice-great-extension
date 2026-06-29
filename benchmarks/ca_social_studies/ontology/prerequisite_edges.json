@@ -1,0 +1,260 @@
+{
+  "schema_version": "ca_social_studies_edges.v1",
+  "benchmark_system": "California Social Studies",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T08:34:44.045Z",
+  "edges": [
+    {
+      "from": "CA.SS.1.1.1.1",
+      "to": "CA.SS.3.3.4.1",
+      "relationship": "civic_progression",
+      "confidence": "high",
+      "reason": "Early rule-making and citizenship support later reasoning about laws, constitutions, and civic consequences."
+    },
+    {
+      "from": "CA.SS.2.2.2.1",
+      "to": "CA.SS.4.4.1.1",
+      "relationship": "geography_progression",
+      "confidence": "high",
+      "reason": "Simple grid location supports later latitude/longitude and regional reasoning."
+    },
+    {
+      "from": "CA.SS.3.3.4.4",
+      "to": "CA.SS.4.4.5.1",
+      "relationship": "civic_progression",
+      "confidence": "high",
+      "reason": "Understanding government branches supports analysis of local, state, and federal responsibilities."
+    },
+    {
+      "from": "CA.SS.5.5.5.1",
+      "to": "CA.SS.8.8.1.2",
+      "relationship": "historical_progression",
+      "confidence": "high",
+      "reason": "Grade 5 causes of the American Revolution support Grade 8 analysis of revolutionary ideals and constitutional democracy."
+    },
+    {
+      "from": "CA.SS.5.5.5.1",
+      "to": "CA.SS.8.8.2.2",
+      "relationship": "story_map_dependency",
+      "confidence": "high",
+      "reason": "A Founding-era Story Map can connect pressures and choices in revolution to constitutional consequences."
+    },
+    {
+      "from": "CA.SS.5.5.7.1",
+      "to": "CA.SS.8.8.2.2",
+      "relationship": "civic_progression",
+      "confidence": "high",
+      "reason": "Founding-era constitutional development supports later comparison of the Articles and Constitution."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.CST.1",
+      "to": "CA.SS.7.ANALYSIS.CST.1",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.CST.2",
+      "to": "CA.SS.7.ANALYSIS.CST.2",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.CST.3",
+      "to": "CA.SS.7.ANALYSIS.CST.3",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.HI.1",
+      "to": "CA.SS.7.ANALYSIS.HI.1",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.HI.2",
+      "to": "CA.SS.7.ANALYSIS.HI.2",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.HI.3",
+      "to": "CA.SS.7.ANALYSIS.HI.3",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.HI.4",
+      "to": "CA.SS.7.ANALYSIS.HI.4",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.HI.5",
+      "to": "CA.SS.7.ANALYSIS.HI.5",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.HI.6",
+      "to": "CA.SS.7.ANALYSIS.HI.6",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.REPV.1",
+      "to": "CA.SS.7.ANALYSIS.REPV.1",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.REPV.2",
+      "to": "CA.SS.7.ANALYSIS.REPV.2",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.REPV.3",
+      "to": "CA.SS.7.ANALYSIS.REPV.3",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.REPV.4",
+      "to": "CA.SS.7.ANALYSIS.REPV.4",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.6.ANALYSIS.REPV.5",
+      "to": "CA.SS.7.ANALYSIS.REPV.5",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.CST.1",
+      "to": "CA.SS.8.ANALYSIS.CST.1",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.CST.2",
+      "to": "CA.SS.8.ANALYSIS.CST.2",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.CST.3",
+      "to": "CA.SS.8.ANALYSIS.CST.3",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.HI.1",
+      "to": "CA.SS.8.ANALYSIS.HI.1",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.HI.2",
+      "to": "CA.SS.8.ANALYSIS.HI.2",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.HI.3",
+      "to": "CA.SS.8.ANALYSIS.HI.3",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.HI.4",
+      "to": "CA.SS.8.ANALYSIS.HI.4",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.HI.5",
+      "to": "CA.SS.8.ANALYSIS.HI.5",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.HI.6",
+      "to": "CA.SS.8.ANALYSIS.HI.6",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.REPV.1",
+      "to": "CA.SS.8.ANALYSIS.REPV.1",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.REPV.2",
+      "to": "CA.SS.8.ANALYSIS.REPV.2",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.REPV.3",
+      "to": "CA.SS.8.ANALYSIS.REPV.3",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.REPV.4",
+      "to": "CA.SS.8.ANALYSIS.REPV.4",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.7.ANALYSIS.REPV.5",
+      "to": "CA.SS.8.ANALYSIS.REPV.5",
+      "relationship": "skill_progression",
+      "confidence": "medium",
+      "reason": "The same historical-analysis skill is revisited with different content and increasing independence."
+    },
+    {
+      "from": "CA.SS.8.8.2.2",
+      "to": "CA.SS.HS.12.1.1",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Constitutional structure in Grade 8 supports high-school analysis of democratic principles and political thought."
+    },
+    {
+      "from": "CA.SS.8.ANALYSIS.REPV.4",
+      "to": "CA.SS.8.8.2.2",
+      "relationship": "source_analysis_progression",
+      "confidence": "high",
+      "reason": "Credibility and source analysis support evidence-based constitutional interpretation."
+    }
+  ]
+}

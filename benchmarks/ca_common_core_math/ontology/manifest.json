@@ -1,0 +1,81 @@
+{
+  "schema_version": "ca_common_core_math_manifest.v1",
+  "benchmark_system": "California Common Core Math",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T07:07:52.275Z",
+  "source_folder": "/Users/alannguyen/Documents/Vibe Code/UCC-learning campaign/California Common Core Math Standards by Grade",
+  "source_files": [
+    {
+      "filename": "California Common Core Math Grade KG.txt",
+      "grade": "KG",
+      "sha256": "1c74237546d7f9abf38b964dbf61c7ec66ecf8f6e5f9d20199fc6148c37f5ec4"
+    },
+    {
+      "filename": "California Common Core Math Grade 1.txt",
+      "grade": "1",
+      "sha256": "a1ac58abcc0b293ba3b1e64fc809a5f776b49842346af72fd029fa50c3f385d9"
+    },
+    {
+      "filename": "California Common Core Math Grade 2.txt",
+      "grade": "2",
+      "sha256": "07e7b3a08df0bbb88328ff7c166ffe48753784c72cfa3eb0929212b9ae5e222a"
+    },
+    {
+      "filename": "California Common Core Math Grade 3.txt",
+      "grade": "3",
+      "sha256": "7f1edca21988a4994d8bc6da4389e081bc2c7bd8341150e1592f4c327ce47405"
+    },
+    {
+      "filename": "California Common Core Math Grade 4.txt",
+      "grade": "4",
+      "sha256": "21b152f4c3f034966ea127e402679f09c341b0cead2ffa6251179b0febbacfd0"
+    },
+    {
+      "filename": "California Common Core Math Grade 5.txt",
+      "grade": "5",
+      "sha256": "4f78aa1f4398645e13ac9c402e8786b6c7214804af13f7e3298fd0994ccc5a39"
+    },
+    {
+      "filename": "California Common Core Math Grade 6.txt",
+      "grade": "6",
+      "sha256": "6d8a3d7dd54f943243ebfaf9adf1ddcb1a19dd959ad02138b243ef6fcb493cda"
+    },
+    {
+      "filename": "California Common Core Math Grade 7.txt",
+      "grade": "7",
+      "sha256": "41860128daf6a089c7a4eee8bf0e57ce4d775709e130742101a325b9baa1fced"
+    },
+    {
+      "filename": "California Common Core Math Grade 8.txt",
+      "grade": "8",
+      "sha256": "fd2a79aeb49527e572410f49102c2f4a6b19f42ab5cf677c1cb8a37fe9ccbaa3"
+    },
+    {
+      "filename": "California Common Core Math Grade HS.txt",
+      "grade": "HS",
+      "sha256": "aac3468ea845368af1bd6ebd06e77d6fa0ab8582d47632cb6cac8bc1e1e4064c"
+    }
+  ],
+  "counts": {
+    "nodes": 479,
+    "edges": 193,
+    "nodes_by_grade": {
+      "1": 24,
+      "2": 28,
+      "3": 37,
+      "4": 37,
+      "5": 40,
+      "6": 47,
+      "7": 43,
+      "8": 36,
+      "KG": 25,
+      "HS": 162
+    }
+  },
+  "generation": {
+    "ingest": "node benchmarks/ca_common_core_math/scripts/ingest_ca_common_core_math.js",
+    "diagrams": "node benchmarks/ca_common_core_math/scripts/generate_mermaid_diagrams.js",
+    "validate": "node benchmarks/ca_common_core_math/scripts/validate_benchmark_pack.js",
+    "smoke_test": "node benchmarks/ca_common_core_math/tests/benchmark_pack_smoke_test.js"
+  }
+}

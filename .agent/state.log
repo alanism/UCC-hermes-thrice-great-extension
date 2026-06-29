@@ -1,0 +1,11 @@
+2026-06-29T19:14:06Z PLAN_ACTIVATED plan_hash=sha256:168d8db08e7fe12906edb02c4dd978e9e37be934199fa35280e65c9edca434b2 implementation_authorized=false
+2026-06-29T19:41:53Z PLAN_REVISED previous_plan_hash=sha256:168d8db08e7fe12906edb02c4dd978e9e37be934199fa35280e65c9edca434b2 plan_hash=sha256:fc2e490aa99678fe7bd2ad888e8d30970c37a5eaab107e150e78602740e89782 implementation_authorized=false reason=adversarial_review_disposition
+2026-06-29T19:43:27Z PLAN_REVISED previous_plan_hash=sha256:fc2e490aa99678fe7bd2ad888e8d30970c37a5eaab107e150e78602740e89782 plan_hash=sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564 implementation_authorized=false reason=bootstrap_protocol_added
+2026-06-29T20:03:36Z CLAIM_CREATED task=T0.1 agent=codex-t01 plan_hash=sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564 bootstrap=true
+2026-06-29T20:03:36Z TASK_IN_PROGRESS task=T0.1 agent=codex-t01 bootstrap=true
+2026-06-29T20:04:52Z TASK_DONE task=T0.1 agent=codex-t01 receipt=docs/active/receipts/T0.1.md bootstrap=true authorization_expired=true
+2026-06-29T21:20:42Z CLAIM_CREATED task=T0.2 agent=codex-bootstrap-autopilot-01 plan_hash=sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564 bootstrap=true
+2026-06-29T21:20:42Z TASK_IN_PROGRESS task=T0.2 agent=codex-bootstrap-autopilot-01 bootstrap=true
+2026-06-29T21:21:20Z TASK_DONE task=T0.2 agent=codex-bootstrap-autopilot-01 receipt=docs/active/receipts/T0.2.md bootstrap=true
+2026-06-29T21:22:11Z CLAIM_CREATED task=A2.1 agent=codex-bootstrap-autopilot-01 plan_hash=sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564 bootstrap=true
+2026-06-29T21:22:11Z TASK_IN_PROGRESS task=A2.1 agent=codex-bootstrap-autopilot-01 bootstrap=true

@@ -1,0 +1,75 @@
+{
+  "schema_version": "ca_science_manifest.v1",
+  "benchmark_system": "California Science / NGSS-style Performance Expectations",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T08:06:12.940Z",
+  "source_folder": "/Users/alannguyen/Documents/Vibe Code/UCC-learning campaign/California Common Core Math Standards by Grade",
+  "source_files": [
+    {
+      "filename": "California Common Core Science Grade 1.txt",
+      "grade": "1",
+      "sha256": "05490f0dd76642783ba5c92688b6931700ed9e74b917d84430bf58c464b3fe9e"
+    },
+    {
+      "filename": "California Common Core Science Grade 2.txt",
+      "grade": "2",
+      "sha256": "615ecdd8113972ab5acdbb2358242b9e3ba797c18e4da29180e15d29066df1e9"
+    },
+    {
+      "filename": "California Common Core Science Grade 3.txt",
+      "grade": "3",
+      "sha256": "5a16bc59524b7b2dd611b38a2d23f01a0af51e34de8aec7149f2309dbca08328"
+    },
+    {
+      "filename": "California Common Core Science Grade 4.txt",
+      "grade": "4",
+      "sha256": "cc8ffae098cbc90f3f12474d5f39af183028c8a64e09836356b52f8337b3670a"
+    },
+    {
+      "filename": "California Common Core Science Grade 5.txt",
+      "grade": "5",
+      "sha256": "ced7aed1212ab793e547423bf50a9a706b9f21dac902a49dd43b9dc129b3ed08"
+    },
+    {
+      "filename": "California Common Core Science Grade 6.txt",
+      "grade": "6",
+      "sha256": "a0d6d0692120c322a97cefefc2f802ed230e492dfcc2f87cda4056cae9d0de24"
+    },
+    {
+      "filename": "California Common Core Science Grade 7.txt",
+      "grade": "7",
+      "sha256": "1e7f42fde129ee87e53a0a485039c56bbb781aa16762f6acf8c4a21553ae81db"
+    },
+    {
+      "filename": "California Common Core Science Grade 8.txt",
+      "grade": "8",
+      "sha256": "8a2d2ad1ded970f234fd9959ac31941c173cf8ce1eae97f589f6ec5546573d68"
+    },
+    {
+      "filename": "California Common Core Science Grade HS.txt",
+      "grade": "HS",
+      "sha256": "1301e09ab466008eaefab527da5e25f084f4d0fed645730ffbdc3a922a174173"
+    }
+  ],
+  "counts": {
+    "nodes": 192,
+    "edges": 129,
+    "nodes_by_grade": {
+      "1": 12,
+      "2": 14,
+      "3": 18,
+      "4": 17,
+      "5": 16,
+      "6": 19,
+      "7": 22,
+      "8": 26,
+      "HS": 48
+    }
+  },
+  "generation": {
+    "ingest": "node benchmarks/ca_science/scripts/ingest_ca_science.js",
+    "diagrams": "node benchmarks/ca_science/scripts/generate_mermaid_diagrams.js",
+    "validate": "node benchmarks/ca_science/scripts/validate_benchmark_pack.js",
+    "smoke_test": "node benchmarks/ca_science/tests/benchmark_pack_smoke_test.js"
+  }
+}

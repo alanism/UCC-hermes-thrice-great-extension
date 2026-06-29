@@ -1,0 +1,1359 @@
+{
+  "schema_version": "ca_common_core_math_edges.v1",
+  "benchmark_system": "California Common Core Math",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T07:07:52.275Z",
+  "edges": [
+    {
+      "from": "CA.CCSS.Math.1.G.1",
+      "to": "CA.CCSS.Math.2.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.G.2",
+      "to": "CA.CCSS.Math.2.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.G.3",
+      "to": "CA.CCSS.Math.2.G.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.MD.1",
+      "to": "CA.CCSS.Math.2.MD.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.MD.2",
+      "to": "CA.CCSS.Math.2.MD.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.MD.3",
+      "to": "CA.CCSS.Math.2.MD.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.MD.4",
+      "to": "CA.CCSS.Math.2.MD.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.1",
+      "to": "CA.CCSS.Math.2.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.2",
+      "to": "CA.CCSS.Math.2.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.2.a",
+      "to": "CA.CCSS.Math.2.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.2.b",
+      "to": "CA.CCSS.Math.2.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.2.c",
+      "to": "CA.CCSS.Math.2.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.3",
+      "to": "CA.CCSS.Math.2.NBT.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.4",
+      "to": "CA.CCSS.Math.2.NBT.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.5",
+      "to": "CA.CCSS.Math.2.NBT.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.NBT.6",
+      "to": "CA.CCSS.Math.2.NBT.6",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.OA.1",
+      "to": "CA.CCSS.Math.2.OA.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.OA.1",
+      "to": "CA.CCSS.Math.2.OA.1",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "One- and two-step additive word problems extend first-grade situation and unknown-position schemas."
+    },
+    {
+      "from": "CA.CCSS.Math.1.OA.2",
+      "to": "CA.CCSS.Math.2.OA.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.OA.3",
+      "to": "CA.CCSS.Math.2.OA.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.1.OA.4",
+      "to": "CA.CCSS.Math.2.OA.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.G.1",
+      "to": "CA.CCSS.Math.3.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.G.2",
+      "to": "CA.CCSS.Math.3.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.1",
+      "to": "CA.CCSS.Math.3.MD.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.2",
+      "to": "CA.CCSS.Math.3.MD.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.3",
+      "to": "CA.CCSS.Math.3.MD.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.4",
+      "to": "CA.CCSS.Math.3.MD.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.5",
+      "to": "CA.CCSS.Math.3.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.6",
+      "to": "CA.CCSS.Math.3.MD.6",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.7",
+      "to": "CA.CCSS.Math.3.MD.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.MD.8",
+      "to": "CA.CCSS.Math.3.MD.8",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.NBT.1",
+      "to": "CA.CCSS.Math.3.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.NBT.1.a",
+      "to": "CA.CCSS.Math.3.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.NBT.1.b",
+      "to": "CA.CCSS.Math.3.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.NBT.2",
+      "to": "CA.CCSS.Math.3.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.NBT.3",
+      "to": "CA.CCSS.Math.3.NBT.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.1",
+      "to": "CA.CCSS.Math.3.OA.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.1",
+      "to": "CA.CCSS.Math.3.OA.3",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "Multiplicative word problems reuse earlier practices for representing situations, unknowns, and equations."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.1",
+      "to": "CA.CCSS.Math.4.OA.3",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "Multi-step four-operation word problems depend on earlier one- and two-step additive word-problem schemas."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.2",
+      "to": "CA.CCSS.Math.3.OA.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.3",
+      "to": "CA.CCSS.Math.3.OA.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.4",
+      "to": "CA.CCSS.Math.3.OA.1",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Repeated addition and arrays provide a foundation for interpreting products as equal groups."
+    },
+    {
+      "from": "CA.CCSS.Math.2.OA.4",
+      "to": "CA.CCSS.Math.3.OA.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.G.1",
+      "to": "CA.CCSS.Math.4.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.G.2",
+      "to": "CA.CCSS.Math.4.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.1",
+      "to": "CA.CCSS.Math.4.MD.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.2",
+      "to": "CA.CCSS.Math.4.MD.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.3",
+      "to": "CA.CCSS.Math.4.MD.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.4",
+      "to": "CA.CCSS.Math.4.MD.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.5",
+      "to": "CA.CCSS.Math.4.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.5.a",
+      "to": "CA.CCSS.Math.4.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.5.b",
+      "to": "CA.CCSS.Math.4.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.6",
+      "to": "CA.CCSS.Math.4.MD.6",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.7",
+      "to": "CA.CCSS.Math.4.MD.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.7.a",
+      "to": "CA.CCSS.Math.4.MD.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.7.b",
+      "to": "CA.CCSS.Math.4.MD.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.7.c",
+      "to": "CA.CCSS.Math.4.MD.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.MD.7.d",
+      "to": "CA.CCSS.Math.4.MD.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NBT.1",
+      "to": "CA.CCSS.Math.4.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NBT.2",
+      "to": "CA.CCSS.Math.4.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NBT.3",
+      "to": "CA.CCSS.Math.4.NBT.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.1",
+      "to": "CA.CCSS.Math.4.NF.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.2",
+      "to": "CA.CCSS.Math.4.NF.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.2.a",
+      "to": "CA.CCSS.Math.4.NF.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.2.b",
+      "to": "CA.CCSS.Math.4.NF.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.3",
+      "to": "CA.CCSS.Math.4.NF.1",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Fraction equivalence in grade 4 extends grade 3 equivalence and comparison concepts."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.3",
+      "to": "CA.CCSS.Math.4.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.3.a",
+      "to": "CA.CCSS.Math.4.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.3.b",
+      "to": "CA.CCSS.Math.4.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.3.c",
+      "to": "CA.CCSS.Math.4.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.NF.3.d",
+      "to": "CA.CCSS.Math.4.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.1",
+      "to": "CA.CCSS.Math.4.OA.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.2",
+      "to": "CA.CCSS.Math.4.OA.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.3",
+      "to": "CA.CCSS.Math.4.OA.2",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Multiplicative comparison problems depend on multiplication and division situation schemas."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.3",
+      "to": "CA.CCSS.Math.4.OA.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.3",
+      "to": "CA.CCSS.Math.4.OA.3",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Multi-step four-operation problems depend on multiplication and division situation schemas."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.4",
+      "to": "CA.CCSS.Math.4.OA.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.3.OA.5",
+      "to": "CA.CCSS.Math.4.OA.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.G.1",
+      "to": "CA.CCSS.Math.5.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.G.2",
+      "to": "CA.CCSS.Math.5.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.G.3",
+      "to": "CA.CCSS.Math.5.G.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.1",
+      "to": "CA.CCSS.Math.5.MD.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.2",
+      "to": "CA.CCSS.Math.5.MD.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.3",
+      "to": "CA.CCSS.Math.5.MD.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.4",
+      "to": "CA.CCSS.Math.5.MD.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.5",
+      "to": "CA.CCSS.Math.5.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.5.a",
+      "to": "CA.CCSS.Math.5.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.MD.5.b",
+      "to": "CA.CCSS.Math.5.MD.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NBT.1",
+      "to": "CA.CCSS.Math.5.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NBT.2",
+      "to": "CA.CCSS.Math.5.NBT.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NBT.3",
+      "to": "CA.CCSS.Math.5.NBT.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NBT.4",
+      "to": "CA.CCSS.Math.5.NBT.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NBT.5",
+      "to": "CA.CCSS.Math.5.NBT.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NBT.6",
+      "to": "CA.CCSS.Math.5.NBT.6",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.1",
+      "to": "CA.CCSS.Math.5.NF.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.2",
+      "to": "CA.CCSS.Math.5.NF.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.3",
+      "to": "CA.CCSS.Math.5.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.3.a",
+      "to": "CA.CCSS.Math.5.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.3.b",
+      "to": "CA.CCSS.Math.5.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.3.c",
+      "to": "CA.CCSS.Math.5.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.3.d",
+      "to": "CA.CCSS.Math.5.NF.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.4",
+      "to": "CA.CCSS.Math.5.NF.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.4",
+      "to": "CA.CCSS.Math.5.NF.4",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Multiplying fractions in grade 5 extends whole-number-by-fraction multiplication."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.4.a",
+      "to": "CA.CCSS.Math.5.NF.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.4.b",
+      "to": "CA.CCSS.Math.5.NF.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.4.c",
+      "to": "CA.CCSS.Math.5.NF.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.5",
+      "to": "CA.CCSS.Math.5.NF.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.6",
+      "to": "CA.CCSS.Math.5.NF.6",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.NF.7",
+      "to": "CA.CCSS.Math.5.NF.7",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NF standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.OA.1",
+      "to": "CA.CCSS.Math.5.OA.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.OA.2",
+      "to": "CA.CCSS.Math.5.OA.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.4.OA.3",
+      "to": "CA.CCSS.Math.5.OA.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.5.G.1",
+      "to": "CA.CCSS.Math.6.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.5.G.2",
+      "to": "CA.CCSS.Math.6.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.5.G.3",
+      "to": "CA.CCSS.Math.6.G.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.5.G.4",
+      "to": "CA.CCSS.Math.6.G.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.5.NF.7",
+      "to": "CA.CCSS.Math.6.RP.1",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "Fraction division supports reasoning about ratios and rates with non-whole quantities."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.1",
+      "to": "CA.CCSS.Math.7.EE.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.2",
+      "to": "CA.CCSS.Math.7.EE.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.2.a",
+      "to": "CA.CCSS.Math.7.EE.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.2.b",
+      "to": "CA.CCSS.Math.7.EE.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.2.c",
+      "to": "CA.CCSS.Math.7.EE.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.3",
+      "to": "CA.CCSS.Math.7.EE.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.EE.4",
+      "to": "CA.CCSS.Math.7.EE.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.G.1",
+      "to": "CA.CCSS.Math.7.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.G.2",
+      "to": "CA.CCSS.Math.7.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.G.3",
+      "to": "CA.CCSS.Math.7.G.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.G.4",
+      "to": "CA.CCSS.Math.7.G.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.NS.1",
+      "to": "CA.CCSS.Math.7.NS.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.NS.2",
+      "to": "CA.CCSS.Math.7.NS.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.NS.3",
+      "to": "CA.CCSS.Math.7.NS.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.1",
+      "to": "CA.CCSS.Math.7.RP.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.2",
+      "to": "CA.CCSS.Math.7.RP.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.3",
+      "to": "CA.CCSS.Math.7.RP.2",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Recognizing proportional relationships extends ratio and rate problem solving."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.3",
+      "to": "CA.CCSS.Math.7.RP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.3.a",
+      "to": "CA.CCSS.Math.7.RP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.3.b",
+      "to": "CA.CCSS.Math.7.RP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.3.c",
+      "to": "CA.CCSS.Math.7.RP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.RP.3.d",
+      "to": "CA.CCSS.Math.7.RP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby RP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.1",
+      "to": "CA.CCSS.Math.7.SP.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.2",
+      "to": "CA.CCSS.Math.7.SP.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.3",
+      "to": "CA.CCSS.Math.7.SP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.4",
+      "to": "CA.CCSS.Math.7.SP.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.5",
+      "to": "CA.CCSS.Math.7.SP.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.5.a",
+      "to": "CA.CCSS.Math.7.SP.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.5.b",
+      "to": "CA.CCSS.Math.7.SP.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.5.c",
+      "to": "CA.CCSS.Math.7.SP.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.6.SP.5.d",
+      "to": "CA.CCSS.Math.7.SP.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.EE.1",
+      "to": "CA.CCSS.Math.8.EE.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.EE.2",
+      "to": "CA.CCSS.Math.8.EE.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.EE.3",
+      "to": "CA.CCSS.Math.8.EE.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.EE.4",
+      "to": "CA.CCSS.Math.8.EE.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.EE.4.a",
+      "to": "CA.CCSS.Math.8.EE.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.EE.4.b",
+      "to": "CA.CCSS.Math.8.EE.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby EE standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.G.1",
+      "to": "CA.CCSS.Math.8.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.G.2",
+      "to": "CA.CCSS.Math.8.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.G.3",
+      "to": "CA.CCSS.Math.8.G.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.G.4",
+      "to": "CA.CCSS.Math.8.G.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.G.5",
+      "to": "CA.CCSS.Math.8.G.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.G.6",
+      "to": "CA.CCSS.Math.8.G.6",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.1",
+      "to": "CA.CCSS.Math.8.NS.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.1.a",
+      "to": "CA.CCSS.Math.8.NS.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.1.b",
+      "to": "CA.CCSS.Math.8.NS.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.1.c",
+      "to": "CA.CCSS.Math.8.NS.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.1.d",
+      "to": "CA.CCSS.Math.8.NS.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.2",
+      "to": "CA.CCSS.Math.8.NS.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.2.a",
+      "to": "CA.CCSS.Math.8.NS.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.2.b",
+      "to": "CA.CCSS.Math.8.NS.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.2.c",
+      "to": "CA.CCSS.Math.8.NS.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.NS.2.d",
+      "to": "CA.CCSS.Math.8.NS.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NS standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.RP.2",
+      "to": "CA.CCSS.Math.8.EE.5",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Slope in proportional graphs depends on constants of proportionality and unit-rate reasoning."
+    },
+    {
+      "from": "CA.CCSS.Math.7.SP.1",
+      "to": "CA.CCSS.Math.8.SP.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.SP.1",
+      "to": "CA.CCSS.Math.8.SP.1",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "Bivariate data analysis extends sampling and statistical reasoning."
+    },
+    {
+      "from": "CA.CCSS.Math.7.SP.2",
+      "to": "CA.CCSS.Math.8.SP.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.SP.3",
+      "to": "CA.CCSS.Math.8.SP.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.7.SP.4",
+      "to": "CA.CCSS.Math.8.SP.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby SP standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.8.EE.5",
+      "to": "CA.CCSS.Math.8.F.3",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "Understanding slope and proportional graphs supports interpreting linear functions."
+    },
+    {
+      "from": "CA.CCSS.Math.8.F.3",
+      "to": "CA.CCSS.Math.F-IF.4",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "High-school function interpretation extends grade 8 classification and comparison of functions."
+    },
+    {
+      "from": "CA.CCSS.Math.8.G.2",
+      "to": "CA.CCSS.Math.G-CO.2",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "High-school transformation functions extend grade 8 rigid-motion reasoning."
+    },
+    {
+      "from": "CA.CCSS.Math.8.SP.3",
+      "to": "CA.CCSS.Math.S-ID.6",
+      "relationship": "prerequisite_for",
+      "confidence": "medium",
+      "reason": "Linear modeling of bivariate data extends informal line-of-best-fit reasoning."
+    },
+    {
+      "from": "CA.CCSS.Math.K.G.1",
+      "to": "CA.CCSS.Math.1.G.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.G.2",
+      "to": "CA.CCSS.Math.1.G.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.G.3",
+      "to": "CA.CCSS.Math.1.G.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby G standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.MD.1",
+      "to": "CA.CCSS.Math.1.MD.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.MD.2",
+      "to": "CA.CCSS.Math.1.MD.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.MD.3",
+      "to": "CA.CCSS.Math.1.MD.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby MD standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.NBT.1",
+      "to": "CA.CCSS.Math.1.NBT.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby NBT standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.OA.1",
+      "to": "CA.CCSS.Math.1.OA.1",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.OA.2",
+      "to": "CA.CCSS.Math.1.OA.1",
+      "relationship": "prerequisite_for",
+      "confidence": "high",
+      "reason": "First-grade additive word-problem schemas build on representing addition and subtraction situations."
+    },
+    {
+      "from": "CA.CCSS.Math.K.OA.2",
+      "to": "CA.CCSS.Math.1.OA.2",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.OA.3",
+      "to": "CA.CCSS.Math.1.OA.3",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.OA.4",
+      "to": "CA.CCSS.Math.1.OA.4",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    },
+    {
+      "from": "CA.CCSS.Math.K.OA.5",
+      "to": "CA.CCSS.Math.1.OA.5",
+      "relationship": "official_progression",
+      "confidence": "medium",
+      "reason": "Preserves the California grade sequence for nearby OA standards with the same standard number."
+    }
+  ]
+}

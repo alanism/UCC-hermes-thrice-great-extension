@@ -1,0 +1,60 @@
+{
+  "schema_version": "ucc_social_studies_capability_tags.v1",
+  "tags": [
+    {
+      "id": "historical_reasoning",
+      "label": "Historical reasoning",
+      "description": "Using time, context, evidence, cause/effect, and continuity/change to explain the past."
+    },
+    {
+      "id": "source_evidence_reasoning",
+      "label": "Source and evidence reasoning",
+      "description": "Interpreting sources, assessing credibility, distinguishing fact/opinion, supporting claims."
+    },
+    {
+      "id": "geographic_reasoning",
+      "label": "Geographic reasoning",
+      "description": "Using maps, regions, places, movement, and spatial relationships to explain human activity."
+    },
+    {
+      "id": "civic_judgment",
+      "label": "Civic judgment",
+      "description": "Reasoning about rights, laws, institutions, citizenship, democracy, and public life."
+    },
+    {
+      "id": "economic_reasoning",
+      "label": "Economic reasoning",
+      "description": "Reasoning about resources, production, consumption, trade, incentives, and systems."
+    },
+    {
+      "id": "perspective_taking",
+      "label": "Perspective-taking",
+      "description": "Understanding different actors, interests, identities, and points of view."
+    },
+    {
+      "id": "cause_effect_reasoning",
+      "label": "Cause/effect reasoning",
+      "description": "Explaining short-term and long-term causes, effects, and unintended consequences."
+    },
+    {
+      "id": "continuity_change_reasoning",
+      "label": "Continuity/change reasoning",
+      "description": "Identifying persistence, transformation, reform, rupture, and historical patterns."
+    },
+    {
+      "id": "conundrum_reasoning",
+      "label": "Conundrum reasoning",
+      "description": "Reasoning through tradeoffs, dilemmas, competing values, and judgment under uncertainty."
+    },
+    {
+      "id": "narrative_reconstruction",
+      "label": "Narrative reconstruction",
+      "description": "Reconstructing events, actors, motives, decisions, and consequences into coherent explanations."
+    },
+    {
+      "id": "map_story_reasoning",
+      "label": "Map-story reasoning",
+      "description": "Connecting geography, movement, place, conflict, and historical sequence."
+    }
+  ]
+}

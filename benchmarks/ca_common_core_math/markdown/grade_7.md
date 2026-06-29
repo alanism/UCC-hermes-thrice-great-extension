@@ -1,0 +1,690 @@
+# California Common Core Math — Grade 7
+
+> Reference benchmark only. Benchmarks inform. They do not command.
+
+This grade-equivalence view contains 43 benchmark nodes across 5 domains. It is terrain for diagnosis and planning, not a fixed learning path.
+
+## EE: Expressions and Equations
+
+### 7.EE.1
+
+**Cluster:** Use properties of operations to generate equivalent expressions.
+
+Apply properties of operations as strategies to add, subtract, factor, and expand linear expressions with rational coefficients.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `functions_modeling`, `geometry_spatial_reasoning`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Add and subtract linear expressions (7-S.7)
+- Factor linear expressions: area models (7-S.9)
+- Factors of linear expressions (7-S.10)
+- Identify equivalent linear expressions I (7-S.12)
+- Identify equivalent linear expressions II (7-S.13)
+- Identify equivalent linear expressions using algebra tiles (7-S.11)
+- Multiply using the distributive property (7-S.5)
+- Multiply using the distributive property: area models (7-S.4)
+- Simplify expressions by combining like terms (7-S.3)
+- Simplify expressions by combining like terms: with algebra tiles (7-S.2)
+- Write equivalent expressions using properties (7-S.6)
+
+### 7.EE.2
+
+**Cluster:** Use properties of operations to generate equivalent expressions.
+
+Understand that rewriting an expression in different forms in a problem context can shed light on the problem and how the quantities in it are related.
+
+**UCC capability tags:** `algebra_expressions_equations`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Identify equivalent linear expressions: word problems (7-S.14)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+- Checkpoint: Linear expressions (7-S.)
+
+### 7.EE.3
+
+**Cluster:** Solve real-life and mathematical problems using numerical and algebraic expressions and equations.
+
+Solve multi-step real-life and mathematical problems posed with positive and negative rational numbers in any form (whole numbers, fractions, and decimals), using tools strategically. Apply properties of operations to calculate with numbers in any form; convert between forms as appropriate; and assess the reasonableness of answers using mental computation and estimation strategies.
+
+**UCC capability tags:** `algebra_expressions_equations`, `explanation_reasoning`, `fraction_decimal_reasoning`, `measurement_units`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Evaluate linear expressions (7-R.4)
+- Evaluate multi-variable expressions (7-R.5)
+- Evaluate nonlinear expressions (7-R.7)
+- Evaluate numerical expressions involving decimals (7-D.12)
+- Evaluate numerical expressions involving fractions (7-G.18)
+- Evaluate numerical expressions involving integers (7-B.25)
+- Maps with decimal distances (7-D.11)
+- Maps with fractional distances (7-G.17)
+- Multi-step word problems with positive rational numbers (7-I.11)
+
+### 7.EE.4
+
+**Cluster:** Solve real-life and mathematical problems using numerical and algebraic expressions and equations.
+
+Use variables to represent quantities in a real-world or mathematical problem, and construct simple equations and inequalities to solve problems by reasoning about the quantities.
+
+**UCC capability tags:** `algebra_expressions_equations`, `explanation_reasoning`, `modeling`, `operation_selection`, `word_problem_schema`
+
+### 7.EE.4.a
+
+**Cluster:** Solve real-life and mathematical problems using numerical and algebraic expressions and equations.
+
+Solve word problems leading to equations of the form px + q = r and p(x + q) = r, where p, q, and r are specific rational numbers. Solve equations of these forms fluently. Compare an algebraic solution to an arithmetic solution, identifying the sequence of the operations used in each approach.
+
+**UCC capability tags:** `algebra_expressions_equations`, `fluency_automaticity`, `fraction_decimal_reasoning`, `functions_modeling`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Choose two-step equations: word problems (7-T.12)
+- Model and solve equations using algebra tiles (7-T.4)
+- Solve equations: complete the solution (7-T.15)
+- Solve two-step equations (7-T.10)
+- Solve two-step equations with fractions (7-T.11)
+- Solve two-step equations with parentheses (7-T.9)
+- Solve two-step equations without parentheses (7-T.8)
+- Solve two-step equations: word problems (7-T.13)
+
+### 7.EE.4.b
+
+**Cluster:** Solve real-life and mathematical problems using numerical and algebraic expressions and equations.
+
+Solve word problems leading to inequalities of the form px + q > r or px + q < r, where p, q, and r are specific rational numbers. Graph the solution set of the inequality and interpret it in the context of the problem.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Graph solutions to one-step inequalities (7-U.5)
+- Graph solutions to two-step inequalities (7-U.8)
+- One-step inequalities: word problems (7-U.6)
+- Solve one-step inequalities (7-U.4)
+- Solve two-step inequalities (7-U.7)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+- Checkpoint: Solve two-step equations (7-T.16)
+- Checkpoint: Solve two-step inequalities (7-U.9)
+
+## G: Geometry
+
+### 7.G.1
+
+**Cluster:** Draw, construct, and describe geometrical figures and describe the relationships between them.
+
+Solve problems involving scale drawings of geometric figures, including computing actual lengths and areas from a scale drawing and reproducing a scale drawing at a different scale.
+
+**UCC capability tags:** `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `multiplicative_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Perimeter and area: changes in scale (7-DD.4)
+- Scale drawings of polygons (7-DD.1)
+- Scale drawings: scale factor word problems (7-DD.3)
+- Scale drawings: word problems (7-DD.2)
+
+### 7.G.2
+
+**Cluster:** Draw, construct, and describe geometrical figures and describe the relationships between them.
+
+Draw (freehand, with ruler and protractor, and with technology) geometric shapes with given conditions. Focus on constructing triangles from three measures of angles or sides, noticing when the conditions determine a unique triangle, more than one triangle, or no triangle.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`
+
+**Skill examples:**
+
+- Graph triangles and quadrilaterals (7-Z.7)
+- Triangle inequality (7-Z.3)
+
+### 7.G.3
+
+**Cluster:** Draw, construct, and describe geometrical figures and describe the relationships between them.
+
+Describe the two-dimensional figures that result from slicing three-dimensional figures, as in plane sections of right rectangular prisms and right rectangular pyramids.
+
+**UCC capability tags:** `geometry_spatial_reasoning`
+
+**Skill examples:**
+
+- Cross sections of three-dimensional figures (7-AA.4)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+- Checkpoint: Scale drawings (7-DD.5)
+
+### 7.G.4
+
+**Cluster:** Solve real-life and mathematical problems involving angle measure, area, surface area, and volume.
+
+Know the formulas for the area and circumference of a circle and use them to solve problems; give an informal derivation of the relationship between the circumference and area of a circle.
+
+**UCC capability tags:** `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `word_problem_schema`
+
+**Skill examples:**
+
+- Area of circles (7-BB.6)
+- Circles: word problems (7-BB.7)
+- Circumference of circles (7-BB.5)
+- Parts of a circle (7-Z.13)
+
+### 7.G.5
+
+**Cluster:** Solve real-life and mathematical problems involving angle measure, area, surface area, and volume.
+
+Use facts about supplementary, complementary, vertical, and adjacent angles in a multi-step problem to write and solve simple equations for an unknown angle in a figure.
+
+**UCC capability tags:** `algebra_expressions_equations`, `geometry_spatial_reasoning`, `measurement_units`, `operation_selection`
+
+**Skill examples:**
+
+- Find measures of complementary, supplementary, vertical, and adjacent angles (7-Y.5)
+- Identify complementary, supplementary, vertical, and adjacent angles (7-Y.4)
+- Write and solve equations using angle relationships (7-Y.6)
+
+### 7.G.6
+
+**Cluster:** Solve real-life and mathematical problems involving angle measure, area, surface area, and volume.
+
+Solve real-world and mathematical problems involving area, volume and surface area of two- and three-dimensional objects composed of triangles, quadrilaterals, polygons, cubes, and right prisms.
+
+**UCC capability tags:** `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `word_problem_schema`
+
+**Skill examples:**
+
+- Area between two shapes (7-BB.14)
+- Area of compound figures with triangles (7-BB.12)
+- Area of rectangles and parallelograms (7-BB.2)
+- Area of triangles and trapezoids (7-BB.3)
+- Surface area of cubes and prisms (7-CC.1)
+- Volume of cubes and prisms (7-CC.5)
+- Volume of cubes and rectangular prisms: word problems (7-CC.6)
+- Volume of prisms: advanced (7-CC.7)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+- Checkpoint: Area, circumference, surface area, and volume (7-CC.10)
+
+## NS: The Number System
+
+### 7.NS.1
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Apply and extend previous understandings of addition and subtraction to add and subtract rational numbers; represent addition and subtraction on a horizontal or vertical number line diagram.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `operation_selection`
+
+### 7.NS.1.a
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Describe situations in which opposite quantities combine to make 0.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Quantities that combine to zero: word problems (7-A.6)
+
+### 7.NS.1.b
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Understand p + q as the number located a distance |q| from p, in the positive or negative direction depending on whether q is positive or negative. Show that a number and its opposite have a sum of 0 (are additive inverses). Interpret sums of rational numbers by describing real-world contexts.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Add integers using number lines (7-B.2)
+- Apply addition and subtraction rules (7-I.4)
+- Integer addition and subtraction rules (7-B.10)
+- Integer addition rules (7-B.3)
+
+### 7.NS.1.c
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Understand subtraction of rational numbers as adding the additive inverse, p – q = p + (–q). Show that the distance between two rational numbers on the number line is the absolute value of their difference, and apply this principle in real-world contexts.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Apply addition and subtraction rules (7-I.4)
+- Complete addition and subtraction equations with integers (7-B.13)
+- Distance between rational numbers on a number line (7-I.)
+- Integer addition and subtraction rules (7-B.10)
+- Integer subtraction rules (7-B.8)
+- Subtract integers using number lines (7-B.7)
+
+### 7.NS.1.d
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Apply properties of operations as strategies to add and subtract rational numbers.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `counting_cardinality`, `fraction_decimal_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Add and subtract decimals (7-D.1)
+- Add and subtract fractions (7-G.1)
+- Add and subtract integers (7-B.12)
+- Add and subtract integers using counters (7-B.11)
+- Add and subtract mixed numbers (7-G.3)
+- Add and subtract positive and negative decimals (7-I.1)
+- Add and subtract positive and negative fractions (7-I.2)
+- Add and subtract rational numbers (7-I.3)
+- Add integers (7-B.4)
+- Add integers using counters (7-B.1)
+- Add three or more integers (7-B.5)
+- Subtract integers (7-B.9)
+- Subtract integers using counters (7-B.6)
+
+### 7.NS.2
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Apply and extend previous understandings of multiplication and division and of fractions to multiply and divide rational numbers.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `multiplicative_reasoning`, `operation_selection`
+
+### 7.NS.2.a
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Understand that multiplication is extended from fractions to rational numbers by requiring that operations continue to satisfy the properties of operations, particularly the distributive property, leading to products such as (–1)(–1) = 1 and the rules for multiplying signed numbers. Interpret products of rational numbers by describing real-world contexts.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Apply multiplication and division rules (7-I.9)
+- Integer multiplication and division rules (7-B.21)
+- Integer multiplication rules (7-B.16)
+- Understand multiplying by a negative integer using a number line (7-B.15)
+
+### 7.NS.2.b
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Understand that integers can be divided, provided that the divisor is not zero, and every quotient of integers (with non-zero divisor) is a rational number. If p and q are integers, then –(p/q) = (–p)/q = p/(–q). Interpret quotients of rational numbers by describing real-world contexts.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Apply multiplication and division rules (7-I.9)
+- Complete multiplication and division equations with integers (7-B.23)
+- Equal quotients of integers (7-B.19)
+- Identify quotients of rational numbers: word problems (7-I.5)
+- Integer division rules (7-B.18)
+- Integer multiplication and division rules (7-B.21)
+
+### 7.NS.2.c
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Apply properties of operations as strategies to multiply and divide rational numbers.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Divide decimals (7-D.5)
+- Divide fractions (7-G.12)
+- Divide integers (7-B.20)
+- Divide mixed numbers (7-G.13)
+- Multiply and divide integers (7-B.22)
+- Multiply and divide positive and negative decimals (7-I.6)
+- Multiply and divide positive and negative fractions (7-I.7)
+- Multiply and divide rational numbers (7-I.8)
+- Multiply decimals (7-D.3)
+- Multiply fractions (7-G.8)
+- Multiply integers (7-B.17)
+- Multiply mixed numbers (7-G.9)
+
+### 7.NS.2.d
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Convert a rational number to a decimal using long division; know that the decimal form of a rational number terminates in 0s or eventually repeats.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Classify rational numbers (7-H.6)
+- Convert fractions or mixed numbers to decimals (7-H.1)
+
+### 7.NS.3
+
+**Cluster:** Apply and extend previous understandings of operations with fractions to add, subtract, multiply, and divide rational numbers.
+
+Solve real-world and mathematical problems involving the four operations with rational numbers.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `measurement_units`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Add and subtract decimals: word problems (7-D.2)
+- Add and subtract fractions: word problems (7-G.2)
+- Add and subtract integers: word problems (7-B.14)
+- Add and subtract mixed numbers: word problems (7-G.4)
+- Add, subtract, multiply, and divide decimals: word problems (7-D.9)
+- Add, subtract, multiply, and divide fractions and mixed numbers: word problems (7-G.16)
+- Add, subtract, multiply, and divide integers (7-B.24)
+- Add, subtract, multiply, and divide money amounts: word problems (7-P.1)
+- Add, subtract, multiply, and divide rational numbers (7-I.10)
+- Complete addition and subtraction equations with integers (7-B.13)
+- Complete multiplication and division equations with integers (7-B.23)
+- Divide decimals by whole numbers: word problems (7-D.6)
+- Divide fractions and mixed numbers: word problems (7-G.14)
+- Multiply decimals and whole numbers: word problems (7-D.4)
+- Multiply fractions and mixed numbers: word problems (7-G.10)
+- Price lists (7-P.2)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+- Checkpoint: Add and subtract rational numbers (7-I.12)
+- Checkpoint: Multiply and divide rational numbers (7-I.13)
+- Checkpoint: Problem solving with rational numbers (7-I.14)
+
+## RP: Ratios and Proportional Relationships
+
+### 7.RP.1
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Compute unit rates associated with ratios of fractions, including ratios of lengths, areas and other quantities measured in like or different units.
+
+**UCC capability tags:** `fraction_decimal_reasoning`, `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Calculate unit rates with fractions (7-L.6)
+- Solve word problems using unit rates (7-L.7)
+
+### 7.RP.2
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Recognize and represent proportional relationships between quantities.
+
+**UCC capability tags:** `modeling`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+### 7.RP.2.a
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Decide whether two quantities are in a proportional relationship, e.g., by testing for equivalent ratios in a table or graphing on a coordinate plane and observing whether the graph is a straight line through the origin.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `modeling`, `operation_selection`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Do the ratios form a proportion: word problems (7-L.11)
+- Do the ratios form a proportion? (7-L.10)
+- Equivalent ratios: word problems (7-L.4)
+- Identify equivalent ratios (7-L.2)
+- Identify proportional relationships by graphing (7-N.3)
+- Identify proportional relationships from graphs and equations (7-N.6)
+- Identify proportional relationships from tables (7-N.7)
+
+### 7.RP.2.b
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Identify the constant of proportionality (unit rate) in tables, graphs, equations, diagrams, and verbal descriptions of proportional relationships.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `measurement_units`, `modeling`, `operation_selection`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Find the constant of proportionality from a graph (7-N.4)
+- Find the constant of proportionality from a table (7-N.1)
+
+### 7.RP.2.c
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Represent proportional relationships by equations.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `measurement_units`, `modeling`, `operation_selection`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Estimate population size using proportions (7-L.14)
+- Percents of numbers and money amounts (7-O.6)
+- Percents of numbers: word problems (7-O.7)
+- Solve percent equations (7-O.8)
+- Solve percent equations: word problems (7-O.9)
+- Solve proportions: word problems (7-L.13)
+- Write and solve equations for proportional relationships (7-N.11)
+- Write equations for proportional relationships from graphs (7-N.5)
+- Write equations for proportional relationships from tables (7-N.2)
+
+### 7.RP.2.d
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Explain what a point (x, y) on the graph of a proportional relationship means in terms of the situation, with special attention to the points (0, 0) and (1, r) where r is the unit rate.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `explanation_reasoning`, `measurement_units`, `modeling`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Interpret graphs of proportional relationships (7-N.10)
+
+### 7.RP.3
+
+**Cluster:** Analyze proportional relationships and use them to solve real-world and mathematical problems.
+
+Use proportional relationships to solve multistep ratio and percent problems.
+
+**UCC capability tags:** `counting_cardinality`, `measurement_units`, `modeling`, `ratio_proportional_reasoning`, `word_problem_schema`
+
+**Skill examples:**
+
+- Find the percent: tax, discount, and more (7-P.8)
+- Multi-step problems with percents (7-P.10)
+- Percent error: word problems (7-O.13)
+- Percent of a number: tax, discount, and more (7-P.6)
+- Percent of change (7-O.10)
+- Percent of change: find the original amount word problems (7-O.12)
+- Percent of change: word problems (7-O.11)
+- Sale prices: find the original price (7-P.9)
+- Simple interest (7-P.12)
+- Unit prices with unit conversions (7-P.4)
+- Unit prices: find the total price (7-P.5)
+- Which is the better coupon? (7-P.7)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+- Checkpoint: Proportional relationships (7-N.)
+- Checkpoint: Unit rates, ratios, and percents (7-P.14)
+
+## SP: Statistics and Probability
+
+### 7.SP.1
+
+**Cluster:** Use random sampling to draw inferences about a population.
+
+Understand that statistics can be used to gain information about a population by examining a sample of the population; generalizations about a population from a sample are valid only if the sample is representative of that population. Understand that random sampling tends to produce representative samples and support valid inferences.
+
+**UCC capability tags:** `data_statistics_probability`
+
+**Skill examples:**
+
+- Identify representative, random, and biased samples (7-HH.9)
+- Populations and samples (7-HH.8)
+
+### 7.SP.2
+
+**Cluster:** Use random sampling to draw inferences about a population.
+
+Use data from a random sample to draw inferences about a population with an unknown characteristic of interest. Generate multiple samples (or simulated samples) of the same size to gauge the variation in estimates or predictions.
+
+**UCC capability tags:** `data_statistics_probability`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Estimate population size using proportions (7-L.14)
+- Make an estimate from sample data (7-HH.)
+- Make inferences from multiple samples (7-HH.10)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+
+### 7.SP.3
+
+**Cluster:** Draw informal comparative inferences about two populations.
+
+Informally assess the degree of visual overlap of two numerical data distributions with similar variabilities, measuring the difference between the centers by expressing it as a multiple of a measure of variability.
+
+**UCC capability tags:** `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`, `multiplicative_reasoning`
+
+### 7.SP.4
+
+**Cluster:** Draw informal comparative inferences about two populations.
+
+Use measures of center and measures of variability for numerical data from random samples to draw informal comparative inferences about two populations.
+
+**UCC capability tags:** `data_statistics_probability`, `measurement_units`
+
+**Skill examples:**
+
+- Compare populations using measures of center and spread (7-HH.11)
+
+**Checkpoints:**
+
+- Checkpoint opportunity
+
+### 7.SP.5
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Understand that the probability of a chance event is a number between 0 and 1 that expresses the likelihood of the event occurring. Larger numbers indicate greater likelihood. A probability near 0 indicates an unlikely event, a probability around 1/2 indicates an event that is neither unlikely nor likely, and a probability near 1 indicates a likely event.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`
+
+**Skill examples:**
+
+- Probability of simple events (7-II.2)
+
+### 7.SP.6
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Approximate the probability of a chance event by collecting data on the chance process that produces it and observing its long-run relative frequency, and predict the approximate relative frequency given the probability.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`
+
+**Skill examples:**
+
+- Make predictions using experimental probability (7-II.6)
+- Make predictions using theoretical probability (7-II.8)
+- Use collected data to find probabilities and make predictions (7-II.7)
+
+### 7.SP.7
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Develop a probability model and use it to find probabilities of events. Compare probabilities from a model to observed frequencies; if the agreement is not good, explain possible sources of the discrepancy.
+
+**UCC capability tags:** `data_statistics_probability`, `explanation_reasoning`, `functions_modeling`
+
+### 7.SP.7.a
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Develop a uniform probability model by assigning equal probability to all outcomes, and use the model to determine probabilities of events.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`
+
+**Skill examples:**
+
+- Make predictions using theoretical probability (7-II.8)
+- Probability of simple events (7-II.2)
+- Probability of simple events and opposite events (7-II.3)
+
+### 7.SP.7.b
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Develop a probability model (which may not be uniform) by observing frequencies in data generated from a chance process.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`
+
+**Skill examples:**
+
+- Experimental probability (7-II.5)
+- Make predictions using experimental probability (7-II.6)
+
+### 7.SP.8
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Find probabilities of compound events using organized lists, tables, tree diagrams, and simulation.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`
+
+### 7.SP.8.a
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Understand that, just as with simple events, the probability of a compound event is the fraction of outcomes in the sample space for which the compound event occurs.
+
+**UCC capability tags:** `data_statistics_probability`, `fraction_decimal_reasoning`, `functions_modeling`
+
+**Skill examples:**
+
+- Probability of compound events (7-II.13)
+- Probability of independent and dependent events (7-II.16)
+
+### 7.SP.8.b
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Represent sample spaces for compound events using methods such as organized lists, tables and tree diagrams. For an event described in everyday language (e.g., "rolling double sixes"), identify the outcomes in the sample space which compose the event.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`, `modeling`, `word_problem_schema`
+
+**Skill examples:**
+
+- Compound events: find the number of outcomes (7-II.10)
+- Compound events: find the number of sums (7-II.11)
+- Find the number of outcomes: word problems (7-II.12)
+- Sample spaces for compound events (7-II.9)
+
+### 7.SP.8.c
+
+**Cluster:** Investigate chance processes and develop, use, and evaluate probability models.
+
+Design and use a simulation to generate frequencies for compound events.
+
+**UCC capability tags:** `data_statistics_probability`, `functions_modeling`, `modeling`, `word_problem_schema`
+
+**Skill examples:**
+
+- Which simulation represents the situation? (7-II.14)
+
+## Related diagrams
+
+- [Progression spine](../mermaid/progression_spine.md)
+- [Word-problem schema chain](../mermaid/word_problem_schema_chain.md)
+- [Sample learner heat map](../mermaid/sample_learner_heatmap.md)

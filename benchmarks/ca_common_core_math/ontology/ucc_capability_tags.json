@@ -1,0 +1,85 @@
+{
+  "schema_version": "ucc_capability_tags.v1",
+  "tags": [
+    {
+      "id": "counting_cardinality",
+      "label": "Counting and cardinality",
+      "description": "Number names, count sequence, cardinality, one-to-one correspondence."
+    },
+    {
+      "id": "additive_reasoning",
+      "label": "Additive reasoning",
+      "description": "Addition/subtraction situations, composing/decomposing, comparison, unknowns."
+    },
+    {
+      "id": "word_problem_schema",
+      "label": "Word-problem schema",
+      "description": "Recognizing what kind of problem is being asked before computing."
+    },
+    {
+      "id": "operation_selection",
+      "label": "Operation selection",
+      "description": "Choosing addition, subtraction, multiplication, division, ratio, equation, or model."
+    },
+    {
+      "id": "multiplicative_reasoning",
+      "label": "Multiplicative reasoning",
+      "description": "Equal groups, arrays, multiplicative comparison, factors, multiples."
+    },
+    {
+      "id": "place_value_base_ten",
+      "label": "Place value and base ten",
+      "description": "Base-ten structure, regrouping, multi-digit operations, decimals."
+    },
+    {
+      "id": "fraction_decimal_reasoning",
+      "label": "Fraction and decimal reasoning",
+      "description": "Fractions, decimals, equivalence, operations, magnitude."
+    },
+    {
+      "id": "ratio_proportional_reasoning",
+      "label": "Ratio and proportional reasoning",
+      "description": "Ratios, rates, percents, proportional relationships."
+    },
+    {
+      "id": "algebra_expressions_equations",
+      "label": "Expressions and equations",
+      "description": "Variables, expressions, equations, inequalities, systems."
+    },
+    {
+      "id": "functions_modeling",
+      "label": "Functions and modeling",
+      "description": "Functions, linear relationships, exponential/quadratic models, interpretation."
+    },
+    {
+      "id": "modeling",
+      "label": "Mathematical modeling",
+      "description": "Representing a situation mathematically, interpreting results, and revising a model."
+    },
+    {
+      "id": "geometry_spatial_reasoning",
+      "label": "Geometry and spatial reasoning",
+      "description": "Shapes, transformations, congruence, similarity, area, volume."
+    },
+    {
+      "id": "measurement_units",
+      "label": "Measurement and units",
+      "description": "Length, area, volume, unit conversion, dimensional reasoning."
+    },
+    {
+      "id": "data_statistics_probability",
+      "label": "Data, statistics, and probability",
+      "description": "Graphs, data displays, distributions, probability, inference."
+    },
+    {
+      "id": "fluency_automaticity",
+      "label": "Fluency and automaticity",
+      "description": "Speed plus correctness; foundational skills becoming automatic."
+    },
+    {
+      "id": "explanation_reasoning",
+      "label": "Explanation and reasoning",
+      "description": "Explaining why a method works; justifying steps and conclusions."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+flowchart TD
+    UP["Pinned upstream Hermes 0.16.0 / exact commit"]
+    DIST["Hermes Thrice Great profile distribution"]
+    MANIFEST["distribution.yaml"]
+    PROFILE["Reusable UCC profile: config.yaml + SOUL.md"]
+    ALIAS["Optional installed name: thoth"]
+    SKILLS["Hermes-native packaged UCC skills"]
+    PLUGIN["hermes-thrice-great plugin"]
+    CONTRACTS["Versioned JSON contracts"]
+    VALIDATOR["Deterministic semantic validator"]
+    CORE["Deterministic UCC core"]
+    APPROVAL["Append-only parent approval events"]
+    LEDGER["Atomic local ledger"]
+    DATA["Private UCC data root outside Git"]
+    FIXTURES["Synthetic fixtures"]
+    MOCKS["Optional mock Discord / Campaign OS adapters"]
+    LIVE["Live integrations: explicit post-MVP opt-in"]
+
+    UP -->|"native profile + plugin APIs"| DIST
+    DIST --> MANIFEST
+    MANIFEST --> PROFILE
+    PROFILE --> ALIAS
+    DIST --> SKILLS
+    DIST --> PLUGIN
+    PLUGIN --> CONTRACTS
+    CONTRACTS --> VALIDATOR
+    VALIDATOR --> CORE
+    CORE --> APPROVAL
+    CORE --> LEDGER
+    APPROVAL --> LEDGER
+    LEDGER --> DATA
+    FIXTURES --> VALIDATOR
+    CORE --> MOCKS
+    MOCKS -. "disabled by default" .-> LIVE
+
+    classDef trust fill:#fff4cc,stroke:#8a6d00
+    classDef private fill:#ffe0e0,stroke:#9b1c1c
+    classDef external fill:#e6e6e6,stroke:#555
+    class UP,LIVE external
+    class VALIDATOR,APPROVAL trust
+    class DATA private

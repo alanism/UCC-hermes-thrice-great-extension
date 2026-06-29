@@ -1,0 +1,1975 @@
+{
+  "schema_version": "ca_common_core_ela_edges.v1",
+  "benchmark_system": "California Common Core ELA",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T07:53:42.368Z",
+  "edges": [
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.1",
+      "to": "CA.CCSS.ELA.2.PI.2.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.10",
+      "to": "CA.CCSS.ELA.2.PI.2.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.11",
+      "to": "CA.CCSS.ELA.2.PI.2.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.12",
+      "to": "CA.CCSS.ELA.2.PI.2.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.2",
+      "to": "CA.CCSS.ELA.2.PI.2.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.3",
+      "to": "CA.CCSS.ELA.1.PI.1.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.3",
+      "to": "CA.CCSS.ELA.2.PI.2.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.4",
+      "to": "CA.CCSS.ELA.2.PI.2.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.5",
+      "to": "CA.CCSS.ELA.2.PI.2.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.6",
+      "to": "CA.CCSS.ELA.1.PI.1.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.6",
+      "to": "CA.CCSS.ELA.2.PI.2.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.7",
+      "to": "CA.CCSS.ELA.1.PI.1.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.7",
+      "to": "CA.CCSS.ELA.2.PI.2.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.8",
+      "to": "CA.CCSS.ELA.1.PI.1.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.8",
+      "to": "CA.CCSS.ELA.2.PI.2.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PI.1.9",
+      "to": "CA.CCSS.ELA.2.PI.2.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.1",
+      "to": "CA.CCSS.ELA.1.PI.1.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.1",
+      "to": "CA.CCSS.ELA.2.PII.2.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.2",
+      "to": "CA.CCSS.ELA.1.PI.1.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.2",
+      "to": "CA.CCSS.ELA.2.PII.2.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.3",
+      "to": "CA.CCSS.ELA.2.PII.2.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.4",
+      "to": "CA.CCSS.ELA.2.PII.2.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.5",
+      "to": "CA.CCSS.ELA.2.PII.2.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.6",
+      "to": "CA.CCSS.ELA.2.PII.2.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.1.PII.1.7",
+      "to": "CA.CCSS.ELA.2.PII.2.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.1",
+      "to": "CA.CCSS.ELA.11.PI.11-12.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.10",
+      "to": "CA.CCSS.ELA.11.PI.11-12.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.11",
+      "to": "CA.CCSS.ELA.11.PI.11-12.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.12",
+      "to": "CA.CCSS.ELA.11.PI.11-12.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.2",
+      "to": "CA.CCSS.ELA.11.PI.11-12.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.3",
+      "to": "CA.CCSS.ELA.10.PI.9-10.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.3",
+      "to": "CA.CCSS.ELA.11.PI.11-12.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.4",
+      "to": "CA.CCSS.ELA.11.PI.11-12.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.5",
+      "to": "CA.CCSS.ELA.11.PI.11-12.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.6",
+      "to": "CA.CCSS.ELA.10.PI.9-10.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.6",
+      "to": "CA.CCSS.ELA.11.PI.11-12.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.7",
+      "to": "CA.CCSS.ELA.10.PI.9-10.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.7",
+      "to": "CA.CCSS.ELA.11.PI.11-12.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.8",
+      "to": "CA.CCSS.ELA.10.PI.9-10.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.8",
+      "to": "CA.CCSS.ELA.11.PI.11-12.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PI.9-10.9",
+      "to": "CA.CCSS.ELA.11.PI.11-12.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.1",
+      "to": "CA.CCSS.ELA.10.PI.9-10.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.1",
+      "to": "CA.CCSS.ELA.11.PII.11-12.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.2",
+      "to": "CA.CCSS.ELA.10.PI.9-10.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.2",
+      "to": "CA.CCSS.ELA.11.PII.11-12.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.3",
+      "to": "CA.CCSS.ELA.11.PII.11-12.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.4",
+      "to": "CA.CCSS.ELA.11.PII.11-12.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.5",
+      "to": "CA.CCSS.ELA.11.PII.11-12.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.6",
+      "to": "CA.CCSS.ELA.11.PII.11-12.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.10.PII.9-10.7",
+      "to": "CA.CCSS.ELA.11.PII.11-12.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.1",
+      "to": "CA.CCSS.ELA.12.PI.11-12.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.10",
+      "to": "CA.CCSS.ELA.12.PI.11-12.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.11",
+      "to": "CA.CCSS.ELA.12.PI.11-12.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.12",
+      "to": "CA.CCSS.ELA.12.PI.11-12.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.2",
+      "to": "CA.CCSS.ELA.12.PI.11-12.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.3",
+      "to": "CA.CCSS.ELA.11.PI.11-12.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.3",
+      "to": "CA.CCSS.ELA.12.PI.11-12.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.4",
+      "to": "CA.CCSS.ELA.12.PI.11-12.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.5",
+      "to": "CA.CCSS.ELA.12.PI.11-12.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.6",
+      "to": "CA.CCSS.ELA.11.PI.11-12.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.6",
+      "to": "CA.CCSS.ELA.12.PI.11-12.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.7",
+      "to": "CA.CCSS.ELA.11.PI.11-12.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.7",
+      "to": "CA.CCSS.ELA.12.PI.11-12.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.8",
+      "to": "CA.CCSS.ELA.11.PI.11-12.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.8",
+      "to": "CA.CCSS.ELA.12.PI.11-12.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PI.11-12.9",
+      "to": "CA.CCSS.ELA.12.PI.11-12.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.1",
+      "to": "CA.CCSS.ELA.11.PI.11-12.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.1",
+      "to": "CA.CCSS.ELA.12.PII.11-12.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.2",
+      "to": "CA.CCSS.ELA.11.PI.11-12.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.2",
+      "to": "CA.CCSS.ELA.12.PII.11-12.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.3",
+      "to": "CA.CCSS.ELA.12.PII.11-12.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.4",
+      "to": "CA.CCSS.ELA.12.PII.11-12.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.5",
+      "to": "CA.CCSS.ELA.12.PII.11-12.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.6",
+      "to": "CA.CCSS.ELA.12.PII.11-12.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.11.PII.11-12.7",
+      "to": "CA.CCSS.ELA.12.PII.11-12.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.12.PI.11-12.3",
+      "to": "CA.CCSS.ELA.12.PI.11-12.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.12.PI.11-12.6",
+      "to": "CA.CCSS.ELA.12.PI.11-12.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.12.PI.11-12.7",
+      "to": "CA.CCSS.ELA.12.PI.11-12.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.12.PI.11-12.8",
+      "to": "CA.CCSS.ELA.12.PI.11-12.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.12.PII.11-12.1",
+      "to": "CA.CCSS.ELA.12.PI.11-12.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.12.PII.11-12.2",
+      "to": "CA.CCSS.ELA.12.PI.11-12.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.1",
+      "to": "CA.CCSS.ELA.3.PI.3.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.10",
+      "to": "CA.CCSS.ELA.3.PI.3.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.11",
+      "to": "CA.CCSS.ELA.3.PI.3.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.12",
+      "to": "CA.CCSS.ELA.3.PI.3.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.2",
+      "to": "CA.CCSS.ELA.3.PI.3.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.3",
+      "to": "CA.CCSS.ELA.2.PI.2.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.3",
+      "to": "CA.CCSS.ELA.3.PI.3.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.4",
+      "to": "CA.CCSS.ELA.3.PI.3.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.5",
+      "to": "CA.CCSS.ELA.3.PI.3.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.6",
+      "to": "CA.CCSS.ELA.2.PI.2.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.6",
+      "to": "CA.CCSS.ELA.3.PI.3.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.7",
+      "to": "CA.CCSS.ELA.2.PI.2.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.7",
+      "to": "CA.CCSS.ELA.3.PI.3.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.8",
+      "to": "CA.CCSS.ELA.2.PI.2.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.8",
+      "to": "CA.CCSS.ELA.3.PI.3.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PI.2.9",
+      "to": "CA.CCSS.ELA.3.PI.3.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.1",
+      "to": "CA.CCSS.ELA.2.PI.2.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.1",
+      "to": "CA.CCSS.ELA.3.PII.3.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.2",
+      "to": "CA.CCSS.ELA.2.PI.2.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.2",
+      "to": "CA.CCSS.ELA.3.PII.3.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.3",
+      "to": "CA.CCSS.ELA.3.PII.3.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.4",
+      "to": "CA.CCSS.ELA.3.PII.3.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.5",
+      "to": "CA.CCSS.ELA.3.PII.3.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.6",
+      "to": "CA.CCSS.ELA.3.PII.3.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.2.PII.2.7",
+      "to": "CA.CCSS.ELA.3.PII.3.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.1",
+      "to": "CA.CCSS.ELA.4.PI.4.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.10",
+      "to": "CA.CCSS.ELA.4.PI.4.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.11",
+      "to": "CA.CCSS.ELA.4.PI.4.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.12",
+      "to": "CA.CCSS.ELA.4.PI.4.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.2",
+      "to": "CA.CCSS.ELA.4.PI.4.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.3",
+      "to": "CA.CCSS.ELA.3.PI.3.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.3",
+      "to": "CA.CCSS.ELA.4.PI.4.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.4",
+      "to": "CA.CCSS.ELA.4.PI.4.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.5",
+      "to": "CA.CCSS.ELA.4.PI.4.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.6",
+      "to": "CA.CCSS.ELA.3.PI.3.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.6",
+      "to": "CA.CCSS.ELA.4.PI.4.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.7",
+      "to": "CA.CCSS.ELA.3.PI.3.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.7",
+      "to": "CA.CCSS.ELA.4.PI.4.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.8",
+      "to": "CA.CCSS.ELA.3.PI.3.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.8",
+      "to": "CA.CCSS.ELA.4.PI.4.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PI.3.9",
+      "to": "CA.CCSS.ELA.4.PI.4.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.1",
+      "to": "CA.CCSS.ELA.3.PI.3.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.1",
+      "to": "CA.CCSS.ELA.4.PII.4.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.2",
+      "to": "CA.CCSS.ELA.3.PI.3.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.2",
+      "to": "CA.CCSS.ELA.4.PII.4.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.3",
+      "to": "CA.CCSS.ELA.4.PII.4.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.4",
+      "to": "CA.CCSS.ELA.4.PII.4.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.5",
+      "to": "CA.CCSS.ELA.4.PII.4.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.6",
+      "to": "CA.CCSS.ELA.4.PII.4.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.3.PII.3.7",
+      "to": "CA.CCSS.ELA.4.PII.4.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.1",
+      "to": "CA.CCSS.ELA.5.PI.5.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.10",
+      "to": "CA.CCSS.ELA.5.PI.5.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.11",
+      "to": "CA.CCSS.ELA.5.PI.5.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.12",
+      "to": "CA.CCSS.ELA.5.PI.5.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.2",
+      "to": "CA.CCSS.ELA.5.PI.5.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.3",
+      "to": "CA.CCSS.ELA.4.PI.4.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.3",
+      "to": "CA.CCSS.ELA.5.PI.5.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.4",
+      "to": "CA.CCSS.ELA.5.PI.5.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.5",
+      "to": "CA.CCSS.ELA.5.PI.5.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.6",
+      "to": "CA.CCSS.ELA.4.PI.4.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.6",
+      "to": "CA.CCSS.ELA.5.PI.5.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.7",
+      "to": "CA.CCSS.ELA.4.PI.4.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.7",
+      "to": "CA.CCSS.ELA.5.PI.5.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.8",
+      "to": "CA.CCSS.ELA.4.PI.4.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.8",
+      "to": "CA.CCSS.ELA.5.PI.5.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PI.4.9",
+      "to": "CA.CCSS.ELA.5.PI.5.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.1",
+      "to": "CA.CCSS.ELA.4.PI.4.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.1",
+      "to": "CA.CCSS.ELA.5.PII.5.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.2",
+      "to": "CA.CCSS.ELA.4.PI.4.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.2",
+      "to": "CA.CCSS.ELA.5.PII.5.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.3",
+      "to": "CA.CCSS.ELA.5.PII.5.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.4",
+      "to": "CA.CCSS.ELA.5.PII.5.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.5",
+      "to": "CA.CCSS.ELA.5.PII.5.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.6",
+      "to": "CA.CCSS.ELA.5.PII.5.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.4.PII.4.7",
+      "to": "CA.CCSS.ELA.5.PII.5.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.1",
+      "to": "CA.CCSS.ELA.6.PI.6.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.10",
+      "to": "CA.CCSS.ELA.6.PI.6.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.11",
+      "to": "CA.CCSS.ELA.6.PI.6.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.12",
+      "to": "CA.CCSS.ELA.6.PI.6.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.2",
+      "to": "CA.CCSS.ELA.6.PI.6.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.3",
+      "to": "CA.CCSS.ELA.5.PI.5.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.3",
+      "to": "CA.CCSS.ELA.6.PI.6.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.4",
+      "to": "CA.CCSS.ELA.6.PI.6.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.5",
+      "to": "CA.CCSS.ELA.6.PI.6.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.6",
+      "to": "CA.CCSS.ELA.5.PI.5.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.6",
+      "to": "CA.CCSS.ELA.6.PI.6.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.7",
+      "to": "CA.CCSS.ELA.5.PI.5.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.7",
+      "to": "CA.CCSS.ELA.6.PI.6.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.8",
+      "to": "CA.CCSS.ELA.5.PI.5.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.8",
+      "to": "CA.CCSS.ELA.6.PI.6.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PI.5.9",
+      "to": "CA.CCSS.ELA.6.PI.6.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.1",
+      "to": "CA.CCSS.ELA.5.PI.5.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.1",
+      "to": "CA.CCSS.ELA.6.PII.6.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.2",
+      "to": "CA.CCSS.ELA.5.PI.5.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.2",
+      "to": "CA.CCSS.ELA.6.PII.6.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.3",
+      "to": "CA.CCSS.ELA.6.PII.6.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.4",
+      "to": "CA.CCSS.ELA.6.PII.6.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.5",
+      "to": "CA.CCSS.ELA.6.PII.6.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.6",
+      "to": "CA.CCSS.ELA.6.PII.6.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.5.PII.5.7",
+      "to": "CA.CCSS.ELA.6.PII.6.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.1",
+      "to": "CA.CCSS.ELA.7.PI.7.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.10",
+      "to": "CA.CCSS.ELA.7.PI.7.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.11",
+      "to": "CA.CCSS.ELA.7.PI.7.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.12",
+      "to": "CA.CCSS.ELA.7.PI.7.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.2",
+      "to": "CA.CCSS.ELA.7.PI.7.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.3",
+      "to": "CA.CCSS.ELA.6.PI.6.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.3",
+      "to": "CA.CCSS.ELA.7.PI.7.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.4",
+      "to": "CA.CCSS.ELA.7.PI.7.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.5",
+      "to": "CA.CCSS.ELA.7.PI.7.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.6",
+      "to": "CA.CCSS.ELA.6.PI.6.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.6",
+      "to": "CA.CCSS.ELA.7.PI.7.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.7",
+      "to": "CA.CCSS.ELA.6.PI.6.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.7",
+      "to": "CA.CCSS.ELA.7.PI.7.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.8",
+      "to": "CA.CCSS.ELA.6.PI.6.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.8",
+      "to": "CA.CCSS.ELA.7.PI.7.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PI.6.9",
+      "to": "CA.CCSS.ELA.7.PI.7.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.1",
+      "to": "CA.CCSS.ELA.6.PI.6.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.1",
+      "to": "CA.CCSS.ELA.7.PII.7.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.2",
+      "to": "CA.CCSS.ELA.6.PI.6.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.2",
+      "to": "CA.CCSS.ELA.7.PII.7.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.3",
+      "to": "CA.CCSS.ELA.7.PII.7.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.4",
+      "to": "CA.CCSS.ELA.7.PII.7.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.5",
+      "to": "CA.CCSS.ELA.7.PII.7.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.6",
+      "to": "CA.CCSS.ELA.7.PII.7.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.6.PII.6.7",
+      "to": "CA.CCSS.ELA.7.PII.7.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.1",
+      "to": "CA.CCSS.ELA.8.PI.8.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.10",
+      "to": "CA.CCSS.ELA.8.PI.8.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.11",
+      "to": "CA.CCSS.ELA.8.PI.8.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.12",
+      "to": "CA.CCSS.ELA.8.PI.8.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.2",
+      "to": "CA.CCSS.ELA.8.PI.8.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.3",
+      "to": "CA.CCSS.ELA.7.PI.7.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.3",
+      "to": "CA.CCSS.ELA.8.PI.8.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.4",
+      "to": "CA.CCSS.ELA.8.PI.8.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.5",
+      "to": "CA.CCSS.ELA.8.PI.8.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.6",
+      "to": "CA.CCSS.ELA.7.PI.7.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.6",
+      "to": "CA.CCSS.ELA.8.PI.8.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.7",
+      "to": "CA.CCSS.ELA.7.PI.7.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.7",
+      "to": "CA.CCSS.ELA.8.PI.8.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.8",
+      "to": "CA.CCSS.ELA.7.PI.7.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.8",
+      "to": "CA.CCSS.ELA.8.PI.8.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PI.7.9",
+      "to": "CA.CCSS.ELA.8.PI.8.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.1",
+      "to": "CA.CCSS.ELA.7.PI.7.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.1",
+      "to": "CA.CCSS.ELA.8.PII.8.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.2",
+      "to": "CA.CCSS.ELA.7.PI.7.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.2",
+      "to": "CA.CCSS.ELA.8.PII.8.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.3",
+      "to": "CA.CCSS.ELA.8.PII.8.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.4",
+      "to": "CA.CCSS.ELA.8.PII.8.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.5",
+      "to": "CA.CCSS.ELA.8.PII.8.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.6",
+      "to": "CA.CCSS.ELA.8.PII.8.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.7.PII.7.7",
+      "to": "CA.CCSS.ELA.8.PII.8.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.1",
+      "to": "CA.CCSS.ELA.9.PI.9-10.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.10",
+      "to": "CA.CCSS.ELA.9.PI.9-10.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.11",
+      "to": "CA.CCSS.ELA.9.PI.9-10.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.12",
+      "to": "CA.CCSS.ELA.9.PI.9-10.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.2",
+      "to": "CA.CCSS.ELA.9.PI.9-10.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.3",
+      "to": "CA.CCSS.ELA.8.PI.8.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.3",
+      "to": "CA.CCSS.ELA.9.PI.9-10.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.4",
+      "to": "CA.CCSS.ELA.9.PI.9-10.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.5",
+      "to": "CA.CCSS.ELA.9.PI.9-10.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.6",
+      "to": "CA.CCSS.ELA.8.PI.8.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.6",
+      "to": "CA.CCSS.ELA.9.PI.9-10.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.7",
+      "to": "CA.CCSS.ELA.8.PI.8.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.7",
+      "to": "CA.CCSS.ELA.9.PI.9-10.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.8",
+      "to": "CA.CCSS.ELA.8.PI.8.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.8",
+      "to": "CA.CCSS.ELA.9.PI.9-10.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PI.8.9",
+      "to": "CA.CCSS.ELA.9.PI.9-10.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.1",
+      "to": "CA.CCSS.ELA.8.PI.8.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.1",
+      "to": "CA.CCSS.ELA.9.PII.9-10.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.2",
+      "to": "CA.CCSS.ELA.8.PI.8.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.2",
+      "to": "CA.CCSS.ELA.9.PII.9-10.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.3",
+      "to": "CA.CCSS.ELA.9.PII.9-10.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.4",
+      "to": "CA.CCSS.ELA.9.PII.9-10.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.5",
+      "to": "CA.CCSS.ELA.9.PII.9-10.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.6",
+      "to": "CA.CCSS.ELA.9.PII.9-10.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.8.PII.8.7",
+      "to": "CA.CCSS.ELA.9.PII.9-10.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.1",
+      "to": "CA.CCSS.ELA.10.PI.9-10.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.10",
+      "to": "CA.CCSS.ELA.10.PI.9-10.10",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.11",
+      "to": "CA.CCSS.ELA.10.PI.9-10.11",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.12",
+      "to": "CA.CCSS.ELA.10.PI.9-10.12",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.2",
+      "to": "CA.CCSS.ELA.10.PI.9-10.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.3",
+      "to": "CA.CCSS.ELA.10.PI.9-10.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.3",
+      "to": "CA.CCSS.ELA.9.PI.9-10.11",
+      "relationship": "future_dependency",
+      "confidence": "low",
+      "reason": "Negotiating opinions develops toward justifying and evaluating arguments."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.4",
+      "to": "CA.CCSS.ELA.10.PI.9-10.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.5",
+      "to": "CA.CCSS.ELA.10.PI.9-10.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.6",
+      "to": "CA.CCSS.ELA.10.PI.9-10.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.6",
+      "to": "CA.CCSS.ELA.9.PI.9-10.7",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Close reading supports evaluating how ideas and arguments are developed."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.7",
+      "to": "CA.CCSS.ELA.10.PI.9-10.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.7",
+      "to": "CA.CCSS.ELA.9.PI.9-10.11",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Evaluating support in texts informs the learner's own argument and evidence choices."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.8",
+      "to": "CA.CCSS.ELA.10.PI.9-10.8",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.8",
+      "to": "CA.CCSS.ELA.9.PI.9-10.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Vocabulary and language-resource analysis supports reading comprehension."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PI.9-10.9",
+      "to": "CA.CCSS.ELA.10.PI.9-10.9",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PI capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.1",
+      "to": "CA.CCSS.ELA.10.PII.9-10.1",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.1",
+      "to": "CA.CCSS.ELA.9.PI.9-10.6",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Text-structure knowledge supports close reading and reconstruction of meaning."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.2",
+      "to": "CA.CCSS.ELA.10.PII.9-10.2",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.2",
+      "to": "CA.CCSS.ELA.9.PI.9-10.10",
+      "relationship": "supports",
+      "confidence": "medium",
+      "reason": "Cohesion supports organized literary and informational writing."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.3",
+      "to": "CA.CCSS.ELA.10.PII.9-10.3",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.4",
+      "to": "CA.CCSS.ELA.10.PII.9-10.4",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.5",
+      "to": "CA.CCSS.ELA.10.PII.9-10.5",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.6",
+      "to": "CA.CCSS.ELA.10.PII.9-10.6",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    },
+    {
+      "from": "CA.CCSS.ELA.9.PII.9-10.7",
+      "to": "CA.CCSS.ELA.10.PII.9-10.7",
+      "relationship": "spiral_progression",
+      "confidence": "medium",
+      "reason": "The same PII capability reappears with later-grade texts, language demands, and independence; this is a spiral reference, not a rigid prerequisite."
+    }
+  ]
+}

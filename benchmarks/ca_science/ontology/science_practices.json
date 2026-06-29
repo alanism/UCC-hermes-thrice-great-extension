@@ -1,0 +1,50 @@
+{
+  "schema_version": "science_practices.v1",
+  "practices": [
+    {
+      "id": "asking_questions",
+      "label": "Asking questions and defining problems",
+      "description": "Asking scientific questions or defining engineering problems."
+    },
+    {
+      "id": "developing_models",
+      "label": "Developing and using models",
+      "description": "Creating, using, revising, or interpreting models."
+    },
+    {
+      "id": "planning_investigations",
+      "label": "Planning and carrying out investigations",
+      "description": "Designing or conducting observations, experiments, or fair tests."
+    },
+    {
+      "id": "analyzing_data",
+      "label": "Analyzing and interpreting data",
+      "description": "Using tables, graphs, measurements, patterns, or datasets to reason."
+    },
+    {
+      "id": "math_computational_thinking",
+      "label": "Using mathematics and computational thinking",
+      "description": "Using numerical, mathematical, or computational representations."
+    },
+    {
+      "id": "constructing_explanations",
+      "label": "Constructing explanations",
+      "description": "Explaining how or why a phenomenon occurs using evidence."
+    },
+    {
+      "id": "designing_solutions",
+      "label": "Designing solutions",
+      "description": "Designing, comparing, testing, or improving solutions."
+    },
+    {
+      "id": "argument_from_evidence",
+      "label": "Engaging in argument from evidence",
+      "description": "Supporting claims with evidence and reasoning."
+    },
+    {
+      "id": "obtaining_information",
+      "label": "Obtaining, evaluating, and communicating information",
+      "description": "Using texts, media, or technical information to explain or evaluate."
+    }
+  ]
+}

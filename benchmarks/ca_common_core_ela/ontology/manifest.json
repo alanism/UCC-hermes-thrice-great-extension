@@ -1,0 +1,94 @@
+{
+  "schema_version": "ca_common_core_ela_manifest.v1",
+  "benchmark_system": "California Common Core ELA",
+  "role": "reference_only",
+  "generated_at": "2026-06-27T07:53:42.368Z",
+  "source_folder": "/Users/alannguyen/Documents/Vibe Code/UCC-learning campaign/California Common Core Math Standards by Grade",
+  "source_files": [
+    {
+      "filename": "California Common Core ELA Grade 1.txt",
+      "grade": "1",
+      "sha256": "f07d66c5efd6b255dffe51f70c24c2e92169174805cbc9e47663b0742798048b"
+    },
+    {
+      "filename": "California Common Core ELA Grade 2.txt",
+      "grade": "2",
+      "sha256": "0a214567d6b57d26b11e50c57b7f29ee9b2779c6a816a8970ff68577ae4dee5f"
+    },
+    {
+      "filename": "California Common Core ELA Grade 3.txt",
+      "grade": "3",
+      "sha256": "9764f2acb9ce4ea88b38946b27a76788fc98f276fa6d2654d7b89cc295c21691"
+    },
+    {
+      "filename": "California Common Core ELA Grade 4.txt",
+      "grade": "4",
+      "sha256": "56bf47cecdb20745df7ed13a0056a6968afbefa7213e53f65ba9823abcf31299"
+    },
+    {
+      "filename": "California Common Core ELA Grade 5.txt",
+      "grade": "5",
+      "sha256": "31b3c7be2c4c0080370cdef7cf4eebbcb5a42b03e4df4664ddee660c2c64b9aa"
+    },
+    {
+      "filename": "California Common Core ELA Grade 6.txt",
+      "grade": "6",
+      "sha256": "945732c1aba3d656af3af53513f3246cbdddcee28486c2fb765250e2d5b17232"
+    },
+    {
+      "filename": "California Common Core ELA Grade 7.txt",
+      "grade": "7",
+      "sha256": "c014aacd93698923aba2c2cea26590a5c82d8c54d422ec336a6c5dc01d6beca8"
+    },
+    {
+      "filename": "California Common Core ELA Grade 8.txt",
+      "grade": "8",
+      "sha256": "ef78f77d1c4ba11f8fbc3269727eb34dfc2e2e54cc7f29f1f47b7f84db808b9c"
+    },
+    {
+      "filename": "California Common Core ELA Grade 9.txt",
+      "grade": "9",
+      "sha256": "9f985340dbfbf8c410856e9ed00fbe16bd07aed2e2880639f03eab67abc44a72"
+    },
+    {
+      "filename": "California Common Core ELA Grade 10.txt",
+      "grade": "10",
+      "sha256": "58d09e0a74c78134c08eb60350b7a429f7c1286ed1b62aaef9b88965287b1e31"
+    },
+    {
+      "filename": "California Common Core ELA Grade 11.txt",
+      "grade": "11",
+      "sha256": "544209fcb8c96773ea8ff14660ffd245761655905e1ef94f2cf4fc953a9d497c"
+    },
+    {
+      "filename": "California Common Core ELA Grade 12.txt",
+      "grade": "12",
+      "sha256": "f4d9eacbf805d361d584a7acd6bdbdea2584ab837b7272a20dae55a4b555c8cd"
+    }
+  ],
+  "extraction_scope": "PI and PII strands defined by the approved implementation specification",
+  "counts": {
+    "nodes": 228,
+    "edges": 281,
+    "nodes_by_grade": {
+      "1": 19,
+      "2": 19,
+      "3": 19,
+      "4": 19,
+      "5": 19,
+      "6": 19,
+      "7": 19,
+      "8": 19,
+      "9": 19,
+      "10": 19,
+      "11": 19,
+      "12": 19
+    }
+  },
+  "generation": {
+    "ingest": "node benchmarks/ca_common_core_ela/scripts/ingest_ca_common_core_ela.js",
+    "diagrams": "node benchmarks/ca_common_core_ela/scripts/generate_mermaid_diagrams.js",
+    "validate": "node benchmarks/ca_common_core_ela/scripts/validate_benchmark_pack.js",
+    "smoke_test": "node benchmarks/ca_common_core_ela/tests/benchmark_pack_smoke_test.js"
+  }
+}

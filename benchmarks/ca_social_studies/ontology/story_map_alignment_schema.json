@@ -1,0 +1,97 @@
+{
+  "schema_version": "story_map_alignment.v1",
+  "description": "Schema for mapping Social Studies standards to UCC History Story Maps.",
+  "fields": {
+    "storyMapTopic": "string",
+    "benchmarkSystem": "California Social Studies",
+    "relatedStandards": [
+      "string"
+    ],
+    "timePeriod": "string",
+    "places": [
+      "string"
+    ],
+    "actors": [
+      "string"
+    ],
+    "perspectives": [
+      "string"
+    ],
+    "conundrums": [
+      "string"
+    ],
+    "historicalReasoningTags": [
+      "string"
+    ],
+    "civicReasoningTags": [
+      "string"
+    ],
+    "geographyEconomicsTags": [
+      "string"
+    ],
+    "uccCapabilityTags": [
+      "string"
+    ],
+    "evidenceSources": [
+      "string"
+    ],
+    "interpretation": "string"
+  },
+  "example": {
+    "storyMapTopic": "Founding Fathers / American Revolution",
+    "benchmarkSystem": "California Social Studies",
+    "relatedStandards": [
+      "CA.SS.5.5.5.1",
+      "CA.SS.8.8.1.2",
+      "CA.SS.8.8.2.2",
+      "CA.SS.HS.12.1.3"
+    ],
+    "timePeriod": "1763–1789",
+    "places": [
+      "Boston",
+      "Philadelphia",
+      "Virginia",
+      "London"
+    ],
+    "actors": [
+      "Patriots",
+      "Loyalists",
+      "enslaved people",
+      "Indigenous nations",
+      "British officials",
+      "colonial merchants"
+    ],
+    "perspectives": [
+      "colonist",
+      "loyalist",
+      "enslaved person",
+      "Indigenous nation",
+      "British official"
+    ],
+    "conundrums": [
+      "Liberty for whom?",
+      "When is rebellion justified?",
+      "How should power be limited?"
+    ],
+    "historicalReasoningTags": [
+      "cause_effect",
+      "source_analysis",
+      "point_of_view"
+    ],
+    "civicReasoningTags": [
+      "constitutional_reasoning",
+      "democracy",
+      "rights_obligations"
+    ],
+    "geographyEconomicsTags": [],
+    "uccCapabilityTags": [
+      "historical_reasoning",
+      "civic_judgment",
+      "conundrum_reasoning"
+    ],
+    "evidenceSources": [
+      "history_story_map_receipt"
+    ],
+    "interpretation": "This story map aligns to American Revolution and constitutional democracy benchmarks while emphasizing civic judgment and perspective-taking."
+  }
+}

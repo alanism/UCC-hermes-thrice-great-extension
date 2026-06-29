@@ -1,0 +1,65 @@
+{
+  "schema_version": "ucc_science_capability_tags.v1",
+  "tags": [
+    {
+      "id": "scientific_investigation",
+      "label": "Scientific investigation",
+      "description": "Planning, observing, measuring, testing, and collecting evidence."
+    },
+    {
+      "id": "model_based_reasoning",
+      "label": "Model-based reasoning",
+      "description": "Developing and using models to explain phenomena."
+    },
+    {
+      "id": "evidence_reasoning",
+      "label": "Evidence reasoning",
+      "description": "Using evidence to support explanations, claims, and arguments."
+    },
+    {
+      "id": "data_graph_reasoning",
+      "label": "Data and graph reasoning",
+      "description": "Reading, creating, and interpreting tables, graphs, maps, and datasets."
+    },
+    {
+      "id": "cause_effect_reasoning",
+      "label": "Cause and effect reasoning",
+      "description": "Explaining mechanisms and causal relationships."
+    },
+    {
+      "id": "systems_thinking",
+      "label": "Systems thinking",
+      "description": "Understanding components, interactions, feedback loops, and boundaries."
+    },
+    {
+      "id": "structure_function_reasoning",
+      "label": "Structure and function reasoning",
+      "description": "Explaining how parts, structures, or forms support function."
+    },
+    {
+      "id": "matter_energy_reasoning",
+      "label": "Matter and energy reasoning",
+      "description": "Tracking matter, energy, flows, cycles, and conservation."
+    },
+    {
+      "id": "engineering_design",
+      "label": "Engineering design",
+      "description": "Defining problems, constraints, criteria, prototypes, tests, and improvements."
+    },
+    {
+      "id": "scientific_communication",
+      "label": "Scientific communication",
+      "description": "Explaining, arguing, presenting, reading, and synthesizing scientific information."
+    },
+    {
+      "id": "phenomenon_explanation",
+      "label": "Phenomenon explanation",
+      "description": "Explaining observable real-world phenomena using science ideas."
+    },
+    {
+      "id": "math_in_science",
+      "label": "Mathematics in science",
+      "description": "Using math, quantities, computation, ratios, graphs, and models in science."
+    }
+  ]
+}

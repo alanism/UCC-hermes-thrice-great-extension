@@ -1,0 +1,677 @@
+# California Common Core Math — Grade 4
+
+> Reference benchmark only. Benchmarks inform. They do not command.
+
+This grade-equivalence view contains 37 benchmark nodes across 5 domains. It is terrain for diagnosis and planning, not a fixed learning path.
+
+## G: Geometry
+
+### 4.G.1
+
+**Cluster:** Draw and identify lines and angles, and classify shapes by properties of their lines and angles.
+
+Draw points, lines, line segments, rays, angles (right, acute, obtuse), and perpendicular and parallel lines. Identify these in two-dimensional figures.
+
+**UCC capability tags:** `geometry_spatial_reasoning`
+
+**Skill examples:**
+
+- Acute, right, obtuse, and straight angles (4-KK.1)
+- Identify parallel, perpendicular, and intersecting lines (4-JJ.3)
+- Parallel sides in quadrilaterals (4-MM.1)
+- Parallel, perpendicular, and intersecting lines (4-JJ.2)
+- Points, lines, line segments, rays, and angles (4-JJ.1)
+- Sides and angles in polygons (4-JJ.4)
+
+### 4.G.2
+
+**Cluster:** Draw and identify lines and angles, and classify shapes by properties of their lines and angles.
+
+Classify two-dimensional figures based on the presence or absence of parallel or perpendicular lines, or the presence or absence of angles of a specified size. Recognize right triangles as a category, and identify right triangles. (Two dimensional shapes should include special triangles, e.g., equilateral, isosceles, scalene, and special quadrilaterals, e.g., rhombus, square, rectangle, parallelogram, trapezoid.)
+
+**UCC capability tags:** `geometry_spatial_reasoning`
+
+**Skill examples:**
+
+- Acute, obtuse, and right triangles (4-LL.1)
+- Classify quadrilaterals (4-MM.7)
+- Classify triangles (4-LL.3)
+- Name quadrilaterals more than one way (4-MM.9)
+- Parallel sides in quadrilaterals (4-MM.1)
+- Pick all the names for a quadrilateral (4-MM.8)
+- Scalene, isosceles, and equilateral triangles (4-LL.2)
+- Sides and angles of quadrilaterals (4-MM.2)
+
+### 4.G.3
+
+**Cluster:** Draw and identify lines and angles, and classify shapes by properties of their lines and angles.
+
+Recognize a line of symmetry for a two-dimensional figure as a line across the figure such that the figure can be folded along the line into matching parts. Identify line-symmetric figures and draw lines of symmetry.
+
+**UCC capability tags:** `counting_cardinality`, `geometry_spatial_reasoning`
+
+**Skill examples:**
+
+- Count lines of symmetry (4-NN.3)
+- Draw lines of symmetry (4-NN.2)
+- Identify lines of symmetry (4-NN.1)
+
+## MD: Measurement and Data
+
+### 4.MD.1
+
+**Cluster:** Solve problems involving measurement and conversion of measurements from a larger unit to a smaller unit.
+
+Know relative sizes of measurement units within one system of units including km, m, cm; kg, g; lb, oz.; l, ml; hr, min, sec. Within a single system of measurement, express measurements in a larger unit in terms of a smaller unit. Record measurement equivalents in a two-column table.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`
+
+**Skill examples:**
+
+- Convert and compare customary units (4-EE.6)
+- Convert and compare customary units of length (4-EE.3)
+- Convert and compare customary units of volume (4-EE.5)
+- Convert and compare customary units of weight (4-EE.4)
+- Convert and compare metric units (4-FF.5)
+- Convert and compare metric units of length (4-FF.2)
+- Convert and compare metric units of mass (4-FF.3)
+- Convert and compare metric units of volume (4-FF.4)
+- Convert mixed customary units (4-EE.9)
+- Convert mixed metric units (4-FF.7)
+- Convert time units: hours, minutes, and seconds (4)
+- Convert units of time (4)
+- Which customary unit is appropriate? (4-EE.2)
+- Which metric unit is appropriate? (4-FF.1)
+
+### 4.MD.2
+
+**Cluster:** Solve problems involving measurement and conversion of measurements from a larger unit to a smaller unit.
+
+Use the four operations to solve word problems involving distances, intervals of time, liquid volumes, masses of objects, and money, including problems involving simple fractions or decimals, and problems that require expressing measurements given in a larger unit in terms of a smaller unit. Represent measurement quantities using diagrams such as number line diagrams that feature a measurement scale.
+
+**UCC capability tags:** `additive_reasoning`, `data_statistics_probability`, `fraction_decimal_reasoning`, `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Add and subtract money amounts: word problems (4-AA.7)
+- Compare customary units by multiplying (4-EE.8)
+- Elapsed time: word problems (4-DD.5)
+- Find start and end times: multi-step word problems (4-DD.6)
+- Measurement word problems (4-GG.1)
+- Measurement word problems with fractions (4-GG.2)
+- Multi-step measurement problems with conversions (4-GG.3)
+
+### 4.MD.3
+
+**Cluster:** Solve problems involving measurement and conversion of measurements from a larger unit to a smaller unit.
+
+Apply the area and perimeter formulas for rectangles in real world and mathematical problems.
+
+**UCC capability tags:** `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `word_problem_schema`
+
+**Skill examples:**
+
+- Area and perimeter of complex figures: word problems (4-II.11)
+- Area and perimeter: word problems (4-II.10)
+- Area between two rectangles (4-II.6)
+- Area: word problems (4-II.4)
+- Compare area and perimeter of rectangles and squares (4-II.7)
+- Find the area of rectangles using formulas (4-II.2)
+- Find the area or missing side length of a rectangle (4-II.3)
+- Find the perimeter of rectangles using formulas (4-HH.3)
+- Perimeter: word problems (4-HH.4)
+- Rectangles: relationship between perimeter and area word problems (4-II.12)
+- Relationship between area and perimeter (4-II.9)
+- Solve problems involving the area and perimeter of rectangles (4-II.)
+- Use area and perimeter to determine cost (4-II.13)
+
+### 4.MD.4
+
+**Cluster:** Represent and interpret data.
+
+Make a line plot to display a data set of measurements in fractions of a unit (1/2, 1/4, 1/8). Solve problems involving addition and subtraction of fractions by using information presented in line plots.
+
+**UCC capability tags:** `additive_reasoning`, `data_statistics_probability`, `fraction_decimal_reasoning`, `measurement_units`
+
+**Skill examples:**
+
+- Create and interpret line plots with fractions (4-BB.4)
+- Interpret line plots with fractions: multi-step problems (4-BB.5)
+
+### 4.MD.5
+
+**Cluster:** Geometric measurement: understand concepts of angle and measure angles.
+
+Recognize angles as geometric shapes that are formed wherever two rays share a common endpoint, and understand concepts of angle measurement:
+
+**UCC capability tags:** `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`
+
+### 4.MD.5.a
+
+**Cluster:** Geometric measurement: understand concepts of angle and measure angles.
+
+An angle is measured with reference to a circle with its center at the common endpoint of the rays, by considering the fraction of the circular arc between the points where the two rays intersect the circle. An angle that turns through 1/360 of a circle is called a "one-degree angle," and can be used to measure angles.
+
+**UCC capability tags:** `data_statistics_probability`, `fraction_decimal_reasoning`, `geometry_spatial_reasoning`, `measurement_units`
+
+**Skill examples:**
+
+- Angles as fractions of a circle (4-KK.2)
+- Angles of 90, 180, 270, and 360 degrees (4-KK.4)
+- Measure angles on a circle (4-KK.5)
+- Use fractions to find the measure of an angle (4-KK.3)
+
+### 4.MD.5.b
+
+**Cluster:** Geometric measurement: understand concepts of angle and measure angles.
+
+An angle that turns through n one-degree angles is said to have an angle measure of n degrees.
+
+**UCC capability tags:** `data_statistics_probability`, `fraction_decimal_reasoning`, `geometry_spatial_reasoning`, `measurement_units`
+
+**Skill examples:**
+
+- Angles of 90, 180, 270, and 360 degrees (4-KK.4)
+- Estimate angle measurements (4-KK.8)
+- Measure angles on a circle (4-KK.5)
+- Use fractions to find the measure of an angle (4-KK.3)
+
+### 4.MD.6
+
+**Cluster:** Geometric measurement: understand concepts of angle and measure angles.
+
+Measure angles in whole-number degrees using a protractor. Sketch angles of specified measure.
+
+**UCC capability tags:** `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`
+
+**Skill examples:**
+
+- Draw angles with a protractor (4-KK.7)
+- Measure angles with a protractor (4-KK.6)
+
+### 4.MD.7
+
+**Cluster:** Geometric measurement: understand concepts of angle and measure angles.
+
+Recognize angle measure as additive. When an angle is decomposed into non-overlapping parts, the angle measure of the whole is the sum of the angle measures of the parts. Solve addition and subtraction problems to find unknown angles on a diagram in real-world and mathematical problems, e.g., by using an equation with a symbol for the unknown angle measure.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `data_statistics_probability`, `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Adjacent angles (4-KK.9)
+- Angle measures: word problems (4-KK.10)
+- Solve problems involving angle measures (4-KK.11)
+
+## NBT: Number and Operations in Base Ten
+
+### 4.NBT.1
+
+**Cluster:** Generalize place value understanding for multi-digit whole numbers.
+
+Recognize that in a multi-digit whole number, a digit in one place represents ten times what it represents in the place to its right.
+
+**UCC capability tags:** `measurement_units`, `operation_selection`, `place_value_base_ten`
+
+**Skill examples:**
+
+- Find 10 or 100 times a number (4-A.)
+- Relationship between place values (4-A.4)
+- Value of a digit (4-A.3)
+
+### 4.NBT.2
+
+**Cluster:** Generalize place value understanding for multi-digit whole numbers.
+
+Read and write multi-digit whole numbers using base-ten numerals, number names, and expanded form. Compare two multi-digit numbers based on meanings of the digits in each place, using >, =, and < symbols to record the results of comparisons.
+
+**UCC capability tags:** `counting_cardinality`, `functions_modeling`, `measurement_units`, `modeling`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Compare numbers up to one hundred thousand (4)
+- Compare numbers up to one million (4-B.1)
+- Convert between standard and expanded form (4-A.5)
+- Place value models (4-A.1)
+- Place value review (4-A.11)
+- Place value word problems (4-A.9)
+- Spell word names for numbers up to one million (4-A.7)
+- Writing numbers up to 100,000 in words: convert digits to words (4)
+- Writing numbers up to 100,000 in words: convert words to digits (4)
+- Writing numbers up to one million in words: convert digits to words (4)
+- Writing numbers up to one million: convert between words and digits (4-A.6)
+
+### 4.NBT.3
+
+**Cluster:** Generalize place value understanding for multi-digit whole numbers.
+
+Use place value understanding to round multi-digit whole numbers to any place.
+
+**UCC capability tags:** `modeling`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Divide by 1-digit numbers: pick the better estimate (4-K.4)
+- Estimate differences (4-E.1)
+- Estimate differences: word problems (4-E.2)
+- Estimate products: multiply by 1-digit numbers (4-H.3)
+- Estimate products: multiply by 2-digit numbers (4-I.4)
+- Estimate products: word problems (4-I.5)
+- Estimate sums (4-D.1)
+- Estimate sums, differences, products, and quotients: word problems (4-M.2)
+- Estimate sums: word problems (4-D.2)
+- Round a number to any place: up to hundred thousands (4-C.3)
+- Rounding input/output tables (4-C.4)
+- Rounding: up to millions place (4-C.2)
+
+### 4.NBT.4
+
+**Cluster:** Use place value understanding and properties of operations to perform multi-digit arithmetic.
+
+Fluently add and subtract multi-digit whole numbers using the standard algorithm.
+
+**UCC capability tags:** `additive_reasoning`, `fluency_automaticity`, `modeling`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Add 3 or more numbers up to millions (4-D.6)
+- Add and subtract numbers ending in zeros (4-M.1)
+- Add two multi-digit numbers (4-D.3)
+- Add two multi-digit numbers: word problems (4-D.4)
+- Addition: fill in the missing digits (4-D.7)
+- Choose numbers with a particular difference (4-E.6)
+- Choose numbers with a particular sum (4-D.8)
+- Comparison word problems with addition and subtraction (4-M.5)
+- Properties of addition (4-D.5)
+- Subtract two multi-digit numbers (4-E.3)
+- Subtract two multi-digit numbers: word problems (4-E.4)
+- Subtraction: fill in the missing digits (4-E.5)
+
+### 4.NBT.5
+
+**Cluster:** Use place value understanding and properties of operations to perform multi-digit arithmetic.
+
+Multiply a whole number of up to four digits by a one-digit whole number, and multiply two two-digit numbers, using strategies based on place value and the properties of operations. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models.
+
+**UCC capability tags:** `algebra_expressions_equations`, `explanation_reasoning`, `functions_modeling`, `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Box multiplication (4)
+- Distributive property: find the missing factor (4-F.6)
+- Lattice multiplication (4)
+- Multiplication facts to 12 (4-F.3)
+- Multiplication patterns over increasing place values (4-H.1)
+- Multiply 1-digit numbers by 2-digit numbers (4-H.9)
+- Multiply 1-digit numbers by 2-digit numbers using area models (4-H.7)
+- Multiply 1-digit numbers by 2-digit numbers: choose the area model (4-H.6)
+- Multiply 1-digit numbers by 2-digit numbers: word problems (4-H.10)
+- Multiply 1-digit numbers by 3-digit or 4-digit numbers (4-H.16)
+- Multiply 1-digit numbers by 3-digit or 4-digit numbers using area models (4-H.13)
+- Multiply 1-digit numbers by 3-digit or 4-digit numbers using expanded form (4-H.14)
+- Multiply 1-digit numbers by 3-digit or 4-digit numbers: choose the area model (4-H.12)
+- Multiply 1-digit numbers by 3-digit or 4-digit numbers: word problems (4-H.17)
+- Multiply 1-digit numbers by multi-digit numbers using partial products (4-H.15)
+- Multiply 1-digit numbers by teen numbers using grids (4-H.5)
+- Multiply 2-digit numbers by 2-digit numbers using area models (4-I.7)
+- Multiply 2-digit numbers by 2-digit numbers using partial products (4-I.8)
+- Multiply 2-digit numbers by 2-digit numbers: choose the area model (4-I.6)
+- Multiply a 2-digit number by a 2-digit number (4-I.10)
+- Multiply a 2-digit number by a 2-digit number: complete the missing steps (4-I.9)
+- Multiply a 2-digit number by a 2-digit number: word problems (4-I.11)
+- Multiply by multiples of ten (4-I.2)
+- Multiply two multiples of ten: word problems (4-I.3)
+- Multiply using the distributive property (4-H.8)
+- Properties of multiplication (4-F.5)
+- Use one multiplication fact to complete another (4-I.14)
+
+### 4.NBT.6
+
+**Cluster:** Use place value understanding and properties of operations to perform multi-digit arithmetic.
+
+Find whole-number quotients and remainders with up to four-digit dividends and one-digit divisors, using strategies based on place value, the properties of operations, and/or the relationship between multiplication and division. Illustrate and explain the calculation by using equations, rectangular arrays, and/or area models.
+
+**UCC capability tags:** `algebra_expressions_equations`, `explanation_reasoning`, `functions_modeling`, `geometry_spatial_reasoning`, `measurement_units`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Choose numbers with a particular quotient (4-J.6)
+- Divide 2-digit numbers by 1-digit numbers (4)
+- Divide 2-digit numbers by 1-digit numbers using area models (4-K.6)
+- Divide 2-digit numbers by 1-digit numbers using arrays (4-K.5)
+- Divide 2-digit numbers by 1-digit numbers: complete the table (4-K.10)
+- Divide 2-digit numbers by 1-digit numbers: interpret remainders (4-L.2)
+- Divide 2-digit numbers by 1-digit numbers: word problems (4-L.3)
+- Divide 3-digit numbers by 1-digit numbers using area models (4-K.11)
+- Divide larger numbers by 1-digit numbers (4)
+- Divide larger numbers by 1-digit numbers: complete the table (4)
+- Divide larger numbers by 1-digit numbers: interpret remainders (4-L.4)
+- Divide larger numbers by 1-digit numbers: word problems (4-L.5)
+- Divide numbers ending in zeros by 1-digit numbers (4-K.2)
+- Divide numbers ending in zeros by 1-digit numbers: word problems (4-L.1)
+- Divide using partial quotients (4-K.12)
+- Divide using partial quotients with remainders (4-K.13)
+- Divide using the distributive property (4-K.7)
+- Division patterns over increasing place values (4-K.1)
+- Properties of division (4)
+
+## NF: Number and Operations-Fractions
+
+### 4.NF.1
+
+**Cluster:** Extend understanding of fraction equivalence and ordering.
+
+Explain why a fraction a/b is equivalent to a fraction (n × a)/(n × b) by using visual fraction models, with attention to how the number and size of the parts differ even though the two fractions themselves are the same size. Use this principle to recognize and generate equivalent fractions.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `explanation_reasoning`, `fraction_decimal_reasoning`, `functions_modeling`, `geometry_spatial_reasoning`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Equivalent fractions: find the missing numerator or denominator (4-P.8)
+- Find equivalent fractions using area models (4-P.3)
+- Find equivalent fractions using multiplication and division (4-P.6)
+- Fractions with denominators of 10 and 100 (4-P.10)
+- Graph equivalent fractions on number lines (4-P.5)
+- Identify equivalent fractions (4-P.7)
+- Identify equivalent fractions using number lines (4-P.4)
+
+### 4.NF.2
+
+**Cluster:** Extend understanding of fraction equivalence and ordering.
+
+Compare two fractions with different numerators and different denominators, e.g., by creating common denominators or numerators, or by comparing to a benchmark fraction such as 1/2. Recognize that comparisons are valid only when the two fractions refer to the same whole. Record the results of comparisons with symbols >, =, or <, and justify the conclusions, e.g., by using a visual fraction model.
+
+**UCC capability tags:** `explanation_reasoning`, `fraction_decimal_reasoning`, `functions_modeling`, `operation_selection`
+
+**Skill examples:**
+
+- Benchmark fractions (4-R.5)
+- Compare fractions (4-R.8)
+- Compare fractions in recipes (4-R.10)
+- Compare fractions using benchmarks (4-R.6)
+- Compare fractions using benchmarks: find the missing numerator (4-R.7)
+- Compare fractions using models (4-R.4)
+- Compare fractions: find the missing numerator or denominator (4-R.9)
+
+### 4.NF.3
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Understand a fraction a/b with a > 1 as a sum of fractions 1/b.
+
+**UCC capability tags:** `fraction_decimal_reasoning`, `measurement_units`, `operation_selection`
+
+### 4.NF.3.a
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Understand addition and subtraction of fractions as joining and separating parts referring to the same whole.
+
+**UCC capability tags:** `additive_reasoning`, `fraction_decimal_reasoning`, `functions_modeling`, `geometry_spatial_reasoning`, `measurement_units`, `operation_selection`
+
+**Skill examples:**
+
+- Add and subtract fractions with like denominators (4-T.3)
+- Add and subtract fractions with like denominators using number lines (4-S.11)
+- Add fractions with like denominators (4-T.1)
+- Add fractions with like denominators using area models (4-S.5)
+- Add fractions with like denominators using number lines (4-S.7)
+- Add fractions with like denominators using strip models (4-S.6)
+- Subtract fractions with like denominators (4-T.2)
+- Subtract fractions with like denominators using area models (4-S.8)
+- Subtract fractions with like denominators using number lines (4-S.10)
+- Subtract fractions with like denominators using strip models (4-S.9)
+
+### 4.NF.3.b
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Decompose a fraction into a sum of fractions with the same denominator in more than one way, recording each decomposition by an equation. Justify decompositions, e.g., by using a visual fraction model.
+
+**UCC capability tags:** `algebra_expressions_equations`, `explanation_reasoning`, `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Decompose fractions (4-S.3)
+- Decompose fractions into unit fractions (4-S.2)
+- Decompose fractions into unit fractions using models (4-S.1)
+- Decompose fractions multiple ways (4-S.4)
+
+### 4.NF.3.c
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Add and subtract mixed numbers with like denominators, e.g., by replacing each mixed number with an equivalent fraction, and/or by using properties of operations and the relationship between addition and subtraction.
+
+**UCC capability tags:** `additive_reasoning`, `fraction_decimal_reasoning`, `measurement_units`, `operation_selection`
+
+**Skill examples:**
+
+- Add and subtract mixed numbers with like denominators - without regrouping (4-T.9)
+- Add and subtract mixed numbers with like denominators (4-T.12)
+- Add mixed numbers with like denominators (4-T.10)
+- Subtract mixed numbers with like denominators (4-T.11)
+
+### 4.NF.3.d
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Solve word problems involving addition and subtraction of fractions referring to the same whole and having like denominators, e.g., by using visual fraction models and equations to represent the problem.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Add and subtract fractions and mixed numbers with like denominators: multi-step word problems (4-T.15)
+- Add and subtract fractions with like denominators in recipes (4-T.5)
+- Add and subtract fractions with like denominators: multi-step word problems (4-T.7)
+- Add and subtract fractions with like denominators: word problems (4-T.4)
+- Add and subtract mixed numbers with like denominators in recipes (4-T.13)
+- Add and subtract mixed numbers with like denominators: word problems (4-T.14)
+
+### 4.NF.4
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Apply and extend previous understandings of multiplication to multiply a fraction by a whole number.
+
+**UCC capability tags:** `fraction_decimal_reasoning`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+### 4.NF.4.a
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Understand a fraction a/b as a multiple of 1/b.
+
+**UCC capability tags:** `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Multiples of unit fractions: find the missing numbers (4-V.3)
+- Multiply unit fractions by whole numbers using models (4-V.1)
+- Multiply unit fractions by whole numbers using number lines (4-V.2)
+- Multiply unit fractions by whole numbers: sorting (4-V.4)
+
+### 4.NF.4.b
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Understand a multiple of a/b as a multiple of 1/b, and use this understanding to multiply a fraction by a whole number.
+
+**UCC capability tags:** `algebra_expressions_equations`, `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Multiples of fractions: find the missing numbers (4-W.4)
+- Multiply fractions by whole numbers (4-W.6)
+- Multiply fractions by whole numbers using models (4-W.1)
+- Multiply fractions by whole numbers using models: complete the equation (4-W.2)
+- Multiply fractions by whole numbers using number lines (4-W.3)
+- Multiply fractions by whole numbers: sorting (4-W.5)
+- Multiply mixed numbers by whole numbers (4-W.8)
+- Multiply unit fractions by whole numbers (4-V.5)
+
+### 4.NF.4.c
+
+**Cluster:** Build fractions from unit fractions by applying and extending previous understandings of operations on whole numbers.
+
+Solve word problems involving multiplication of a fraction by a whole number, e.g., by using visual fraction models and equations to represent the problem.
+
+**UCC capability tags:** `algebra_expressions_equations`, `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Multiply fractions and mixed numbers by whole numbers in recipes (4-W.10)
+- Multiply fractions and mixed numbers by whole numbers: multi-step word problems (4-W.11)
+- Multiply fractions by whole numbers: word problems (4-W.7)
+- Multiply mixed numbers by whole numbers: word problems (4-W.9)
+- Multiply unit fractions by whole numbers: word problems (4-V.6)
+
+### 4.NF.5
+
+**Cluster:** Understand decimal notation for fractions, and compare decimal fractions.
+
+Express a fraction with denominator 10 as an equivalent fraction with denominator 100, and use this technique to add two fractions with respective denominators 10 and 100.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `fraction_decimal_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Add fractions: denominators 10 and 100 (4-U.1)
+- Fractions with denominators of 10 and 100 (4-P.10)
+- Identify fraction expressions with a particular sum: denominators of 10 and 100 (4-U.2)
+
+### 4.NF.6
+
+**Cluster:** Understand decimal notation for fractions, and compare decimal fractions.
+
+Use decimal notation for fractions with denominators 10 or 100.
+
+**UCC capability tags:** `algebra_expressions_equations`, `data_statistics_probability`, `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `operation_selection`
+
+**Skill examples:**
+
+- Convert decimals to fractions and mixed numbers (4-X.7)
+- Convert fractions and mixed numbers to decimals - denominators of 10 and 100 (4-X.6)
+- Graph fractions as decimals on number lines (4-X.3)
+- Model decimals and fractions (4-X.1)
+
+### 4.NF.7
+
+**Cluster:** Understand decimal notation for fractions, and compare decimal fractions.
+
+Compare two decimals to hundredths by reasoning about their size. Recognize that comparisons are valid only when the two decimals refer to the same whole. Record the results of comparisons with the symbols >, =, or <, and justify the conclusions, e.g., by using the number line or another visual model.
+
+**UCC capability tags:** `explanation_reasoning`, `fraction_decimal_reasoning`, `functions_modeling`, `measurement_units`, `operation_selection`, `place_value_base_ten`
+
+**Skill examples:**
+
+- Compare decimal numbers (4-Y.8)
+- Compare decimals on number lines (4-Y.7)
+- Compare decimals using models (4-Y.6)
+- Compare money amounts (4-AA.3)
+
+## OA: Operations and Algebraic Thinking
+
+### 4.OA.1
+
+**Cluster:** Use the four operations with whole numbers to solve problems.
+
+Interpret a multiplication equation as a comparison, e.g., interpret 35 = 5 × 7 as a statement that 35 is 5 times as many as 7 and 7 times as many as 5. Represent verbal statements of multiplicative comparisons as multiplication equations.
+
+**UCC capability tags:** `algebra_expressions_equations`, `measurement_units`, `multiplicative_reasoning`, `operation_selection`
+
+**Skill examples:**
+
+- Compare numbers using multiplication (4-F.7)
+
+### 4.OA.2
+
+**Cluster:** Use the four operations with whole numbers to solve problems.
+
+Multiply or divide to solve word problems involving multiplicative comparison, e.g., by using drawings and equations with a symbol for the unknown number to represent the problem, distinguishing multiplicative comparison from additive comparison.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Compare numbers using multiplication: word problems (4-F.8)
+- Comparison word problems with multiplication and division: larger numbers (4-M.6)
+- Comparison word problems: addition or multiplication? (4-F.9)
+- Divide larger numbers by 1-digit numbers: comparison word problems (4-L.6)
+
+### 4.OA.3
+
+**Cluster:** Use the four operations with whole numbers to solve problems.
+
+Solve multistep word problems posed with whole numbers and having whole-number answers using the four operations, including problems in which remainders must be interpreted. Represent these problems using equations with a letter standing for the unknown quantity. Assess the reasonableness of answers using mental computation and estimation strategies including rounding.
+
+**UCC capability tags:** `additive_reasoning`, `algebra_expressions_equations`, `explanation_reasoning`, `modeling`, `multiplicative_reasoning`, `operation_selection`, `place_value_base_ten`, `word_problem_schema`
+
+**Skill examples:**
+
+- Divide 2-digit numbers by 1-digit numbers: interpret remainders (4-L.2)
+- Divide larger numbers by 1-digit numbers: interpret remainders (4-L.4)
+- Estimate products word problems: identify reasonable answers (4-H.4)
+- Multi-step addition and subtraction word problems (4-N.1)
+- Multi-step word problems (4-N.7)
+- Multi-step word problems involving remainders (4-N.8)
+- Multi-step word problems with strip diagrams (4-N.3)
+- Multi-step word problems: identify reasonable answers (4-N.9)
+- Multiply 1-digit numbers by 2-digit numbers: multi-step word problems (4-H.11)
+- Multiply 1-digit numbers by 3-digit or 4-digit numbers: multi-step word problems (4-H.18)
+- Multiply a 2-digit number by a 2-digit number: multi-step word problems (4-I.12)
+- Use equations to solve addition and subtraction word problems (4-M.15)
+- Use equations to solve multi-step addition and subtraction word problems (4-N.2)
+- Use equations to solve multi-step division word problems (4-N.6)
+- Use equations to solve multi-step multiplication word problems (4-N.5)
+- Use strip diagrams to represent and solve multi-step addition and subtraction word problems (4-N.)
+- Use strip diagrams to represent and solve multi-step word problems (4-N.4)
+- Word problems with extra or missing information (4-N.10)
+- Write equations to represent word problems (4-M.13)
+
+### 4.OA.4
+
+**Cluster:** Gain familiarity with factors and multiples.
+
+Find all factor pairs for a whole number in the range 1-100. Recognize that a whole number is a multiple of each of its factors. Determine whether a given whole number in the range 1-100 is a multiple of a given one-digit number. Determine whether a given whole number in the range 1-100 is prime or composite.
+
+**UCC capability tags:** `multiplicative_reasoning`, `operation_selection`, `place_value_base_ten`
+
+**Skill examples:**
+
+- Choose numbers with a particular product (4-F.10)
+- Choose the multiples of a given number up to 10 (4-G.6)
+- Find all the factor pairs of a number (4-G.5)
+- Identify factors (4-G.4)
+- Prime and composite: up to 100 (4-G.10)
+- Prime and composite: up to 20 (4-G.9)
+- Sort multiples into a Venn diagram (4-G.8)
+- Understand factors and factor pairs (4-G.3)
+
+### 4.OA.5
+
+**Cluster:** Generate and analyze patterns.
+
+Generate a number or shape pattern that follows a given rule. Identify apparent features of the pattern that were not explicit in the rule itself.
+
+**UCC capability tags:** `geometry_spatial_reasoning`, `modeling`, `operation_selection`, `word_problem_schema`
+
+**Skill examples:**
+
+- Complete a repeating pattern (4)
+- Extend growing shape patterns (4-O.9)
+- Extend repeating shape patterns (4-O.10)
+- Find the next shape in a pattern (4)
+- Identify mistakes in number patterns (4-O.4)
+- Make a repeating pattern (4)
+- Solve word problems involving number patterns in tables (4-O.)
+- Use a rule to complete a number pattern (4-O.1)
+- What is true about the given pattern? (4-O.2)
+- What is true about the pattern made by the rule? (4-O.3)
+
+## Related diagrams
+
+- [Progression spine](../mermaid/progression_spine.md)
+- [Word-problem schema chain](../mermaid/word_problem_schema_chain.md)
+- [Sample learner heat map](../mermaid/sample_learner_heatmap.md)

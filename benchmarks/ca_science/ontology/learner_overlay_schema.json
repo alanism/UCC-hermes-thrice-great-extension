@@ -1,0 +1,43 @@
+{
+  "schema_version": "learner_benchmark_overlay.v1",
+  "description": "A learner-specific overlay that marks Science standards/practices/concepts as mastered, learning, weak, no_evidence, advanced, or not_applicable.",
+  "node_status_values": [
+    "mastered",
+    "learning",
+    "weak",
+    "no_evidence",
+    "advanced",
+    "not_applicable"
+  ],
+  "evidence_strength_values": [
+    "low",
+    "medium",
+    "high"
+  ],
+  "example": {
+    "learnerId": "aria",
+    "benchmarkSystem": "California Science",
+    "generatedAt": "2026-06-27",
+    "nodes": [
+      {
+        "standardId": "CA.SCI.4.4-LS1-1",
+        "status": "learning",
+        "evidenceStrength": "medium",
+        "latestEvidenceDate": "2026-06-22",
+        "evidenceSources": [
+          "science_receipt_2026_06_22",
+          "parent_observation"
+        ],
+        "notes": "Understands external plant/animal structures but needs stronger explanation of structure-function relationships."
+      }
+    ],
+    "practiceOverlay": [
+      {
+        "practiceTag": "developing_models",
+        "status": "learning",
+        "evidenceStrength": "medium",
+        "notes": "Can label diagrams but needs more practice using models to explain mechanisms."
+      }
+    ]
+  }
+}
