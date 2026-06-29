@@ -17,5 +17,9 @@
     "skills/**",
     "UCC runtime implementation files"
   ],
-  "status": "IN_PROGRESS"
+  "completed_at": "2026-06-29T21:25:25Z",
+  "receipt": "docs/active/receipts/A2.1.md",
+  "baseline_commit": "fc5da5923cef32facf47424036ab7bbdd1817c5c",
+  "baseline_tag": "planning-baseline-2026-06-30",
+  "status": "DONE"
 }
