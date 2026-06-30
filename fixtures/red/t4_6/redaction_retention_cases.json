@@ -6,7 +6,7 @@
     {"case_id":"secret-shape","input":"token=synthetic_secret_0001","forbidden":"synthetic_secret_0001","expected_marker":"[REDACTED]"},
     {"case_id":"learner-id","input":"learner_id=lrn_SYNTHETIC_0001","forbidden":"lrn_SYNTHETIC_0001","expected_marker":"[REDACTED]"},
     {"case_id":"email","input":"email=synthetic.person@example.invalid","forbidden":"synthetic.person@example.invalid","expected_marker":"[REDACTED]"},
-    {"case_id":"private-profile","input":"profile_name=thoth-big-pc","forbidden":"thoth-big-pc","expected_marker":"[REDACTED]"}
+    {"case_id":"private-profile","input":"profile_name=SYNTHETIC_PRIVATE_PROFILE_0001","forbidden":"SYNTHETIC_PRIVATE_PROFILE_0001","expected_marker":"[REDACTED]"}
   ],
   "retention": [
     {"case_id":"not-expired","recorded_at":"2026-06-01T00:00:00.000Z","retention_days":365,"now":"2026-06-30T00:00:00.000Z","expected_action":"retain"},

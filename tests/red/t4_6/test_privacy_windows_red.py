@@ -120,6 +120,40 @@ def test_commit_eligibility_rejects_private_roots_even_for_synthetic_files(case)
         assert case["expected_issue"] in [issue["code"] for issue in result["issues"]]
 
 
+@pytest.mark.parametrize("case", load_json("lifecycle_guard_cases.json")["pseudonymous_records"], ids=lambda value: value["case_id"])
+def test_learner_records_require_pseudonymous_identity(case):
+    result = privacy_api().validate_pseudonymous_record(case["record"])
+    assert result["allowed"] is case["expected_allowed"]
+    if case.get("expected_issue"):
+        assert case["expected_issue"] in [issue["code"] for issue in result["issues"]]
+
+
+def test_deletion_is_guarded_atomic_and_tombstone_only():
+    lifecycle = load_json("lifecycle_guard_cases.json")
+    result = privacy_api().validate_deletion_guard(
+        lifecycle["deletion_request"], lifecycle["tombstone"], hold_codes=[]
+    )
+    assert result == {
+        "allowed": True,
+        "issues": [],
+        "in_place_erasure": False,
+        "actions": ["append_deletion_requested", "compact_atomically", "append_tombstone_recorded"],
+    }
+
+
+def test_deletion_hold_and_private_tombstone_fail_closed():
+    lifecycle = load_json("lifecycle_guard_cases.json")
+    leaking = dict(lifecycle["tombstone"], learner_id="lrn_01J00000000000000000000020")
+    result = privacy_api().validate_deletion_guard(
+        lifecycle["deletion_request"], leaking, hold_codes=["owner_hold"]
+    )
+    codes = [issue["code"] for issue in result["issues"]]
+    assert result["allowed"] is False
+    assert "PRIVACY_DELETION_HOLD_ACTIVE" in codes
+    assert "PRIVACY_TOMBSTONE_PRIVATE_DATA" in codes
+    assert result["in_place_erasure"] is False
+
+
 def test_privacy_mutation_probe_uses_r4_outcomes():
     api = privacy_api()
     outcomes = api.run_mutation_probe(
@@ -130,3 +164,4 @@ def test_privacy_mutation_probe_uses_r4_outcomes():
     for mutant in load_json("mutation_probe.json")["killable"]:
         assert outcomes[mutant["mutant_id"]] == "KILLED"
     assert outcomes["case-normalization-order-only"] in {"SURVIVED", "SKIPPED"}
+    assert {outcomes[name] for name in ("crash", "setup", "timeout")} == {"ERROR"}

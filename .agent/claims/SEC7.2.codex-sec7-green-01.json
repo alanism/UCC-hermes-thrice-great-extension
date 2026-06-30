@@ -1,5 +1,6 @@
 {
   "task_id":"SEC7.2","agent_id":"codex-sec7-green-01","claimed_at":"2026-06-30T19:26:06Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "allowed_files":["plugins/hermes-thrice-great/**","tests/red/t4_6/**","fixtures/red/t4_6/**",".agent/claims/SEC7.2.codex-sec7-green-01.json",".agent/state.log","docs/active/receipts/SEC7.2.md"],
-  "forbidden_files":["schemas/**","Hermes source","live integrations","real learner data"],"status":"DONE"
+  "forbidden_files":["schemas/**","Hermes source","live integrations","real learner data"],
+  "completed_at":"2026-06-30T19:29:02Z","receipt":"docs/active/receipts/SEC7.2.md","status":"DONE"
 }
