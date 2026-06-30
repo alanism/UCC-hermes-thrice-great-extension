@@ -129,3 +129,4 @@
 2026-06-30T08:32:01Z TASK_IN_PROGRESS task=T4.3 agent=codex-t4-red-01
 2026-06-30T08:35:18Z RED_CAPTURED task=T4.3 agent=codex-t4-red-01 expected_failure=PAIRING_EVALUATOR_IMPLEMENTATION_MISSING focused_result=13_failed_3_passed mutation_contract=KILLED_SURVIVED_ERROR
 2026-06-30T08:35:18Z TASK_DONE task=T4.3 agent=codex-t4-red-01 receipt=docs/active/receipts/T4.3.md result=red_pass
+2026-06-30T13:49:16Z TASK_REGISTERED task=C3.5A agent=codex-c3-approval-amend-01 authority=human_task_board_amendment task_board_hash=sha256:2b1622b618a2e348b7c52ac0618675262f6a34690a9f9680c04d6e2476ea8b1c
