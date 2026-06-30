@@ -19,13 +19,14 @@ ALLOWLIST_FILES = (
     "config.yaml",
     ".env.EXAMPLE",
 )
-ALLOWLIST_DIRS = (
-    "skills",
+REQUIRED_DIRS = ("skills",)
+OPTIONAL_DIRS = (
     "plugins/hermes-thrice-great",
     "schemas",
     "benchmarks",
 )
 INVENTORY_SUFFIX = ".inventory.json"
+CANONICAL_IN_REPO_OUTPUT = Path("dist") / "hermes-thrice-great-profile"
 
 
 class StagingError(RuntimeError):
@@ -67,6 +68,28 @@ def _assert_safe_selected_tree(path: Path, source: Path) -> None:
                 )
 
 
+def _manifest_distribution_owned(source: Path) -> set[str]:
+    """Read the top-level distribution_owned list without a YAML dependency."""
+    selected: set[str] = set()
+    in_owned = False
+    for raw_line in (source / "distribution.yaml").read_text(encoding="utf-8").splitlines():
+        line = raw_line.rstrip()
+        if not in_owned:
+            if line == "distribution_owned:":
+                in_owned = True
+            continue
+        stripped = line.strip()
+        if not stripped or stripped.startswith("#"):
+            continue
+        if line[:1].isspace() and stripped.startswith("- "):
+            value = stripped[2:].strip().strip("'\"").rstrip("/")
+            if value:
+                selected.add(value)
+            continue
+        break
+    return selected
+
+
 def _copy_selected(source: Path, staging: Path) -> None:
     for relative in ALLOWLIST_FILES:
         item = source / relative
@@ -79,7 +102,11 @@ def _copy_selected(source: Path, staging: Path) -> None:
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(item, destination)
 
-    for relative in ALLOWLIST_DIRS:
+    manifest_owned = _manifest_distribution_owned(source)
+    selected_dirs = REQUIRED_DIRS + tuple(
+        relative for relative in OPTIONAL_DIRS if relative in manifest_owned
+    )
+    for relative in selected_dirs:
         item = source / relative
         if not item.exists():
             continue
@@ -117,7 +144,13 @@ def _inventory_text(staging: Path) -> str:
 def build(source_arg: Path, output_arg: Path) -> Path:
     source = source_arg.resolve(strict=True)
     output = output_arg.resolve(strict=False)
-    if source == output or _is_relative_to(output, source) or _is_relative_to(source, output):
+    canonical_in_repo_output = (source / CANONICAL_IN_REPO_OUTPUT).resolve(strict=False)
+    output_inside_source = _is_relative_to(output, source)
+    if (
+        source == output
+        or _is_relative_to(source, output)
+        or (output_inside_source and output != canonical_in_repo_output)
+    ):
         raise StagingError("SOURCE_OUTPUT_OVERLAP", "source and output trees must not overlap")
     if not source.is_dir():
         raise StagingError("SOURCE_NOT_DIRECTORY", f"source is not a directory: {source}")

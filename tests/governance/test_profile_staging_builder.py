@@ -22,7 +22,7 @@ class ProfileStagingBuilderTests(unittest.TestCase):
 
     def seed_source(self, root: Path) -> None:
         files = {
-            "distribution.yaml": "name: synthetic-stage\nversion: 0.0.1\n",
+            "distribution.yaml": "name: synthetic-stage\nversion: 0.0.1\ndistribution_owned:\n  - skills\n  - plugins/hermes-thrice-great\n  - schemas\n  - benchmarks\n",
             "SOUL.md": "# Synthetic\n",
             "config.yaml": "plugins:\n  enabled: []\n",
             ".env.EXAMPLE": "SYNTHETIC=\n",
@@ -98,6 +98,33 @@ class ProfileStagingBuilderTests(unittest.TestCase):
             result = self.run_builder(source, source / "dist")
             self.assertNotEqual(result.returncode, 0)
             self.assertIn("SOURCE_OUTPUT_OVERLAP", result.stderr)
+
+    def test_allows_only_canonical_in_repo_distribution_output(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            source = Path(temp) / "source"
+            self.seed_source(source)
+            output = source / "dist" / "hermes-thrice-great-profile"
+            result = self.run_builder(source, output)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue((output / "distribution.yaml").is_file())
+            self.assertTrue(output.with_name(f"{output.name}.inventory.json").is_file())
+
+    def test_optional_directories_require_manifest_selection(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            base = Path(temp)
+            source = base / "source"
+            output = base / "output"
+            self.seed_source(source)
+            (source / "distribution.yaml").write_text(
+                "name: minimal\nversion: 0.0.1\ndistribution_owned:\n  - skills\n",
+                encoding="utf-8",
+            )
+            result = self.run_builder(source, output)
+            self.assertEqual(result.returncode, 0, result.stderr)
+            self.assertTrue((output / "skills" / "probe" / "SKILL.md").is_file())
+            self.assertFalse((output / "plugins").exists())
+            self.assertFalse((output / "schemas").exists())
+            self.assertFalse((output / "benchmarks").exists())
 
 
 if __name__ == "__main__":
