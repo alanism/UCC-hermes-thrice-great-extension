@@ -59,12 +59,12 @@ def test_flat_legacy_exports_are_not_installable_native_skills():
 
 def test_every_declared_reference_resolves_inside_its_native_skill_directory():
     missing = []
-    for source in SKILLS.glob("*.SKILL.md"):
+    for source in SKILLS.glob("*/SKILL.md"):
         text = source.read_text(encoding="utf-8")
         for reference in re.findall(r"(?m)^\s+-\s+(references/[^\s]+)\s*$", text):
-            expected = SKILLS / source.name.removesuffix(".SKILL.md") / reference
+            expected = source.parent / reference
             if not expected.is_file():
-                missing.append(f"{source.name}:{reference}")
+                missing.append(f"{source.parent.name}:{reference}")
     assert not missing, f"SKILL_REFERENCE_MISSING: {missing}"
 
 

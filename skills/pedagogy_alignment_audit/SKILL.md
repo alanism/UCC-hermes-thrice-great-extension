@@ -40,13 +40,12 @@ Do not use this skill for UI polish or copywriting unless the issue affects lear
 
 ---
 
-## Reference: Probabilistic Fallback Design Principle
+## Degraded and void evidence
 
-UCC does not police AI use or detect cheating. When auditing a feature that involves receipt quality, assessment interpretation, or practice generation, distinguish useful AI-assisted output from valid mastery evidence. Consult `references/probabilistic-fallback-design.md` for the degraded/void evidence-state rationale. Key check items:
+UCC does not police AI use or detect cheating. When auditing receipt quality, assessment interpretation, or practice generation, distinguish useful AI-assisted output from valid mastery evidence.
 
-- When deterministic validation fails, does the feature hide the score? (Required)
-- Does it label every claim as `[PROBABILISTIC]` or `[D]`? (Required)
-- Does it cap practice scope (6 items max, concrete stage) when degraded? (Required)
-- Does it require parent acknowledgment before acting on degraded evidence? (Required)
-- Does it recommend a clean rerun? (Required)
-- Does it distinguish degraded (evidence exists) from void (no evidence)? (Required)
+- A failed deterministic validation cannot support a score or mastery claim.
+- Preserve stable validation issue codes and label the evidence state.
+- Distinguish degraded evidence from void evidence without guessing missing facts.
+- Recommend a clean rerun when the evidence contract is not satisfied.
+- Keep every proposal separate from parent approval and durable learner state.

@@ -9,8 +9,6 @@ metadata:
     related_skills: [pedagogy_alignment_audit, mastery_ledger_contract]
 linked:
   references:
-    - references/telemetry-schema.md
-    - references/reverse-engineered-data-model.md
     - references/app-update-verification-example.md
 ---
 
@@ -31,9 +29,9 @@ Do not use this skill for general UCC product positioning.
 
 ## Procedure: App Review
 
-Two variants exist. Use **Variant A** for adaptive assessment apps (STAR-style tests with adaptive ladders). Use **Variant B** for non-assessment UCC apps (campaign builder, dashboard, reader engine, companion API).
+Use this procedure for adaptive assessment apps and instruments.
 
-### Variant A — Assessment Instrument Review
+### Assessment Instrument Review
 
 Use when evaluating an assessment *app* or *instrument* (before student data exists).
 
@@ -47,7 +45,7 @@ Use when evaluating an assessment *app* or *instrument* (before student data exi
    - Crystallized, Fluidity, Augmented, Pressure — which are active?
    - Is the pressure mode a separate session or a timer tier within session?
 4. **Validate telemetry completeness**
-   - See `references/telemetry-schema.md` for the full field inventory
+   - Resolve the receipt version through the distribution contract registry; do not assume a legacy field inventory
    - Check which fields are populated vs. null vs. missing
    - Check for integrity warnings (duplicate items, pool exhaustion)
 5. **Check whether outputs reconstruct student thinking**
@@ -55,9 +53,9 @@ Use when evaluating an assessment *app* or *instrument* (before student data exi
    - Or do you need the actual answer string?
 6. **Recommend fixes**
 
-### Variant B — Non-Assessment UCC App Review
+### Offline Non-Assessment App Artifact Review
 
-Use when evaluating a UCC app that is NOT an adaptive assessment (campaign builder, dashboard, learner overlay, companion API). This covers UX, data model, API surface, schema discoverability, and pedagogical alignment of the app design itself.
+Use only when local, synthetic app artifacts are supplied. This covers documented UX, data contracts, schema discoverability, and pedagogical alignment without browsing or calling an app.
 
 1. **Identify the app's purpose and claims**
    - What does it claim to do? Read the owner's manual or README first
@@ -65,54 +63,34 @@ Use when evaluating a UCC app that is NOT an adaptive assessment (campaign build
    - Map both against the UCC pedagogical north star (mastery, transfer, retention, coaching)
    - Identify discrepancy between claimed and actual behavior
 
-2. **SPA interaction strategy**
-   When the app is a single-page application and browser tools are unreliable (snapshot truncation, DOM queries return null, button clicks have no visible effect):
-   - Extract the full page text via `browser_console("document.body.innerText")` — this is more reliable than the truncated snapshot
-   - Find the JS bundle URL from the page source (look for `<script type="module" src="/assets/index-*.js">`)
-   - Download the JS bundle with `curl` and search for field names, validator functions, and default data objects to reverse-engineer the data format
-   - **Do not fight the browser form** for complex multi-field data entry. Instead, build importable JSON files that match the app's format and import them
-   - For state-changing operations (add campaign, remove campaign, submit override): if the browser click doesn't work after 2 attempts, the app may not allow that operation for the current state (e.g., can't remove the only campaign). Look for guard conditions in the JS bundle
-   - Use `web_extract` on known endpoints to probe for schema files, API documentation, and example files
+2. **Local artifact strategy**
+   - Inventory supplied schemas, fixtures, screenshots, source files, and owner documentation.
+   - Treat absent artifacts as `NOT PROVEN`; do not fetch them or infer their contents.
+   - Use contained relative paths and synthetic examples only.
 
 3. **Schema and contract discovery**
-   - Check these endpoints in order:
-     - `/schemas/weekly_campaign_plan.schema.json` — main plan schema
-     - `/openapi.json` — full API documentation
-     - `/agent/hermes.json` — agent manifest describing companion API
-     - `/examples/weekly-campaign-plan.json` — sample import file
-   - If endpoints return the app's HTML page instead of JSON, the schemas don't exist yet — mark as missing
-- For local companion integrations: inspect the supplied offline contract fixture or exported contract file; do not initiate network access.
-   - Document which schemas exist and which are missing
+   - Inspect only supplied schema and contract files.
+   - Record each expected artifact as present, invalid, or not supplied.
+   - Do not initiate network access.
 
-4. **Data model extraction (fallback when schema endpoint missing)**
-   If no schema endpoint exists:
-   - Download the JS bundle via `curl -s <bundle_url>`
-   - Search for the validator function (usually named `W()` or similar, checks required fields)
-   - Search for the default/example plan object
-   - Extract all enum values (domain, status, duration, directInstructionNeed, etc.)
-   - Build a TypeScript interface from the extracted fields
-   - Validate by writing a test JSON file and checking it against the validator
-   - See `references/reverse-engineered-data-model.md` for an example of the output format
+4. **Data model extraction**
+   - Prefer the supplied locked schema and registry.
+   - If only local source is supplied, identify validator rules and example objects without executing untrusted code.
+   - Mark inferred fields as provisional and never use them for mastery or approval state.
 
 5. **Verify against previous recommendations**
-   When the user says the app was updated based on a retro document you previously submitted:
-   - Build a systematic checklist from every item in your retro
-   - For schema endpoints: use `web_extract` — returns JSON or failure
-   - For UI changes: use `browser_navigate` and inspect the DOM for new elements
-   - For API changes: check the new JS bundle for endpoint handler functions
-   - Report each retro item as ✅ DONE, ⚠️ Partial, or ❌ Still Missing
-   - Include one new finding or bug discovered during verification
-   - See `references/app-update-verification-example.md` for the output format
+   - Build a checklist from the prior review.
+   - Match each item to supplied local evidence.
+   - Report each as `DONE`, `PARTIAL`, or `NOT PROVEN`.
+   - See `references/app-update-verification-example.md` for the output shape.
 
-6. **Benchmark search verification**
-   - Search each benchmark pack (Math, ELA, Science, Social Studies) with a known standard code
-   - Verify the search returns relevant results
-   - Check that the standard IDs match the format in `standards_nodes.json`
-   - Verify linked standards appear correctly in the campaign editor
+6. **Benchmark fixture verification**
+   - Inspect only supplied synthetic benchmark fixtures.
+   - Check stable standard-ID formats and expected deterministic matches.
 
 7. **Recommend fixes**
    - Separate into: P0 (blocks workflow), P1 (saves major agent time), P2 (nice-to-have)
-   - Include specific implementation guidance (field IDs to change, endpoints to add)
+   - Include specific implementation guidance derived from supplied contracts and source evidence.
 
 ---
 

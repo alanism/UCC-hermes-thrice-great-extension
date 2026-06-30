@@ -150,9 +150,4 @@ When writing the **Existing Code** table, organize by:
 | **P2** | Polish / tooling | Nice-to-have |
 | **P3** | Human UI improvements | Lower priority |
 
-### Example Reference
-
-A complete example of the App Integration Format is saved at:
-`references/history-story-maps-v2-spec.md`
-
-That reference document shows the full 893-line builder prompt for the UCC History Story Maps Creator V2 upgrade. It covers: brief schema, headless API, compilation pipeline, DEBT-01 conundrum fix, file protocol, preserve/extend/remove table, implementation phases, and success criteria. Use it as a template when writing similar V1.5→V2 upgrades for other UCC apps.
+Use only repository-local, public examples supplied with the target project. Do not assume a private profile reference or messaging integration exists.
