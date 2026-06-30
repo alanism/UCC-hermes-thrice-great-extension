@@ -1,4 +1,7 @@
 import json
+import os
+import subprocess
+import sys
 from pathlib import Path
 
 import pytest
@@ -15,6 +18,9 @@ def load_json(name):
 
 
 def privacy_api():
+    plugin_root = REPO_ROOT / "plugins" / "hermes-thrice-great"
+    if str(plugin_root) not in sys.path:
+        sys.path.insert(0, str(plugin_root))
     return require_product_module(
         "hermes_thrice_great.privacy.guards",
         "PRIVACY_GUARDS_IMPLEMENTATION_MISSING",
@@ -35,7 +41,7 @@ def test_windows_cases_are_bound_to_r4_host_capabilities():
 
 def test_redaction_retention_and_commit_fixtures_are_synthetic_and_complete():
     fixture = load_json("redaction_retention_cases.json")
-    assert len(fixture["redaction"]) == 4
+    assert len(fixture["redaction"]) == 7
     assert len(fixture["retention"]) == 4
     assert len(fixture["commit_eligibility"]) == 5
     assert all(case["synthetic"] for case in fixture["commit_eligibility"])
@@ -73,6 +79,30 @@ def test_logs_redact_private_values_and_paths(case):
     output = api.redact_log(case["input"])
     assert case["forbidden"] not in output
     assert case["expected_marker"] in output
+
+
+@pytest.mark.skipif(sys.platform != "win32", reason="native Windows junction proof")
+def test_native_windows_junction_escape_is_rejected(tmp_path):
+    api = privacy_api()
+    root = tmp_path / "private-root"
+    outside = tmp_path / "outside"
+    root.mkdir()
+    outside.mkdir()
+    junction = root / "escape-junction"
+    created = subprocess.run(
+        ["cmd.exe", "/d", "/c", "mklink", "/J", str(junction), str(outside)],
+        capture_output=True,
+        text=True,
+        timeout=10,
+        check=False,
+    )
+    assert created.returncode == 0, created.stderr or created.stdout
+    try:
+        result = api.validate_contained_path(root, r"escape-junction\synthetic.json")
+        assert result["allowed"] is False
+        assert "PRIVACY_REPARSE_ESCAPE" in [issue["code"] for issue in result["issues"]]
+    finally:
+        os.rmdir(junction)
 
 
 @pytest.mark.parametrize("case", load_json("redaction_retention_cases.json")["retention"], ids=lambda value: value["case_id"])
