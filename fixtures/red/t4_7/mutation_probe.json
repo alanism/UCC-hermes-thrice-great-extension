@@ -1,0 +1,10 @@
+{
+  "killable":[
+    {"mutant_id":"accept-flat-skill-file","expected_outcome":"KILLED"},
+    {"mutant_id":"ignore-missing-reference","expected_outcome":"KILLED"},
+    {"mutant_id":"accept-name-directory-mismatch","expected_outcome":"KILLED"},
+    {"mutant_id":"package-excluded-skill","expected_outcome":"KILLED"}
+  ],
+  "equivalent_control":{"mutant_id":"frontmatter-key-order-only","expected_outcome":"SURVIVED"},
+  "infrastructure_failures":{"expected_outcome":"ERROR","crash":"ERROR","setup":"ERROR","timeout":"ERROR"}
+}
