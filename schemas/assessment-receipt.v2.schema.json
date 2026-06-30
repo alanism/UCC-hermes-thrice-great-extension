@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:assessment-receipt:2.0.0",
+  "title": "UCC Assessment Receipt v2",
+  "type": "object",
+  "required": ["contract_version", "receipt_id", "session_id", "assessment_form_id", "assessment_form_version", "learner_id", "source", "assessment", "session", "events", "summary", "evidence_context", "quality"],
+  "properties": {
+    "contract_version": {"const": "ucc.assessment_receipt.v2.0.0"},
+    "receipt_id": {"type": "string", "pattern": "^rcpt_[0-9A-HJKMNP-TV-Z]{26}$"},
+    "session_id": {"type": "string", "pattern": "^sess_[0-9A-HJKMNP-TV-Z]{26}$"},
+    "paired_run_id": {"type": ["string", "null"]},
+    "assessment_form_id": {"type": "string"},
+    "assessment_form_version": {"type": "integer", "minimum": 1},
+    "learner_id": {"type": "string", "pattern": "^lrn_[0-9A-HJKMNP-TV-Z]{26}$"},
+    "display_name": {"type": "null"},
+    "source": {"type": "object"},
+    "assessment": {"type": "object"},
+    "session": {"type": "object"},
+    "events": {"type": "array", "minItems": 1},
+    "summary": {"type": "object"},
+    "evidence_context": {"type": "object"},
+    "quality": {"type": "object"}
+  },
+  "additionalProperties": false
+}
