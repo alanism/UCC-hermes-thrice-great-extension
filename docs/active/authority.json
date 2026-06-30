@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T07:38:13Z",
+  "revised_at": "2026-06-30T08:08:04Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -13,7 +13,7 @@
     },
     "task_board": {
       "path": "docs/active/PROJECT_TASKS.md",
-      "sha256": "fcc806cac35df9f7c5231c22e4a5bd255c8f52b32966dcd85b4faeb1d27b1e52"
+      "sha256": "7487bca236207218863aa892555536add62ee5fa324fa88c8390740334caa869"
     },
     "architecture": {
       "path": "docs/active/architecture.mmd",

@@ -111,3 +111,4 @@
 2026-06-30T07:38:13Z AUTHORITY_REHASHED task=R4.5 agent=codex-r4-readiness-01 artifact=docs/active/READINESS_REPORT.md implementation_authorized=false red_test_creation_authorized=true
 2026-06-30T07:38:13Z GATE_PASSED gate=R4 task=R4.5 agent=codex-r4-readiness-01 result=production_readiness_preflight_pass
 2026-06-30T07:38:13Z TASK_DONE task=R4.5 agent=codex-r4-readiness-01 receipt=docs/active/receipts/R4.5.md result=pass
+2026-06-30T08:08:04Z TASK_REGISTERED task=C3.7A agent=codex-c3-registry-amend-01 authority=human_task_board_amendment task_board_hash=sha256:7487bca236207218863aa892555536add62ee5fa324fa88c8390740334caa869
