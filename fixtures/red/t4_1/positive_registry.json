@@ -1,0 +1,72 @@
+{
+  "ucc_contract_registry": {
+    "registry_schema_version": "ucc.contract_registry.v1.0.0",
+    "registry_id": "reg_01J00000000000000000000000",
+    "generated_at": "2026-06-30T00:00:00.000Z",
+    "approved_at": "2026-06-30T00:00:00.000Z",
+    "canonicalization_id": "rfc8785-jcs-v1",
+    "families": {
+      "smc": {
+        "family_id": "smc",
+        "versions": [
+          {
+            "version": "ucc.smc.v1.0.0",
+            "lifecycle_state": "locked",
+            "schema_ref": {
+              "schema_id": "urn:ucc:contract:smc:1.0.0",
+              "path": "schemas/smc.schema.json",
+              "artifact_sha256": "4d6280cd03059b203ebe2105933bf28a3e137c4f30728c492cc6d55c901418df"
+            },
+            "contract_ref": {
+              "path": "contracts/smc.md",
+              "media_type": "text/markdown",
+              "artifact_sha256": "b2eebf953909ff386d02c68a9fc4cd584220f7ea4370faad84ab271f189cbad9",
+              "canonical_excerpt": null
+            },
+            "canonical_hash": "e2377f49bf17210e89c8f82096e5ae974fbae423d8f0032cac59834c4b5f11b0",
+            "semantic_validator_ref": null,
+            "semantic_projection_ref": null,
+            "introduced_at": "2026-06-30T00:00:00.000Z",
+            "replaces": null,
+            "compatible_with": {
+              "readers": [{"consumer_version": "ucc.smc.v1.0.0", "accepted_versions": ["ucc.smc.v1.0.0"]}],
+              "writers": [{"producer_version": "ucc.smc.v1.0.0", "emitted_version": "ucc.smc.v1.0.0"}],
+              "unknown_version_behavior": "reject"
+            },
+            "migration": {"required": false, "adapters": []},
+            "fixture_sets": [
+              {"fixture_set_id": "smc-v1-compatibility", "path": "fixture_sets/smc/compatibility", "purpose": "compatibility", "expected_hash": "6c1e21257e44f2e846e2d072b53e3d91fca59a43732f7c22acf1ccce46228b4b", "coverage_labels": ["exact_version"]},
+              {"fixture_set_id": "smc-v1-mutation", "path": "fixture_sets/smc/mutation", "purpose": "mutation", "expected_hash": "bf9f8b9f576cb6f0c0b537161d6fbd63aac1acaf0343777cb2711175f5d391f7", "coverage_labels": ["hash_mutation"]},
+              {"fixture_set_id": "smc-v1-negative", "path": "fixture_sets/smc/negative", "purpose": "negative", "expected_hash": "91cf13fbb3c823619a8eb56ed15a8cfb7cb215998c4a9d460035e5a33721cec4", "coverage_labels": ["closed_shape"]},
+              {"fixture_set_id": "smc-v1-positive", "path": "fixture_sets/smc/positive", "purpose": "positive", "expected_hash": "32d45fce131727af5d0b046e451cb33ec37f8263cdf85f3891178b6eec1a8938", "coverage_labels": ["canonicalization", "shape"]}
+            ],
+            "approval_ref": {
+              "actor_role": "contract_authority",
+              "approval_event_id": null,
+              "decision_id": "dec_01J00000000000000000000000",
+              "timestamp": "2026-06-30T00:00:00.000Z",
+              "source_document": "approvals/lock.md",
+              "scope": {"family_id": "smc", "version": "ucc.smc.v1.0.0", "decision": "contract_lock"}
+            }
+          }
+        ]
+      },
+      "assessment_receipt": {
+        "family_id": "assessment_receipt",
+        "versions": [{"version": "ucc.assessment_receipt.v2.0.0", "lifecycle_state": "draft", "schema_ref": null, "contract_ref": {"path": "contracts/assessment_receipt.md", "media_type": "text/markdown", "artifact_sha256": "11ee96ad97b482b001a0b56a27b848b39a10d69fe139fbe29909a3e7d7ec8581", "canonical_excerpt": null}, "canonical_hash": null, "semantic_validator_ref": null, "semantic_projection_ref": null, "introduced_at": "2026-06-30T00:00:00.000Z", "replaces": null, "compatible_with": {"readers": [], "writers": [], "unknown_version_behavior": "reject"}, "migration": {"required": false, "adapters": []}, "fixture_sets": [], "approval_ref": null}]
+      },
+      "receipt_pairing": {
+        "family_id": "receipt_pairing",
+        "versions": [{"version": "ucc.receipt_pairing.v1.0.0", "lifecycle_state": "draft", "schema_ref": null, "contract_ref": {"path": "contracts/receipt_pairing.md", "media_type": "text/markdown", "artifact_sha256": "bb8b3d567a25b3f0b51210334d8b837d0d8f9dc320b8b826469c1708db5daf01", "canonical_excerpt": null}, "canonical_hash": null, "semantic_validator_ref": null, "semantic_projection_ref": null, "introduced_at": "2026-06-30T00:00:00.000Z", "replaces": null, "compatible_with": {"readers": [], "writers": [], "unknown_version_behavior": "reject"}, "migration": {"required": false, "adapters": []}, "fixture_sets": [], "approval_ref": null}]
+      },
+      "proposal_approval": {
+        "family_id": "proposal_approval",
+        "versions": [{"version": "ucc.task_proposal.v1.0.0", "lifecycle_state": "draft", "schema_ref": null, "contract_ref": {"path": "contracts/proposal_approval.md", "media_type": "text/markdown", "artifact_sha256": "086258f09e3c218b8931467f8d9d6ab39e655fcdb1879aa085aabe67f7b3ff7f", "canonical_excerpt": null}, "canonical_hash": null, "semantic_validator_ref": null, "semantic_projection_ref": null, "introduced_at": "2026-06-30T00:00:00.000Z", "replaces": null, "compatible_with": {"readers": [], "writers": [], "unknown_version_behavior": "reject"}, "migration": {"required": false, "adapters": []}, "fixture_sets": [], "approval_ref": null}]
+      },
+      "parent_brief_ledger": {
+        "family_id": "parent_brief_ledger",
+        "versions": [{"version": "ucc.parent_brief.v1.0.0", "lifecycle_state": "draft", "schema_ref": null, "contract_ref": {"path": "contracts/parent_brief_ledger.md", "media_type": "text/markdown", "artifact_sha256": "92c40b3e51e1497787330543ff7f9372297c3851e8d30f070bfbeaddf1b053e3", "canonical_excerpt": null}, "canonical_hash": null, "semantic_validator_ref": null, "semantic_projection_ref": null, "introduced_at": "2026-06-30T00:00:00.000Z", "replaces": null, "compatible_with": {"readers": [], "writers": [], "unknown_version_behavior": "reject"}, "migration": {"required": false, "adapters": []}, "fixture_sets": [], "approval_ref": null}]
+      }
+    }
+  }
+}

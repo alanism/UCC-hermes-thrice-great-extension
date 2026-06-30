@@ -1,0 +1,13 @@
+{
+  "schemas/smc.schema.json": "{\"$id\":\"urn:ucc:contract:smc:1.0.0\",\"type\":\"object\"}\n",
+  "contracts/smc.md": "# Synthetic SMC Contract\n\nRegistry-only fixture; no learner data.\n",
+  "contracts/assessment_receipt.md": "# Synthetic Assessment Receipt Contract\n\nRegistry-only fixture; no learner data.\n",
+  "contracts/receipt_pairing.md": "# Synthetic Receipt Pairing Contract\n\nRegistry-only fixture; no learner data.\n",
+  "contracts/proposal_approval.md": "# Synthetic Proposal Approval Contract\n\nRegistry-only fixture; no learner data.\n",
+  "contracts/parent_brief_ledger.md": "# Synthetic Parent Brief Ledger Contract\n\nRegistry-only fixture; no learner data.\n",
+  "approvals/lock.md": "# Synthetic Contract Lock Decision\n\nApproved for registry fixture validation only.\n",
+  "fixture_sets/smc/compatibility/case.json": "{\"case\":\"exact-version\"}\n",
+  "fixture_sets/smc/mutation/case.json": "{\"case\":\"hash-mutation\"}\n",
+  "fixture_sets/smc/negative/case.json": "{\"case\":\"closed-shape\"}\n",
+  "fixture_sets/smc/positive/case.json": "{\"case\":\"canonicalization\"}\n"
+}

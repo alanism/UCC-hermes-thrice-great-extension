@@ -1,0 +1,7 @@
+[
+  {"case_id": "locked-runtime-denied", "family_id": "smc", "version": "ucc.smc.v1.0.0", "purpose": "runtime", "allow_locked": false, "expected_issue": "REGISTRY_LIFECYCLE_UNUSABLE"},
+  {"case_id": "locked-test-allowed", "family_id": "smc", "version": "ucc.smc.v1.0.0", "purpose": "test", "allow_locked": true, "expected_version": "ucc.smc.v1.0.0"},
+  {"case_id": "draft-denied", "family_id": "assessment_receipt", "version": "ucc.assessment_receipt.v2.0.0", "purpose": "test", "allow_locked": true, "expected_issue": "REGISTRY_LIFECYCLE_UNUSABLE"},
+  {"case_id": "unknown-version-denied", "family_id": "smc", "version": "ucc.smc.v9.0.0", "purpose": "runtime", "allow_locked": false, "expected_issue": "REGISTRY_VERSION_UNSUPPORTED"},
+  {"case_id": "migration-is-explicit", "source_version": "ucc.smc.v0.9.0", "target_version": "ucc.smc.v1.0.0", "expected_issue": "MIGRATION_ADAPTER_UNAVAILABLE"}
+]

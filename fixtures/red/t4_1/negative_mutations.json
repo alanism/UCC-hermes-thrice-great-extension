@@ -1,0 +1,12 @@
+[
+  {"case_id": "registry-missing-family-id", "operations": [{"op": "remove", "path": "/ucc_contract_registry/families/smc/family_id"}], "expected_issue": "REGISTRY_FAMILY_ID_MISSING"},
+  {"case_id": "registry-unknown-lifecycle", "operations": [{"op": "replace", "path": "/ucc_contract_registry/families/smc/versions/0/lifecycle_state", "value": "experimental"}], "expected_issue": "REGISTRY_LIFECYCLE_UNKNOWN"},
+  {"case_id": "registry-active-missing-schema-ref", "operations": [{"op": "replace", "path": "/ucc_contract_registry/families/smc/versions/0/lifecycle_state", "value": "active"}, {"op": "remove", "path": "/ucc_contract_registry/families/smc/versions/0/schema_ref"}], "expected_issue": "REGISTRY_SCHEMA_INVALID"},
+  {"case_id": "registry-active-missing-canonical-hash", "operations": [{"op": "replace", "path": "/ucc_contract_registry/families/smc/versions/0/lifecycle_state", "value": "active"}, {"op": "remove", "path": "/ucc_contract_registry/families/smc/versions/0/canonical_hash"}], "expected_issue": "REGISTRY_SCHEMA_INVALID"},
+  {"case_id": "registry-compatibility-prose", "operations": [{"op": "replace", "path": "/ucc_contract_registry/families/smc/versions/0/compatible_with", "value": "same major versions are compatible"}], "expected_issue": "REGISTRY_COMPATIBILITY_INVALID"},
+  {"case_id": "registry-fixture-missing-hash", "operations": [{"op": "remove", "path": "/ucc_contract_registry/families/smc/versions/0/fixture_sets/0/expected_hash"}], "expected_issue": "REGISTRY_FIXTURE_SET_INVALID"},
+  {"case_id": "registry-approval-missing-actor", "operations": [{"op": "remove", "path": "/ucc_contract_registry/families/smc/versions/0/approval_ref/actor_role"}], "expected_issue": "REGISTRY_APPROVAL_REF_INVALID"},
+  {"case_id": "registry-approval-missing-scope", "operations": [{"op": "remove", "path": "/ucc_contract_registry/families/smc/versions/0/approval_ref/scope"}], "expected_issue": "REGISTRY_APPROVAL_REF_INVALID"},
+  {"case_id": "registry-canonical-hash-mutation", "operations": [{"op": "replace", "path": "/ucc_contract_registry/families/smc/versions/0/canonical_hash", "value": "0000000000000000000000000000000000000000000000000000000000000000"}], "expected_issue": "REGISTRY_CANONICAL_HASH_MISMATCH"},
+  {"case_id": "registry-path-escape", "operations": [{"op": "replace", "path": "/ucc_contract_registry/families/smc/versions/0/schema_ref/path", "value": "../outside.schema.json"}], "expected_issue": "REGISTRY_PATH_INVALID"}
+]
