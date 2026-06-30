@@ -8,7 +8,8 @@ Status: **H1 PASS** — exact executing identity, staged profile delivery, nativ
 | Installed source checkout | `2a5dc0ef3df433a36abed9ee544ea067d807c438` | `git -C <installed-hermes> rev-parse HEAD`. |
 | Executing code identity | editable checkout at `HEAD 2a5dc0ef3df433a36abed9ee544ea067d807c438` | `where.exe hermes`, `hermes_cli.__file__`, package `direct_url.json`, and Git HEAD all resolve to the same checkout. |
 | Banner `upstream` label | volatile local `origin/main`; latest H1 observation `d2ce2c85` | Pinned-source `banner.py` proves this label reads the existing local `origin/main`; it is drift information, not executing-code identity. No H1 probe fetched. |
-| Python | `3.11.15`; supported floor to be confirmed from pinned `pyproject.toml` | Local observation plus recon. |
+| Python | `>=3.11,<3.14`; acceptance host `3.11.15` | Project manifest and clean native-Windows harness environment. |
+| Test harness | `pytest==9.0.2`, `pytest-asyncio==1.3.0`; all transitive packages exact in `requirements-dev.lock` | R4.1 lock test plus clean ephemeral environment. |
 | Primary OS | Native Windows 10 build `26200` | Local observation. |
 | Secondary OS | Linux/macOS compatibility is desired, not a current production acceptance gate | CI decision deferred. |
 | Profile mechanism | `distribution.yaml`, `config.yaml`, `SOUL.md`, `hermes profile install` | Confirmed in installed Hermes docs and code. |
@@ -27,5 +28,18 @@ Status: **H1 PASS** — exact executing identity, staged profile delivery, nativ
 4. Current skill files are flat and named `*.SKILL.md`; Hermes expects `SKILL.md` inside skill directories.
 5. Custom plugin/schema/benchmark paths copy correctly, but the pinned installer does not enforce `distribution_owned` as an allowlist. The project staging builder must enforce the boundary before install.
 6. The characterized keys are `plugins.enabled`, `plugins.disabled`, and `agent.disabled_toolsets`. The sufficient restricted-toolset baseline remains an R4.2 proof obligation; prose instructions in `SOUL.md` are not a security boundary.
+7. R4.0 host behavior: paths beyond 260 characters fail closed on the acceptance host; drive letters are case-insensitive; `CON` is creatable as a directory and therefore requires an explicit product guard; junctions are traversable and canonical resolution exposes containment escapes.
+
+## Production runtime matrix
+
+| Layer | Locked value | Acceptance status |
+|---|---|---|
+| OS | Native Windows 10 build `26200` | Required production acceptance host |
+| Python | `>=3.11,<3.14`; observed `3.11.15` | PASS |
+| Hermes package | `hermes-agent==0.16.0` | PASS |
+| Hermes executing checkout | `2a5dc0ef3df433a36abed9ee544ea067d807c438` | PASS, clean |
+| pytest | `9.0.2` | PASS in fresh ephemeral environment |
+| pytest-asyncio | `1.3.0` | PASS in fresh ephemeral environment |
+| Secondary OS | Linux/macOS | Deferred; not a production acceptance gate |
 
 Gate H1 binds `hermes-agent==0.16.0` executing from clean checkout `2a5dc0ef3df433a36abed9ee544ea067d807c438`. `origin/main` need not equal HEAD and is not part of executing identity. Any future ambiguous executable/import path, dirty checkout, changed HEAD, or unprovable identity requires human escalation and H1 FAIL; prose explanation alone cannot pass.

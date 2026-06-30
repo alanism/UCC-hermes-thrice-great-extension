@@ -1,0 +1,2 @@
+# Hermes is externally installed and additionally bound to its clean checkout HEAD.
+hermes-agent==0.16.0

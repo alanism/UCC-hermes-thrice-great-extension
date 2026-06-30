@@ -1,0 +1,18 @@
+[project]
+name = "hermes-thrice-great"
+version = "0.1.0"
+description = "Production distribution sources and offline verification harness for Hermes Thrice Great"
+requires-python = ">=3.11,<3.14"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "colorama==0.4.6",
+  "iniconfig==2.3.0",
+  "packaging==26.0",
+  "pluggy==1.6.0",
+  "Pygments==2.19.2",
+  "pytest==9.0.2",
+  "pytest-asyncio==1.3.0",
+  "typing-extensions==4.15.0",
+]

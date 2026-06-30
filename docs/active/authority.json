@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T06:47:56Z",
+  "revised_at": "2026-06-30T07:22:48Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -33,7 +33,7 @@
     },
     "compatibility_matrix": {
       "path": "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
-      "sha256": "fdb18c09780c98eddb6076d0a150902c163300e60d4477f13c6282491c307a32"
+      "sha256": "764a1f3acb5009c3339dd8e6e3b00df7e7c533a1f49e87a20dffe8c017e26f35"
     },
     "trust_boundaries": {
       "path": "docs/active/TRUST_BOUNDARIES.md",
