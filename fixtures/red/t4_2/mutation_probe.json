@@ -1,0 +1,16 @@
+{
+  "probe_id": "receipt-semantics-v2",
+  "killable": {
+    "mutant_id": "accuracy-denominator-includes-timeouts",
+    "expected_outcome": "KILLED",
+    "covered_issue": "RECEIPT_TOTAL_MISMATCH"
+  },
+  "equivalent_control": {
+    "mutant_id": "canonical-object-key-order-only",
+    "expected_outcome": "SURVIVED",
+    "equivalence_reason": "RFC 8785 object key order is canonicalized"
+  },
+  "infrastructure_failures": {
+    "expected_outcome": "ERROR"
+  }
+}

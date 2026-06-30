@@ -1,0 +1,11 @@
+[
+  {"case_id": "summary-total-mismatch", "operations": [{"op": "replace", "path": "/summary/correct", "value": 0}], "expected_issue": "RECEIPT_TOTAL_MISMATCH", "expected_quality": "void"},
+  {"case_id": "timestamp-order-invalid", "operations": [{"op": "replace", "path": "/session/completed_at", "value": "2026-06-29T23:59:00.000Z"}], "expected_issue": "RECEIPT_TIMESTAMP_ORDER_INVALID", "expected_quality": "void"},
+  {"case_id": "mode-timer-mismatch", "operations": [{"op": "replace", "path": "/assessment/mode", "value": "pressure"}], "expected_issue": "RECEIPT_MODE_TIMER_MISMATCH", "expected_quality": "void"},
+  {"case_id": "answer-state-invalid", "operations": [{"op": "replace", "path": "/events/0/response_status", "value": "timeout"}], "expected_issue": "RECEIPT_ANSWER_STATE_INVALID", "expected_quality": "void"},
+  {"case_id": "skill-scope-mismatch", "operations": [{"op": "replace", "path": "/events/0/skill_id", "value": "skill.subtraction"}], "expected_issue": "RECEIPT_SKILL_SCOPE_MISMATCH", "expected_quality": "void"},
+  {"case_id": "event-order-invalid", "operations": [{"op": "replace", "path": "/events/0/item_index", "value": 2}], "expected_issue": "RECEIPT_EVENT_ORDER_INVALID", "expected_quality": "void"},
+  {"case_id": "completion-state-invalid", "operations": [{"op": "replace", "path": "/session/completion_status", "value": "partial"}], "expected_issue": "RECEIPT_COMPLETION_STATE_INVALID", "expected_quality": "void"},
+  {"case_id": "false-mastery-risk", "operations": [{"op": "replace", "path": "/events/0/evidence_intent", "value": "mastery_check"}, {"op": "replace", "path": "/events/0/student_thinking_evidence_refs", "value": []}], "expected_issue": "RECEIPT_FALSE_MASTERY_RISK", "expected_quality": "limited"},
+  {"case_id": "ai-role-undisclosed", "operations": [{"op": "replace", "path": "/events/0/ai_role/role", "value": "socratic_prompt"}, {"op": "replace", "path": "/events/0/ai_role/disclosed", "value": false}], "expected_issue": "RECEIPT_AI_ROLE_UNDISCLOSED", "expected_quality": "limited"}
+]
