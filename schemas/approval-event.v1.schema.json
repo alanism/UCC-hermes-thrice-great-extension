@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:approval-event:1.0.0",
+  "title": "UCC Parent Approval Event v1",
+  "type": "object",
+  "required": ["ucc_parent_approval_event"],
+  "properties": {
+    "ucc_parent_approval_event": {
+      "type": "object",
+      "required": ["contract_version", "approval_event_id", "approval_key", "ledger_namespace", "proposal_id", "proposal_revision", "proposal_hash", "proposal_type", "approval_action", "actor", "decision_at", "scope", "reason_code", "reason_note", "provenance", "canonical_hash"],
+      "properties": {
+        "contract_version": {"const": "ucc.approval_event.v1.0.0"},
+        "approval_action": {"enum": ["approve", "reject", "request_revision"]},
+        "actor": {"type": "object"}, "scope": {"type": "object"}, "provenance": {"type": "object"},
+        "approval_event_id": {"type": "string"}, "approval_key": {"type": "string"},
+        "ledger_namespace": {"type": "string"}, "proposal_id": {"type": "string"},
+        "proposal_revision": {"type": "integer", "minimum": 1}, "proposal_hash": {"type": "string"},
+        "proposal_type": {"type": "string"}, "decision_at": {"type": "string"},
+        "reason_code": {"type": "string"}, "reason_note": {"type": ["string", "null"]},
+        "canonical_hash": {"type": "string"}, "extensions": {"type": "object"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
