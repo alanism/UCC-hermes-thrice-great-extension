@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T15:30:36Z",
+  "revised_at": "2026-06-30T15:35:02Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -57,7 +57,7 @@
     },
     "build_ledger": {
       "path": "docs/active/BUILD_LEDGER.md",
-      "sha256": "dbb27146df31cbe191a60b20767cacbb7f4f656df27c669414c06a94fe96a0c4"
+      "sha256": "8748862273d73e243a184b037a29ea329ed94473640a970ac9e6d2b823c409a3"
     },
     "root_doc_classification": {
       "path": "docs/active/ROOT_DOC_CLASSIFICATION.md",
@@ -93,7 +93,7 @@
     },
     "brief_ledger_contract": {
       "path": "docs/active/contracts/BRIEF_LEDGER_CONTRACT.md",
-      "sha256": "a121a2d3e4f6107aa4b1b8bbe654d23ece5ab56291de45393827fe27fae9a3f8"
+      "sha256": "6b7a81cfc3dc04235a7b8e99fc5f16fed070cd8165000d04f81c5c0497f1719d"
     },
     "contract_registry_design": {
       "path": "docs/active/contracts/REGISTRY_DESIGN.md",
@@ -133,7 +133,7 @@
     },
     "registry_wire_lock_audit": {
       "path": "docs/active/contracts/LOCK_AUDIT.md",
-      "sha256": "aeb259c5b5ecdb708af8a7d9156def0709570f86ab4a5b3778fdc6ca74dd2cae"
+      "sha256": "a716f50b238f11ee0923e72527b82ab683ca2c1c3a6525db8ee6e0c550c4bf0e"
     }
   },
   "source_manifest": "docs/active/sources.manifest.json",
@@ -161,7 +161,9 @@
     "registry_wire_state": "locked_by_C3.7A",
     "registry_wire_amended_at": "2026-06-30T08:14:38Z",
     "approval_wire_state": "locked_by_C3.5A",
-    "approval_wire_amended_at": "2026-06-30T13:53:11Z"
+    "approval_wire_amended_at": "2026-06-30T13:53:11Z",
+    "ledger_wire_state": "locked_by_C3.6A",
+    "ledger_wire_amended_at": "2026-06-30T15:35:02Z"
   },
   "readiness_control": {
     "gate": "R4",

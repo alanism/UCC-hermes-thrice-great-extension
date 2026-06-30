@@ -14,5 +14,6 @@
 | 2026-06-29T23:49:00Z | Gate A1 authority activated. | `A2.7.md`; governance checker output | Bootstrap exception expired; implementation authorization remains false. |
 | 2026-06-30T08:08:28Z | C3.7A registry wire amendment claimed after human-authorized task-board repair. | `REGISTRY_DESIGN.md`; `CONTRACT_VERSION_POLICY.md`; `contracts/LOCK_AUDIT.md` | Exact machine-testable registry envelope and examples defined; no tests or implementation. |
 | 2026-06-30T13:49:37Z | C3.5A proposal/approval wire amendment claimed after human-authorized task-board repair. | `APPROVAL_CONTRACT.md`; `contracts/LOCK_AUDIT.md` | Exact proposal/event envelopes, nested authority fields, replay/conflict rules, and examples defined; no tests or implementation. |
+| 2026-06-30T15:31:42Z | C3.6A ledger wire amendment claimed after human-authorized task-board repair. | `BRIEF_LEDGER_CONTRACT.md`; `contracts/LOCK_AUDIT.md` | Exact ledger/file envelopes, references, hashes, append/replay, atomic faults, deletion/tombstone rules, and examples defined; no tests or implementation. |
 
 Implementation task results are appended only after matching claims, tests, receipts, and `.agent/state.log` events exist.

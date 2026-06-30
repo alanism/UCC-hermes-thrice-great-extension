@@ -57,3 +57,13 @@ The prior C3.5 authority and transition semantics remained sound, but nested pro
 Both complete positive examples parse as JSON, all prefixed IDs carry 26-character ULIDs, the approval event references the exact proposal hash, and both canonical hashes recompute from their documented projections.
 
 T4.4 may now materialize these examples and mutations without inventing proposal evidence, SMC, authorship, rationale, actor, scope, replay, or conflict semantics. No schema, evaluator, test, fixture file, runtime, or product behavior was implemented by C3.5A.
+
+---
+
+# C3.6A Ledger Wire Lock Addendum
+
+Status: PASS
+
+The prior C3.6 contract fixed ledger intent but left the file root, entry types, nested references, and hash projections too open for valid T4.5 fixtures. C3.6A fixes closed ledger/entry envelopes; exact payload, source, approval, brief, retention, deletion, and tombstone fields; seven entry types; injected identity/order/replay rules; JCS hash projections; atomic fault outcomes; deletion-request-before-tombstone compaction; namespaced inert extensions; stable issue codes; and complete positive/negative examples.
+
+Both JSON example blocks parse. Approval, transition, tombstone, and full-ledger hashes recompute exactly. T4.5 can now distinguish absent implementation from malformed fixtures or prose interpretation. No test, fixture file, schema, ledger runtime, plugin, product behavior, learner data, model, network, messaging, adapter, or Hermes source was created or changed.

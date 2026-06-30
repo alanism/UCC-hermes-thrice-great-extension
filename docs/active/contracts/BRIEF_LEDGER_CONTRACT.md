@@ -1,6 +1,6 @@
 # Parent Brief and Atomic Ledger Contract
 
-Status: SPECIFICATION LOCKED BY C3.7; SCHEMA/IMPLEMENTATION TEST-GATED
+Status: SPECIFICATION LOCKED BY C3.7; LEDGER WIRE AMENDED BY C3.6A; SCHEMA/IMPLEMENTATION TEST-GATED
 
 Contracts:
 
@@ -8,277 +8,290 @@ Contracts:
 - `ucc.ledger_entry.v1.0.0`
 - `ucc.ledger_file.v1.0.0`
 
-## Parent brief purpose
+## 1. Parent brief contract retained
 
-The core parent brief is a deterministic, evidence-labeled explanation for the configured parent/guardian. It separates observed facts, calculations, interpretations, limitations, and proposed next actions. It is not a public testimonial, sales artifact, diagnosis, mastery shortcut, or model-authored narrative.
+The parent brief is deterministic and evidence-labeled. It separates measured facts, calculations, rule-based interpretations, limitations, and proposed actions. It never turns a proposal into approval and never treats model output as fact, approval, or ledger state.
 
-Public blog/chronicle and prospective-parent pitch shapes in the legacy `parent_progress_brief` skill are presentation products outside the core durable contract.
+The brief has injected `parent_brief_id` (`pbrf_<ULID>`), pseudonymous `learner_id`, `brief_revision` (positive integer), UTC period/creation timestamps, exact SMC and source references, structured evidence-labeled sections, limitations, immutable render profile, and a canonical semantic hash. Claims are labeled `measured`, `calculated`, `modeled`, `forecast`, or `noted`; mastery language requires accepted ledger authority under a locked policy. The original C3.6 source/quality/AI-role/mastery/neutral-language rules remain binding.
 
-## Parent brief envelope
+## 2. Ledger role and closed roots
 
-| Field | Rule |
+The ledger is a private local append-only logical history. Normal writes never edit or delete a semantic entry. Privacy deletion is a separately authorized two-event operation followed by atomic compaction.
+
+A ledger document is a JSON object with exactly one member, `ucc_local_ledger`. Each element of `entries` is an object with exactly one member, `ucc_ledger_entry`. Unknown members at either wrapper or inner-object level are rejected unless the inner object explicitly permits `extensions`.
+
+## 3. Exact ledger-file envelope
+
+`ucc_local_ledger` contains exactly these required fields and optional `extensions`:
+
+| Field | Type | Rule |
+|---|---|---|
+| `ledger_schema_version` | string | Exactly `ucc.ledger_file.v1.0.0`. |
+| `ledger_id` | string | Injected `ledg_<ULID>`; immutable. |
+| `ledger_namespace` | string | Non-empty configured local namespace; immutable. |
+| `created_at` | string | Injected UTC RFC 3339 timestamp with millisecond precision. |
+| `retention_policy_ref` | object | Exact shape below. |
+| `entry_count` | integer | Non-negative; equals present `entries` length. |
+| `head_sequence` | integer | Zero when empty; otherwise greatest logical sequence. |
+| `head_entry_hash` | string/null | Null when empty; otherwise canonical hash of greatest-sequence entry. |
+| `entries` | array | Entries ordered by strictly increasing `sequence`. |
+| `ledger_hash` | string | Lowercase SHA-256 of the ledger projection in section 9. |
+| `extensions` | object | Optional namespaced, resolution-inert values. |
+
+`retention_policy_ref` contains exactly `policy_id` (`retp_<ULID>`), `policy_version` (non-empty contract version), and `canonical_hash` (64 lowercase hexadecimal characters).
+
+Before compaction, sequences are contiguous from 1. After authorized compaction, gaps are permitted only when every omitted entry ID/hash is named by a retained tombstone. `head_sequence` is therefore not necessarily `entry_count` after compaction.
+
+## 4. Exact ledger-entry envelope
+
+`ucc_ledger_entry` contains exactly these required fields and optional `extensions`:
+
+| Field | Type | Rule |
+|---|---|---|
+| `contract_version` | string | Exactly `ucc.ledger_entry.v1.0.0`. |
+| `ledger_entry_id` | string | Injected namespace-global `ldgr_<ULID>`; not payload-derived. |
+| `idempotency_key` | string | Injected namespace-global `idem_<ULID>`; immutable binding key. |
+| `entry_type` | string | Exact enum in section 5. |
+| `sequence` | integer | Positive; prior logical head + 1. |
+| `occurred_at` | string | Domain-event UTC timestamp, millisecond precision. |
+| `recorded_at` | string | Injected commit UTC timestamp, millisecond precision. |
+| `previous_entry_hash` | string/null | Null only for sequence 1; otherwise prior logical entry canonical hash. |
+| `payload_contract` | object | Exact shape in section 6. |
+| `payload` | object | Embedded canonical semantic payload; never null. |
+| `source_refs` | array | Sorted unique exact references from section 6. |
+| `approval_ref` | object/null | Exact shape in section 7. |
+| `parent_brief_ref` | object/null | Exact shape in section 7. |
+| `canonical_hash` | string | Lowercase SHA-256 of the entry projection in section 9. |
+| `extensions` | object | Optional namespaced, resolution-inert values. |
+
+`recorded_at >= occurred_at`. IDs, key, sequence, and clocks are injected. File paths, display names, secrets, learner answers, and unvalidated model output are forbidden in entry control fields and logs.
+
+## 5. Entry types and reference requirements
+
+Allowed `entry_type` values are exactly:
+
+- `proposal_recorded`;
+- `approval_recorded`;
+- `learner_state_transition`;
+- `parent_brief_recorded`;
+- `retention_policy_recorded`;
+- `deletion_requested`;
+- `tombstone_recorded`.
+
+`approval_recorded` and `learner_state_transition` require non-null `approval_ref`. `parent_brief_recorded` requires non-null `parent_brief_ref`. Other types use null unless their source contract explicitly requires the reference. `learner_state_transition` cannot assert a stronger state than the referenced approval permits. No model call participates in any entry fact, approval, or transition.
+
+## 6. Payload contract and source references
+
+`payload_contract` contains exactly:
+
+| Field | Type | Rule |
+|---|---|---|
+| `contract_family` | string | Stable registered family ID. |
+| `contract_version` | string | Exact payload wire version. |
+| `schema_ref` | string | Contained normalized relative path; no drive, UNC, leading slash, `.` or `..`. |
+| `canonical_hash` | string | SHA-256 of the JCS payload value. |
+
+Each `source_refs` item contains exactly:
+
+| Field | Type |
 |---|---|
-| `contract_version` | `ucc.parent_brief.v1.0.0`. |
-| `parent_brief_id` | `pbrf_<ULID>`; injected. |
-| `learner_id` | Pseudonymous durable ID. |
-| `display_name` | Optional local presentation field; excluded from identity/logging. |
-| `brief_type` | `assessment`, `weekly`, or `decision_support`. |
-| `period_start`, `period_end` | UTC timestamps; start <= end. |
-| `created_at` | Injected UTC timestamp. |
-| `smc_ref` | Active SMC ID/revision/hash used for alignment. |
-| `source_refs` | Sorted typed refs to accepted receipts, pair results, ledger entries, and/or proposals. |
-| `source_set_sha256` | Canonical hash of ordered source IDs and payload hashes. |
-| `sections` | Structured content below. |
-| `limitations` | Stable issue codes and safe explanations. |
-| `render_profile_id` | Immutable deterministic template identity. |
-| `semantic_payload_sha256` | Canonical hash excluding display name and `created_at`. |
+| `source_ref_id` | `sref_<ULID>` string |
+| `source_type` | exact enum below |
+| `source_id` | non-empty stable record ID |
+| `source_contract_family` | non-empty stable family ID |
+| `source_contract_version` | non-empty exact version |
+| `source_hash` | 64 lowercase hexadecimal characters |
+| `relationship` | non-empty stable relationship code |
 
-Every source ref carries contract name/version, record ID, canonical payload hash, quality/status, and local resolution state. Unresolved or unusable source evidence cannot be silently summarized.
+Allowed source types are exactly `smc`, `assessment_receipt`, `receipt_pairing`, `proposal`, `approval_event`, `parent_brief`, `ledger_entry`, and `synthetic_fixture`. References sort by `(source_type, source_id, relationship, source_ref_id)` and duplicates are invalid.
 
-## Evidence labels
+## 7. Approval and parent-brief references
 
-Every substantive brief statement is a structured claim:
+`approval_ref` is null or contains exactly:
 
-| Label | Meaning |
+- `approval_event_id`: `appr_<ULID>`;
+- `proposal_id`: `prop_<ULID>`;
+- `proposal_revision`: positive integer;
+- `proposal_hash`: 64 lowercase hexadecimal characters;
+- `approval_action`: `approve`, `reject`, or `request_revision`;
+- `approval_actor_role`: `parent`, `guardian`, or `authorized_adult`;
+- `approval_scope`: object containing exactly `proposal_id`, `proposal_revision`, `learner_id`, `proposal_type`, and `decision_effect` as locked by C3.5A.
+
+All duplicate ID/revision/action fields must agree with the accepted approval event.
+
+`parent_brief_ref` is null or contains exactly:
+
+- `parent_brief_id`: `pbrf_<ULID>`;
+- `brief_revision`: positive integer;
+- `brief_hash`: 64 lowercase hexadecimal characters;
+- `rendered_from_proposal_id`: `prop_<ULID>` or null;
+- `rendered_from_proposal_revision`: positive integer or null.
+
+The two rendered-from fields are both null or both non-null. The brief hash is its locked semantic payload hash.
+
+## 8. Required, optional, and unknown fields
+
+All fields listed as required remain present even when their value is null. The only optional member is `extensions`. An `extensions` object is closed to keys matching `^[a-z0-9]+(?:[.-][a-z0-9]+)+$`; values must be JSON values. Extensions are recursively removed before hashing and cannot change validation, resolution, ordering, idempotency, transition, retention, or deletion. Any other unknown field is invalid.
+
+## 9. Canonical JSON and exact hash projections
+
+Canonical JSON is RFC 8785/JCS encoded as UTF-8. Strings are valid Unicode, timestamps use UTC `Z` with millisecond precision, NaN/Infinity are forbidden, and no transport delimiter or BOM is hashed.
+
+- `payload_contract.canonical_hash` is SHA-256 of JCS `payload`.
+- Entry `canonical_hash` is SHA-256 of the JCS `ucc_ledger_entry` value after recursively removing every `extensions` member and removing top-level `canonical_hash`. It therefore includes IDs, key, type, sequence, both clocks, previous hash, payload contract, payload, source refs, approval ref, and parent-brief ref. It excludes file path, lock data, temp-file name, OS metadata, and transport framing because none are wire members.
+- `ledger_hash` is SHA-256 of JCS over exactly: `ledger_schema_version`, `ledger_id`, `ledger_namespace`, `created_at`, `retention_policy_ref`, `entry_count`, `head_sequence`, `head_entry_hash`, and `ordered_entry_hashes` (the present entries' canonical hashes in sequence order). It excludes `entries`, `ledger_hash`, and `extensions` to avoid duplicate payload hashing.
+- `previous_entry_hash` is the preceding logical entry's `canonical_hash`, or null for sequence 1. After compaction a missing predecessor is valid only if a retained tombstone proves its ID/hash.
+
+## 10. Identity, order, replay, and conflicts
+
+Within a namespace, `ledger_id`, `ledger_entry_id`, and `idempotency_key` are unique. The first accepted idempotency key permanently binds the complete entry canonical projection except storage-assigned `sequence`, `recorded_at`, `previous_entry_hash`, and `canonical_hash`; those four fields are the recorded result returned on replay.
+
+- Identical replay returns the original entry with `replayed: true` and appends nothing.
+- Same key with any changed bound field returns `LEDGER_IDEMPOTENCY_CONFLICT`.
+- Reusing an approval key is not a substitute for a ledger idempotency key; approval validation occurs first.
+- New writes use `sequence = head_sequence + 1`, `previous_entry_hash = head_entry_hash`, and strictly increasing injected `recorded_at`.
+- Same entry ID under a new key is `LEDGER_ENTRY_ID_CONFLICT`.
+
+## 11. Atomic commit and fault outcomes
+
+The writer must resolve a contained non-reparse private root, take an exclusive namespace lock, read and fully validate the current ledger, construct/validate the complete next bytes in memory, and create a unique temp file in the ledger's directory. It writes and flushes the temp file, rechecks lock ownership and the prior ledger hash, performs one same-volume atomic replace, performs the platform durability flush where supported, then reopens and verifies bytes/hash/head before reporting success.
+
+| Injection point | Required result |
 |---|---|
-| `measured` | Direct validated receipt/event observation. |
-| `calculated` | Deterministic calculation with named formula/policy. |
-| `modeled` | Deterministic rule-based interpretation; not raw fact. |
-| `forecast` | Proposed expectation or future possibility. |
-| `noted` | Parent/coach observation with explicit human provenance. |
+| Before temp create | Prior ledger byte-identical; `LEDGER_TEMP_CREATE_FAILED`. |
+| During temp write | Prior ledger byte-identical; partial temp is never commit-eligible; `LEDGER_TEMP_WRITE_FAILED`. |
+| Temp flush | Prior ledger byte-identical; `LEDGER_TEMP_FLUSH_FAILED`. |
+| Lock lost / prior hash changed | No replace; `LEDGER_LOCK_LOST` or `LEDGER_CONCURRENT_MODIFICATION`. |
+| Atomic replace | Prior ledger remains valid; no success; `LEDGER_REPLACE_FAILED`. |
+| Crash after replace | Recovery observes complete old or complete new bytes, never partial; outcome remains unknown until readback. |
+| Readback/hash mismatch | No success; quarantine further writes; `LEDGER_COMMIT_UNKNOWN`. |
+| Directory flush unsupported | Verified commit may return `LEDGER_DURABILITY_WARNING`; it is not a false rollback. |
 
-Claim object fields:
+Temps are never auto-promoted over a valid configured ledger. If the configured ledger is invalid and a valid temp exists, recovery requires an explicit human recovery operation.
 
-- `claim_id` (`clm_<ULID>`, injected);
-- `label` from the table;
-- `claim_code` stable vocabulary;
-- `text_key` plus structured interpolation values for deterministic rendering;
-- `source_refs` non-empty except forecast proposals;
-- `confidence`: `direct`, `bounded`, or `tentative`;
-- `valid_evidence_claim`: `practice`, `familiarity`, `performance`, `mastery_candidate`, `mastery_established`, or `insufficient_evidence`;
-- `ai_role_summary`;
-- `process_evidence_status`;
-- `student_thinking_evidence_status`;
-- `mastery_policy_id` and supporting ledger entry ID only when claim is `mastery_established`.
+## 12. Retention, deletion, and tombstones
 
-`mastery_established` is forbidden unless an accepted ledger entry records that decision under a locked mastery policy. A receipt or pair result alone can provide at most `mastery_candidate`.
+No implicit retention duration exists. A `retention_policy_recorded` payload contains exactly `retention_policy_id`, `policy_version`, `recorded_by_actor_role`, `effective_at`, `entry_type_rules`, and `hold_codes`. Each rule contains exactly `entry_type` and `retention_days` (positive integer or null). Holds prevent deletion.
 
-## Brief sections
+A `deletion_requested` payload contains exactly `deletion_request_id`, `target_entry_ids` (non-empty sorted unique ledger-entry IDs), `policy_id`, `reason_code`, `requested_by_actor_role`, `requested_by_actor_id`, `requested_at`, `redaction_scope`, and `request_key`. Authority, scope, policy, holds, targets, and key binding are validated before mutation.
 
-All section keys are required; arrays may be empty with an explicit limitation.
+Deletion is exactly:
 
-1. `executive_summary`: up to three evidence-labeled claims.
-2. `demonstrated_strengths`: measured/calculated claims with source evidence.
-3. `attention_areas`: evidence gaps or observed difficulty; never fixed learner labels.
-4. `condition_comparison`: pair metrics and policy status, if a valid pair exists.
-5. `ai_role_clarity`: what AI did and what student evidence remains independently attributable.
-6. `process_and_thinking_evidence`: referenced process/student-thinking evidence status.
-7. `mastery_evidence`: established, candidate, insufficient, or not assessed; source/policy required.
-8. `false_mastery_risks`: stable reasons a stronger claim is not valid; no conduct accusation.
-9. `proposed_next_actions`: forecast claims linked to proposal drafts, never active work.
-10. `questions_for_parent`: deterministic decision prompts.
+1. append a validated `deletion_requested` entry;
+2. construct a new ledger that omits the targeted entries and appends one `tombstone_recorded` entry;
+3. preserve non-target entry IDs, sequences, hashes, and logical predecessor hashes;
+4. permit resulting sequence/hash-chain gaps only when the tombstone's retained audit hashes cover them;
+5. commit the compacted ledger through the same atomic protocol;
+6. return the existing request/tombstone on identical replay, and conflict on changed targets/scope under the same request or ledger key.
 
-The terms “weakness,” “cheating,” “ghostwriting,” and AI-writing detection are not contract labels. Rendering uses neutral evidence language.
+No in-place erase, field blanking, or hash rewriting is permitted. Backups/copies are governed separately; deletion is not claimed for an uncontrolled copy.
 
-## Brief semantic rules
+The `tombstone_recorded` payload contains exactly:
 
-- Source learner IDs must all match the brief learner ID.
-- Period bounds must cover every included source event time.
-- Void/suppressed evidence contributes only audit existence and limitations.
-- Degraded evidence can support measured facts explicitly allowed by its quality result, never pair/mastery claims.
-- Limited evidence propagates its issue codes to the claim and limitations.
-- Conflicting sources are shown as a conflict; the renderer cannot choose one silently.
-- No clinical or causal interpretation is produced from pressure delta.
-- Recommendations are proposals and remain unapproved.
-- The deterministic core renders only registered text keys/templates. Optional model prose, if ever approved, is a separate non-authoritative presentation layer and cannot modify facts or decisions.
+| Field | Type | Rule |
+|---|---|---|
+| `tombstone_id` | string | Injected `tomb_<ULID>`. |
+| `target_entry_id` | string | One `ldgr_<ULID>` target. Multiple targets require one tombstone per target. |
+| `reason_code` | string | Stable non-sensitive code. |
+| `requested_by_actor_role` | string | `parent`, `guardian`, `authorized_adult`, or configured `data_owner`. |
+| `requested_at` | string | Exact deletion-request timestamp. |
+| `redaction_scope` | string | `payload_only` or `payload_and_private_refs`. |
+| `retained_audit_hashes` | array | Non-empty; exact objects `{target_entry_id, canonical_hash}`, sorted by target ID. |
 
-Stable brief issues include:
+Tombstones contain no learner ID, answer, evidence body, display name, private path, reason note, or deleted payload.
 
-- `BRIEF_SOURCE_UNRESOLVED`;
-- `BRIEF_SOURCE_HASH_MISMATCH`;
-- `BRIEF_LEARNER_MISMATCH`;
-- `BRIEF_PERIOD_INVALID`;
-- `BRIEF_SOURCE_QUALITY_UNUSABLE`;
-- `BRIEF_SOURCE_LIMITATION_PROPAGATED`;
-- `BRIEF_CLAIM_SOURCE_MISSING`;
-- `BRIEF_CLAIM_LABEL_INVALID`;
-- `BRIEF_MASTERY_AUTHORITY_MISSING`;
-- `BRIEF_CONFLICT_UNRESOLVED`;
-- `BRIEF_TEMPLATE_UNSUPPORTED`.
-
-## Ledger role
-
-The ledger is a private local append-only logical history of accepted evidence, comparisons, briefs, proposals, approval decisions, transitions, and later mastery decisions. Normal writes never edit or delete an existing semantic entry. Corrections append a new entry referencing the prior entry.
-
-Privacy-authorized deletion is the sole exception to physical append-only storage and follows the controlled tombstone/compaction protocol below.
-
-## Ledger file
-
-One configured namespace uses one canonical JSON file under an explicit private data root outside Git.
-
-Ledger file envelope:
-
-| Field | Rule |
-|---|---|
-| `contract_version` | `ucc.ledger_file.v1.0.0`. |
-| `ledger_namespace` | Stable configured local namespace. |
-| `created_at` | Injected creation timestamp. |
-| `retention_policy_id` | Immutable policy identity. |
-| `entry_count` | Exact entries length. |
-| `head_sequence` | 0 for empty, otherwise final sequence. |
-| `head_entry_chain_sha256` | Null for empty, otherwise final chain hash. |
-| `entries` | Ordered ledger entry array. |
-
-The configured file path is not part of semantic identity and is never stored in build receipts or logs.
-
-## Ledger entry
-
-| Field | Rule |
-|---|---|
-| `contract_version` | `ucc.ledger_entry.v1.0.0`. |
-| `ledger_entry_id` | `ldgr_<ULID>`; globally unique in namespace. |
-| `write_idempotency_key` | Namespace-global opaque key. |
-| `sequence` | Previous head + 1, starting at 1. |
-| `previous_entry_chain_sha256` | Null at sequence 1; otherwise exact prior chain hash. |
-| `entry_type` | `evidence`, `pair_result`, `parent_brief`, `proposal`, `approval_event`, `approval_transition`, `mastery_decision`, `correction`, or `deletion_tombstone`. |
-| `learner_id` | Pseudonymous ID or null for namespace/system event. |
-| `occurred_at` | Domain event time from source, not write time. |
-| `recorded_at` | Injected local commit time. |
-| `source_refs` | Sorted typed record refs/hashes. |
-| `payload_contract` | Contract name/version of embedded or referenced payload. |
-| `payload_mode` | `embedded` or `content_addressed`. |
-| `payload` | Canonical semantic payload when embedded; null when content-addressed. |
-| `payload_ref` | Null when embedded; otherwise a typed local record reference with no path. |
-| `payload_sha256` | Hash of canonical payload. |
-| `semantic_sha256` | Hash excluding sequence, previous chain, recorded time, and physical path. |
-| `entry_chain_sha256` | Hash of the complete entry excluding this field, including recorded time and previous chain. |
-
-Exactly one of `payload` and `payload_ref` is non-null according to `payload_mode`. `source_refs`, `payload`, and `payload_ref` cannot contain absolute paths, secrets, display names as keys, or unvalidated raw model output.
-
-### Linkage rules
-
-- Evidence entry references accepted receipt ID/hash.
-- Pair entry references both receipt IDs/hashes and pairing policy/registry hash.
-- Brief entry references brief ID/hash and its source-set hash.
-- Proposal entry references exact proposal ID/revision/hash and SMC ref.
-- Approval entry references accepted approval event plus proposal revision/hash.
-- Transition entry references approval event and prior/next state result.
-- Mastery decision references the locked mastery policy plus sufficient ledger evidence; no receipt alone establishes it.
-- Correction references exactly one prior entry and describes replacement semantics without altering the prior bytes.
-- Tombstone references deleted entry IDs and hashes but contains no deleted learner payload.
-
-## Canonical JSON and clocks
-
-- UTF-8, NFC strings, LF, sorted object keys, no insignificant whitespace.
-- Integers remain integers; decimal policy is contract-specific; NaN/Infinity forbidden.
-- Arrays preserve semantic order unless their field declares sorted uniqueness.
-- UTC timestamps use RFC 3339 `Z` with millisecond precision.
-- IDs and clocks are injected dependencies.
-- `semantic_sha256` provides repeatable cross-run comparison.
-- `entry_chain_sha256` provides storage-history integrity and includes injected storage envelope values.
-
-The registry design in C3.7 freezes the canonicalization algorithm/version.
-
-## Write idempotency
-
-The first accepted `write_idempotency_key` binds to `semantic_sha256` within the namespace.
-
-- Identical key and semantic hash returns the existing entry without append.
-- Same key and different semantic hash returns `LEDGER_IDEMPOTENCY_CONFLICT`.
-- Duplicate payload under a new key is allowed only when the entry type contract allows repeated observations; it is never silently deduplicated.
-
-Approval-event idempotency is validated before ledger write and remains independently enforceable.
-
-## Atomic commit protocol
-
-Normal append rewrites the complete ledger file atomically:
-
-1. Resolve and verify configured data root, ledger path, and lock path remain contained on one volume; reject links, junctions, and reparse points.
-2. Acquire an exclusive namespace lock with bounded timeout and recorded owner token.
-3. Read the current ledger once; validate schema, entry count, sequence, chain, hashes, and idempotency index.
-4. Build the next complete ledger in memory and validate it before I/O.
-5. Create a unique temporary file in the ledger file's same directory with exclusive creation.
-6. Write canonical bytes, flush userspace buffers, and `fsync`/`FlushFileBuffers` the temporary file.
-7. Recheck lock ownership and unchanged prior ledger hash.
-8. Replace the ledger atomically with the same-volume platform operation.
-9. Flush the containing directory where supported; record an explicit durability warning where the platform cannot do so.
-10. Reopen and read back the ledger; verify complete file hash, new head, chain, and target entry.
-11. Release lock and emit a commit receipt only after readback passes.
-
-The implementation may not report success before step 10.
-
-### Fault behavior
-
-| Fault point | Required outcome |
-|---|---|
-| Before/during temp write or temp flush | Prior ledger remains byte-identical; temp is safely removed/quarantined. |
-| Lock lost or prior hash changed before replace | Abort; prior ledger remains; return conflict. |
-| Replace fails | Prior ledger remains; no success receipt. |
-| Crash after successful replace before directory flush/readback | Recovery sees either complete old or complete new ledger, never partial; rerun uses idempotency key. Return state is unknown until recovery/readback. |
-| Readback/hash fails | Return `LEDGER_COMMIT_UNKNOWN`; quarantine writes; never claim rollback without evidence. |
-
-No best-effort in-place append is permitted.
-
-## Recovery
-
-On open:
-
-1. reject path escapes/reparse points;
-2. inspect ledger and same-directory temp candidates;
-3. validate complete hashes/chains before considering any file;
-4. prefer the valid ledger at configured path;
-5. never auto-promote a temp candidate over a valid ledger;
-6. require explicit recovery command/human confirmation if configured ledger is invalid and a valid temp exists;
-7. rerun uncertain operations with the same idempotency key.
-
-## Retention and deletion
-
-Retention policy specifies entry-type durations, legal/owner holds, and deletion authorization. No implicit default deletion period exists.
-
-An authorized deletion request contains request ID, parent/owner actor ID, namespace, target learner/entry IDs, policy ID, requested time, and idempotency key. Deletion:
-
-1. validates authority and scope;
-2. builds a new ledger omitting targeted payload entries;
-3. appends a `deletion_tombstone` containing only request ID, target entry IDs, prior hashes, reason code, and deletion time;
-4. atomically commits the rewritten ledger through the same protocol;
-5. returns the existing tombstone on identical replay;
-6. conflicts on changed scope under the same key.
-
-This is controlled privacy compaction, not historical mutation disguised as a normal append. Backups and synced copies require the deployment retention/delete contract; deletion is not claimed complete for copies the system cannot control.
-
-## Ledger issue codes
+## 13. Stable ledger issue codes
 
 | Code | Meaning |
 |---|---|
-| `LEDGER_PATH_INVALID` | Root/path containment or reparse check failed. |
+| `LEDGER_ROOT_INVALID` | Wrong/multiple top-level envelope members. |
+| `LEDGER_SCHEMA_VERSION_UNSUPPORTED` | File or entry version unsupported. |
+| `LEDGER_SCHEMA_INVALID` | Required member/type/null rule invalid. |
+| `LEDGER_UNKNOWN_FIELD` | Unknown member outside valid extensions. |
+| `LEDGER_EXTENSION_INVALID` | Extension namespace/value invalid. |
+| `LEDGER_ENTRY_TYPE_INVALID` | Entry type outside exact enum. |
+| `LEDGER_COUNT_MISMATCH` | Count differs from present entries. |
+| `LEDGER_SEQUENCE_INVALID` | Order, sequence, or uncovered compaction gap invalid. |
+| `LEDGER_PREVIOUS_HASH_INVALID` | Previous logical hash missing/mismatched. |
+| `LEDGER_PAYLOAD_CONTRACT_INVALID` | Payload contract/ref invalid. |
+| `LEDGER_PAYLOAD_HASH_MISMATCH` | Payload canonical hash differs. |
+| `LEDGER_SOURCE_REF_INVALID` | Source type/shape/order/hash invalid. |
+| `LEDGER_APPROVAL_REF_INVALID` | Required approval reference absent/invalid. |
+| `LEDGER_PARENT_BRIEF_REF_INVALID` | Required brief reference absent/invalid. |
+| `LEDGER_ENTRY_HASH_MISMATCH` | Entry projection hash differs. |
+| `LEDGER_HASH_MISMATCH` | File projection hash differs. |
+| `LEDGER_IDEMPOTENCY_CONFLICT` | Existing key binds changed semantics. |
+| `LEDGER_ENTRY_ID_CONFLICT` | Entry ID already exists under another key. |
+| `LEDGER_PATH_INVALID` | Containment/reparse/same-volume check failed. |
 | `LEDGER_LOCK_TIMEOUT` | Exclusive lock unavailable. |
-| `LEDGER_LOCK_LOST` | Lock ownership changed before replace. |
-| `LEDGER_SCHEMA_INVALID` | File or entry shape invalid. |
-| `LEDGER_COUNT_MISMATCH` | Header count/head disagrees with entries. |
-| `LEDGER_SEQUENCE_INVALID` | Sequence not contiguous. |
-| `LEDGER_CHAIN_INVALID` | Previous/head chain hash invalid. |
-| `LEDGER_PAYLOAD_HASH_MISMATCH` | Payload hash invalid. |
-| `LEDGER_IDEMPOTENCY_CONFLICT` | Key already binds different semantic hash. |
-| `LEDGER_CONCURRENT_MODIFICATION` | Prior ledger hash changed under lock. |
-| `LEDGER_TEMP_WRITE_FAILED` | Temp creation/write/flush failed. |
-| `LEDGER_REPLACE_FAILED` | Atomic replacement failed. |
-| `LEDGER_COMMIT_UNKNOWN` | Replace may have occurred but durable readback not proven. |
-| `LEDGER_READBACK_FAILED` | New complete state could not be verified. |
-| `LEDGER_DURABILITY_WARNING` | Directory flush unsupported after otherwise verified commit. |
-| `LEDGER_DELETE_AUTHORITY_INVALID` | Deletion actor/scope invalid. |
-| `LEDGER_RETENTION_POLICY_MISSING` | Required retention policy unavailable. |
+| `LEDGER_LOCK_LOST` | Lock ownership changed. |
+| `LEDGER_CONCURRENT_MODIFICATION` | Prior ledger hash changed before replace. |
+| `LEDGER_TEMP_CREATE_FAILED` | Same-directory temp creation failed. |
+| `LEDGER_TEMP_WRITE_FAILED` | Temp write failed. |
+| `LEDGER_TEMP_FLUSH_FAILED` | Temp durable flush failed. |
+| `LEDGER_REPLACE_FAILED` | Atomic replace failed. |
+| `LEDGER_READBACK_FAILED` | Complete new state could not be reopened. |
+| `LEDGER_COMMIT_UNKNOWN` | Replace may have occurred but verification failed. |
+| `LEDGER_DURABILITY_WARNING` | Directory flush unsupported after verified replace. |
+| `LEDGER_RETENTION_POLICY_MISSING` | Required policy unavailable. |
+| `LEDGER_DELETE_AUTHORITY_INVALID` | Deletion actor/scope unauthorized. |
+| `LEDGER_DELETE_HOLD_ACTIVE` | Target is protected by a hold. |
+| `LEDGER_TOMBSTONE_INVALID` | Tombstone shape/hash/target coverage invalid. |
 
-Issues/logs contain safe paths only as configured aliases, never absolute private paths or payload content.
+Issues sort by JSON Pointer path then code then entry ID. Diagnostics never include private payload values or absolute paths.
 
-## Acceptance criteria
+## 14. Complete positive ledger example
 
-1. Brief facts, calculations, modeled interpretations, forecasts, and human notes remain distinguishable.
-2. AI role and student/process evidence determine valid claim strength without policing AI use.
-3. Parent brief mastery language requires an accepted ledger mastery decision.
-4. Brief limitations propagate receipt/pair quality deterministically.
-5. Entry IDs, event time, recorded time, semantic hash, chain hash, and linkage have one meaning.
-6. Exact write replay is idempotent; changed-payload key reuse conflicts.
-7. Fault injection at every commit stage preserves a complete prior or new ledger and never falsely reports success.
-8. Corrections append; ordinary writes never mutate prior entries.
-9. Privacy deletion is authorized, idempotent, atomically compacted, and tombstoned without retaining deleted content.
-10. Real data, private paths, names, answers, and evidence bodies never enter build/test logs or Git.
+The external synthetic retention-policy artifact intentionally has hash `aaaaaaaa...`; all ledger-owned hashes below recompute exactly under section 9.
+
+```json
+{"ucc_local_ledger":{"ledger_schema_version":"ucc.ledger_file.v1.0.0","ledger_id":"ledg_01J00000000000000000000028","ledger_namespace":"synthetic-test","created_at":"2026-06-30T00:59:00.000Z","retention_policy_ref":{"policy_id":"retp_01J00000000000000000000029","policy_version":"ucc.retention_policy.v1.0.0","canonical_hash":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},"entry_count":2,"head_sequence":2,"head_entry_hash":"18c2cb7f376ce2cb224813e32203d27f5c191dd0347c62280a9c64ad19ddf36d","entries":[{"ucc_ledger_entry":{"contract_version":"ucc.ledger_entry.v1.0.0","ledger_entry_id":"ldgr_01J00000000000000000000021","idempotency_key":"idem_01J00000000000000000000022","entry_type":"approval_recorded","sequence":1,"occurred_at":"2026-06-30T01:00:00.000Z","recorded_at":"2026-06-30T01:00:01.000Z","previous_entry_hash":null,"payload_contract":{"contract_family":"proposal_approval","contract_version":"ucc.approval_event.v1.0.0","schema_ref":"schemas/approval-event.v1.schema.json","canonical_hash":"b6c6dbf1f2f43a6856865e9b835b70b08be58deed8081d48def40d9509712a25"},"payload":{"approval_event_id":"appr_01J00000000000000000000018","approval_action":"approve","proposal_id":"prop_01J00000000000000000000010","proposal_revision":1,"proposal_hash":"e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500"},"source_refs":[{"source_ref_id":"sref_01J00000000000000000000024","source_type":"approval_event","source_id":"appr_01J00000000000000000000018","source_contract_family":"proposal_approval","source_contract_version":"ucc.approval_event.v1.0.0","source_hash":"3e83f9c6de45e98a31e6cc5b7b16f2e0d23394adc1e9ab70062fe5f913685b3c","relationship":"records"}],"approval_ref":{"approval_event_id":"appr_01J00000000000000000000018","proposal_id":"prop_01J00000000000000000000010","proposal_revision":1,"proposal_hash":"e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500","approval_action":"approve","approval_actor_role":"parent","approval_scope":{"proposal_id":"prop_01J00000000000000000000010","proposal_revision":1,"learner_id":"lrn_01J00000000000000000000020","proposal_type":"evidence_review","decision_effect":"approve"}},"parent_brief_ref":null,"canonical_hash":"e2605f3bc21585444d893c984db951b20a30a94b31c5f1731e0bd2ad128eb49a"}},{"ucc_ledger_entry":{"contract_version":"ucc.ledger_entry.v1.0.0","ledger_entry_id":"ldgr_01J00000000000000000000025","idempotency_key":"idem_01J00000000000000000000026","entry_type":"learner_state_transition","sequence":2,"occurred_at":"2026-06-30T01:00:00.000Z","recorded_at":"2026-06-30T01:00:02.000Z","previous_entry_hash":"e2605f3bc21585444d893c984db951b20a30a94b31c5f1731e0bd2ad128eb49a","payload_contract":{"contract_family":"proposal_approval","contract_version":"ucc.learner_state_transition.v1.0.0","schema_ref":"schemas/learner-state-transition.v1.schema.json","canonical_hash":"1595f300e6c7128347e4ccff76f85fb7d0eccbd5ce8b679dfcdb9a51a8bed7d5"},"payload":{"transition_id":"tran_01J00000000000000000000023","learner_id":"lrn_01J00000000000000000000020","prior_state":"candidate","next_state":"approved_performance","effective_at":"2026-06-30T01:00:00.000Z"},"source_refs":[{"source_ref_id":"sref_01J00000000000000000000027","source_type":"ledger_entry","source_id":"ldgr_01J00000000000000000000021","source_contract_family":"parent_brief_ledger","source_contract_version":"ucc.ledger_entry.v1.0.0","source_hash":"e2605f3bc21585444d893c984db951b20a30a94b31c5f1731e0bd2ad128eb49a","relationship":"authorized_by"}],"approval_ref":{"approval_event_id":"appr_01J00000000000000000000018","proposal_id":"prop_01J00000000000000000000010","proposal_revision":1,"proposal_hash":"e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500","approval_action":"approve","approval_actor_role":"parent","approval_scope":{"proposal_id":"prop_01J00000000000000000000010","proposal_revision":1,"learner_id":"lrn_01J00000000000000000000020","proposal_type":"evidence_review","decision_effect":"approve"}},"parent_brief_ref":null,"canonical_hash":"18c2cb7f376ce2cb224813e32203d27f5c191dd0347c62280a9c64ad19ddf36d"}}],"ledger_hash":"02b1d4c7573c08cde6694ffd568c363e5346f3976c3786ce8ac41ee87c22e971"}}
+```
+
+This is also the complete positive `approval_recorded` and `learner_state_transition` entry example set.
+
+## 15. Complete positive tombstone entry example
+
+This entry follows a valid sequence-3 deletion request whose canonical hash is represented by `bbbb...`. Its payload hash is `9224f1e0...`; its complete entry hash is `1e6861a8...`.
+
+```json
+{"ucc_ledger_entry":{"contract_version":"ucc.ledger_entry.v1.0.0","ledger_entry_id":"ldgr_01J00000000000000000000031","idempotency_key":"idem_01J00000000000000000000032","entry_type":"tombstone_recorded","sequence":4,"occurred_at":"2026-06-30T02:00:00.000Z","recorded_at":"2026-06-30T02:00:02.000Z","previous_entry_hash":"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb","payload_contract":{"contract_family":"parent_brief_ledger","contract_version":"ucc.tombstone.v1.0.0","schema_ref":"schemas/tombstone.v1.schema.json","canonical_hash":"9224f1e06dee784784a3ce8e883138538c33c96d73c8292487f476826e46f72d"},"payload":{"tombstone_id":"tomb_01J00000000000000000000030","target_entry_id":"ldgr_01J00000000000000000000025","reason_code":"owner_deletion_request","requested_by_actor_role":"parent","requested_at":"2026-06-30T02:00:00.000Z","redaction_scope":"payload_and_private_refs","retained_audit_hashes":[{"target_entry_id":"ldgr_01J00000000000000000000025","canonical_hash":"18c2cb7f376ce2cb224813e32203d27f5c191dd0347c62280a9c64ad19ddf36d"}]},"source_refs":[{"source_ref_id":"sref_01J00000000000000000000033","source_type":"ledger_entry","source_id":"ldgr_01J00000000000000000000025","source_contract_family":"parent_brief_ledger","source_contract_version":"ucc.ledger_entry.v1.0.0","source_hash":"18c2cb7f376ce2cb224813e32203d27f5c191dd0347c62280a9c64ad19ddf36d","relationship":"tombstones"}],"approval_ref":null,"parent_brief_ref":null,"canonical_hash":"1e6861a8e677e21a4d1e4f14e9cbfe9b84b04fded9c7d815f97d767aa9ec3b65"}}
+```
+
+## 16. Negative examples for T4.5
+
+Apply each mutation independently to a complete positive document and recompute no dependent hash unless the mutation explicitly tests a later semantic rule.
+
+| Fixture ID | Mutation | Primary issue |
+|---|---|---|
+| `ledger-wrong-root` | rename `ucc_local_ledger` | `LEDGER_ROOT_INVALID` |
+| `ledger-version-unknown` | change file version | `LEDGER_SCHEMA_VERSION_UNSUPPORTED` |
+| `ledger-count-mismatch` | set `entry_count` to 3 | `LEDGER_COUNT_MISMATCH` |
+| `ledger-sequence-duplicate` | duplicate sequence 1 | `LEDGER_SEQUENCE_INVALID` |
+| `ledger-previous-hash-wrong` | change entry 2 previous hash | `LEDGER_PREVIOUS_HASH_INVALID` |
+| `ledger-payload-hash-wrong` | change payload without contract hash | `LEDGER_PAYLOAD_HASH_MISMATCH` |
+| `ledger-entry-hash-wrong` | change `canonical_hash` | `LEDGER_ENTRY_HASH_MISMATCH` |
+| `ledger-file-hash-wrong` | change `ledger_hash` | `LEDGER_HASH_MISMATCH` |
+| `ledger-entry-type-unknown` | use `assessment` | `LEDGER_ENTRY_TYPE_INVALID` |
+| `ledger-source-type-unknown` | use `file` | `LEDGER_SOURCE_REF_INVALID` |
+| `ledger-approval-ref-missing` | null approval ref on transition | `LEDGER_APPROVAL_REF_INVALID` |
+| `ledger-brief-ref-half-null` | only one rendered-from field null | `LEDGER_PARENT_BRIEF_REF_INVALID` |
+| `ledger-unknown-field` | add `debug_path` outside extensions | `LEDGER_UNKNOWN_FIELD` |
+| `ledger-extension-unqualified` | add extension key `debug` | `LEDGER_EXTENSION_INVALID` |
+| `ledger-idempotency-changed-payload` | replay key with changed payload | `LEDGER_IDEMPOTENCY_CONFLICT` |
+| `ledger-entry-id-reused` | new key with existing entry ID | `LEDGER_ENTRY_ID_CONFLICT` |
+| `ledger-tombstone-no-request` | tombstone lacks prior deletion request | `LEDGER_TOMBSTONE_INVALID` |
+| `ledger-tombstone-private-payload` | tombstone retains learner ID/body | `LEDGER_TOMBSTONE_INVALID` |
+| `ledger-compaction-gap-uncovered` | omit entry without tombstone hash | `LEDGER_SEQUENCE_INVALID` |
+| `ledger-delete-hold-active` | delete target covered by hold | `LEDGER_DELETE_HOLD_ACTIVE` |
+
+## 17. Acceptance criteria
+
+1. File, entry, payload, source, approval, brief, retention, deletion, and tombstone shapes are closed and machine-testable.
+2. All hash projections are exact and recomputable.
+3. IDs, ordering, clock injection, replay, and conflict behavior have one meaning.
+4. Exact replay appends nothing; changed-payload key reuse conflicts.
+5. Every injected write fault preserves a complete old or complete new file and never falsely reports success.
+6. Deletion is authorized, two-event, atomically compacted, and audit-preserving without retaining learner-sensitive payload in tombstones.
+7. Unknown fields fail except namespaced inert extensions.
+8. The examples and mutations are sufficient for T4.5 RED tests to fail only because ledger implementation is absent.
