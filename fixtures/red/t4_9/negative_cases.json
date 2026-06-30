@@ -1,0 +1,8 @@
+[
+  {"case_id":"unvalidated-receipt","mutation":"receipt_invalid","expected_issue":"CORE_RECEIPT_NOT_VALIDATED"},
+  {"case_id":"pair-not-usable","mutation":"pair_degraded","expected_issue":"CORE_PAIR_NOT_USABLE"},
+  {"case_id":"mastery-without-ledger-authority","mutation":"brief_claim_mastery_established","expected_issue":"BRIEF_MASTERY_AUTHORITY_MISSING"},
+  {"case_id":"proposal-self-approved","mutation":"proposal_status_approved","expected_issue":"APPROVAL_REQUIRED"},
+  {"case_id":"model-fact-injection","mutation":"model_supplies_fact","expected_issue":"CORE_NONDETERMINISTIC_AUTHORITY_FORBIDDEN"},
+  {"case_id":"unknown-command","mutation":"command_ucc_send","expected_issue":"PLUGIN_COMMAND_UNSUPPORTED"}
+]
