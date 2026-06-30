@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T07:34:12Z",
+  "revised_at": "2026-06-30T07:38:13Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -126,6 +126,10 @@
     "mutation_contract": {
       "path": "docs/active/MUTATION_CONTRACT.md",
       "sha256": "31e5ba6c3ec1f070931dfc59d24b83cf75305e37743101ea20db18f204bd02fa"
+    },
+    "readiness_report": {
+      "path": "docs/active/READINESS_REPORT.md",
+      "sha256": "669e80a53ab0305eb831e815768b7e817dd566a45b8167b1ebcb7ca8820da09d"
     }
   },
   "source_manifest": "docs/active/sources.manifest.json",
@@ -150,6 +154,19 @@
     "optional_adapter_scope_state": "excluded_by_C3.8",
     "gate_status": "PASS",
     "gate_passed_at": "2026-06-30T06:47:56Z"
+  },
+  "readiness_control": {
+    "gate": "R4",
+    "gate_status": "PASS",
+    "gate_passed_at": "2026-06-30T07:38:13Z",
+    "phase_4_red_test_creation_authorized": true,
+    "production_implementation_authorized": false,
+    "excluded_tasks": [
+      "T4.11",
+      "I10.1",
+      "I10.2",
+      "Phase 10"
+    ]
   },
   "bootstrap_execution": {
     "protocol": "docs/active/BOOTSTRAP_PROTOCOL.md",

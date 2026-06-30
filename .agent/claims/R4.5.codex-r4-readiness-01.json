@@ -1,0 +1,25 @@
+{
+  "task_id": "R4.5",
+  "agent_id": "codex-r4-readiness-01",
+  "claimed_at": "2026-06-30T07:34:57Z",
+  "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files": [
+    ".agent/claims/R4.5.codex-r4-readiness-01.json",
+    ".agent/state.log",
+    "docs/active/READINESS_REPORT.md",
+    "docs/active/ARCHIVE_HYGIENE_CHECK.md",
+    "docs/active/authority.json",
+    "docs/active/receipts/R4.5.md"
+  ],
+  "forbidden_files": [
+    "schemas/**",
+    "skills/**",
+    "plugins/**",
+    "Hermes source",
+    "live integrations",
+    "Phase 4 RED tests"
+  ],
+  "completed_at": "2026-06-30T07:38:13Z",
+  "receipt": "docs/active/receipts/R4.5.md",
+  "status": "DONE"
+}
