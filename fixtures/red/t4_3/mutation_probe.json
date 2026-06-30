@@ -1,0 +1,6 @@
+{
+  "probe_id": "pressure-delta-v1",
+  "killable": {"mutant_id": "canonical-delta-uses-answered-denominator", "expected_outcome": "KILLED", "covered_metric": "pressure_delta"},
+  "equivalent_control": {"mutant_id": "skill-iteration-order-only", "expected_outcome": "SURVIVED", "equivalence_reason": "skill output is sorted before canonicalization"},
+  "infrastructure_failures": {"expected_outcome": "ERROR"}
+}

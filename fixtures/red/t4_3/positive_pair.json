@@ -1,0 +1,75 @@
+{
+  "calm_receipt_fixture": "fixtures/red/t4_2/positive_receipt.json",
+  "pressure_overrides": [
+    {"path": "/receipt_id", "value": "rcpt_01J00000000000000000000006"},
+    {"path": "/session_id", "value": "sess_01J00000000000000000000007"},
+    {"path": "/source/generated_at", "value": "2026-06-30T00:15:00.000Z"},
+    {"path": "/assessment/mode", "value": "pressure"},
+    {"path": "/assessment/timer_policy", "value": {"timer_visible": true, "time_limit_seconds": 300, "timeout_behavior": "both", "policy_id": "pressure-300-v1"}},
+    {"path": "/session/started_at", "value": "2026-06-30T00:10:00.000Z"},
+    {"path": "/session/completed_at", "value": "2026-06-30T00:15:00.000Z"},
+    {"path": "/events/0/event_id", "value": "evt_01J00000000000000000000008"},
+    {"path": "/events/0/presented_at", "value": "2026-06-30T00:11:00.000Z"},
+    {"path": "/events/0/resolved_at", "value": "2026-06-30T00:11:01.000Z"},
+    {"path": "/events/0/answer", "value": "5"},
+    {"path": "/events/0/is_correct", "value": false},
+    {"path": "/events/0/error_type", "value": "conceptual"},
+    {"path": "/events/0/failure_stage", "value": "work"},
+    {"path": "/summary/correct", "value": 0},
+    {"path": "/summary/incorrect", "value": 1},
+    {"path": "/summary/accuracy_answered", "value": 0.0}
+  ],
+  "form_manifests": {
+    "synthetic-math-form-a@1": {
+      "comparison_family_id": "synthetic-addition-family",
+      "pairing_compatible_with": ["synthetic-math-form-a@1", "synthetic-math-form-b@1"],
+      "domain": "math",
+      "skill_ids": ["skill.addition"],
+      "level_band": "grade-3"
+    },
+    "synthetic-math-form-b@1": {
+      "comparison_family_id": "synthetic-addition-family",
+      "pairing_compatible_with": ["synthetic-math-form-a@1"],
+      "domain": "math",
+      "skill_ids": ["skill.subtraction"],
+      "level_band": "grade-3"
+    },
+    "synthetic-math-form-c@1": {
+      "comparison_family_id": "synthetic-unrelated-family",
+      "pairing_compatible_with": [],
+      "domain": "math",
+      "skill_ids": ["skill.addition"],
+      "level_band": "grade-3"
+    }
+  },
+  "pairing_policy": {
+    "pairing_policy_id": "synthetic-pair-policy-v1",
+    "version": "1.0.0",
+    "minimum_answered_per_mode": 1,
+    "minimum_presented_per_mode": 1,
+    "minimum_answered_per_skill_per_mode": {"skill.addition": 1},
+    "minimum_engagement_rate": 1.0,
+    "maximum_pair_window_seconds": 600,
+    "maximum_presented_count_difference_ratio": 0.0,
+    "maximum_skill_distribution_tvd": 0.0,
+    "allowed_quality_statuses": ["clean"],
+    "pairing_nonblocking_warning_codes": [],
+    "allow_exact_form_reuse": true,
+    "allow_registered_equivalent_forms": false,
+    "required_ai_role_match": true,
+    "rounding_mode": "half_even",
+    "decimal_places": 4
+  },
+  "registry_snapshot_sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+  "expected_metrics": {
+    "calm_accuracy_answered": 1.0,
+    "pressure_accuracy_answered": 0.0,
+    "pressure_delta_answered": 1.0,
+    "calm_performance_presented": 1.0,
+    "pressure_performance_presented": 0.0,
+    "pressure_delta": 1.0,
+    "timeout_rate_delta": 0.0,
+    "skip_rate_delta": 0.0,
+    "response_time_ratio": 1.0
+  }
+}
