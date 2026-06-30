@@ -8,4 +8,5 @@ distribution_owned:
   - config.yaml
   - .env.EXAMPLE
   - skills
+  - plugins/hermes-thrice-great
   - distribution.yaml

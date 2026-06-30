@@ -70,6 +70,22 @@ def build_and_install_isolated(staging_root, hermes_home, profile_name):
     }
 
 
+def discover_installed_plugins(profile_root):
+    code = (
+        "import json; from hermes_cli.plugins import PluginManager; "
+        "m=PluginManager(); m.discover_and_load(); print(json.dumps(m.list_plugins()))"
+    )
+    env = os.environ.copy()
+    env.pop("HERMES_SAFE_MODE", None)
+    env.update({"HERMES_HOME": str(profile_root), "HERMES_ENABLE_PROJECT_PLUGINS": "0"})
+    completed = subprocess.run(
+        [str(HERMES_PYTHON), "-B", "-c", code], cwd=HERMES_SOURCE, env=env,
+        capture_output=True, text=True, check=False,
+    )
+    assert completed.returncode == 0, completed.stderr
+    return json.loads(completed.stdout.strip().splitlines()[-1])
+
+
 def test_install_contract_locks_pin_isolation_names_and_offline_smoke():
     contract = load_json("install_contract.json")
     assert contract["hermes_pin"] == {"package":"hermes-agent==0.16.0","head":"2a5dc0ef3df433a36abed9ee544ea067d807c438"}
@@ -89,6 +105,15 @@ def test_mutation_probe_obeys_r4_outcome_contract():
 @pytest.mark.parametrize("relative", load_json("install_contract.json")["required_profile_sources"])
 def test_required_profile_sources_exist(relative):
     assert (REPO_ROOT / relative).is_file(), f"PROFILE_SOURCE_MISSING: {relative}"
+
+
+def test_required_plugin_source_and_inert_skeleton_exist():
+    manifest = REPO_ROOT / load_json("install_contract.json")["required_plugin_source"]
+    module = manifest.with_name("__init__.py")
+    assert manifest.is_file() and module.is_file()
+    text = module.read_text(encoding="utf-8")
+    assert "def register(ctx):" in text
+    assert all(token not in text for token in ("register_command", "register_tool", "register_hook", "register_middleware"))
 
 
 def test_repository_root_install_is_rejected_before_hermes():
@@ -120,7 +145,12 @@ def test_installed_payload_delivers_opt_in_plugin_without_loading_it(tmp_path):
     result = build_and_install_isolated(tmp_path / "hermes-thrice-great-profile", tmp_path / "home", "ucc")
     assert result["plugin"]["id"] == "hermes-thrice-great"
     assert result["plugin"]["delivered"] is True
-    assert result["plugin"]["loaded"] is False
+    plugins = discover_installed_plugins(result["target"])
+    plugin = next(item for item in plugins if item["name"] == "hermes-thrice-great")
+    assert plugin["kind"] == "standalone"
+    assert plugin["enabled"] is False
+    assert plugin["tools"] == plugin["hooks"] == plugin["middleware"] == plugin["commands"] == 0
+    assert "not enabled in config" in plugin["error"]
 
 
 def test_stock_offline_smoke_is_unchanged_before_and_after_install(tmp_path):

@@ -189,3 +189,6 @@
 2026-06-30T18:50:35Z TASK_IN_PROGRESS task=P6.1 agent=codex-p6-green-01
 2026-06-30T18:54:17Z CLAIM_SCOPE_REFINED task=P6.1 agent=codex-p6-green-01 reason=canonical_dist_output_conflicted_with_legacy_overlap_guard files=scripts/build_profile_staging.py,tests/governance/test_profile_staging_builder.py
 2026-06-30T18:54:43Z TASK_DONE task=P6.1 agent=codex-p6-green-01 receipt=docs/active/receipts/P6.1.md result=pass payload_files=13 isolated_installs=3 repo_root_install=rejected
+2026-06-30T18:55:44Z CLAIM_CREATED task=P6.2 agent=codex-p6-green-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-06-30T18:55:44Z TASK_IN_PROGRESS task=P6.2 agent=codex-p6-green-01
+2026-06-30T18:56:46Z TASK_DONE task=P6.2 agent=codex-p6-green-01 receipt=docs/active/receipts/P6.2.md result=pass plugin_discovered=true plugin_enabled=false registrations=0
