@@ -101,7 +101,7 @@ Contract decisions:
 - Define canonical ledger entry and parent brief output.
 - Define ID, clock, canonical JSON, provenance, idempotency, and migration rules.
 - Bind each approval idempotency key globally within the ledger namespace to one canonical proposal/revision/actor/action/provenance tuple; identical replay succeeds, changed-tuple or cross-revision reuse conflicts.
-- Decide whether `I1_MOCK_ADAPTERS` is inside production F1 scope before adapter RED tests can be authored.
+- Production scope decision: `I1_MOCK_ADAPTERS = EXCLUDE`. Adapter RED/implementation tasks remain unclaimable and I1 is outside F1.
 
 Planned schemas are backlog only in this planning turn:
 
@@ -150,7 +150,7 @@ Create synthetic fixtures and separate failing tests for:
 - profile install under arbitrary names;
 - deterministic parent brief and weekly dry run.
 
-Each RED receipt must name the expected missing behavior. Mutation probes inherit the Stage 4 meta-probe outcome contract and must themselves be tested. Mock-adapter RED tests run only when the Phase 3 scope decision includes `I1_MOCK_ADAPTERS`.
+Each RED receipt must name the expected missing behavior. Mutation probes inherit the Stage 4 meta-probe outcome contract and must themselves be tested. C3.8 excluded mock adapters, so T4.11 is not claimable in this release.
 
 Exit: T1.
 
@@ -219,13 +219,13 @@ Run one valid week plus adversarial weeks containing mismatched forms, weak samp
 
 Exit: E1.
 
-## Phase 10 — Optional mock Discord and Campaign OS adapters
+## Phase 10 — Excluded from this release: mock Discord and Campaign OS adapters
 
 Objective: prove integration contracts without live services.
 
-Adapters consume approved contracts, capture outputs locally, remain disabled, and cannot mutate approval or ledger state on failure. This phase executes only if the Phase 3 scope decision includes `I1_MOCK_ADAPTERS`; otherwise its conditional RED and implementation tasks remain unclaimed and F1 excludes I1.
+Human decision C3.8 set `I1_MOCK_ADAPTERS = EXCLUDE`. Its conditional RED and implementation tasks remain unclaimed, Phase 10 does not execute, and F1 excludes I1. Future inclusion requires a separately authorized plan revision.
 
-Exit: I1.
+Exit: not applicable for this release.
 
 ## Phase 11 — Branding and profile aliases
 

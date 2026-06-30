@@ -90,9 +90,9 @@ All gates are binary. A documented unknown is a FAIL until its recon task closes
 - Re-running with identical input produces identical semantic output except declared volatile envelope fields.
 - No network, live model, Discord, or Campaign OS action occurs.
 
-## I1 — Optional mock adapters
+## I1 — EXCLUDED from this release
 
-- This gate exists only when the Phase 3 production scope decision includes `I1_MOCK_ADAPTERS`.
+- C3.8 set `I1_MOCK_ADAPTERS = EXCLUDE`; this gate is not in the F1 dependency chain.
 - Mock adapters consume only approved output contracts.
 - They are disabled by default and make no network calls.
 - Adapter failures cannot corrupt the ledger or bypass approval.

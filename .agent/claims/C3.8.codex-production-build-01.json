@@ -7,6 +7,12 @@
     ".agent/claims/C3.8.codex-production-build-01.json",
     ".agent/state.log",
     "docs/active/PRODUCTION_SCOPE_DECISION.md",
+    "docs/active/BUILD_PLAN.md",
+    "docs/active/PROJECT_TASKS.md",
+    "docs/active/ACCEPTANCE_GATES.md",
+    "docs/active/PHASE_GATE_TABLE.md",
+    "docs/active/READINESS_REPORT.md",
+    "docs/active/contracts/CONTRACT_LOCK_AUDIT.md",
     "docs/active/authority.json",
     "docs/active/receipts/C3.8.md"
   ],
@@ -20,5 +26,11 @@
   ],
   "blocked_at": "2026-06-30T00:20:52Z",
   "blocked_reason": "Human INCLUDE/EXCLUDE decision required for I1_MOCK_ADAPTERS production F1 scope",
-  "status": "BLOCKED"
+  "resumed_at": "2026-06-30T06:46:40Z",
+  "human_decision": "I1_MOCK_ADAPTERS = EXCLUDE",
+  "revalidated_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "revalidated_at": "2026-06-30T06:47:56Z",
+  "completed_at": "2026-06-30T06:50:35Z",
+  "receipt": "docs/active/receipts/C3.8.md",
+  "status": "DONE"
 }

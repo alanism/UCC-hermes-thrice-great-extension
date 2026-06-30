@@ -13,8 +13,8 @@
 | 7 Privacy/sandbox | T1, PR1 | SEC1 | Minimum config/guards after RED |
 | 8 Deterministic core | C1, T1, PR1, SEC1 | U1 | Yes, one test-gated behavior at a time |
 | 9 Synthetic week | U1 | E1 | E2E fixtures/runner only |
-| 10 Mock adapters | E1 plus Phase 3 INCLUDE decision | I1 | Conditional production-scope extension; no RED task when excluded |
+| 10 Mock adapters | C3.8=EXCLUDE | excluded | Not claimable in this release |
 | 11 Branding/aliases | E1 | B1 | Presentation only |
-| 12 Handoff/learning | E1, I1 if included, B1 | F1 | Docs and release evidence |
+| 12 Handoff/learning | E1, B1 | F1 | Docs and release evidence; I1 excluded |
 
 Every phase also requires a current authority hash, valid claim, matching task status, and no critical-source staleness.

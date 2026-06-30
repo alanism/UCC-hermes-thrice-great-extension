@@ -3,17 +3,17 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T00:19:22Z",
-  "previous_plan_hash": "sha256:bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543",
-  "active_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
+  "revised_at": "2026-06-30T06:47:56Z",
+  "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
+  "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
     "build_plan": {
       "path": "docs/active/BUILD_PLAN.md",
-      "sha256": "1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279"
+      "sha256": "d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6"
     },
     "task_board": {
       "path": "docs/active/PROJECT_TASKS.md",
-      "sha256": "77c96d808a95edd740f0f487b7f38dd48bd8c3974976d9efcc07be311fcb247b"
+      "sha256": "fcc806cac35df9f7c5231c22e4a5bd255c8f52b32966dcd85b4faeb1d27b1e52"
     },
     "architecture": {
       "path": "docs/active/architecture.mmd",
@@ -25,7 +25,7 @@
     },
     "acceptance_gates": {
       "path": "docs/active/ACCEPTANCE_GATES.md",
-      "sha256": "371e0a918b2046d5e55e018ef5e36521e1b10f347b4bad65e062ac46a0108e3e"
+      "sha256": "998895806874ddaab2ad0668164351d93f6321d539bb616147ceff1f0d87c1d5"
     },
     "topology_decision": {
       "path": "docs/active/TOPOLOGY_DECISION.md",
@@ -101,11 +101,19 @@
     },
     "contract_lock_audit": {
       "path": "docs/active/contracts/CONTRACT_LOCK_AUDIT.md",
-      "sha256": "29d1fef68b8811aa3764d28a4799dd23d00ac4e322523bf010d1952321f74bb2"
+      "sha256": "faa564f982cf6fbfb305a1c96e9c73d74e27d55deb64ecf0a7faaca16a5a7b90"
     },
     "production_privacy_policy": {
       "path": "docs/active/PRIVACY_POLICY_PRODUCTION.md",
       "sha256": "7a2c73df0814c6d3eb4a20f8c7c5a9d9c38afb5645be8815b2bbf5d570090991"
+    },
+    "phase_gate_table": {
+      "path": "docs/active/PHASE_GATE_TABLE.md",
+      "sha256": "967dfaa0da0b9d8cc1209a03288f42973d4a696018321cf55dbe92880b69766d"
+    },
+    "production_scope_decision": {
+      "path": "docs/active/PRODUCTION_SCOPE_DECISION.md",
+      "sha256": "3931a655090396885333d6202f360363e56643c73b531e5528efd1f1f680e311"
     }
   },
   "source_manifest": "docs/active/sources.manifest.json",
@@ -124,10 +132,12 @@
   },
   "contract_control": {
     "gate": "C1",
-    "specification_state": "locked_by_C3.7",
+    "specification_state": "locked_C1_pass",
     "schema_implementation_state": "planned_after_RED",
     "human_lock_authorization": "2026-06-30 production build prompt",
-    "optional_adapter_scope_state": "pending_C3.8"
+    "optional_adapter_scope_state": "excluded_by_C3.8",
+    "gate_status": "PASS",
+    "gate_passed_at": "2026-06-30T06:47:56Z"
   },
   "bootstrap_execution": {
     "protocol": "docs/active/BOOTSTRAP_PROTOCOL.md",

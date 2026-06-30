@@ -61,7 +61,7 @@ No unresolved field-level ambiguity remains inside the locked core specification
 
 The human owner authorized progression “through Phase 3 contract lock” on 2026-06-30 and supplied the production, source, architecture, privacy, and forbidden-feature doctrines used by these specifications. C3.7 records that authorization as the contract-specification lock authority.
 
-The authorization does not decide C3.8 optional mock-adapter scope. That remains an explicit INCLUDE/EXCLUDE human fork before C1 can close.
+The human owner subsequently decided `I1_MOCK_ADAPTERS = EXCLUDE` in C3.8. T4.11 and Phase 10 are outside this release; C1 may close.
 
 ## RED harness readiness
 

@@ -80,3 +80,10 @@
 2026-06-30T00:20:52Z CLAIM_CREATED task=C3.8 agent=codex-production-build-01 plan_hash=sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279
 2026-06-30T00:20:52Z TASK_IN_PROGRESS task=C3.8 agent=codex-production-build-01
 2026-06-30T00:20:52Z TASK_BLOCKED task=C3.8 agent=codex-production-build-01 reason=human_I1_MOCK_ADAPTERS_include_or_exclude_decision_required
+2026-06-30T06:46:40Z HUMAN_RESUME task=C3.8 agent=codex-production-build-01 decision=I1_MOCK_ADAPTERS_EXCLUDE
+2026-06-30T06:46:40Z TASK_IN_PROGRESS task=C3.8 agent=codex-production-build-01 resumed=true
+2026-06-30T06:47:56Z PLAN_REVISED previous_plan_hash=sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6 reason=C3.8_mock_adapters_excluded implementation_authorized=false
+2026-06-30T06:47:56Z CLAIM_REVALIDATED task=C3.8 agent=codex-production-build-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-06-30T06:50:35Z AUTHORITY_REHASHED task=C3.8 agent=codex-production-build-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6 optional_adapters=excluded implementation_authorized=false
+2026-06-30T06:50:35Z GATE_PASSED gate=C1 task=C3.8 agent=codex-production-build-01 result=contract_scope_locked
+2026-06-30T06:50:35Z TASK_DONE task=C3.8 agent=codex-production-build-01 receipt=docs/active/receipts/C3.8.md result=pass
