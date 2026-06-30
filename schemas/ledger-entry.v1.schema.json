@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:ledger-entry:1.0.0",
+  "title": "UCC Ledger Entry v1",
+  "type": "object",
+  "required": ["ucc_ledger_entry"],
+  "properties": {"ucc_ledger_entry": {"type": "object"}},
+  "additionalProperties": false
+}

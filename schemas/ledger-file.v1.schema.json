@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:ledger-file:1.0.0",
+  "title": "UCC Local Ledger File v1",
+  "type": "object",
+  "required": ["ucc_local_ledger"],
+  "properties": {"ucc_local_ledger": {"type": "object"}},
+  "additionalProperties": false
+}
