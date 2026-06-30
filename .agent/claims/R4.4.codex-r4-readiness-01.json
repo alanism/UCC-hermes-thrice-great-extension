@@ -1,0 +1,25 @@
+{
+  "task_id": "R4.4",
+  "agent_id": "codex-r4-readiness-01",
+  "claimed_at": "2026-06-30T07:32:30Z",
+  "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files": [
+    ".agent/claims/R4.4.codex-r4-readiness-01.json",
+    ".agent/state.log",
+    "tests/mutation_canary/**",
+    "scripts/run_mutation_checks.py",
+    "docs/active/MUTATION_CONTRACT.md",
+    "docs/active/authority.json",
+    "docs/active/receipts/R4.4.md"
+  ],
+  "forbidden_files": [
+    "schemas/**",
+    "skills/**",
+    "plugins/**",
+    "Hermes source",
+    "live integrations"
+  ],
+  "completed_at": "2026-06-30T07:34:12Z",
+  "receipt": "docs/active/receipts/R4.4.md",
+  "status": "DONE"
+}
