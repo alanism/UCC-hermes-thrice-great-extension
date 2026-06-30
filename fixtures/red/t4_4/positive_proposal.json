@@ -1,0 +1,36 @@
+{
+  "ucc_parent_proposal": {
+    "contract_version": "ucc.task_proposal.v1.0.0",
+    "proposal_id": "prop_01J00000000000000000000010",
+    "proposal_revision": 1,
+    "supersedes_revision": null,
+    "proposal_type": "task",
+    "learner_id": "lrn_01J00000000000000000000011",
+    "created_at": "2026-06-30T01:00:00.000Z",
+    "authorship": {
+      "proposal_author": {"actor_role": "ai", "actor_id": "act_01J00000000000000000000012"},
+      "evidence_producers": [{"producer_role": "system", "producer_id": "act_01J00000000000000000000013", "evidence_ref_ids": ["eref_01J00000000000000000000014"]}],
+      "rendered_by": {"process_id": "synthetic-proposal-renderer", "process_version": "1.0.0"},
+      "validated_by": {"process_id": "synthetic-proposal-validator", "process_version": "1.0.0"}
+    },
+    "smc_ref": {"smc_id": "smc_01J00000000000000000000015", "smc_version": "ucc.smc.v1.0.0", "canonical_hash": "1111111111111111111111111111111111111111111111111111111111111111", "source_path": "local/contracts/smc-active.json", "approved_at": "2026-06-30T00:00:00.000Z"},
+    "expected_evidence": [{"evidence_ref_id": "eref_01J00000000000000000000014", "evidence_type": "assessment_receipt", "source_receipt_id": "rcpt_01J00000000000000000000016", "source_pairing_id": null, "required": true, "claim_supported": "performance", "quality_state": "clean"}],
+    "empty_evidence_rationale": null,
+    "proposal_payload": {
+      "title": "Synthetic evidence review",
+      "objective": "Review one synthetic performance receipt with the parent.",
+      "rationale": "The synthetic receipt is ready for parent review.",
+      "requested_claim_scope": "performance",
+      "requested_actions": [{"action_id": "actn_01J00000000000000000000017", "action_type": "evidence_review", "owner_role": "parent", "target_ref": {"contract_version": "ucc.assessment_receipt.v2.0.0", "record_id": "rcpt_01J00000000000000000000016", "canonical_payload_sha256": "2222222222222222222222222222222222222222222222222222222222222222", "quality_or_status": "clean", "resolution_state": "resolved"}, "instructions": "Review the synthetic receipt and choose approve, reject, or request revision.", "not_before": null, "not_after": null, "expected_evidence_codes": ["performance_receipt"], "requires_parent_presence": true}],
+      "start_not_before": null,
+      "complete_not_after": null,
+      "risk_flags": [],
+      "data_access": ["assessment_receipt"],
+      "external_effects": [],
+      "stop_conditions": [{"code": "parent_declines", "description": "Stop if the parent declines the review."}],
+      "parent_summary": "Review one synthetic performance receipt."
+    },
+    "proposal_status": "ready_for_parent",
+    "canonical_hash": "e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500"
+  }
+}

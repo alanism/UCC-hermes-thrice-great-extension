@@ -1,0 +1,20 @@
+{
+  "ucc_parent_approval_event": {
+    "contract_version": "ucc.approval_event.v1.0.0",
+    "approval_event_id": "appr_01J00000000000000000000018",
+    "approval_key": "idem_01J00000000000000000000019",
+    "ledger_namespace": "synthetic-test",
+    "proposal_id": "prop_01J00000000000000000000010",
+    "proposal_revision": 1,
+    "proposal_hash": "e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500",
+    "proposal_type": "task",
+    "approval_action": "approve",
+    "actor": {"actor_role": "parent", "actor_id": "act_01J0000000000000000000001A"},
+    "decision_at": "2026-06-30T01:05:00.000Z",
+    "scope": {"proposal_id": "prop_01J00000000000000000000010", "proposal_revision": 1, "learner_id": "lrn_01J00000000000000000000011", "proposal_type": "task", "decision_effect": "approve"},
+    "reason_code": "synthetic_parent_approved",
+    "reason_note": null,
+    "provenance": {"capture_contract_version": "ucc.synthetic_capture.v1.0.0", "capture_channel": "synthetic_test", "source_event_id": "synthetic-source-1", "source_payload_sha256": "3333333333333333333333333333333333333333333333333333333333333333", "captured_at": "2026-06-30T01:05:00.000Z", "authority_configuration_sha256": "4444444444444444444444444444444444444444444444444444444444444444"},
+    "canonical_hash": "3e83f9c6de45e98a31e6cc5b7b16f2e0d23394adc1e9ab70062fe5f913685b3c"
+  }
+}

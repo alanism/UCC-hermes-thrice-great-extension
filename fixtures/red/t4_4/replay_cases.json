@@ -1,0 +1,6 @@
+[
+  {"case_id": "identical-replay", "mutation": null, "expected_replayed": true, "expected_append_count": 1},
+  {"case_id": "changed-payload-same-key", "mutation": {"path": "/ucc_parent_approval_event/reason_code", "value": "synthetic_changed_reason"}, "expected_issue": "IDEMPOTENCY_CONFLICT"},
+  {"case_id": "r1-to-r2-same-key", "proposal_revision": 2, "proposal_hash": "5555555555555555555555555555555555555555555555555555555555555555", "expected_issue": "IDEMPOTENCY_CONFLICT"},
+  {"case_id": "conflicting-decision-new-key", "approval_key": "idem_01J0000000000000000000001B", "approval_action": "reject", "expected_issue": "APPROVAL_DECISION_CONFLICT"}
+]

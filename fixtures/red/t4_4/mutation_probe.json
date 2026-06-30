@@ -1,0 +1,11 @@
+{
+  "probe_id": "approval-transition-v1",
+  "killable": [
+    {"mutant_id": "allow-ai-approval-actor", "expected_outcome": "KILLED", "expected_issue": "APPROVAL_ACTOR_UNAUTHORIZED"},
+    {"mutant_id": "ignore-wrong-revision", "expected_outcome": "KILLED", "expected_issue": "APPROVAL_REVISION_MISMATCH"},
+    {"mutant_id": "accept-changed-replay-payload", "expected_outcome": "KILLED", "expected_issue": "IDEMPOTENCY_CONFLICT"},
+    {"mutant_id": "ignore-proposal-hash-change", "expected_outcome": "KILLED", "expected_issue": "APPROVAL_PROPOSAL_HASH_MISMATCH"}
+  ],
+  "equivalent_control": {"mutant_id": "canonical-object-key-order-only", "expected_outcome": "SURVIVED", "equivalence_reason": "JCS removes object key-order differences"},
+  "infrastructure_failures": {"expected_outcome": "ERROR"}
+}
