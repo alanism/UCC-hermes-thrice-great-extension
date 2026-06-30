@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T08:08:04Z",
+  "revised_at": "2026-06-30T08:14:38Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -57,7 +57,7 @@
     },
     "build_ledger": {
       "path": "docs/active/BUILD_LEDGER.md",
-      "sha256": "e3b3c513e96505e70091fd642ce6bdf3ca43f78843b0e0adc607d3e16df9dbf5"
+      "sha256": "6bada2b0a6d63e5ea895a063ee49cfeea279747a1c6611b1b0c149eb89d1bdb4"
     },
     "root_doc_classification": {
       "path": "docs/active/ROOT_DOC_CLASSIFICATION.md",
@@ -65,7 +65,7 @@
     },
     "contract_version_policy": {
       "path": "docs/active/CONTRACT_VERSION_POLICY.md",
-      "sha256": "9aa627c6cfb11b1bb5b18b4c180cb9ec44d56c79c2b1b4eae6e92b44e6008b47"
+      "sha256": "802e9ead5593377dd6d6a13bff9ddea6db5fc502f2e48d50cbf08f763dad7b7f"
     },
     "contract_inventory": {
       "path": "docs/active/contracts/CONTRACT_INVENTORY.md",
@@ -97,7 +97,7 @@
     },
     "contract_registry_design": {
       "path": "docs/active/contracts/REGISTRY_DESIGN.md",
-      "sha256": "c9e7f6774672e77550b18d348b114e001be76cb8bf3388dc494b51eafdcc100b"
+      "sha256": "c4b131a28741066e75cfc1b6dee193d35730d542b54c95ae43a25f088226246a"
     },
     "contract_lock_audit": {
       "path": "docs/active/contracts/CONTRACT_LOCK_AUDIT.md",
@@ -130,6 +130,10 @@
     "readiness_report": {
       "path": "docs/active/READINESS_REPORT.md",
       "sha256": "669e80a53ab0305eb831e815768b7e817dd566a45b8167b1ebcb7ca8820da09d"
+    },
+    "registry_wire_lock_audit": {
+      "path": "docs/active/contracts/LOCK_AUDIT.md",
+      "sha256": "b551413baf7f078c6ca99b2f10d9f61feb47652f7595a7f12a6445b81e55e4ad"
     }
   },
   "source_manifest": "docs/active/sources.manifest.json",
@@ -153,7 +157,9 @@
     "human_lock_authorization": "2026-06-30 production build prompt",
     "optional_adapter_scope_state": "excluded_by_C3.8",
     "gate_status": "PASS",
-    "gate_passed_at": "2026-06-30T06:47:56Z"
+    "gate_passed_at": "2026-06-30T06:47:56Z",
+    "registry_wire_state": "locked_by_C3.7A",
+    "registry_wire_amended_at": "2026-06-30T08:14:38Z"
   },
   "readiness_control": {
     "gate": "R4",

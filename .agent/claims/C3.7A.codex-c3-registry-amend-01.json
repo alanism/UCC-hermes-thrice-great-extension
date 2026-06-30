@@ -1,0 +1,29 @@
+{
+  "task_id": "C3.7A",
+  "agent_id": "codex-c3-registry-amend-01",
+  "claimed_at": "2026-06-30T08:08:28Z",
+  "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files": [
+    "docs/active/PROJECT_TASKS.md",
+    "docs/active/contracts/REGISTRY_DESIGN.md",
+    "docs/active/contracts/CONTRACT_VERSION_POLICY.md",
+    "docs/active/contracts/LOCK_AUDIT.md",
+    "docs/active/BUILD_LEDGER.md",
+    "docs/active/receipts/C3.7A.md",
+    ".agent/claims/**",
+    ".agent/state.log",
+    "docs/active/authority.json"
+  ],
+  "forbidden_files": [
+    "tests/**",
+    "schemas/**",
+    "plugins/**",
+    "skills/**",
+    "Hermes source",
+    "live integrations",
+    "real learner data"
+  ],
+  "completed_at": "2026-06-30T08:15:17Z",
+  "receipt": "docs/active/receipts/C3.7A.md",
+  "status": "DONE"
+}

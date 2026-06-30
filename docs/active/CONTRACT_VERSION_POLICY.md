@@ -18,6 +18,12 @@ Example: `urn:ucc:contract:assessment-receipt:2.0.0`.
 
 Released `$ref` values use registered URNs only. Relative filename references and remote resolution are forbidden in the production distribution. The local registry resolves URNs to allowlisted staged schema files.
 
+## Registry wire authority
+
+C3.7A locks the exact registry JSON envelope, closed nested objects, compatibility rules, lifecycle resolution, fixture manifests, approval references, migrations, and three-layer hashing in `docs/active/contracts/REGISTRY_DESIGN.md`. That wire contract is normative wherever this policy previously referred generically to a “registry record.”
+
+Registry lifecycle values are exactly `draft`, `locked`, `active`, `deprecated`, and `retired`. Normal runtime resolution accepts only `active`; `locked` is accepted only by an explicit test/contract-lock request. No SemVer range, prose compatibility rule, unknown field, or implicit “latest” behavior is permitted.
+
 ## Common scalar and reference conventions
 
 - Timestamps are exact RFC 3339 UTC strings with millisecond precision: `YYYY-MM-DDTHH:MM:SS.sssZ`. Offsets, missing milliseconds, and leap seconds are rejected.
