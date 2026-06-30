@@ -1,0 +1,24 @@
+{
+  "task_id": "C3.8",
+  "agent_id": "codex-production-build-01",
+  "claimed_at": "2026-06-30T00:20:52Z",
+  "active_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
+  "allowed_files": [
+    ".agent/claims/C3.8.codex-production-build-01.json",
+    ".agent/state.log",
+    "docs/active/PRODUCTION_SCOPE_DECISION.md",
+    "docs/active/authority.json",
+    "docs/active/receipts/C3.8.md"
+  ],
+  "forbidden_files": [
+    "tests/**",
+    "fixtures/**",
+    "schemas/**",
+    "skills/**",
+    "plugins/**",
+    "live integrations"
+  ],
+  "blocked_at": "2026-06-30T00:20:52Z",
+  "blocked_reason": "Human INCLUDE/EXCLUDE decision required for I1_MOCK_ADAPTERS production F1 scope",
+  "status": "BLOCKED"
+}

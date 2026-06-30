@@ -77,3 +77,6 @@
 2026-06-30T00:16:51Z CLAIM_REVALIDATED task=C3.7 agent=codex-production-build-01 plan_hash=sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279
 2026-06-30T00:20:05Z AUTHORITY_REHASHED task=C3.7 agent=codex-production-build-01 plan_hash=sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279 contract_specs=locked implementation_authorized=false
 2026-06-30T00:20:05Z TASK_DONE task=C3.7 agent=codex-production-build-01 receipt=docs/active/receipts/C3.7.md result=pass
+2026-06-30T00:20:52Z CLAIM_CREATED task=C3.8 agent=codex-production-build-01 plan_hash=sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279
+2026-06-30T00:20:52Z TASK_IN_PROGRESS task=C3.8 agent=codex-production-build-01
+2026-06-30T00:20:52Z TASK_BLOCKED task=C3.8 agent=codex-production-build-01 reason=human_I1_MOCK_ADAPTERS_include_or_exclude_decision_required
