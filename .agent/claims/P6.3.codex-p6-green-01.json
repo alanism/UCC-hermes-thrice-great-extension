@@ -1,0 +1,6 @@
+{
+  "task_id":"P6.3","agent_id":"codex-p6-green-01","claimed_at":"2026-06-30T18:57:28Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":["tests/red/t4_8/**","fixtures/red/t4_8/**",".agent/claims/P6.3.codex-p6-green-01.json",".agent/state.log","docs/active/receipts/P6.3.md"],
+  "forbidden_files":["distribution.yaml","SOUL.md","config.yaml","plugins/**","skills/**","schemas/**","Hermes source","live integrations","real learner data"],
+  "completed_at":"2026-06-30T18:59:46Z","receipt":"docs/active/receipts/P6.3.md","status":"DONE"
+}
