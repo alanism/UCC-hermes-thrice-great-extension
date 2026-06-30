@@ -1,6 +1,6 @@
 name: hermes-thrice-great
 version: 0.1.0
-description: "Inert delivery skeleton for the Hermes Thrice Great UCC plugin"
+description: "Offline deterministic UCC commands for Hermes Thrice Great"
 kind: standalone
 requires_env: []
 provides_tools: []
