@@ -2,9 +2,9 @@
   "native_layout":"skills/<slug>/SKILL.md",
   "source_authority":"legacy_repo_export_non_authoritative",
   "candidates":[
-    "assessment_app_reviewer","builder_prompt_spec","feynman_explanation_gate","mastery_ledger_contract","parent_progress_brief","parent_workflow","pedagogy_alignment_audit","school_model_canvas_interpreter","thoth_ucc_workflows","ucc_ontology_mapper"
+    "assessment_app_reviewer","builder_prompt_spec","feynman_explanation_gate","mastery_ledger_contract","parent_progress_brief","pedagogy_alignment_audit","school_model_canvas_interpreter","ucc_ontology_mapper"
   ],
-  "sanitized_release_candidate":"parent_workflow",
-  "explicitly_excluded":["ghostwriting_integrity_gate","aria_workflow"],
+  "sanitized_release_candidate":null,
+  "explicitly_excluded":["ghostwriting_integrity_gate","aria_workflow","parent_workflow","thoth_ucc_workflows"],
   "required_frontmatter":["name","description","version","platforms"]
 }

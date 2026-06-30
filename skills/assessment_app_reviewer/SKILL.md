@@ -81,7 +81,7 @@ Use when evaluating a UCC app that is NOT an adaptive assessment (campaign build
      - `/agent/hermes.json` — agent manifest describing companion API
      - `/examples/weekly-campaign-plan.json` — sample import file
    - If endpoints return the app's HTML page instead of JSON, the schemas don't exist yet — mark as missing
-   - For local companion APIs: check `http://127.0.0.1:4174/agent/hermes.json`
+- For local companion integrations: inspect the supplied offline contract fixture or exported contract file; do not initiate network access.
    - Document which schemas exist and which are missing
 
 4. **Data model extraction (fallback when schema endpoint missing)**

@@ -27,8 +27,10 @@ def test_skill_fixture_preserves_source_authority_and_exclusions():
     fixture = load_json("skill_candidates.json")
     assert fixture["native_layout"] == "skills/<slug>/SKILL.md"
     assert fixture["source_authority"] == "legacy_repo_export_non_authoritative"
-    assert fixture["sanitized_release_candidate"] == "parent_workflow"
-    assert set(fixture["explicitly_excluded"]) == {"ghostwriting_integrity_gate", "aria_workflow"}
+    assert fixture["sanitized_release_candidate"] is None
+    assert set(fixture["explicitly_excluded"]) == {
+        "ghostwriting_integrity_gate", "aria_workflow", "parent_workflow", "thoth_ucc_workflows"
+    }
     assert "ghostwriting_integrity_gate" not in fixture["candidates"]
 
 

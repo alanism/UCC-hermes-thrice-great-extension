@@ -21,7 +21,7 @@ Do not use this skill to write production code directly.
 
 **Check these before drafting.** Skipping them produces prompts that contradict existing contracts or miss known debt:
 
-1. **Thoth App Contract** — Check `Thoth_recommendations_for_apps.md` (or `Thoth_recommendations_for_apps.md` in the Aria-EdTech working directory). This defines what Thoth sends to the app and what the app must return. Every builder prompt must be consistent with this contract.
+1. **UCC App Contract** — Check the supplied, repository-local app contract. It defines what Hermes Thrice Great sends to the app and what the app must return. Every builder prompt must be consistent with that contract.
 
 2. **CTO / Technical Review** — If a `docs/CTO_REVIEW_PACKET.md` or similar audit exists, read it. It lists known debt (DEBT-01, DEBT-02…), architecture constraints, and V2 proposals. Your prompt must fix critical/high debts or explain why they're deferred.
 
@@ -31,7 +31,7 @@ Do not use this skill to write production code directly.
    - Published artifact schemas and serializers
    - Existing Zod validators, types, and compiler pipelines
 
-4. **Existing Thoth-Integration Documents** — Documents like `hermes-ucc-app-onboard.md`, `Thoth_recommendations_for_apps.md`, and `owners_manual.md` define how Thoth routes to the app and how telemetry is parsed. Read them.
+4. **Existing Integration Documents** — Repository-local contracts and owner documentation define offline routing and telemetry parsing. Read only the documents supplied with the target project.
 
 When targeting a **V1.5 → V2 upgrade**, always create a table of preserved vs. extended vs. removed code (see App Integration format below).
 
@@ -52,8 +52,8 @@ When targeting a **V1.5 → V2 upgrade**, always create a table of preserved vs.
 Choose the format that matches the context:
 
 - **Default Format** — use for greenfield features or standalone apps
-- **Dark Factory Reference Guide Format** — use for [Parent Name]'s repos where other AI agents consume the output (load `alan-coding-dark-factory` for hero lens syntax)
-- **App Integration Format** — use when the prompt targets an existing codebase with a student runtime, creator mode, or established Thoth contract
+- **ACDF Reference Guide Format** — use for repositories where other agents consume the output.
+- **App Integration Format** — use when the prompt targets an existing codebase with a learner runtime, creator mode, or established UCC contract.
 
 ### Default Format
 
@@ -64,11 +64,11 @@ Choose the format that matches the context:
 - **Pedagogy constraints**: non-negotiable learning design rules
 - **Acceptance tests**: how to verify the feature works correctly
 - **Non-goals**: explicitly excluded scope
-- **Risks**: pedagogical, technical, and integrity risks
+- **Risks**: pedagogical, technical, evidence-validity, and privacy risks
 
 ### Dark Factory Reference Guide Format (for [Parent Name]'s Projects)
 
-When producing builder prompts for [Parent Name]'s repos, use the ACDF v6 Reference Guide format instead. This is the format other AI agents expect. Load `alan-coding-dark-factory` skill for hero lens syntax and template files.
+When producing builder prompts for agent-governed repositories, use the active repository ACDF reference-guide format. Do not assume an external private skill or profile exists.
 
 Every section is required:
 
@@ -112,16 +112,16 @@ Evidence Required:
 
 ### App Integration Format (for Existing Codebase Upgrades)
 
-Use this when the prompt targets an existing codebase that has a student runtime, creator mode, Thoth contracts, and known technical debt. This format prioritizes telling the coding agent what **not** to touch and what **must** be fixed.
+Use this when the prompt targets an existing codebase that has a learner runtime, creator mode, UCC contracts, and known technical debt. This format prioritizes telling the coding agent what **not** to touch and what **must** be fixed.
 
 | Section | What it contains |
 |---------|-----------------|
-| **Core Context** | What the existing system does, the Thoth workflow V2 enables, and known debt being addressed |
+| **Core Context** | What the existing system does, what the UCC workflow enables, and known debt being addressed |
 | **System Architecture** | Diagram + key decisions about how headless API relates to existing visual UI |
-| **Thoth ↔ App API Contract** | Full input/output JSON schemas — what Thoth sends and what the app returns. Should include a workable example (Rome, Silk Road, etc.) |
+| **Hermes Thrice Great ↔ App Contract** | Full offline input/output schemas — what the UCC workflow supplies and what the app returns. Include a generic synthetic example. |
 | **Internal Compilation Pipeline** | Flow from brief input through validation to artifact output. Note which pipeline stages are deterministic vs AI-powered |
 | **Critical Debt Fix** | Exact specification for any DEBT-0x being fixed (schema changes, code location, fallback behavior, acceptance criteria) |
-| **Data Flow & File Protocol** | File paths, CLI syntax, in-process API, Discord integration hooks |
+| **Data Flow & File Protocol** | Contained relative paths, CLI syntax, in-process API, and offline file exchange |
 | **Existing Code: Preserve vs Extend vs Remove** | Table mapping every file/directory to untouched, refactor, extend, replace, or new |
 | **Implementation Phases** | Phased plan with day estimates, prioritized |
 | **Success Criteria** | Functional criteria + non-functional criteria (latency, determinism, isolation) + integration test scenarios |
@@ -144,7 +144,7 @@ When writing the **Existing Code** table, organize by:
 | Priority | Component | Why |
 |----------|-----------|-----|
 | **P0** | Core schema + validation | Foundation for everything else |
-| **P0** | Headless API endpoint | Core of Thoth integration |
+| **P0** | Deterministic in-process entry point | Core of the offline UCC integration |
 | **P0** | Critical debt fix | Blocking bug |
 | **P1** | Supporting infrastructure | Needed for integration |
 | **P2** | Polish / tooling | Nice-to-have |

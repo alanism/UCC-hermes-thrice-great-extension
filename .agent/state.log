@@ -174,3 +174,7 @@
 2026-06-30T16:01:31Z RED_CAPTURED task=T4.12 agent=codex-t4-red-01 expected_failure=BRANDING_SOURCE_AND_IMPLEMENTATION_MISSING focused_result=6_failed_2_passed mutation_contract=KILLED_SURVIVED_ERROR
 2026-06-30T16:01:31Z TASK_DONE task=T4.12 agent=codex-t4-red-01 receipt=docs/active/receipts/T4.12.md result=red_pass
 2026-06-30T16:03:05Z GATE_PASSED gate=T1 agent=codex-t4-red-01 result=phase_4_expected_red_complete tasks=T4.1,T4.2,T4.3,T4.4,T4.5,T4.6,T4.7,T4.8,T4.9,T4.10,T4.12 excluded=T4.11,I10.1,I10.2,Phase10
+2026-06-30T16:10:20Z HUMAN_RESUME task=S5.1 agent=codex-s5-green-01 decision=narrow_public_skill_allowlist_doctrine_sanitization
+2026-06-30T16:10:20Z CLAIM_CREATED task=S5.1 agent=codex-s5-green-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-06-30T16:10:20Z TASK_IN_PROGRESS task=S5.1 agent=codex-s5-green-01
+2026-06-30T16:11:58Z TASK_DONE task=S5.1 agent=codex-s5-green-01 receipt=docs/active/receipts/S5.1.md result=pass layout=native public_skills=8 excluded_skills=4

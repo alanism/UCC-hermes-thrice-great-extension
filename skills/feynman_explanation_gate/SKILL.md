@@ -6,14 +6,14 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [ucc, feynman, explanation, transfer, pedagogy]
-    related_skills: [ghostwriting_integrity_gate, pedagogy_alignment_audit]
+    related_skills: [pedagogy_alignment_audit]
 ---
 
 # Feynman Explanation Gate
 
 ## Overview
 
-Design a UCC activity that requires proof a student understands an idea well enough to explain, compress, teach, or transfer it.
+Design a UCC activity that requires evidence a learner understands an idea well enough to explain, compress, teach, or transfer it. AI assistance is allowed where appropriate; do not police authorship or infer misconduct. Separate useful AI-assisted output from valid mastery evidence.
 
 Do not use this skill for rote fluency drills unless explanation quality is being measured.
 

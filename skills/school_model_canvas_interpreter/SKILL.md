@@ -13,7 +13,7 @@ metadata:
 
 ## Overview
 
-Translate a family's School Model Canvas into a UCC operating plan, app recommendations, or parent-facing strategy playbook.
+Translate a generic School Model Canvas into a UCC operating plan, app recommendations, or parent-facing strategy playbook.
 
 Do not use this skill for app QA or mastery ledger design.
 

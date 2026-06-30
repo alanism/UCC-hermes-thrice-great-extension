@@ -13,7 +13,7 @@ metadata:
 
 ## Overview
 
-Map UCC concepts, apps, lessons, assessments, telemetry, or parent reports into a knowledge graph or ontology.
+Map generic UCC concepts, apps, lessons, assessments, telemetry contracts, or parent-report contracts into a knowledge graph or ontology.
 
 Do not use this skill for general pedagogy critique unless entity and relationship design is the main task.
 

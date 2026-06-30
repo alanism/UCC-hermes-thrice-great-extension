@@ -6,7 +6,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [ucc, pedagogy, audit, alignment]
-    related_skills: [ghostwriting_integrity_gate, assessment_app_reviewer]
+    related_skills: [feynman_explanation_gate, assessment_app_reviewer]
 ---
 
 # Pedagogy Alignment Audit
@@ -34,7 +34,7 @@ Do not use this skill for UI polish or copywriting unless the issue affects lear
 - **UCC principles present**: which of the 10+ principles are active
 - **Missing principles**: principles that should be present but aren't
 - **False mastery risks**: where the system could misreport competence
-- **Ghostwriting risks**: where the AI could bypass student thinking
+- **Evidence gaps**: where an output lacks learner thinking, explanation, transfer, revision judgment, or validated independent performance
 - **Parent signal**: whether the parent gets actionable information
 - **Required fixes**: specific changes to restore alignment
 
@@ -42,7 +42,7 @@ Do not use this skill for UI polish or copywriting unless the issue affects lear
 
 ## Reference: Probabilistic Fallback Design Principle
 
-When auditing a feature that involves the receipt integrity gate, assessment interpretation, or practice generation, consult `references/probabilistic-fallback-design.md` for the full design rationale of the degraded/void state split. Key check items:
+UCC does not police AI use or detect cheating. When auditing a feature that involves receipt quality, assessment interpretation, or practice generation, distinguish useful AI-assisted output from valid mastery evidence. Consult `references/probabilistic-fallback-design.md` for the degraded/void evidence-state rationale. Key check items:
 
 - When deterministic validation fails, does the feature hide the score? (Required)
 - Does it label every claim as `[PROBABILISTIC]` or `[D]`? (Required)

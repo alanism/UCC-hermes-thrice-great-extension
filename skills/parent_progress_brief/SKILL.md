@@ -67,7 +67,7 @@ Do not use this skill for technical architecture or product specs.
 - **Key assessment breakdown** — what the numbers say vs what the errors reveal
 - **Parent coaching moment** — what the parent did between rounds
 - **Diagnosis correction** (if applicable) — system learned something that changed the plan
-- **How Hermes/Thoth worked** — for transparency, show the loop: receipt → diagnosis → script → coaching → retest → validation
+- **How Hermes Thrice Great worked** — for transparency, show the loop: receipt → deterministic analysis → proposal → parent decision → validation
 - **What a prospective parent should take from this** — optional closing section if the brief doubles as a marketing testimonial
 
 **Pitfall:** Don't just log raw events. Every event needs interpretation — not "she scored 62%" but "she scored 62%, and every error was the same type, which revealed something the score alone couldn't."

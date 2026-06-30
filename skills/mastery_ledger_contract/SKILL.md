@@ -13,7 +13,7 @@ metadata:
 
 ## Overview
 
-Define what must be stored in the mastery ledger, session receipt, assessment export, or parent dashboard.
+Define the evidence contract for a mastery ledger, session receipt, assessment export, or parent dashboard.
 
 Do not use this skill for writing lessons or generating practice problems.
 
