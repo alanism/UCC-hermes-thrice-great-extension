@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:contract-registry:1.0.0",
+  "title": "UCC Contract Registry v1",
+  "type": "object",
+  "required": ["ucc_contract_registry"],
+  "properties": {
+    "ucc_contract_registry": {
+      "type": "object",
+      "required": ["registry_schema_version", "registry_id", "generated_at", "approved_at", "canonicalization_id", "families"],
+      "properties": {
+        "registry_schema_version": {"const": "ucc.contract_registry.v1.0.0"},
+        "registry_id": {"type": "string", "pattern": "^reg_[0-9A-HJKMNP-TV-Z]{26}$"},
+        "generated_at": {"type": "string"},
+        "approved_at": {"type": "string"},
+        "canonicalization_id": {"const": "rfc8785-jcs-v1"},
+        "families": {"type": "object"},
+        "extensions": {"type": "object"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
