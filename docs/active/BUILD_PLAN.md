@@ -6,20 +6,20 @@ Status: ACTIVE PLAN; planning only. Runtime implementation is forbidden until Ga
 
 Hermes Thrice Great will remain an independent UCC source/governance repository for a pinned Hermes runtime. It will generate an allowlisted profile payload under `dist/hermes-thrice-great-profile/` using Hermes-native `distribution.yaml`, `SOUL.md`, profile configuration, skill directories, and plugin extension points. The repository root is never installed. It will not vendor or patch Hermes.
 
-The MVP proves an offline, deterministic learning-evidence loop with synthetic data: normalized SMC → semantically valid CALM/PRESSURE receipts → valid pairing → diagnosis facts → parent brief → proposal → parent approval event → atomic local ledger. Branding and optional mock adapters come after that proof.
+The production distribution proves and hardens an offline, deterministic learning-evidence loop with synthetic data before any sensitive-data operation: normalized SMC → semantically valid CALM/PRESSURE receipts → valid pairing → diagnosis facts → parent brief → proposal → parent approval event → atomic local ledger. Branding and optional mock adapters come after that proof.
 
 ## Repository truth
 
 - Current folder: UCC documentation, contracts, skills, templates, benchmark packs, and ACDF v7 material.
-- Git: absent.
+- Git: active; planning baseline `fc5da5923cef32facf47424036ab7bbdd1817c5c` with rollback tag `planning-baseline-2026-06-30`.
 - Hermes source: absent from this repository.
-- Locally installed Hermes: package 0.16.0 on Python 3.11.15, native Windows. The banner's `upstream` hash was proven to be fetched `origin/main`, while executing code resolves to editable checkout HEAD `2a5dc0ef...`; H1 must reproduce and bind that identity before implementation.
-- Current contracts are useful source material, not yet an internally consistent runtime contract set.
-- Current skills require native packaging and reference repair.
+- Locally installed Hermes: H1-bound package 0.16.0 on Python 3.11.15, native Windows, executing clean checkout HEAD `2a5dc0ef3df433a36abed9ee544ea067d807c438`. Volatile `origin/main` is drift metadata only.
+- Phase 3 contract specifications are the production design authority once C3.7 closes; JSON schemas and validators remain test-gated implementation backlog.
+- Canonical existing production skills live in the local `thoth-big-pc` profile. Repository flat skills are non-authoritative exports/release candidates requiring deliberate genericization and native packaging.
 
 ## Bootstrap control
 
-Early recon and governance machinery precede Gate A1's automated claim checker. `BOOTSTRAP_PROTOCOL.md` defines the only permitted bridge: explicit human authorization, manual JSON claims/state events, planning/recon/governance scope only, one task at a time, and automatic expiration at A1. No declaration is currently present, so no execution task is authorized.
+Gate A1 is complete. The bootstrap exception is expired; every task now requires the operational authority, claim, state, receipt, and dependency checks.
 
 ## Planned runtime structure
 
@@ -101,7 +101,7 @@ Contract decisions:
 - Define canonical ledger entry and parent brief output.
 - Define ID, clock, canonical JSON, provenance, idempotency, and migration rules.
 - Bind each approval idempotency key globally within the ledger namespace to one canonical proposal/revision/actor/action/provenance tuple; identical replay succeeds, changed-tuple or cross-revision reuse conflicts.
-- Decide whether `I1_MOCK_ADAPTERS` is inside the MVP before adapter RED tests can be authored.
+- Decide whether `I1_MOCK_ADAPTERS` is inside production F1 scope before adapter RED tests can be authored.
 
 Planned schemas are backlog only in this planning turn:
 
@@ -241,11 +241,11 @@ Objective: prove operability and preserve empirical lessons.
 
 - Run clean-room acceptance on native Windows.
 - Finalize runbook, owner manual deltas, compatibility matrix, build ledger, readiness report, risk register, receipts, and learning cards.
-- Record upstream drift and open a separate post-MVP compatibility task; do not update during acceptance.
+- Record upstream drift and open a separate post-release compatibility task; do not update during acceptance.
 
 Exit: F1.
 
-## Upstream lifecycle after MVP
+## Upstream lifecycle after production acceptance
 
 For each candidate Hermes upgrade: create a compatibility branch/task, update the matrix, run stock characterization, isolated distribution install, full UCC acceptance, and migration/rollback rehearsal. Promote only after a human decision. Never merge upstream source into this repository.
 
@@ -313,4 +313,4 @@ python scripts/run_acceptance.py --offline --hermes-command hermes
 
 `run_acceptance.py` must create an isolated temporary Hermes home, run stock smoke, install the distribution as `ucc` and `thoth`, run UCC smoke and the synthetic week twice, compare canonical outputs, verify zero network attempts, and remove only its own temporary directory.
 
-MVP acceptance requires all 20 conditions in `ACCEPTANCE_GATES.md`, zero critical risks, receipts for every DONE task, and no live model/Discord/Campaign OS action.
+Production acceptance requires all 20 conditions in `ACCEPTANCE_GATES.md`, zero critical risks, receipts for every DONE task, and no live model/Discord/Campaign OS action during the offline acceptance sequence.

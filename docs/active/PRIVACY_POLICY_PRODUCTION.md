@@ -1,4 +1,4 @@
-# MVP Privacy Policy
+# Production Distribution Privacy Policy
 
 Data tier: sensitive local educational data.
 
@@ -21,7 +21,7 @@ Data tier: sensitive local educational data.
 
 ## Outbound data
 
-The deterministic MVP sends nothing outbound. Any future model/Discord/Campaign OS flow requires a separate opt-in, minimized payload contract, destination allow-list, audit receipt, and revocation path.
+The deterministic production core sends nothing outbound. Any future model/Discord/Campaign OS flow requires a separate opt-in, minimized payload contract, destination allow-list, audit receipt, and revocation path.
 
 ## Source control
 

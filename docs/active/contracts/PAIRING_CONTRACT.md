@@ -1,6 +1,6 @@
 # Receipt Pairing and Pressure-Delta Contract
 
-Status: C3.4 PROPOSED LOCK
+Status: SPECIFICATION LOCKED BY C3.7; SCHEMA/EVALUATOR TEST-GATED
 
 Contract name: `ucc.receipt_pairing`
 
@@ -14,7 +14,7 @@ The evaluator is deterministic and fail-closed. Thresholds are never guessed: ev
 
 ## Inputs
 
-Exactly two semantically validated `ucc.assessment_receipt.v2` documents plus:
+Exactly two semantically validated `ucc.assessment_receipt.v2.0.0` documents plus:
 
 - one immutable form-comparison manifest per form revision;
 - one immutable `pairing_policy`;
@@ -27,7 +27,7 @@ Both receipts must carry the same non-null `paired_run_id`. More or fewer than t
 
 | Field | Rule |
 |---|---|
-| `contract_version` | `ucc.receipt_pairing.v1`. |
+| `contract_version` | `ucc.receipt_pairing.v1.0.0`. |
 | `pair_result_id` | `pres_<ULID>`; injected. |
 | `paired_run_id` | Exact shared run ID from inputs. |
 | `learner_id` | Exact shared pseudonymous learner ID. |
@@ -48,7 +48,7 @@ The policy is immutable and contains explicit values for:
 - `pairing_policy_id` and version;
 - `minimum_answered_per_mode` (positive integer);
 - `minimum_presented_per_mode` (positive integer, not below answered minimum);
-- `minimum_answered_per_skill_per_mode` (positive integer or a per-skill map);
+- `minimum_answered_per_skill_per_mode` (object mapping every form skill ID to a positive integer; no missing or extra keys);
 - `minimum_engagement_rate` in `[0,1]`;
 - `maximum_pair_window_seconds` (positive integer);
 - `maximum_presented_count_difference_ratio` in `[0,1]`;

@@ -92,7 +92,7 @@ All gates are binary. A documented unknown is a FAIL until its recon task closes
 
 ## I1 — Optional mock adapters
 
-- This gate exists only when the Phase 3 MVP scope decision includes `I1_MOCK_ADAPTERS`.
+- This gate exists only when the Phase 3 production scope decision includes `I1_MOCK_ADAPTERS`.
 - Mock adapters consume only approved output contracts.
 - They are disabled by default and make no network calls.
 - Adapter failures cannot corrupt the ledger or bypass approval.
@@ -103,7 +103,7 @@ All gates are binary. A documented unknown is a FAIL until its recon task closes
 - `ucc`, `hermes-thrice-great`, and optional `thoth` installs behave equivalently.
 - No stock Hermes identity is changed.
 
-## F1 — Final MVP acceptance
+## F1 — Final production distribution acceptance
 
 - Gates H1 through E1 and required governance gates pass.
 - Every DONE task has a receipt and matching state-log event.

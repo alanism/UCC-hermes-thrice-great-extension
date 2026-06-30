@@ -28,7 +28,7 @@ All paths are untrusted until canonicalized. Containment must account for `..`, 
 
 ## B7 — Model and network
 
-The deterministic MVP requires no model or network call. Hermes chat/model access is a separate optional surface. No learner payload may be sent outbound without explicit policy and run-level opt-in. Discord and Campaign OS are mocked only in MVP.
+The deterministic production core requires no model or network call. Hermes chat/model access is a separate optional surface. No learner payload may be sent outbound without explicit policy and run-level opt-in. Discord and Campaign OS remain outside the offline core and may be mocked only when the production scope decision includes them.
 
 ## B8 — Build agents
 

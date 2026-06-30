@@ -1,6 +1,6 @@
 # Assessment Receipt and Semantic Validation Contract
 
-Status: C3.3 PROPOSED LOCK
+Status: SPECIFICATION LOCKED BY C3.7; SCHEMA/VALIDATOR TEST-GATED
 
 Contract name: `ucc.assessment_receipt`
 
@@ -16,7 +16,7 @@ Receipt v2 supersedes `ucc.receipt.v1`, `ucc.assessment_event.v1`, and `ucc.rece
 
 | Field | Type | Rule |
 |---|---|---|
-| `contract_version` | string | `ucc.assessment_receipt.v2`. |
+| `contract_version` | string | `ucc.assessment_receipt.v2.0.0`. |
 | `receipt_id` | string | `rcpt_<ULID>`; globally unique in the configured ledger namespace. |
 | `session_id` | string | `sess_<ULID>`; identifies one execution. |
 | `paired_run_id` | string or null | `pair_<ULID>` only when the session was intentionally scheduled as part of a pair. Pair validity is decided separately. |
@@ -32,7 +32,7 @@ Receipt v2 supersedes `ucc.receipt.v1`, `ucc.assessment_event.v1`, and `ucc.rece
 | `evidence_context` | object | Session AI role and evidence-reference summary. |
 | `quality` | object | Deterministic semantic-validation result and stable issues. |
 
-All timestamps are RFC 3339 UTC with `Z`. Writers inject clocks and IDs. Validators never invent missing values.
+All timestamps, IDs, hashes, issues, and references use the common contract-version policy. Writers inject clocks and IDs. Validators never invent missing values.
 
 ## Assessment object
 
@@ -98,6 +98,7 @@ Every event has:
 | `difficulty_before` | integer or null. |
 | `difficulty_after` | integer or null. |
 | `error_type` | `conceptual`, `procedural`, `attention_signal`, `operation_mismatch`, `other`, `none`, or null. |
+| `error_type_other_label` | non-empty string only when `error_type` is `other`; otherwise null. |
 | `failure_stage` | `plan`, `work`, `check`, `response`, `unknown`, `none`, or null. |
 | `representation_stage` | `concrete`, `pictorial`, `abstract`, `unknown`, or null. |
 | `evidence_intent` | `practice`, `familiarity`, `performance_check`, or `mastery_check`. |

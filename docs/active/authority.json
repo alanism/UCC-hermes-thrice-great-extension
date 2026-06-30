@@ -3,45 +3,45 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-29T23:48:59Z",
-  "previous_plan_hash": "sha256:6a8e1fe187010db2ab6652069758170090e8c7f7069bb3c1e935980e2c3a8564",
-  "active_plan_hash": "sha256:bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543",
+  "revised_at": "2026-06-30T00:19:22Z",
+  "previous_plan_hash": "sha256:bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543",
+  "active_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "binding_artifacts": {
     "build_plan": {
       "path": "docs/active/BUILD_PLAN.md",
-      "sha256": "bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543"
+      "sha256": "1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279"
     },
     "task_board": {
       "path": "docs/active/PROJECT_TASKS.md",
-      "sha256": "e3eea37410e0f709517f4e732412519248cfef88fb0d92f9cfe81bb1f5d35c32"
+      "sha256": "77c96d808a95edd740f0f487b7f38dd48bd8c3974976d9efcc07be311fcb247b"
     },
     "architecture": {
       "path": "docs/active/architecture.mmd",
-      "sha256": "74231c4198cc58a599c14c35ce3fdba1d423987e7ca8f13c416b13723e11e4f5"
+      "sha256": "2db57b141dcc8bdef5227c543a77d68e22e63aaf216167a9a64c950115506cba"
     },
     "reference_guide": {
       "path": "docs/active/APPROVED_REFERENCE_GUIDE.md",
-      "sha256": "7f0fe2cf2f29a88732ea283e843b6c482b5ac5930c321371ea97cb09de6bd40d"
+      "sha256": "97bce454f1449d08d0c07b97419ab9b7a784963e3ba66aacd7c4fea82c053680"
     },
     "acceptance_gates": {
       "path": "docs/active/ACCEPTANCE_GATES.md",
-      "sha256": "e6d93ed9238b35140dbbf4f5c22fadeeca8902b89862450dee59e29310456c9d"
+      "sha256": "371e0a918b2046d5e55e018ef5e36521e1b10f347b4bad65e062ac46a0108e3e"
     },
     "topology_decision": {
       "path": "docs/active/TOPOLOGY_DECISION.md",
-      "sha256": "a82a5718cbb781ca88186d6c75664019c1eeb8703a982cedeb76ed120a871a7d"
+      "sha256": "8c697a10a5814763c5b66b03ead8a9599140f3d8fb8c58ec341efe3c86617cb1"
     },
     "compatibility_matrix": {
       "path": "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
-      "sha256": "010920bac097aec65afb6daeef069cc83993295161ca2b759e2b54deb6e3b75f"
+      "sha256": "fdb18c09780c98eddb6076d0a150902c163300e60d4477f13c6282491c307a32"
     },
     "trust_boundaries": {
       "path": "docs/active/TRUST_BOUNDARIES.md",
-      "sha256": "5f656a772be82e8e725abc21bbf278c61a6432399bed2a53d03c7d1b64853a49"
+      "sha256": "f9a51caf45438b60cdfc5f05decdaa9d02af2377c3878d87d832691926961c86"
     },
     "staging_payload_policy": {
       "path": "docs/active/STAGING_PAYLOAD_POLICY.md",
-      "sha256": "74d6ade529503b1743683f79f42aeb8f7d54e944826140c3a4a557bc94455fd5"
+      "sha256": "1e3f3af5e24dd27ce175c3659d433a1f4edea6459997982d6763d17f4e4e0650"
     },
     "model_reviews": {
       "path": "docs/active/MODEL_REVIEWS.md",
@@ -62,6 +62,50 @@
     "root_doc_classification": {
       "path": "docs/active/ROOT_DOC_CLASSIFICATION.md",
       "sha256": "1db105e0d7e6bfd39147edccfa5f8353daa1e731efade1e99a836a0d0b457fc6"
+    },
+    "contract_version_policy": {
+      "path": "docs/active/CONTRACT_VERSION_POLICY.md",
+      "sha256": "9aa627c6cfb11b1bb5b18b4c180cb9ec44d56c79c2b1b4eae6e92b44e6008b47"
+    },
+    "contract_inventory": {
+      "path": "docs/active/contracts/CONTRACT_INVENTORY.md",
+      "sha256": "b17f0b58f89d42f024c3a58e56e1ce8738bedabd503affd4aa32e253a00095d2"
+    },
+    "production_source_authority": {
+      "path": "docs/active/contracts/SOURCE_AUTHORITY.md",
+      "sha256": "b27401e555b4c1becf0fef2b7af26c43748fd51f3b69f3f060a2dbaa8b6c299f"
+    },
+    "smc_contract": {
+      "path": "docs/active/contracts/SMC_CONTRACT.md",
+      "sha256": "97e300e14273499f0e2f012157c8b4ee7ac96ba583f554191f501d9790bc0489"
+    },
+    "receipt_contract": {
+      "path": "docs/active/contracts/RECEIPT_CONTRACT.md",
+      "sha256": "f9be110705598ed5871eca9a7be84498f22b4a847159f317510a5d23fb2904ff"
+    },
+    "pairing_contract": {
+      "path": "docs/active/contracts/PAIRING_CONTRACT.md",
+      "sha256": "69fa1d6f54e4d4546523e90e071ac287f3e1c9fe48f5d89fdee86fd68c22e0d5"
+    },
+    "approval_contract": {
+      "path": "docs/active/contracts/APPROVAL_CONTRACT.md",
+      "sha256": "03d343fb47447377d8383cf34167c0f6904185981ffa25c84347846feb811de0"
+    },
+    "brief_ledger_contract": {
+      "path": "docs/active/contracts/BRIEF_LEDGER_CONTRACT.md",
+      "sha256": "a121a2d3e4f6107aa4b1b8bbe654d23ece5ab56291de45393827fe27fae9a3f8"
+    },
+    "contract_registry_design": {
+      "path": "docs/active/contracts/REGISTRY_DESIGN.md",
+      "sha256": "c9e7f6774672e77550b18d348b114e001be76cb8bf3388dc494b51eafdcc100b"
+    },
+    "contract_lock_audit": {
+      "path": "docs/active/contracts/CONTRACT_LOCK_AUDIT.md",
+      "sha256": "29d1fef68b8811aa3764d28a4799dd23d00ac4e322523bf010d1952321f74bb2"
+    },
+    "production_privacy_policy": {
+      "path": "docs/active/PRIVACY_POLICY_PRODUCTION.md",
+      "sha256": "7a2c73df0814c6d3eb4a20f8c7c5a9d9c38afb5645be8815b2bbf5d570090991"
     }
   },
   "source_manifest": "docs/active/sources.manifest.json",
@@ -77,6 +121,13 @@
     "state_log": ".agent/state.log",
     "required_before_code": true,
     "current_state": "operational"
+  },
+  "contract_control": {
+    "gate": "C1",
+    "specification_state": "locked_by_C3.7",
+    "schema_implementation_state": "planned_after_RED",
+    "human_lock_authorization": "2026-06-30 production build prompt",
+    "optional_adapter_scope_state": "pending_C3.8"
   },
   "bootstrap_execution": {
     "protocol": "docs/active/BOOTSTRAP_PROTOCOL.md",

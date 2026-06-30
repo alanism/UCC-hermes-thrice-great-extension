@@ -1,6 +1,6 @@
 # Hermes Profile Staging Payload Policy
 
-Status: BINDING MVP ARCHITECTURE
+Status: BINDING PRODUCTION DISTRIBUTION ARCHITECTURE
 
 Install source: `dist/hermes-thrice-great-profile/`
 
@@ -50,4 +50,4 @@ The builder must reject or omit all non-allowlisted content, including:
 
 ## Publication
 
-MVP uses the local generated staging tree. A dedicated release repository or branch may publish the same allowlisted payload after MVP acceptance; it is not required now.
+The production build uses the local generated staging tree. A dedicated release repository or branch may later publish the same allowlisted payload after acceptance; it is not required for the current build sequence.

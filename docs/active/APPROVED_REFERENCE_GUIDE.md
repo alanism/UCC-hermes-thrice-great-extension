@@ -16,9 +16,9 @@ It is not Hermes source, a general learning-content generator, a live Discord bo
 - Optional personal installed profile: `thoth`.
 - Code and contracts must not assume any one profile name.
 
-## MVP correctness
+## Production-core correctness
 
-The MVP is correct only when it can, offline and with synthetic data:
+The production distribution core is correct only when it can, offline and with synthetic data:
 
 1. Install into a temporary Hermes home through native profile-distribution mechanics.
 2. Leave stock Hermes behavior unchanged.

@@ -51,7 +51,7 @@ Before A1, T0.*, H1.*, and A2.* may run only under a dated human declaration in 
 | C3.5 | Specify proposal, append-only approval event, and transition evaluator. | C3.1 | `docs/active/contracts/APPROVAL_CONTRACT.md` | Approval | Actor/action/revision/provenance complete; key globally binds canonical event; identical replay succeeds; changed payload or R1→R2 key reuse conflicts. | `C3.5.md` | C1 |
 | C3.6 | Specify parent brief and atomic ledger contracts. | C3.2, C3.3, C3.5 | `docs/active/contracts/BRIEF_LEDGER_CONTRACT.md` | Brief/ledger | Canonical JSON, clock/ID, linkage, retention, replay, and fault behavior complete. | `C3.6.md` | C1 |
 | C3.7 | Approve registry/version/migration design and schema backlog. | C3.2, C3.4, C3.5, C3.6 | `CONTRACT_VERSION_POLICY.md`, `docs/active/contracts/REGISTRY_DESIGN.md` | Contracts | Zero unresolved field ambiguity; human approval recorded. | `C3.7.md` | C1 |
-| C3.8 | Decide whether `I1_MOCK_ADAPTERS` is inside F1 scope. | C3.7 | `docs/active/MVP_SCOPE_DECISION.md`, `authority.json` via human authority update | Scope | Explicit INCLUDE/EXCLUDE; T4.11 and Phase 10 claimability derived mechanically. | `C3.8.md` | C1 |
+| C3.8 | Decide whether `I1_MOCK_ADAPTERS` is inside production F1 scope. | C3.7 | `docs/active/PRODUCTION_SCOPE_DECISION.md`, `authority.json` via human authority update | Scope | Explicit INCLUDE/EXCLUDE; T4.11 and Phase 10 claimability derived mechanically. | `C3.8.md` | C1 |
 
 ## Stage 4 — Execution readiness
 
@@ -147,7 +147,7 @@ All rows permit only `tests/**` and `fixtures/**` named by the task. Production/
 |---|---|---|---|---|---|---|---|
 | F12.1 | Update owner/install/runbook documentation to match the proven distribution. | E9.3, B11.2 | `README.md`, `INSTALL.md`, `docs/**` excluding authority | Handoff | Commands replay successfully on clean Windows environment. | `F12.1.md` | F1 |
 | F12.2 | Run clean-room final acceptance and finalize readiness/risk/compatibility reports. | F12.1, I10.2 if Phase 10 included | reports and receipts only | Acceptance | Final command set PASS; critical risks zero. | `F12.2.md` | F1 |
-| F12.3 | Finalize build ledger, learning cards, and post-MVP upstream drift task. | F12.2 | `BUILD_LEDGER.md`, `learning_cards.md`, compatibility report | Learning | Every DONE task/receipt/state event reconciles; no upstream update performed. | `F12.3.md` | F1 |
+| F12.3 | Finalize build ledger, learning cards, and post-release upstream drift task. | F12.2 | `BUILD_LEDGER.md`, `learning_cards.md`, compatibility report | Learning | Every DONE task/receipt/state event reconciles; no upstream update performed. | `F12.3.md` | F1 |
 
 ## Claim JSON minimum
 

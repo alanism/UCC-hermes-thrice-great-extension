@@ -1,0 +1,38 @@
+{
+  "task_id": "C3.7",
+  "agent_id": "codex-production-build-01",
+  "claimed_at": "2026-06-30T00:13:11Z",
+  "active_plan_hash": "sha256:bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543",
+  "revalidated_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
+  "revalidated_at": "2026-06-30T00:16:51Z",
+  "human_authorization": "Proceed through Phase 3 contract lock under production distribution doctrine",
+  "allowed_files": [
+    ".agent/claims/C3.7.codex-production-build-01.json",
+    ".agent/state.log",
+    "docs/active/CONTRACT_VERSION_POLICY.md",
+    "docs/active/contracts/**",
+    "docs/active/receipts/C3.7.md",
+    "docs/active/authority.json",
+    "docs/active/BUILD_PLAN.md",
+    "docs/active/PROJECT_TASKS.md",
+    "docs/active/architecture.mmd",
+    "docs/active/APPROVED_REFERENCE_GUIDE.md",
+    "docs/active/ACCEPTANCE_GATES.md",
+    "docs/active/TRUST_BOUNDARIES.md",
+    "docs/active/STAGING_PAYLOAD_POLICY.md",
+    "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
+    "docs/active/TOPOLOGY_DECISION.md",
+    "docs/active/DETERMINISM_MAP.md",
+    "docs/active/PHASE_GATE_TABLE.md",
+    "docs/active/PRIVACY_POLICY_*.md"
+  ],
+  "forbidden_files": [
+    "schemas/**",
+    "templates/**",
+    "skills/**",
+    "plugins/**"
+  ],
+  "completed_at": "2026-06-30T00:20:05Z",
+  "receipt": "docs/active/receipts/C3.7.md",
+  "status": "DONE"
+}

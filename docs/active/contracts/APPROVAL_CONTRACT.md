@@ -1,12 +1,12 @@
 # Proposal, Approval Event, and Transition Contract
 
-Status: C3.5 PROPOSED LOCK
+Status: SPECIFICATION LOCKED BY C3.7; SCHEMA/EVALUATOR TEST-GATED
 
 Contracts:
 
-- `ucc.task_proposal.v1`
-- `ucc.approval_event.v1`
-- `ucc.approval_transition.v1`
+- `ucc.task_proposal.v1.0.0`
+- `ucc.approval_event.v1.0.0`
+- `ucc.approval_transition.v1.0.0`
 
 ## Authority boundary
 
@@ -20,7 +20,7 @@ Only a validated append-only approval event from a configured `parent_guardian` 
 
 | Field | Rule |
 |---|---|
-| `contract_version` | `ucc.task_proposal.v1`. |
+| `contract_version` | `ucc.task_proposal.v1.0.0`. |
 | `proposal_id` | `prop_<ULID>`; stable across revisions. |
 | `proposal_revision` | Positive integer starting at 1 and incrementing by exactly 1. |
 | `supersedes_revision` | Null for revision 1; otherwise exactly previous revision. |
@@ -52,6 +52,19 @@ Common required fields:
 - `stop_conditions`;
 - `parent_summary`.
 
+Each `requested_actions` item contains:
+
+- `action_id` (`actn_<ULID>`);
+- `action_type`: `learning_session`, `assessment_session`, `parent_dialogue`, `evidence_review`, `artifact_creation`, or `smc_amendment`;
+- `owner_role`: `parent_guardian`, `learning_coach`, `learner`, or `system`;
+- `target_ref`: typed record reference or null;
+- `instructions`: non-empty deterministic instruction text;
+- `not_before` and `not_after`: UTC timestamps or null with valid order;
+- `expected_evidence_codes`: sorted unique non-empty codes;
+- `requires_parent_presence`: boolean.
+
+`expected_evidence` contains `valid_claim`, required contract/artifact types, minimum counts, AI-role constraint, process-evidence requirement, student-thinking-evidence requirement, and the mastery-policy ID or null. `data_access` is a sorted array of local contract/artifact type codes; it never contains paths.
+
 `expected_evidence.valid_claim` uses `practice`, `familiarity`, `performance`, or `mastery_candidate`. A proposal cannot promise mastery. AI role, process evidence, and student-thinking evidence requirements must be explicit when mastery-candidate evidence is requested.
 
 For `smc_amendment`, payload also requires `smc_id`, `base_revision`, JSON Patch operations, and canonical patch hash as defined by the SMC contract.
@@ -70,10 +83,10 @@ Approval events are immutable and append-only.
 
 | Field | Rule |
 |---|---|
-| `contract_version` | `ucc.approval_event.v1`. |
+| `contract_version` | `ucc.approval_event.v1.0.0`. |
 | `approval_event_id` | `appr_<ULID>`; stable for exact replay. |
 | `ledger_namespace` | Configured local namespace; participates in idempotency scope. |
-| `idempotency_key` | `idem_<ULID>` or equivalent 128-bit opaque key; globally unique inside namespace. |
+| `idempotency_key` | `idem_<ULID>`; globally unique inside namespace. |
 | `proposal_id` | Exact target proposal. |
 | `proposal_revision` | Exact positive revision. |
 | `proposal_payload_sha256` | Must equal stored target revision hash. |
@@ -200,7 +213,7 @@ Rules:
 
 Transition result fields:
 
-- `contract_version: ucc.approval_transition.v1`;
+- `contract_version: ucc.approval_transition.v1.0.0`;
 - proposal ID/revision/hash;
 - accepted event ID or null;
 - `prior_decision_state` and `next_decision_state`;

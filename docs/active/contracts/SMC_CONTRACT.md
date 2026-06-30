@@ -1,6 +1,6 @@
 # School Model Canvas Contract
 
-Status: C3.2 PROPOSED LOCK
+Status: SPECIFICATION LOCKED BY C3.7; SCHEMA/VALIDATOR TEST-GATED
 
 Contract name: `ucc.smc`
 
@@ -18,7 +18,7 @@ Every normalized SMC document has these required fields:
 
 | Field | Type | Rule |
 |---|---|---|
-| `contract_version` | string | Exact supported major/minor identifier; initial value `ucc.smc.v1`. |
+| `contract_version` | string | Exact semantic version; initial value `ucc.smc.v1.0.0`. |
 | `smc_id` | string | Stable pseudonymous ID, `smc_<ULID>`; unchanged across revisions. |
 | `revision` | integer | Starts at 1 and increments by exactly 1. |
 | `lifecycle_status` | enum | `draft`, `active`, or `superseded`. Only one active revision per `smc_id`. |
@@ -32,7 +32,7 @@ Every normalized SMC document has these required fields:
 | `amendment_decision` | object or null | Required for active revision >1; defined below. |
 | `canvas` | object | All normalized template sections and fields. |
 
-Timestamps use RFC 3339 UTC with `Z`. ULIDs are uppercase canonical strings. Contract validation never generates IDs or clocks; callers inject them.
+Timestamps, ULIDs, hashes, learner IDs, actor IDs, issue objects, and references use the common contract-version policy. Contract validation never generates IDs or clocks; callers inject them.
 
 ## Missing, unknown, and empty values
 

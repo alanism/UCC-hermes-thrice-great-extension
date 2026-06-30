@@ -1,12 +1,12 @@
 # Parent Brief and Atomic Ledger Contract
 
-Status: C3.6 PROPOSED LOCK
+Status: SPECIFICATION LOCKED BY C3.7; SCHEMA/IMPLEMENTATION TEST-GATED
 
 Contracts:
 
-- `ucc.parent_brief.v1`
-- `ucc.ledger_entry.v1`
-- `ucc.ledger_file.v1`
+- `ucc.parent_brief.v1.0.0`
+- `ucc.ledger_entry.v1.0.0`
+- `ucc.ledger_file.v1.0.0`
 
 ## Parent brief purpose
 
@@ -18,7 +18,7 @@ Public blog/chronicle and prospective-parent pitch shapes in the legacy `parent_
 
 | Field | Rule |
 |---|---|
-| `contract_version` | `ucc.parent_brief.v1`. |
+| `contract_version` | `ucc.parent_brief.v1.0.0`. |
 | `parent_brief_id` | `pbrf_<ULID>`; injected. |
 | `learner_id` | Pseudonymous durable ID. |
 | `display_name` | Optional local presentation field; excluded from identity/logging. |
@@ -49,7 +49,7 @@ Every substantive brief statement is a structured claim:
 
 Claim object fields:
 
-- `claim_id` (`clm_<ULID>`, injected or deterministically derived by registered policy);
+- `claim_id` (`clm_<ULID>`, injected);
 - `label` from the table;
 - `claim_code` stable vocabulary;
 - `text_key` plus structured interpolation values for deterministic rendering;
@@ -120,7 +120,7 @@ Ledger file envelope:
 
 | Field | Rule |
 |---|---|
-| `contract_version` | `ucc.ledger_file.v1`. |
+| `contract_version` | `ucc.ledger_file.v1.0.0`. |
 | `ledger_namespace` | Stable configured local namespace. |
 | `created_at` | Injected creation timestamp. |
 | `retention_policy_id` | Immutable policy identity. |
@@ -135,7 +135,7 @@ The configured file path is not part of semantic identity and is never stored in
 
 | Field | Rule |
 |---|---|
-| `contract_version` | `ucc.ledger_entry.v1`. |
+| `contract_version` | `ucc.ledger_entry.v1.0.0`. |
 | `ledger_entry_id` | `ldgr_<ULID>`; globally unique in namespace. |
 | `write_idempotency_key` | Namespace-global opaque key. |
 | `sequence` | Previous head + 1, starting at 1. |
@@ -146,12 +146,14 @@ The configured file path is not part of semantic identity and is never stored in
 | `recorded_at` | Injected local commit time. |
 | `source_refs` | Sorted typed record refs/hashes. |
 | `payload_contract` | Contract name/version of embedded or referenced payload. |
-| `payload` | Canonical semantic payload or content-addressed local reference. |
+| `payload_mode` | `embedded` or `content_addressed`. |
+| `payload` | Canonical semantic payload when embedded; null when content-addressed. |
+| `payload_ref` | Null when embedded; otherwise a typed local record reference with no path. |
 | `payload_sha256` | Hash of canonical payload. |
 | `semantic_sha256` | Hash excluding sequence, previous chain, recorded time, and physical path. |
 | `entry_chain_sha256` | Hash of the complete entry excluding this field, including recorded time and previous chain. |
 
-`source_refs` and `payload` cannot contain absolute paths, secrets, display names as keys, or unvalidated raw model output.
+Exactly one of `payload` and `payload_ref` is non-null according to `payload_mode`. `source_refs`, `payload`, and `payload_ref` cannot contain absolute paths, secrets, display names as keys, or unvalidated raw model output.
 
 ### Linkage rules
 

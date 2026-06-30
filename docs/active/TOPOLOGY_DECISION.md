@@ -26,7 +26,7 @@ Status: SELECTED FOR PLANNING; implementation blocked until Gate H1 confirms the
 
 This repository remains the **Hermes Thrice Great** source, governance, and control repository. It is not a copy of Hermes and it is never installed directly as a Hermes profile.
 
-The sole MVP install payload is a generated, deny-by-default staging tree:
+The sole production-distribution install payload is a generated, deny-by-default staging tree:
 
 ```text
 dist/hermes-thrice-great-profile/
@@ -57,10 +57,10 @@ The profile name is installation state, not product identity. No runtime module 
 
 ## Upstream policy
 
-- Pin one Hermes release and source commit for the MVP.
+- Pin one Hermes release and source commit for the production distribution release.
 - Do not vendor Hermes or modify its source.
 - Phase starts may fetch/report upstream drift but must not merge or update Hermes.
-- Upstream upgrades occur only in separately claimed compatibility tasks after MVP acceptance.
+- Upstream upgrades occur only in separately claimed compatibility tasks after production acceptance.
 - A direct Hermes modification requires a human-approved exception and a new topology decision.
 
 ## Rollback
