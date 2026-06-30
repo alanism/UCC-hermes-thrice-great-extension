@@ -1,0 +1,21 @@
+{
+  "redaction": [
+    {"case_id":"display-name","input":"learner_display_name=SYNTHETIC_PERSON_0001","forbidden":"SYNTHETIC_PERSON_0001","expected_marker":"[REDACTED]"},
+    {"case_id":"answer-body","input":"answer=SYNTHETIC_ANSWER_BODY_0001","forbidden":"SYNTHETIC_ANSWER_BODY_0001","expected_marker":"[REDACTED]"},
+    {"case_id":"private-path","input":"path=C:\\synthetic-private\\ledger.json","forbidden":"C:\\synthetic-private\\ledger.json","expected_marker":"[PRIVATE_PATH]"},
+    {"case_id":"secret-shape","input":"token=synthetic_secret_0001","forbidden":"synthetic_secret_0001","expected_marker":"[REDACTED]"}
+  ],
+  "retention": [
+    {"case_id":"not-expired","recorded_at":"2026-06-01T00:00:00.000Z","retention_days":365,"now":"2026-06-30T00:00:00.000Z","expected_action":"retain"},
+    {"case_id":"expired","recorded_at":"2025-01-01T00:00:00.000Z","retention_days":365,"now":"2026-06-30T00:00:00.000Z","expected_action":"request_deletion"},
+    {"case_id":"hold-active","recorded_at":"2025-01-01T00:00:00.000Z","retention_days":1,"now":"2026-06-30T00:00:00.000Z","hold_codes":["owner_hold"],"expected_action":"retain"},
+    {"case_id":"no-duration","recorded_at":"2025-01-01T00:00:00.000Z","retention_days":null,"now":"2026-06-30T00:00:00.000Z","expected_action":"retain"}
+  ],
+  "commit_eligibility": [
+    {"path":"fixtures/red/t4_6/synthetic.json","synthetic":true,"expected_allowed":true},
+    {"path":"outputs/synthetic-ledger.json","synthetic":true,"expected_allowed":false,"expected_issue":"PRIVATE_DATA_COMMIT_FORBIDDEN"},
+    {"path":"learner_data/record.json","synthetic":true,"expected_allowed":false,"expected_issue":"PRIVATE_DATA_COMMIT_FORBIDDEN"},
+    {"path":"local/ledger.json","synthetic":true,"expected_allowed":false,"expected_issue":"PRIVATE_DATA_COMMIT_FORBIDDEN"},
+    {"path":".env","synthetic":true,"expected_allowed":false,"expected_issue":"PRIVATE_DATA_COMMIT_FORBIDDEN"}
+  ]
+}

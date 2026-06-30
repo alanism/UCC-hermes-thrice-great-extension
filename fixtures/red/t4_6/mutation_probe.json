@@ -1,0 +1,12 @@
+{
+  "killable": [
+    {"mutant_id":"skip-dotdot-normalization","expected_outcome":"KILLED"},
+    {"mutant_id":"ignore-reparse-target","expected_outcome":"KILLED"},
+    {"mutant_id":"drive-case-sensitive-containment","expected_outcome":"KILLED"},
+    {"mutant_id":"log-private-value","expected_outcome":"KILLED"},
+    {"mutant_id":"delete-active-hold","expected_outcome":"KILLED"},
+    {"mutant_id":"allow-private-commit-root","expected_outcome":"KILLED"}
+  ],
+  "equivalent_control":{"mutant_id":"case-normalization-order-only","expected_outcome":"SURVIVED"},
+  "infrastructure_failures":{"expected_outcome":"ERROR","crash":"ERROR","setup":"ERROR","timeout":"ERROR"}
+}

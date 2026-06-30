@@ -1,0 +1,19 @@
+{
+  "host_canary": {
+    "long_path": "PASS_FAIL_CLOSED",
+    "drive_case": "PASS_SUPPORTED",
+    "reserved_name": "PASS_SUPPORTED",
+    "junction_reparse": "PASS_SUPPORTED"
+  },
+  "cases": [
+    {"case_id":"contained-child","relative":"records\\synthetic.json","expected_allowed":true,"expected_issue":null},
+    {"case_id":"dotdot-escape","relative":"..\\outside\\synthetic.json","expected_allowed":false,"expected_issue":"PRIVACY_PATH_ESCAPE"},
+    {"case_id":"absolute-drive-escape","relative":"D:\\outside\\synthetic.json","expected_allowed":false,"expected_issue":"PRIVACY_PATH_ESCAPE"},
+    {"case_id":"unc-escape","relative":"\\\\server\\share\\synthetic.json","expected_allowed":false,"expected_issue":"PRIVACY_PATH_ESCAPE"},
+    {"case_id":"drive-case-alias","relative":"records\\case.json","expected_allowed":true,"expected_issue":null},
+    {"case_id":"reserved-con","relative":"CON\\synthetic.json","expected_allowed":false,"expected_issue":"PRIVACY_RESERVED_NAME"},
+    {"case_id":"reserved-nul-extension","relative":"NUL.txt","expected_allowed":false,"expected_issue":"PRIVACY_RESERVED_NAME"},
+    {"case_id":"junction-escape","relative":"junction\\synthetic.json","expected_allowed":false,"expected_issue":"PRIVACY_REPARSE_ESCAPE"},
+    {"case_id":"long-path-host-rejected","relative":"long\\segment","expected_allowed":false,"expected_issue":"PRIVACY_HOST_PATH_UNSUPPORTED"}
+  ]
+}
