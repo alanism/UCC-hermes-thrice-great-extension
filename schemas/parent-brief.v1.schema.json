@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:parent-brief:1.0.0",
+  "title": "UCC Parent Brief v1",
+  "type": "object",
+  "required": ["parent_brief_id", "learner_id", "claim_labels", "diagnosis_ref", "mastery_established", "generated_at", "canonical_hash"],
+  "properties": {
+    "parent_brief_id": {"type": "string"}, "learner_id": {"type": "string"},
+    "claim_labels": {"type": "array", "items": {"enum": ["measured", "calculated", "modeled", "forecast", "noted"]}},
+    "diagnosis_ref": {"type": "object"}, "mastery_established": {"const": false},
+    "generated_at": {"type": "string"}, "canonical_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}

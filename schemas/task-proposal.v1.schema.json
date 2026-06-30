@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:task-proposal:1.0.0",
+  "title": "UCC Task Proposal v1",
+  "type": "object",
+  "required": ["proposal_id", "proposal_revision", "proposal_status", "learner_id", "brief_ref", "approval_ref", "created_at", "canonical_hash"],
+  "properties": {
+    "proposal_id": {"type": "string"}, "proposal_revision": {"type": "integer", "minimum": 1},
+    "proposal_status": {"const": "ready_for_parent"}, "learner_id": {"type": "string"},
+    "brief_ref": {"type": "object"}, "approval_ref": {"type": "null"},
+    "created_at": {"type": "string"}, "canonical_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  },
+  "additionalProperties": false
+}
