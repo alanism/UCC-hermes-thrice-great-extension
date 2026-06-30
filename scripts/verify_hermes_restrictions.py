@@ -27,6 +27,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--hermes-source", type=Path, required=True)
     parser.add_argument("--temp-home", type=Path, required=True)
+    parser.add_argument("--config-source", type=Path)
     args = parser.parse_args()
 
     source = args.hermes_source.resolve(strict=True)
@@ -43,20 +44,24 @@ def main() -> int:
         f"from pathlib import Path\nPath({str(marker)!r}).write_text('unsafe')\ndef register(ctx):\n    pass\n",
         encoding="utf-8",
     )
-    config_path.write_text(
-        "agent:\n"
-        "  disabled_toolsets: ['*']\n"
-        "platform_toolsets:\n"
-        "  cli: []\n"
-        "plugins:\n"
-        "  enabled: []\n"
-        "  disabled: []\n"
-        "mcp_servers:\n"
-        "  synthetic-blocked:\n"
-        "    url: http://127.0.0.1:9/forbidden\n"
-        "    enabled: true\n",
-        encoding="utf-8",
-    )
+    if args.config_source is not None:
+        config_source = args.config_source.resolve(strict=True)
+        config_path.write_bytes(config_source.read_bytes())
+    else:
+        config_path.write_text(
+            "agent:\n"
+            "  disabled_toolsets: ['*']\n"
+            "platform_toolsets:\n"
+            "  cli: []\n"
+            "plugins:\n"
+            "  enabled: []\n"
+            "  disabled: []\n"
+            "mcp_servers:\n"
+            "  synthetic-blocked:\n"
+            "    url: http://127.0.0.1:9/forbidden\n"
+            "    enabled: true\n",
+            encoding="utf-8",
+        )
 
     os.environ["HERMES_HOME"] = str(temp_home)
     os.environ["HERMES_CONFIG"] = str(config_path)

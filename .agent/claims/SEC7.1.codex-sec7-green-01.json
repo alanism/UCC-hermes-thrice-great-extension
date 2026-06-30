@@ -1,0 +1,6 @@
+{
+  "task_id":"SEC7.1","agent_id":"codex-sec7-green-01","claimed_at":"2026-06-30T19:24:14Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":["config.yaml","scripts/verify_hermes_restrictions.py","tests/canary/test_hermes_restrictions.py","dist/**",".agent/claims/SEC7.1.codex-sec7-green-01.json",".agent/state.log","docs/active/receipts/SEC7.1.md"],
+  "forbidden_files":["plugins/**","schemas/**","Hermes source","live integrations","real learner data"],
+  "completed_at":"2026-06-30T19:25:20Z","receipt":"docs/active/receipts/SEC7.1.md","status":"DONE"
+}

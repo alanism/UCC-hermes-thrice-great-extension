@@ -34,3 +34,26 @@ def test_deny_all_baseline_is_mechanically_enforced(tmp_path):
     assert report["plugin_count"] == 0
     assert report["mcp_server_count"] == 0
     assert report["network_attempts"] == 0
+
+
+def test_distribution_config_enforces_zero_tool_surface(tmp_path):
+    completed = subprocess.run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "verify_hermes_restrictions.py"),
+            "--hermes-source", str(HERMES_SOURCE),
+            "--temp-home", str(tmp_path),
+            "--config-source", str(REPO_ROOT / "config.yaml"),
+        ],
+        check=False, capture_output=True, text=True,
+    )
+    assert completed.returncode == 0, completed.stderr
+    report = json.loads(completed.stdout)
+    assert report["configured_disabled_toolsets"] == ["*"]
+    assert set(report["configured_enabled_toolsets"]).isdisjoint(
+        {"terminal", "browser", "web", "discord", "messaging", "send_message", "mcp"}
+    )
+    assert report["restricted_tool_count"] == 0
+    assert report["plugin_count"] == 0
+    assert report["mcp_server_count"] == 0
+    assert report["network_attempts"] == 0
