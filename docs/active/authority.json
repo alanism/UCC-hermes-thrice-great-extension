@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T07:28:32Z",
+  "revised_at": "2026-06-30T07:31:37Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -118,6 +118,10 @@
     "security_baseline": {
       "path": "docs/active/SECURITY_BASELINE.md",
       "sha256": "f48401004c141e29c447a738075115ef44c4d8bbf577fb9b71d02953ef4ddc45"
+    },
+    "private_data_commit_policy": {
+      "path": "docs/active/PRIVATE_DATA_COMMIT_POLICY.md",
+      "sha256": "a277f8d9d534c69d5ce48f8d497f6febcec7278178f1dcd47e702046dadc8197"
     }
   },
   "source_manifest": "docs/active/sources.manifest.json",
