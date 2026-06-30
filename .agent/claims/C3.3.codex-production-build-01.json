@@ -1,0 +1,21 @@
+{
+  "task_id": "C3.3",
+  "agent_id": "codex-production-build-01",
+  "claimed_at": "2026-06-30T00:02:24Z",
+  "active_plan_hash": "sha256:bd1696ed859354f337118a697b6e7b548b1af72b26da52017e220c7ee1c88543",
+  "allowed_files": [
+    ".agent/claims/C3.3.codex-production-build-01.json",
+    ".agent/state.log",
+    "docs/active/contracts/RECEIPT_CONTRACT.md",
+    "docs/active/receipts/C3.3.md"
+  ],
+  "forbidden_files": [
+    "schemas/**",
+    "templates/**",
+    "skills/**",
+    "plugins/**"
+  ],
+  "completed_at": "2026-06-30T00:04:31Z",
+  "receipt": "docs/active/receipts/C3.3.md",
+  "status": "DONE"
+}
