@@ -1,0 +1,6 @@
+{
+  "task_id":"T4.10","agent_id":"codex-t4-red-01","claimed_at":"2026-06-30T15:59:20Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":[".agent/claims/T4.10.codex-t4-red-01.json",".agent/state.log","tests/red/t4_10/**","fixtures/red/t4_10/**","docs/active/receipts/T4.10.md"],
+  "forbidden_files":["schemas/**","plugins/**","skills/**","production runtime","Hermes source","live integrations","real learner data"],
+  "completed_at":"2026-06-30T16:00:11Z","receipt":"docs/active/receipts/T4.10.md","status":"DONE"
+}

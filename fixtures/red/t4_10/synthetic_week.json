@@ -1,0 +1,6 @@
+{
+  "week_id":"synthetic-week-0001","synthetic":true,"offline":true,
+  "inputs":{"receipt":"fixtures/red/t4_2/positive_receipt.json","pair":"fixtures/red/t4_3/positive_pair.json","proposal":"fixtures/red/t4_4/positive_proposal.json","approval":"fixtures/red/t4_4/positive_approval_event.json","ledger":"fixtures/red/t4_5/positive_ledger.json","workflow":"fixtures/red/t4_9/workflow_case.json"},
+  "injected":{"week_start":"2026-06-30T00:00:00.000Z","week_end":"2026-07-06T23:59:59.999Z","clock_sequence":["2026-06-30T04:00:00.000Z","2026-06-30T04:00:01.000Z"],"id_seed":"synthetic-week-0001"},
+  "expected":{"status":"complete","approval_wait_observed":true,"approval_applied_after_wait":true,"ledger_commits":1,"model_calls":0,"network_attempts":0,"repeatable":true}
+}

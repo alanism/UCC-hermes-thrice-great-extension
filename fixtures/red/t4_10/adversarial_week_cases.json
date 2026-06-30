@@ -1,0 +1,7 @@
+[
+  {"case_id":"missing-approval","mutation":"remove_approval","expected_issue":"APPROVAL_REQUIRED","ledger_commits":0},
+  {"case_id":"changed-approval-replay","mutation":"change_approval_payload","expected_issue":"IDEMPOTENCY_CONFLICT","ledger_commits":0},
+  {"case_id":"invalid-receipt","mutation":"invalidate_receipt_total","expected_issue":"RECEIPT_TOTAL_INCONSISTENT","ledger_commits":0},
+  {"case_id":"ledger-write-fault","mutation":"inject_temp_write_fault","expected_issue":"LEDGER_TEMP_WRITE_FAILED","ledger_commits":0},
+  {"case_id":"network-attempt","mutation":"attempt_network","expected_issue":"OFFLINE_NETWORK_FORBIDDEN","ledger_commits":0}
+]
