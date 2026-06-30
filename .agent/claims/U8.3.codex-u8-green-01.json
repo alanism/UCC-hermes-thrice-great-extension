@@ -1,0 +1,6 @@
+{
+  "task_id":"U8.3","agent_id":"codex-u8-green-01","claimed_at":"2026-06-30T20:03:05Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":["schemas/*.json","plugins/hermes-thrice-great/**","tests/red/t4_3/**","fixtures/red/t4_3/**",".agent/claims/U8.3.codex-u8-green-01.json",".agent/state.log","docs/active/receipts/U8.3.md"],
+  "forbidden_files":["Hermes source","live integrations","real learner data"],
+  "completed_at":"2026-06-30T20:04:17Z","receipt":"docs/active/receipts/U8.3.md","status":"DONE"
+}

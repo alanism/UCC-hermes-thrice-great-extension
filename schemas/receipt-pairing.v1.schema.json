@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:ucc:contract:receipt-pairing:1.0.0",
+  "title": "UCC Receipt Pairing Result v1",
+  "type": "object",
+  "required": ["pair_result_id", "evaluated_at", "status", "issues"],
+  "properties": {
+    "pair_result_id": {"type": "string", "pattern": "^pres_[0-9A-HJKMNP-TV-Z]{26}$"},
+    "evaluated_at": {"type": "string"},
+    "status": {"enum": ["valid", "incomparable", "insufficient_evidence", "void"]},
+    "issues": {"type": "array"},
+    "metrics": {"type": "object"}
+  },
+  "additionalProperties": false
+}
