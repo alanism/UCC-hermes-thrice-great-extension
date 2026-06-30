@@ -1,0 +1,11 @@
+{
+  "hermes_pin":{"package":"hermes-agent==0.16.0","head":"2a5dc0ef3df433a36abed9ee544ea067d807c438"},
+  "source_root_never_installable":true,
+  "staging_tree":"dist/hermes-thrice-great-profile",
+  "required_source_files":["distribution.yaml","SOUL.md","config.yaml",".env.EXAMPLE","plugins/hermes-thrice-great/plugin.yaml"],
+  "profile_names":["ucc","thoth","synthetic-arbitrary-name"],
+  "required_plugin":{"id":"hermes-thrice-great","delivery_path":"plugins/hermes-thrice-great","enabled_by_default":false},
+  "stock_smoke":["hermes --version","hermes profile list","hermes --help"],
+  "offline":true,
+  "isolated_home_required":true
+}
