@@ -1,0 +1,12 @@
+{
+  "killable": [
+    {"mutant_id":"accept-wrong-previous-hash","expected_outcome":"KILLED"},
+    {"mutant_id":"accept-changed-payload-replay","expected_outcome":"KILLED"},
+    {"mutant_id":"skip-canonical-hash-check","expected_outcome":"KILLED"},
+    {"mutant_id":"accept-unsupported-entry-type","expected_outcome":"KILLED"},
+    {"mutant_id":"retain-private-tombstone-payload","expected_outcome":"KILLED"},
+    {"mutant_id":"report-success-on-write-fault","expected_outcome":"KILLED"}
+  ],
+  "equivalent_control": {"mutant_id":"canonical-object-key-order-only","expected_outcome":"SURVIVED"},
+  "infrastructure_failures": {"crash":"ERROR","setup":"ERROR","timeout":"ERROR","expected_outcome":"ERROR"}
+}

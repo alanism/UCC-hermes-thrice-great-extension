@@ -1,0 +1,70 @@
+{
+  "ucc_local_ledger": {
+    "ledger_schema_version": "ucc.ledger_file.v1.0.0",
+    "ledger_id": "ledg_01J00000000000000000000028",
+    "ledger_namespace": "synthetic-test",
+    "created_at": "2026-06-30T00:59:00.000Z",
+    "retention_policy_ref": {
+      "policy_id": "retp_01J00000000000000000000029",
+      "policy_version": "ucc.retention_policy.v1.0.0",
+      "canonical_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "entry_count": 1,
+    "head_sequence": 1,
+    "head_entry_hash": "e2605f3bc21585444d893c984db951b20a30a94b31c5f1731e0bd2ad128eb49a",
+    "entries": [
+      {
+        "ucc_ledger_entry": {
+          "contract_version": "ucc.ledger_entry.v1.0.0",
+          "ledger_entry_id": "ldgr_01J00000000000000000000021",
+          "idempotency_key": "idem_01J00000000000000000000022",
+          "entry_type": "approval_recorded",
+          "sequence": 1,
+          "occurred_at": "2026-06-30T01:00:00.000Z",
+          "recorded_at": "2026-06-30T01:00:01.000Z",
+          "previous_entry_hash": null,
+          "payload_contract": {
+            "contract_family": "proposal_approval",
+            "contract_version": "ucc.approval_event.v1.0.0",
+            "schema_ref": "schemas/approval-event.v1.schema.json",
+            "canonical_hash": "b6c6dbf1f2f43a6856865e9b835b70b08be58deed8081d48def40d9509712a25"
+          },
+          "payload": {
+            "approval_event_id": "appr_01J00000000000000000000018",
+            "approval_action": "approve",
+            "proposal_id": "prop_01J00000000000000000000010",
+            "proposal_revision": 1,
+            "proposal_hash": "e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500"
+          },
+          "source_refs": [{
+            "source_ref_id": "sref_01J00000000000000000000024",
+            "source_type": "approval_event",
+            "source_id": "appr_01J00000000000000000000018",
+            "source_contract_family": "proposal_approval",
+            "source_contract_version": "ucc.approval_event.v1.0.0",
+            "source_hash": "3e83f9c6de45e98a31e6cc5b7b16f2e0d23394adc1e9ab70062fe5f913685b3c",
+            "relationship": "records"
+          }],
+          "approval_ref": {
+            "approval_event_id": "appr_01J00000000000000000000018",
+            "proposal_id": "prop_01J00000000000000000000010",
+            "proposal_revision": 1,
+            "proposal_hash": "e33f036cde3b20ac9da9b9cf92f19eff32d214ff1ee412fc40c17b7af3a40500",
+            "approval_action": "approve",
+            "approval_actor_role": "parent",
+            "approval_scope": {
+              "proposal_id": "prop_01J00000000000000000000010",
+              "proposal_revision": 1,
+              "learner_id": "lrn_01J00000000000000000000020",
+              "proposal_type": "evidence_review",
+              "decision_effect": "approve"
+            }
+          },
+          "parent_brief_ref": null,
+          "canonical_hash": "e2605f3bc21585444d893c984db951b20a30a94b31c5f1731e0bd2ad128eb49a"
+        }
+      }
+    ],
+    "ledger_hash": "e93376e05a3dbbc52d99fdff378aec65bef22df921004c5af2eb31a33bf78b0e"
+  }
+}

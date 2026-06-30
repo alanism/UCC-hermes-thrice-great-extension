@@ -145,3 +145,7 @@
 2026-06-30T15:35:02Z AUTHORITY_REHASHED task=C3.6A agent=codex-c3-ledger-amend-01 ledger_wire=locked_by_C3.6A implementation_authorized=false
 2026-06-30T15:35:02Z CONTRACT_AMENDED task=C3.6A agent=codex-c3-ledger-amend-01 result=ledger_wire_machine_testable
 2026-06-30T15:35:02Z TASK_DONE task=C3.6A agent=codex-c3-ledger-amend-01 receipt=docs/active/receipts/C3.6A.md result=pass
+2026-06-30T15:48:54Z CLAIM_CREATED task=T4.5 agent=codex-t4-red-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-06-30T15:48:54Z TASK_IN_PROGRESS task=T4.5 agent=codex-t4-red-01
+2026-06-30T15:51:43Z RED_CAPTURED task=T4.5 agent=codex-t4-red-01 expected_failure=LEDGER_IMPLEMENTATION_MISSING focused_result=22_failed_3_passed mutation_contract=KILLED_SURVIVED_ERROR
+2026-06-30T15:51:43Z TASK_DONE task=T4.5 agent=codex-t4-red-01 receipt=docs/active/receipts/T4.5.md result=red_pass

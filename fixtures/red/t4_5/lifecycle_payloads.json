@@ -1,0 +1,33 @@
+{
+  "retention_policy_recorded": {
+    "retention_policy_id": "retp_01J00000000000000000000029",
+    "policy_version": "ucc.retention_policy.v1.0.0",
+    "recorded_by_actor_role": "data_owner",
+    "effective_at": "2026-06-30T02:00:00.000Z",
+    "entry_type_rules": [{"entry_type": "approval_recorded", "retention_days": 365}],
+    "hold_codes": []
+  },
+  "deletion_requested": {
+    "deletion_request_id": "delr_01J00000000000000000000034",
+    "target_entry_ids": ["ldgr_01J00000000000000000000021"],
+    "policy_id": "retp_01J00000000000000000000029",
+    "reason_code": "owner_deletion_request",
+    "requested_by_actor_role": "parent",
+    "requested_by_actor_id": "act_01J0000000000000000000001A",
+    "requested_at": "2026-06-30T02:00:00.000Z",
+    "redaction_scope": "payload_and_private_refs",
+    "request_key": "idem_01J00000000000000000000035"
+  },
+  "tombstone_recorded": {
+    "tombstone_id": "tomb_01J00000000000000000000030",
+    "target_entry_id": "ldgr_01J00000000000000000000021",
+    "reason_code": "owner_deletion_request",
+    "requested_by_actor_role": "parent",
+    "requested_at": "2026-06-30T02:00:00.000Z",
+    "redaction_scope": "payload_and_private_refs",
+    "retained_audit_hashes": [{
+      "target_entry_id": "ldgr_01J00000000000000000000021",
+      "canonical_hash": "e2605f3bc21585444d893c984db951b20a30a94b31c5f1731e0bd2ad128eb49a"
+    }]
+  }
+}

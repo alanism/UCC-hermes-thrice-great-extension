@@ -1,0 +1,12 @@
+{
+  "identical_replay": {"expected_replayed": true, "expected_append": false},
+  "changed_payload_replay": {"mutation": {"path": "/payload/approval_action", "value": "reject"}, "expected_issue": "LEDGER_IDEMPOTENCY_CONFLICT"},
+  "faults": [
+    {"fault":"temp_create","expected_issue":"LEDGER_TEMP_CREATE_FAILED","prior_bytes_unchanged":true},
+    {"fault":"temp_write","expected_issue":"LEDGER_TEMP_WRITE_FAILED","prior_bytes_unchanged":true,"partial_commit_eligible":false},
+    {"fault":"temp_flush","expected_issue":"LEDGER_TEMP_FLUSH_FAILED","prior_bytes_unchanged":true},
+    {"fault":"lock_lost","expected_issue":"LEDGER_LOCK_LOST","prior_bytes_unchanged":true},
+    {"fault":"replace","expected_issue":"LEDGER_REPLACE_FAILED","prior_bytes_unchanged":true},
+    {"fault":"readback","expected_issue":"LEDGER_COMMIT_UNKNOWN","success_reported":false}
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {"case_id":"wrong-root","path":"/ucc_local_ledger","operation":"rename_root","value":"ledger","expected_issue":"LEDGER_ROOT_INVALID"},
+  {"case_id":"wrong-previous-hash","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/previous_entry_hash","operation":"replace","value":"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff","expected_issue":"LEDGER_PREVIOUS_HASH_INVALID"},
+  {"case_id":"non-canonical-entry-hash","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/canonical_hash","operation":"replace","value":"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff","expected_issue":"LEDGER_ENTRY_HASH_MISMATCH"},
+  {"case_id":"unsupported-entry-type","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/entry_type","operation":"replace","value":"assessment","expected_issue":"LEDGER_ENTRY_TYPE_INVALID"},
+  {"case_id":"unknown-entry-field","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/debug_path","operation":"add","value":"synthetic-only","expected_issue":"LEDGER_UNKNOWN_FIELD"},
+  {"case_id":"approval-ref-missing","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/approval_ref","operation":"replace","value":null,"expected_issue":"LEDGER_APPROVAL_REF_INVALID"},
+  {"case_id":"source-type-unknown","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/source_refs/0/source_type","operation":"replace","value":"file","expected_issue":"LEDGER_SOURCE_REF_INVALID"},
+  {"case_id":"payload-contract-hash-changed","path":"/ucc_local_ledger/entries/0/ucc_ledger_entry/payload_contract/canonical_hash","operation":"replace","value":"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff","expected_issue":"LEDGER_PAYLOAD_HASH_MISMATCH"},
+  {"case_id":"ledger-count-mismatch","path":"/ucc_local_ledger/entry_count","operation":"replace","value":2,"expected_issue":"LEDGER_COUNT_MISMATCH"},
+  {"case_id":"ledger-hash-mismatch","path":"/ucc_local_ledger/ledger_hash","operation":"replace","value":"ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff","expected_issue":"LEDGER_HASH_MISMATCH"}
+]
