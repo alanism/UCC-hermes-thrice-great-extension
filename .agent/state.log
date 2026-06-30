@@ -173,3 +173,4 @@
 2026-06-30T16:00:36Z TASK_IN_PROGRESS task=T4.12 agent=codex-t4-red-01
 2026-06-30T16:01:31Z RED_CAPTURED task=T4.12 agent=codex-t4-red-01 expected_failure=BRANDING_SOURCE_AND_IMPLEMENTATION_MISSING focused_result=6_failed_2_passed mutation_contract=KILLED_SURVIVED_ERROR
 2026-06-30T16:01:31Z TASK_DONE task=T4.12 agent=codex-t4-red-01 receipt=docs/active/receipts/T4.12.md result=red_pass
+2026-06-30T16:03:05Z GATE_PASSED gate=T1 agent=codex-t4-red-01 result=phase_4_expected_red_complete tasks=T4.1,T4.2,T4.3,T4.4,T4.5,T4.6,T4.7,T4.8,T4.9,T4.10,T4.12 excluded=T4.11,I10.1,I10.2,Phase10
