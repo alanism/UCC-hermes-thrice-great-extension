@@ -1,0 +1,8 @@
+{
+  "distribution_id":"hermes-thrice-great","display_name":"Hermes Thrice Great",
+  "install_names":["ucc","hermes-thrice-great","thoth"],"optional_alias":"thoth",
+  "semantic_identity_fields":["distribution_id","plugin_id","contract_registry_hash","command_set","payload_inventory_hash"],
+  "presentation_only_fields":["profile_name","display_name","prompt_label"],
+  "stock_identity":{"package":"hermes-agent","version":"0.16.0","head":"2a5dc0ef3df433a36abed9ee544ea067d807c438","must_remain_unmodified":true},
+  "repository_root_install_forbidden":true,"staging_tree":"dist/hermes-thrice-great-profile"
+}
