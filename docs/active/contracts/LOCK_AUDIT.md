@@ -35,3 +35,25 @@ Eight independent negative mutations cover missing/mismatched identity, unknown 
 T4.1 may now materialize the documented positive example plus its synthetic artifact map, then apply the documented negative mutations. A failure caused by absent registry/schema implementation is distinguishable from malformed fixtures or unresolved contract interpretation.
 
 No schema, validator, registry runtime, fixture file, test, plugin, or product behavior was implemented by C3.7A.
+
+---
+
+# C3.5A Proposal/Approval Wire Lock Addendum
+
+Status: PASS
+
+The prior C3.5 authority and transition semantics remained sound, but nested proposal fields were not machine-testable enough for a provably valid T4.4 fixture. C3.5A now fixes:
+
+- closed `ucc_parent_proposal` and `ucc_parent_approval_event` envelopes;
+- exact proposal, evidence-reference, SMC-reference, authorship, rationale, payload, event actor, scope, and provenance fields/types;
+- author-writable versus evaluator-derived proposal statuses;
+- exact approval actions and human actor roles;
+- proposal/event canonical hash projections;
+- injected event/key rules and namespace-global binding;
+- identical replay, changed-payload conflict, and R1-to-R2 key conflict;
+- namespaced resolution-inert extensions and unknown-field rejection;
+- deterministic issue codes and twelve negative mutations.
+
+Both complete positive examples parse as JSON, all prefixed IDs carry 26-character ULIDs, the approval event references the exact proposal hash, and both canonical hashes recompute from their documented projections.
+
+T4.4 may now materialize these examples and mutations without inventing proposal evidence, SMC, authorship, rationale, actor, scope, replay, or conflict semantics. No schema, evaluator, test, fixture file, runtime, or product behavior was implemented by C3.5A.

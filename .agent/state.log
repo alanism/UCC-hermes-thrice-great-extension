@@ -130,3 +130,8 @@
 2026-06-30T08:35:18Z RED_CAPTURED task=T4.3 agent=codex-t4-red-01 expected_failure=PAIRING_EVALUATOR_IMPLEMENTATION_MISSING focused_result=13_failed_3_passed mutation_contract=KILLED_SURVIVED_ERROR
 2026-06-30T08:35:18Z TASK_DONE task=T4.3 agent=codex-t4-red-01 receipt=docs/active/receipts/T4.3.md result=red_pass
 2026-06-30T13:49:16Z TASK_REGISTERED task=C3.5A agent=codex-c3-approval-amend-01 authority=human_task_board_amendment task_board_hash=sha256:2b1622b618a2e348b7c52ac0618675262f6a34690a9f9680c04d6e2476ea8b1c
+2026-06-30T13:49:37Z CLAIM_CREATED task=C3.5A agent=codex-c3-approval-amend-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-06-30T13:49:37Z TASK_IN_PROGRESS task=C3.5A agent=codex-c3-approval-amend-01
+2026-06-30T13:53:35Z AUTHORITY_REHASHED task=C3.5A agent=codex-c3-approval-amend-01 approval_wire=locked_by_C3.5A implementation_authorized=false
+2026-06-30T13:53:35Z CONTRACT_AMENDED task=C3.5A agent=codex-c3-approval-amend-01 result=proposal_approval_wire_machine_testable
+2026-06-30T13:53:35Z TASK_DONE task=C3.5A agent=codex-c3-approval-amend-01 receipt=docs/active/receipts/C3.5A.md result=pass

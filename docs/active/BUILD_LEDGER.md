@@ -13,5 +13,6 @@
 | 2026-06-29T23:47:05Z | Claim/state checker GREEN. | commit `d6f8a8c`; `A2.5.md`, `A2.6.md` | Plan/task/receipt/state synchronization and collision controls enforced. |
 | 2026-06-29T23:49:00Z | Gate A1 authority activated. | `A2.7.md`; governance checker output | Bootstrap exception expired; implementation authorization remains false. |
 | 2026-06-30T08:08:28Z | C3.7A registry wire amendment claimed after human-authorized task-board repair. | `REGISTRY_DESIGN.md`; `CONTRACT_VERSION_POLICY.md`; `contracts/LOCK_AUDIT.md` | Exact machine-testable registry envelope and examples defined; no tests or implementation. |
+| 2026-06-30T13:49:37Z | C3.5A proposal/approval wire amendment claimed after human-authorized task-board repair. | `APPROVAL_CONTRACT.md`; `contracts/LOCK_AUDIT.md` | Exact proposal/event envelopes, nested authority fields, replay/conflict rules, and examples defined; no tests or implementation. |
 
 Implementation task results are appended only after matching claims, tests, receipts, and `.agent/state.log` events exist.
