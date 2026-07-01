@@ -1,6 +1,6 @@
 name: hermes-thrice-great
 version: 0.1.0
-description: "UCC evidence-centered profile distribution for Hermes"
+description: "Hermes Thrice Great — the deterministic evidence engine for UnCommon Core; proven for synthetic offline workflows only"
 hermes_requires: ">=0.16.0"
 license: "Proprietary"
 distribution_owned:

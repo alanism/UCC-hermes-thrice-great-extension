@@ -1,0 +1,6 @@
+{
+  "task_id":"B11.1","agent_id":"codex-b11-green-01","claimed_at":"2026-07-01T04:49:45Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":["SOUL.md","distribution.yaml","plugins/hermes-thrice-great/**","tests/red/t4_12/**","tests/green/test_b11_1_presentation.py","fixtures/red/t4_12/**",".agent/claims/B11.1.codex-b11-green-01.json",".agent/state.log","docs/active/receipts/B11.1.md"],
+  "forbidden_files":["Hermes source","core behavior","live integrations","real learner data"],
+  "completed_at":"2026-07-01T04:51:58Z","receipt":"docs/active/receipts/B11.1.md","status":"DONE"
+}

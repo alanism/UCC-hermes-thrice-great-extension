@@ -238,3 +238,6 @@
 2026-07-01T04:33:40Z TASK_IN_PROGRESS task=E9.3 agent=codex-e9-green-01
 2026-07-01T04:35:11Z TASK_DONE task=E9.3 agent=codex-e9-green-01 receipt=docs/active/receipts/E9.3.md result=pass repeatability=pass network_attempts=0 ledger_safety=pass
 2026-07-01T04:35:11Z GATE_PASSED gate=E1 agent=codex-e9-green-01 result=synthetic_week_green safe_for_synthetic_workflows=true safe_for_real_learner_data=false
+2026-07-01T04:49:45Z CLAIM_CREATED task=B11.1 agent=codex-b11-green-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-07-01T04:49:45Z TASK_IN_PROGRESS task=B11.1 agent=codex-b11-green-01
+2026-07-01T04:51:58Z TASK_DONE task=B11.1 agent=codex-b11-green-01 receipt=docs/active/receipts/B11.1.md result=pass tests=10

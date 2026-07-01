@@ -1,6 +1,6 @@
 name: hermes-thrice-great
 version: 0.1.0
-description: "Offline deterministic UCC commands for Hermes Thrice Great"
+description: "Hermes Thrice Great for UnCommon Core — deterministic synthetic-offline evidence commands"
 kind: standalone
 requires_env: []
 provides_tools: []
