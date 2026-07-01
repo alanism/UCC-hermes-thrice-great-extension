@@ -1,0 +1,111 @@
+{
+  "contract_version": "ucc.smc.v1.0.0",
+  "smc_id": "smc_01J00000000000000000000015",
+  "revision": 1,
+  "lifecycle_status": "active",
+  "learner_id": "lrn_01J00000000000000000000020",
+  "display_name": null,
+  "created_at": "2026-06-30T00:00:00.000Z",
+  "effective_at": "2026-06-30T00:00:00.000Z",
+  "source": {
+    "format": "synthetic_json",
+    "source_hash": "1111111111111111111111111111111111111111111111111111111111111111",
+    "local_source_label": "synthetic-week-smc"
+  },
+  "authorship": {
+    "actor_type": "parent_guardian",
+    "actor_id": "act_01J0000000000000000000001A",
+    "authored_at": "2026-06-30T00:00:00.000Z"
+  },
+  "supersedes_revision": null,
+  "amendment_decision": null,
+  "canvas": {
+    "learner_context": {
+      "age_years": null,
+      "grade_stage": "synthetic-grade-3",
+      "schooling_context": "other",
+      "schooling_context_other_label": "synthetic-context",
+      "exported_date": "2026-06-30"
+    },
+    "educational_vision": {
+      "vision": "Synthetic evidence-led learning."
+    },
+    "teaching_approach": {
+      "style": "collaborative",
+      "pacing": "cyclic",
+      "evaluation_methods": [
+        "demonstration",
+        "testing"
+      ],
+      "other_labels": null
+    },
+    "learning_preferences": {
+      "modalities": [
+        "mixed"
+      ],
+      "environments": [
+        "structured"
+      ],
+      "scope": "mixed",
+      "other_labels": null
+    },
+    "communication_authority": {
+      "communication_mode": "discussion",
+      "adult_role": "guide",
+      "other_labels": null
+    },
+    "physical_activity": {
+      "frequency": null,
+      "activity_types": [],
+      "goals": []
+    },
+    "socializing": {
+      "peer_interaction": null,
+      "group_learning_enabled": false,
+      "group_learning_notes": null,
+      "community_involvement": []
+    },
+    "technology": {
+      "available_devices": [
+        "synthetic-device"
+      ],
+      "screen_time_policy": "synthetic-policy",
+      "digital_literacy_goals": []
+    },
+    "enrichment": {
+      "extracurriculars": [],
+      "special_interests": [],
+      "field_experiences": []
+    },
+    "confidence_building": {
+      "strategies": [],
+      "known_challenges": [],
+      "support_resources": []
+    },
+    "family_values": {
+      "educational_philosophies": [
+        "synthetic-evidence-first"
+      ],
+      "cultural_religious_considerations": [],
+      "long_term_vision": "Synthetic fixture vision."
+    },
+    "learning_environment": {
+      "learning_spaces": [
+        "synthetic-space"
+      ],
+      "distractions_and_mitigations": [],
+      "schedule_flexibility": "mixed",
+      "schedule_flexibility_other_label": null
+    },
+    "resources_budget": {
+      "curriculum_materials": [],
+      "budget_note": null,
+      "support_network": []
+    },
+    "guardian_expectations": {
+      "weekly_time_commitment": "synthetic-weekly",
+      "co_learning": "sometimes",
+      "adaptability": "synthetic-adaptability"
+    }
+  }
+}

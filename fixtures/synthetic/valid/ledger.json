@@ -1,0 +1,18 @@
+{
+  "ucc_local_ledger": {
+    "ledger_schema_version": "ucc.ledger_file.v1.0.0",
+    "ledger_id": "ledg_01J00000000000000000000060",
+    "ledger_namespace": "synthetic-test",
+    "created_at": "2026-06-30T03:59:59.000Z",
+    "retention_policy_ref": {
+      "policy_id": "retp_01J00000000000000000000029",
+      "policy_version": "ucc.retention_policy.v1.0.0",
+      "canonical_hash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    },
+    "entry_count": 0,
+    "head_sequence": 0,
+    "head_entry_hash": null,
+    "entries": [],
+    "ledger_hash": "1cf54d453b3bb37a27c6cfa7f89a4ba7234e7fca6d9bddec06523be64b1fe186"
+  }
+}

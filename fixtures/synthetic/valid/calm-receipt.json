@@ -1,0 +1,101 @@
+{
+  "contract_version": "ucc.assessment_receipt.v2.0.0",
+  "receipt_id": "rcpt_01J00000000000000000000001",
+  "session_id": "sess_01J00000000000000000000002",
+  "paired_run_id": "pair_01J00000000000000000000003",
+  "assessment_form_id": "synthetic-math-form-a",
+  "assessment_form_version": 1,
+  "learner_id": "lrn_01J00000000000000000000020",
+  "display_name": null,
+  "source": {
+    "app_id": "synthetic-assessment",
+    "app_version": "1.0.0",
+    "device_session_id": null,
+    "generated_at": "2026-06-30T00:05:00.000Z"
+  },
+  "assessment": {
+    "domain": "math",
+    "name": "Synthetic Addition Check",
+    "mode": "calm",
+    "skill_ids": [
+      "skill.addition"
+    ],
+    "reported_grade_or_level": null,
+    "timer_policy": {
+      "timer_visible": false,
+      "time_limit_seconds": null,
+      "timeout_behavior": "none",
+      "policy_id": "calm-no-timer-v1"
+    }
+  },
+  "session": {
+    "started_at": "2026-06-30T00:00:00.000Z",
+    "completed_at": "2026-06-30T00:05:00.000Z",
+    "completion_status": "completed",
+    "termination_reason": null
+  },
+  "events": [
+    {
+      "event_id": "evt_01J00000000000000000000005",
+      "item_index": 1,
+      "form_item_id": "synthetic-item-1",
+      "skill_id": "skill.addition",
+      "skill_label": "Addition",
+      "grade_or_level": "grade-3",
+      "prompt_type": "multiple_choice",
+      "presented_at": "2026-06-30T00:01:00.000Z",
+      "resolved_at": "2026-06-30T00:01:01.000Z",
+      "response_status": "answered",
+      "response_time_ms": 1000,
+      "answer": "4",
+      "correct_answer": "4",
+      "is_correct": true,
+      "difficulty_before": null,
+      "difficulty_after": null,
+      "error_type": "none",
+      "error_type_other_label": null,
+      "failure_stage": "none",
+      "representation_stage": "abstract",
+      "evidence_intent": "performance_check",
+      "independence": "independent",
+      "ai_role": {
+        "role": "none",
+        "disclosed": true,
+        "description": null
+      },
+      "process_evidence_refs": [],
+      "student_thinking_evidence_refs": [
+        "synthetic-thinking-1"
+      ]
+    }
+  ],
+  "summary": {
+    "items_presented": 1,
+    "items_answered": 1,
+    "correct": 1,
+    "incorrect": 0,
+    "timeouts": 0,
+    "skipped": 0,
+    "accuracy_answered": 1.0,
+    "engagement_rate": 1.0,
+    "average_response_time_ms": 1000,
+    "max_grade_or_level_reached": "grade-3"
+  },
+  "evidence_context": {
+    "session_ai_roles": [
+      "none"
+    ],
+    "process_evidence_count": 0,
+    "student_thinking_evidence_count": 1,
+    "mastery_check_event_count": 0,
+    "mastery_eligible_event_count": 0,
+    "valid_evidence_claim": "performance_evidence",
+    "false_mastery_risk": false,
+    "false_mastery_reason_codes": []
+  },
+  "quality": {
+    "status": "clean",
+    "blocking_issues": [],
+    "warnings": []
+  }
+}
