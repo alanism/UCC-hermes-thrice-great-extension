@@ -1,0 +1,25 @@
+{
+  "fixture_schema_version": "ucc.synthetic_week_fixture.v1.0.0",
+  "week_id": "synthetic-week-0001",
+  "synthetic": true,
+  "offline": true,
+  "inputs": {
+    "smc": "valid/smc.json",
+    "calm_receipt": "valid/calm-receipt.json",
+    "pressure_receipt": "valid/pressure-receipt.json",
+    "pairing": "valid/pairing.json",
+    "proposal": "valid/proposal.json",
+    "approval": "valid/approval.json",
+    "ledger": "valid/ledger.json",
+    "workflow": "valid/workflow.json"
+  },
+  "injected": {
+    "week_start": "2026-06-30T00:00:00.000Z",
+    "week_end": "2026-07-06T23:59:59.999Z",
+    "pair_result_id": "pres_01J00000000000000000000061",
+    "ledger_entry_id": "ldgr_01J00000000000000000000062",
+    "ledger_idempotency_key": "idem_01J00000000000000000000063",
+    "recorded_at": "2026-06-30T04:00:01.000Z",
+    "id_seed": "synthetic-week-0001"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "schema_version": "ucc.installed_synthetic_manifest.v1.0.0",
+  "synthetic_set_id": "ucc-synthetic-week-v1",
+  "distribution_id": "hermes-thrice-great",
+  "files": [
+    {
+      "path": "adversarial/week-cases.json",
+      "sha256": "8ba5c90526b09ea696a4d62d14bc6f1a61b300da190c1de9d2b52f1ca70c7a66"
+    },
+    {
+      "path": "schema/contract-registry.v1.schema.json",
+      "sha256": "44c1d5495dc535a227f3d98d6ff78b619269608f5bad3e887576357013ec3d8b"
+    },
+    {
+      "path": "valid/approval.json",
+      "sha256": "2cebf4c86b4a3a59ef782998ff1078bccfdd8e71dbb62588f65f7544fdf8f7f2"
+    },
+    {
+      "path": "valid/calm-receipt.json",
+      "sha256": "f20e5f5f5b9242e9b4b0baa93b37a4341428f3d07465e48aff7d35c8fce9ef03"
+    },
+    {
+      "path": "valid/ledger.json",
+      "sha256": "31ec93b3c921eaa421d656bf7b20508c9ff89eb9eb5f863ae90059c3b7a31e96"
+    },
+    {
+      "path": "valid/pairing.json",
+      "sha256": "7a43486ee8a798395f7ad070c447921cf841c4a1e06eae19875c769ad21a9afe"
+    },
+    {
+      "path": "valid/pressure-receipt.json",
+      "sha256": "5c69bef1be16b3bcfa48c520174b14dfdd81d86d45757f02f363077b4e343fd7"
+    },
+    {
+      "path": "valid/proposal.json",
+      "sha256": "75919b8d4716c84046a3e99c0f07e8c2441fa68723b8ea0e3ba968ec511096b7"
+    },
+    {
+      "path": "valid/smc.json",
+      "sha256": "3f1ea7900f789e474aa582b2181e98faac0cb23066460075183a2bdc68216b66"
+    },
+    {
+      "path": "valid/week.json",
+      "sha256": "535fb0baf8c0590cc806b30349679234c8666243c13587b8cae4876cfad23010"
+    },
+    {
+      "path": "valid/workflow.json",
+      "sha256": "0dd72dcddde2c7e8fd017536d89919f20b72ffe1165e721ff98a1bab12d9c1ce"
+    }
+  ],
+  "canonical_hash": "2fd6e9048c7f633d563424042be90cec5137ee5895185ac7d0aec8ac15d680a3"
+}

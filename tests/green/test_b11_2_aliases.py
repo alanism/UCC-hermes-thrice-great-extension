@@ -38,7 +38,13 @@ def semantic_hashes(root):
                 if relative_path == "distribution.yaml":
                     text = content.decode("utf-8")
                     lines = text.splitlines()
-                    lines[0] = "name: <profile-name>"
+                    lines = [
+                        "name: <profile-name>" if line.startswith("name:")
+                        else "source: <install-source>" if line.startswith("source:")
+                        else "installed_at: <install-time>" if line.startswith("installed_at:")
+                        else line
+                        for line in lines
+                    ]
                     content = ("\n".join(lines) + "\n").encode("utf-8")
                 result[relative_path] = hashlib.sha256(content).hexdigest()
     return result

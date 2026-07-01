@@ -148,7 +148,8 @@ All rows permit only `tests/**` and `fixtures/**` named by the task. Production/
 
 | ID | Task | Depends | Allowed files | Graph scope | Validation / evidence | Receipt | Gate |
 |---|---|---|---|---|---|---|---|
-| F12.1 | Update owner/install/runbook documentation to match the proven distribution. | E9.3, B11.2 | `README.md`, `INSTALL.md`, `docs/**` excluding authority | Handoff | Commands replay successfully on clean Windows environment. | `F12.1.md` | F1 |
+| F12.0 | **PRE-F12.0 amendment:** integrate installed `hermes ucc` CLI commands with deterministic validation, installed synthetic resources, and offline weekly orchestration. | U8.7, E9.3, B11.2 | plugin CLI/orchestration/resources, tests, governance bookkeeping | CLI / installed resources / synthetic orchestrator | Installed valid fixtures pass; adversarial cases fail with stable issues; real seven-stage dry-run; zero socket/model calls. | `PRE-F12.0.md` | F1 precondition |
+| F12.1 | Update owner/install/runbook documentation to match the proven distribution. | E9.3, B11.2, F12.0 | `README.md`, `INSTALL.md`, `docs/**` excluding authority | Handoff | Commands replay successfully on clean Windows environment. | `F12.1.md` | F1 |
 | F12.2 | Run clean-room final acceptance and finalize readiness/risk/compatibility reports. | F12.1 | reports and receipts only | Acceptance | Final command set PASS; critical risks zero; I1 excluded by C3.8. | `F12.2.md` | F1 |
 | F12.3 | Finalize build ledger, learning cards, and post-release upstream drift task. | F12.2 | `BUILD_LEDGER.md`, `learning_cards.md`, compatibility report | Learning | Every DONE task/receipt/state event reconciles; no upstream update performed. | `F12.3.md` | F1 |
 

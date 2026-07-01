@@ -1,5 +1,13 @@
 """Native offline Hermes Thrice Great CLI registration."""
 
+import sys
+
+from . import hermes_thrice_great as _package
+
+# Hermes loads directory plugins below ``hermes_plugins.*``.  Publish the
+# delivered package under its stable import name before loading its modules.
+sys.modules.setdefault("hermes_thrice_great", _package)
+
 from .hermes_thrice_great.plugin.commands import handle_cli, setup_cli
 
 

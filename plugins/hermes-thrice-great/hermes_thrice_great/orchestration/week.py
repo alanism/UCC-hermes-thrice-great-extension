@@ -14,7 +14,9 @@ from hermes_thrice_great.privacy.guards import validate_contained_path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-CANONICAL_WEEK = REPO_ROOT / "fixtures" / "synthetic" / "valid" / "week.json"
+PACKAGE_ROOT = Path(__file__).resolve().parents[1]
+BUNDLED_RESOURCE_ROOT = PACKAGE_ROOT / "resources" / "synthetic"
+SOURCE_CANONICAL_WEEK = REPO_ROOT / "fixtures" / "synthetic" / "valid" / "week.json"
 
 
 def _issue(code: str) -> dict[str, str]:
@@ -25,17 +27,23 @@ def _hash(value) -> str:
     return hashlib.sha256(json.dumps(value, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")).hexdigest()
 
 
-def _load(relative: str):
-    containment = validate_contained_path(REPO_ROOT, relative)
+def _load(relative: str, resource_root: Path | None = None):
+    root = Path(resource_root).resolve(strict=True) if resource_root is not None else REPO_ROOT
+    containment = validate_contained_path(root, relative)
     if not containment["allowed"]:
         raise ValueError(containment["issues"][0]["code"])
     return json.loads(Path(containment["resolved_path"]).read_text(encoding="utf-8"))
 
 
-def _materialized_week(week: dict) -> dict:
+def _materialized_week(week: dict, resource_root: Path | None = None) -> dict:
     if week.get("fixture_schema_version") == "ucc.synthetic_week_fixture.v1.0.0":
         return week
-    canonical = json.loads(CANONICAL_WEEK.read_text(encoding="utf-8"))
+    canonical_path = (
+        Path(resource_root) / "valid" / "week.json"
+        if resource_root is not None
+        else SOURCE_CANONICAL_WEEK
+    )
+    canonical = json.loads(canonical_path.read_text(encoding="utf-8"))
     if canonical["week_id"] != week.get("week_id"):
         raise ValueError("OFFLINE_WEEK_FIXTURE_UNSUPPORTED")
     return canonical
@@ -48,24 +56,27 @@ def _failure(code: str) -> dict:
     }
 
 
-def _inputs(week: dict) -> dict:
-    return {name: _load(relative) for name, relative in week["inputs"].items()}
+def _inputs(week: dict, resource_root: Path | None = None) -> dict:
+    return {name: _load(relative, resource_root) for name, relative in week["inputs"].items()}
 
 
-def _prepare_week(week: dict) -> tuple[dict, dict] | tuple[None, dict]:
+def _prepare_week(week: dict, resource_root: Path | None = None) -> tuple[dict, dict] | tuple[None, dict]:
     if not week.get("synthetic") or not week.get("offline"):
         return None, _failure("OFFLINE_SYNTHETIC_REQUIRED")
     try:
-        materialized = _materialized_week(week)
-        return {"week": materialized, "inputs": _inputs(materialized)}, {}
+        materialized = _materialized_week(week, resource_root)
+        return {"week": materialized, "inputs": _inputs(materialized, resource_root)}, {}
     except (OSError, ValueError, json.JSONDecodeError):
         return None, _failure("OFFLINE_FIXTURE_INVALID")
 
 
-def run_week(week: dict, *, offline: bool) -> dict:
+def run_week(
+    week: dict, *, offline: bool, resource_root: Path | None = None,
+    commit_ledger: bool = True,
+) -> dict:
     if not offline:
         return _failure("OFFLINE_NETWORK_FORBIDDEN")
-    prepared, failure = _prepare_week(week)
+    prepared, failure = _prepare_week(week, resource_root)
     if prepared is None:
         return failure
     materialized, inputs = prepared["week"], prepared["inputs"]
@@ -169,11 +180,17 @@ def run_week(week: dict, *, offline: bool) -> dict:
         injected_recorded_at=materialized["injected"]["recorded_at"],
         occurred_at=event_inner["decision_at"],
     )
-    with tempfile.TemporaryDirectory(prefix="ucc-synthetic-week-") as directory:
-        commit = ledger.commit_ledger_atomic(Path(directory) / "ledger.json", appended["ledger"])
-    if not commit["success"]:
-        return _failure(commit["issues"][0]["code"])
-    stages.append("ledger_committed")
+    if commit_ledger:
+        with tempfile.TemporaryDirectory(prefix="ucc-synthetic-week-") as directory:
+            commit = ledger.commit_ledger_atomic(Path(directory) / "ledger.json", appended["ledger"])
+        if not commit["success"]:
+            return _failure(commit["issues"][0]["code"])
+        stages.append("ledger_committed")
+    else:
+        ledger_issues = ledger.validate_ledger(appended["ledger"])
+        if ledger_issues:
+            return _failure(ledger_issues[0]["code"])
+        stages.append("ledger_validated")
 
     canonical_record = {
         "week_id": materialized["week_id"], "status": "complete", "stages": stages,
@@ -184,16 +201,19 @@ def run_week(week: dict, *, offline: bool) -> dict:
         "approval_hash": event_inner["canonical_hash"],
         "ledger_hash": appended["ledger"]["ucc_local_ledger"]["ledger_hash"],
         "approval_wait_observed": True, "approval_applied_after_wait": True,
-        "ledger_commits": 1, "model_calls": 0, "network_attempts": 0,
+        "ledger_commits": 1 if commit_ledger else 0,
+        "model_calls": 0, "network_attempts": 0,
     }
     canonical_bytes = json.dumps(canonical_record, sort_keys=True, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
     return {**canonical_record, "issues": [], "canonical_bytes": canonical_bytes}
 
 
-def run_adversarial_case(week: dict, case: dict, *, offline: bool) -> dict:
+def run_adversarial_case(
+    week: dict, case: dict, *, offline: bool, resource_root: Path | None = None
+) -> dict:
     if not offline or case.get("mutation") == "attempt_network":
         return _failure("OFFLINE_NETWORK_FORBIDDEN")
-    prepared, failure = _prepare_week(week)
+    prepared, failure = _prepare_week(week, resource_root)
     if prepared is None:
         return failure
     inputs = prepared["inputs"]
@@ -227,7 +247,6 @@ def run_adversarial_case(week: dict, case: dict, *, offline: bool) -> dict:
     if mutation == "inject_temp_write_fault":
         with tempfile.TemporaryDirectory(prefix="ucc-synthetic-fault-") as directory:
             path = Path(directory) / "ledger.json"
-            path.write_text(json.dumps(inputs["ledger"], sort_keys=True, separators=(",", ":")), encoding="utf-8")
             result = ledger.commit_ledger_atomic(path, inputs["ledger"], injected_fault="temp_write")
         return {**_failure(result["issues"][0]["code"]), "issues": result["issues"]}
     return _failure("OFFLINE_ADVERSARIAL_CASE_UNSUPPORTED")

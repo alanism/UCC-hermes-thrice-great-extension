@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-06-30T15:35:02Z",
+  "revised_at": "2026-07-01T05:21:21Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -13,7 +13,7 @@
     },
     "task_board": {
       "path": "docs/active/PROJECT_TASKS.md",
-      "sha256": "cec2a32e123237948e778e593cfbdb1376df4f0fdae56a2de085f27d2947c3d6"
+      "sha256": "ee8a2225da7d1d844dead481792595ba55d36fa1e9689c8c9ce1c8a037245386"
     },
     "architecture": {
       "path": "docs/active/architecture.mmd",
@@ -57,7 +57,7 @@
     },
     "build_ledger": {
       "path": "docs/active/BUILD_LEDGER.md",
-      "sha256": "8748862273d73e243a184b037a29ea329ed94473640a970ac9e6d2b823c409a3"
+      "sha256": "a8ee04727b8176b4db370523d4282b94c6bcb6266ea53d4586942f5aa256c234"
     },
     "root_doc_classification": {
       "path": "docs/active/ROOT_DOC_CLASSIFICATION.md",

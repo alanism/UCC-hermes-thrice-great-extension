@@ -1,0 +1,6 @@
+{
+  "task_id":"F12.0","agent_id":"codex-pref12-cli-01","claimed_at":"2026-07-01T05:12:29Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":["docs/active/PROJECT_TASKS.md","docs/active/authority.json","docs/active/BUILD_LEDGER.md","plugins/hermes-thrice-great/**","fixtures/synthetic/**","distribution.yaml","tests/**","docs/active/receipts/PRE-F12.0.md",".agent/claims/F12.0.codex-pref12-cli-01.json",".agent/state.log"],
+  "forbidden_files":["Hermes source","live integrations","real learner data","Phase 10"],
+  "completed_at":"2026-07-01T05:21:21Z","receipt":"docs/active/receipts/PRE-F12.0.md","status":"DONE"
+}

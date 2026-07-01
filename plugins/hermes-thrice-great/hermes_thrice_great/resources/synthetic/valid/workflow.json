@@ -1,0 +1,35 @@
+{
+  "case_id": "synthetic-deterministic-parent-review",
+  "synthetic": true,
+  "learner_id": "lrn_01J00000000000000000000020",
+  "inputs": {
+    "receipt": "valid/calm-receipt.json",
+    "pair": "valid/pairing.json",
+    "proposal": "valid/proposal.json"
+  },
+  "injected": {
+    "clock": "2026-06-30T03:00:00.000Z",
+    "diagnosis_id": "diag_01J00000000000000000000050",
+    "brief_id": "pbrf_01J00000000000000000000051",
+    "proposal_id": "prop_01J00000000000000000000052"
+  },
+  "expected": {
+    "diagnosis_kind": "deterministic_evidence_summary",
+    "brief_claim_labels": [
+      "measured",
+      "calculated",
+      "modeled",
+      "forecast"
+    ],
+    "proposal_status": "ready_for_parent",
+    "approval_status": "not_decided",
+    "ledger_writes": 0,
+    "model_calls": 0,
+    "network_attempts": 0
+  },
+  "commands": [
+    "ucc doctor",
+    "ucc validate --synthetic",
+    "ucc dry-run --synthetic"
+  ]
+}
