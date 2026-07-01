@@ -1,59 +1,36 @@
 # Hermes Thrice Great
 
-**A UCC (UnCommon Core) Pedagogy Fork of Nous Research's Hermes Agent**
+Hermes Thrice Great is a deterministic UCC evidence engine delivered as a profile distribution for stock Hermes Agent. This release proves synthetic, offline workflows on native Windows with `hermes-agent==0.16.0`.
 
-Hermes Thrice Great extends the open-source Hermes Agent (by Nous Research) with educational scaffolding designed for the UnCommon Core (UCC) learning framework. It transforms a general-purpose AI orchestration agent into a multi-layer classroom companion that operates across three distinct pedagogical scales.
+## What this release does
 
----
+- validates versioned UCC contracts and synthetic assessment evidence;
+- separates proposals from authorized adult approval events;
+- runs a deterministic seven-stage weekly workflow;
+- writes an atomic, idempotent ledger inside isolated synthetic dry runs;
+- packages a deliberately generic public skill set; and
+- exposes installed-profile `doctor`, `validate`, and `dry-run` commands.
 
-## Three-Layer Architecture
+It does not use a model or network to establish facts, approval, or ledger state. It does not detect cheating, AI writing, or ghostwriting.
 
-| Layer | Scale | Scope |
-|-------|-------|-------|
-| **Macro** | Academic year / programme | Curriculum design, term planning, school-wide reporting |
-| **Meso** | Unit / module | Learning campaigns, milestone tracking, cohort analytics |
-| **Micro** | Lesson / session | Real-time tutoring, Socratic prompting, assessment items |
+## Distribution boundary
 
-Each layer communicates with the others through defined schemas, enabling coherent progress tracking from a single lesson all the way up to programme-level outcomes.
+The repository is the source, governance, and build-control tree. It is never installed as a Hermes profile.
 
----
+The only installable input is the generated allowlisted payload:
 
-## Core Integrations
-
-- **Discord** — Primary front-end. Interact with the agent through slash commands, threaded conversations, and dedicated channel groups.
-- **School Model Canvas (SMC)** — Strategic planning tool that maps institutional goals down to daily delivery.
-- **Learning Campaign OS** — Campaign-based orchestration for meso-layer unit delivery (quests, milestones, XP-style progress).
-- **Assessment Lab** — Micro-layer engine for generating, administering, and analysing formative and summative assessment items aligned to UCC standards.
-
----
-
-## Repository Structure
-
-```
-Hermes_Thrice_Great/
-├── README.md
-├── LICENSE
-├── INSTALL.md
-├── skills/               # Custom Hermes skills (Python)
-├── templates/
-│   ├── campaigns/        # Learning campaign templates
-│   └── telemetry/        # Telemetry & analytics templates
-├── schemas/              # Cross-layer data schemas
-├── discord/              # Discord bot config & handlers
-│   └── self-heal/        # Auto-recovery scripts
-├── cron/                 # Scheduled tasks
-├── benchmarks/           # Performance benchmarks & test data
-└── docs/                 # Extended documentation
+```text
+dist/hermes-thrice-great-profile/
 ```
 
----
+Build and install instructions are in [INSTALL.md](INSTALL.md). Operational verification and recovery procedures are in [the owner runbook](docs/active/OWNER_RUNBOOK.md).
 
-## Getting Started
+The public/default profile name is `ucc`. `hermes-thrice-great` is an equivalent public alias. `thoth` is optional, non-default, and local-only.
 
-See [INSTALL.md](./INSTALL.md) for setup instructions.
+## Release scope
 
----
+This is a production distribution proof for synthetic offline workflows. It is not evidence of readiness for real or semi-real learner data, live messaging, Campaign OS, external adapters, AI tutoring, or network-dependent operation. Hermes itself remains stock and pinned; this repository is a profile/plugin distribution, not a Hermes fork.
 
 ## License
 
-MIT — see [LICENSE](./LICENSE) for details.
+See [LICENSE](LICENSE).

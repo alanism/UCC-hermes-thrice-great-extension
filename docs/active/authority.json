@@ -3,7 +3,7 @@
   "status": "governance_active",
   "implementation_authorized": false,
   "activated_at": "2026-06-29T19:14:06Z",
-  "revised_at": "2026-07-01T05:21:21Z",
+  "revised_at": "2026-07-01T11:38:09Z",
   "previous_plan_hash": "sha256:1a32da43feda7d4f500d3e31e2f529f007392faeb8391b6d525f526dacfc1279",
   "active_plan_hash": "sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
   "binding_artifacts": {
@@ -33,7 +33,7 @@
     },
     "compatibility_matrix": {
       "path": "docs/active/HERMES_COMPATIBILITY_MATRIX.md",
-      "sha256": "764a1f3acb5009c3339dd8e6e3b00df7e7c533a1f49e87a20dffe8c017e26f35"
+      "sha256": "297a83b3b115e117c8441781dd886a8683a2f25c196a6cbf8f301d5e1aabe9e7"
     },
     "trust_boundaries": {
       "path": "docs/active/TRUST_BOUNDARIES.md",
@@ -57,7 +57,7 @@
     },
     "build_ledger": {
       "path": "docs/active/BUILD_LEDGER.md",
-      "sha256": "a8ee04727b8176b4db370523d4282b94c6bcb6266ea53d4586942f5aa256c234"
+      "sha256": "dcc4923d6872e8c00652c2e2a4abaf3c09bf7596bd3f9f6e08264becf0411278"
     },
     "root_doc_classification": {
       "path": "docs/active/ROOT_DOC_CLASSIFICATION.md",
@@ -129,7 +129,7 @@
     },
     "readiness_report": {
       "path": "docs/active/READINESS_REPORT.md",
-      "sha256": "669e80a53ab0305eb831e815768b7e817dd566a45b8167b1ebcb7ca8820da09d"
+      "sha256": "dae7b008293c30b9d433465f1e70c741dab2d3cfe63a0e001bbee3b6ba9d09bb"
     },
     "registry_wire_lock_audit": {
       "path": "docs/active/contracts/LOCK_AUDIT.md",

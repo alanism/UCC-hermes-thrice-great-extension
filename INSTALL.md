@@ -1,167 +1,100 @@
-# Installation Guide — Hermes Thrice Great
+# Install Hermes Thrice Great on Windows
 
----
+These instructions install the generated profile payload into an isolated Hermes home. They do not install the repository root and do not require network access after the pinned Hermes runtime is available.
 
 ## Prerequisites
 
-| Dependency   | Minimum Version | Notes                               |
-|--------------|-----------------|-------------------------------------|
-| Node.js      | 18.x            | Required by Hermes Agent runtime    |
-| Python       | 3.11            | Hermes Agent skills (Python toolkit)|
-| Git          | 2.x             | For cloning repositories            |
-| Discord Bot  | —               | A registered application + token    |
+- Native Windows PowerShell.
+- Python 3.11 or 3.12.
+- Stock `hermes-agent==0.16.0` available as `hermes`.
+- This repository checked out locally.
 
-Verify prerequisites:
+The acceptance baseline used Hermes commit `2a5dc0ef3df433a36abed9ee544ea067d807c438`.
 
-```bash
-node --version   # → v18.x or higher
-python --version # → Python 3.11+
-git --version    # → git 2.x
-```
+## Build the install payload
 
----
-
-## Step 1 — Install Hermes Agent (Nous Research)
-
-Follow the official Hermes Agent installation instructions at:
-
-https://hermes-agent.nousresearch.com/docs
-
-In short:
-
-```bash
-# Clone the Hermes Agent repository
-git clone https://github.com/NousResearch/hermes-agent.git
-cd hermes-agent
-
-# Install dependencies
-npm install
-pip install -r requirements.txt   # if applicable
-```
-
-Make sure Hermes Agent is running and your `hermes` CLI (or desktop app) is functional before proceeding.
-
----
-
-## Step 2 — Clone Hermes Thrice Great into Your Skills Directory
-
-```bash
-# Navigate to your Hermes skills directory
-cd /path/to/hermes-agent/skills
-
-# Clone this repository
-git clone https://github.com/Aria-EdTech/Hermes_Thrice_Great.git
-
-# Or, if you have a local copy:
-# git clone /path/to/local/Hermes_Thrice_Great
-```
-
-On Windows (Hermes Desktop App), the skills directory is typically:
-
-```
-C:\Users\<you>\.hermes\skills\
-```
-
----
-
-## Step 3 — Set Up Your Discord Bot
-
-1. Go to the **Discord Developer Portal**: https://discord.com/developers/applications
-2. Click **New Application** → give it a name (e.g. "Hermes Thrice Great").
-3. Go to the **Bot** tab → **Add Bot**.
-4. Under the **Bot** tab:
-   - Copy the **Token** (you'll need this as `DISCORD_BOT_TOKEN`).
-   - Enable **Message Content Intent**, **Server Members Intent**, and **Presence Intent**.
-5. Go to the **OAuth2 → URL Generator**:
-   - Scopes: `bot`, `applications.commands`
-   - Bot Permissions: `Send Messages`, `Read Message History`, `Use Slash Commands`, `Manage Threads`, `Embed Links`, `Attach Files`
-   - Use the generated URL to invite the bot to your server.
-
----
-
-## Step 4 — Configure Discord Channels
-
-Create the following channels in your Discord server:
-
-| Channel               | Purpose                                            |
-|-----------------------|----------------------------------------------------|
-| `#hermes-control`     | Administrative commands and agent status           |
-| `#hermes-macro`       | Macro-layer (year/term) planning and reports       |
-| `#hermes-meso`        | Meso-layer (unit/campaign) orchestration           |
-| `#hermes-micro`       | Micro-layer (lesson/assessment) interactions       |
-| `#hermes-logs`        | Agent activity log and telemetry output            |
-| `#hermes-lab`         | Assessment Lab: item generation and scoring        |
-
----
-
-## Step 5 — Set Environment Variables
-
-Create a `.env` file in the root of your Hermes Agent installation or in the `Hermes_Thrice_Great` folder:
-
-```bash
-# Required
-DISCORD_BOT_TOKEN=your_discord_bot_token_here
-DISCORD_GUILD_ID=your_server_id_here
-
-# Optional but recommended
-HERMES_LOG_LEVEL=info
-HERMES_SKILLS_DIR=./skills/Hermes_Thrice_Great
-```
-
-On Windows, you can also set these through the GUI or via PowerShell:
+From the repository root:
 
 ```powershell
-$env:DISCORD_BOT_TOKEN="your_token_here"
-$env:DISCORD_GUILD_ID="your_guild_id_here"
+$Repo = (Get-Location).Path
+$Staging = Join-Path $Repo 'dist\hermes-thrice-great-profile'
+python .\scripts\build_profile_staging.py --source $Repo --output $Staging
 ```
 
----
+The builder creates a deny-by-default payload plus a sibling `.inventory.json`. Do not copy additional repository content into the payload.
 
-## Step 6 — Run the Setup Script
+## Install the public `ucc` profile
 
-If a `setup.sh` or `setup.py` is provided in the repository:
+Choose an empty local Hermes root. Do not use a home containing real user or learner material.
 
-```bash
-cd /path/to/hermes-agent/skills/Hermes_Thrice_Great
-python setup.py      # or bash setup.sh
+```powershell
+$HermesRoot = Join-Path $env:TEMP 'hermes-thrice-great-release'
+if (Test-Path -LiteralPath $HermesRoot) {
+    throw "Choose an empty Hermes root: $HermesRoot"
+}
+$env:HERMES_HOME = $HermesRoot
+$env:HERMES_SAFE_MODE = '1'
+$env:HERMES_ENABLE_PROJECT_PLUGINS = '0'
+
+hermes profile install $Staging --name ucc --yes
+
+$InstalledProfile = Join-Path $HermesRoot 'profiles\ucc'
+$InstalledConfig = Join-Path $InstalledProfile 'config.yaml'
+$ConfigText = [IO.File]::ReadAllText($InstalledConfig)
+if (([regex]::Matches($ConfigText, '(?m)^plugins:$').Count -ne 1) -or
+    (-not $ConfigText.Contains('  enabled: []'))) {
+    throw 'Installed config does not match the release activation contract.'
+}
+$ConfigText = $ConfigText.Replace('  enabled: []', '  enabled: [hermes-thrice-great]')
+[IO.File]::WriteAllText($InstalledConfig, $ConfigText, [Text.UTF8Encoding]::new($false))
+$env:HERMES_HOME = $InstalledProfile
+Remove-Item Env:HERMES_SAFE_MODE
 ```
 
-This will:
-- Verify all required environment variables are set.
-- Register Discord slash commands.
-- Create default configuration files.
-- Validate the three-layer schema definitions.
+Never run `hermes profile install $Repo`. Repository-root installation is intentionally rejected.
 
----
+## Verify the installed commands
 
-## Step 7 — Verify the Installation
-
-1. Restart your Hermes Agent instance so it picks up the new skills.
-2. In your Discord server, go to `#hermes-control` and send:
-
-```
-/hermes ping
+```powershell
+hermes ucc doctor
+hermes ucc validate --synthetic
+hermes ucc validate --fixture valid/week.json
+hermes ucc dry-run --synthetic
 ```
 
-You should receive a response like:
+The commands emit deterministic JSON. Successful validation performs no ledger commit. A successful dry run executes seven stages and commits exactly once to temporary isolated storage.
 
+The following checks must fail with a nonzero process exit:
+
+```powershell
+hermes ucc validate --synthetic --case invalid_totals
+hermes ucc validate --fixture adversarial/week-cases.json
 ```
-🏛️ Hermes Thrice Great — UCC Pedagogy Extension
-Status: ✅ Online
-Layers: Macro ✅ | Meso ✅ | Micro ✅
-Discord: Connected | Latency: 42ms
+
+`invalid_totals` must report `RECEIPT_TOTAL_INCONSISTENT`; the adversarial fixture must report `APPROVAL_REQUIRED`. A failed run commits zero ledger entries.
+
+## Equivalent public alias
+
+To install the same generated payload under the long public name:
+
+```powershell
+$env:HERMES_HOME = $HermesRoot
+$env:HERMES_SAFE_MODE = '1'
+hermes profile install $Staging --name hermes-thrice-great --yes
+$InstalledProfile = Join-Path $HermesRoot 'profiles\hermes-thrice-great'
+$InstalledConfig = Join-Path $InstalledProfile 'config.yaml'
+$ConfigText = [IO.File]::ReadAllText($InstalledConfig)
+$ConfigText = $ConfigText.Replace('  enabled: []', '  enabled: [hermes-thrice-great]')
+[IO.File]::WriteAllText($InstalledConfig, $ConfigText, [Text.UTF8Encoding]::new($false))
+$env:HERMES_HOME = $InstalledProfile
+Remove-Item Env:HERMES_SAFE_MODE
+hermes ucc doctor
 ```
 
-If the command succeeds, the installation is complete.
+The optional name `thoth` is reserved for local compatibility only. It is not the default product identity and is not required for public use.
 
----
+## Safety boundary
 
-## Troubleshooting
+Use synthetic fixtures only. Do not add credentials, `.env`, learner records, local memories, network tools, MCP servers, messaging, Discord, Campaign OS, or external adapters. Stop if a command attempts a socket connection or model call.
 
-| Symptom                     | Likely Cause                     | Fix                                      |
-|-----------------------------|----------------------------------|------------------------------------------|
-| Bot does not respond        | Token missing or invalid         | Re-check `DISCORD_BOT_TOKEN`             |
-| Slash commands not found    | Commands not registered          | Re-run setup script                      |
-| Skill not loaded            | Wrong skills directory           | Confirm `HERMES_SKILLS_DIR` path         |
-| Permission errors           | Missing intents / bot perms      | Re-check Developer Portal settings       |
-| Layer status shows ❌       | Schema validation failed         | Check `schemas/` for broken YAML/JSON    |
+For repeatable acceptance and troubleshooting, use [docs/active/OWNER_RUNBOOK.md](docs/active/OWNER_RUNBOOK.md).
