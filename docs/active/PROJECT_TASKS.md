@@ -153,6 +153,12 @@ All rows permit only `tests/**` and `fixtures/**` named by the task. Production/
 | F12.2 | Run clean-room final acceptance and finalize readiness/risk/compatibility reports. | F12.1 | reports and receipts only | Acceptance | Final command set PASS; critical risks zero; I1 excluded by C3.8. | `F12.2.md` | F1 |
 | F12.3 | Finalize build ledger, learning cards, and post-release upstream drift task. | F12.2 | `BUILD_LEDGER.md`, `learning_cards.md`, compatibility report | Learning | Every DONE task/receipt/state event reconciles; no upstream update performed. | `F12.3.md` | F1 |
 
+## Phase 13 — Post-F1 release sharing
+
+| ID | Task | Depends | Allowed files | Graph scope | Validation / evidence | Receipt | Gate |
+|---|---|---|---|---|---|---|---|
+| REL13.1 | Update README/INSTALL sharing guidance with external companion-resource links and prepare GitHub repository publication instructions. | F12.3 | `README.md`, `INSTALL.md`, `docs/active/OWNER_RUNBOOK.md`, `.gitignore`, release/share notes, governance bookkeeping | Release sharing / documentation / GitHub publication preparation | Synthetic-offline scope, external-resource boundaries, repository slug, evaluator quickstart, and private-publication safety are explicit and mechanically checked. | `REL13.1.md` | post-F1 sharing |
+
 ## Claim JSON minimum
 
 ```json

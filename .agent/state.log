@@ -258,3 +258,6 @@
 2026-07-01T11:35:49Z TASK_IN_PROGRESS task=F12.3 agent=codex-f12-final-01
 2026-07-01T11:36:51Z TASK_DONE task=F12.3 agent=codex-f12-final-01 receipt=docs/active/receipts/F12.3.md result=pass reconciliation=68/68 mismatches=0 critical_risks=0 upstream_update=false
 2026-07-01T11:36:51Z GATE_PASSED gate=F1 agent=codex-f12-final-01 result=synthetic_offline_distribution_shareable technical_evaluators=true real_learner_data=false
+2026-07-01T11:57:20Z CLAIM_CREATED task=REL13.1 agent=codex-release-share-01 plan_hash=sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6
+2026-07-01T11:57:20Z TASK_IN_PROGRESS task=REL13.1 agent=codex-release-share-01
+2026-07-01T11:59:36Z TASK_DONE task=REL13.1 agent=codex-release-share-01 receipt=docs/active/receipts/REL13.1.md result=pass github_visibility=private remote=origin evaluator_scope=synthetic_offline

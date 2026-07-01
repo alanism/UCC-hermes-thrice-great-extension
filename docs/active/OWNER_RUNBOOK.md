@@ -62,3 +62,5 @@ Discard the isolated Hermes home and generated staging tree, then regenerate fro
 ## Shareability
 
 After F1 passes, the allowlisted generated distribution may be shared with technical evaluators for synthetic offline evaluation. It must carry the scope statement from `README.md` and must not be represented as real-learner-data ready.
+
+The Assessment Lab and curriculum DLC documented in `README.md` are external companion resources, not installed distribution components or F1 evidence. Share either link manually through the family’s or evaluator’s chosen communication channel. Automated messaging adapters are not included in this release. Never upload or route real learner data through either companion resource under this authorization.

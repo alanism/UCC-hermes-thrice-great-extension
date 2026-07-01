@@ -11,6 +11,8 @@ These instructions install the generated profile payload into an isolated Hermes
 
 The acceptance baseline used Hermes commit `2a5dc0ef3df433a36abed9ee544ea067d807c438`.
 
+F1 is PASS at repository commit `693de12b9a2c954f3ed3546e167b0f6ebcfdde90` for technical synthetic-offline evaluation only. Real learner data, family deployment, and school deployment are not authorized.
+
 ## Build the install payload
 
 From the repository root:
@@ -98,3 +100,7 @@ The optional name `thoth` is reserved for local compatibility only. It is not th
 Use synthetic fixtures only. Do not add credentials, `.env`, learner records, local memories, network tools, MCP servers, messaging, Discord, Campaign OS, or external adapters. Stop if a command attempts a socket connection or model call.
 
 For repeatable acceptance and troubleshooting, use [docs/active/OWNER_RUNBOOK.md](docs/active/OWNER_RUNBOOK.md).
+
+## External companion resources
+
+The Assessment Lab and curriculum DLC links in `README.md` are optional external companion resources. They are not installed into Hermes Thrice Great and are not part of the F1 offline proof. Opening or downloading them requires internet access. Do not submit real learner data, and do not represent this release as automatically delivering links through messaging channels.

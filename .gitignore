@@ -60,6 +60,9 @@ backups/
 cache/
 .cache/
 
+# External companion curriculum/benchmark packs
+benchmarks-CA-SG.zip
+
 # Temporary files
 tmp/
 temp/

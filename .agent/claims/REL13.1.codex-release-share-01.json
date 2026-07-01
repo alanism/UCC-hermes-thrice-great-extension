@@ -1,0 +1,6 @@
+{
+  "task_id":"REL13.1","agent_id":"codex-release-share-01","claimed_at":"2026-07-01T11:57:20Z","active_plan_hash":"sha256:d195328a8b81fba72c1378e49f379bdd145e35b6793e0214e1ad91f20a2e29e6",
+  "allowed_files":["docs/active/PROJECT_TASKS.md","README.md","INSTALL.md","docs/active/OWNER_RUNBOOK.md",".gitignore","docs/active/RELEASE_SHARING.md","docs/active/BUILD_LEDGER.md","docs/active/receipts/REL13.1.md","docs/active/authority.json",".agent/claims/REL13.1.codex-release-share-01.json",".agent/state.log"],
+  "forbidden_files":["product implementation","Hermes source","live integrations","real learner data","public GitHub visibility","Phase 10"],
+  "completed_at":"2026-07-01T11:59:36Z","receipt":"docs/active/receipts/REL13.1.md","status":"DONE"
+}

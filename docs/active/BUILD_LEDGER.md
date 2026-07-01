@@ -19,5 +19,6 @@
 | 2026-07-01T11:28:58Z | F12.1 owner/install/runbook handoff completed. | `README.md`; `INSTALL.md`; `OWNER_RUNBOOK.md`; `F12.1.md` | Native-Windows staging-only install and installed CLI commands replay; exact Hermes 0.16.0 activation constraints documented. |
 | 2026-07-01T11:35:24Z | F12.2 clean-room final acceptance completed. | `FINAL_ACCEPTANCE_REPORT.md`; `RISK_REPORT.md`; `F12.2.md` | Installed command set, aliases, repeatability, approval separation, ledger safety, stock smoke, and zero socket/model gates pass; critical risks zero. |
 | 2026-07-01T11:36:51Z | F12.3 handoff reconciliation completed. | `FINAL_RECONCILIATION.md`; `learning_cards.md`; `POST_RELEASE_TASKS.md`; `F12.3.md` | All 68 executed tasks reconcile with claims, DONE events, and receipts; three adapter tasks remain explicitly excluded; no Hermes update performed. |
+| 2026-07-01T11:59:36Z | REL13.1 post-F1 private-sharing preparation completed. | `README.md`; `INSTALL.md`; `OWNER_RUNBOOK.md`; `RELEASE_SHARING.md`; `REL13.1.md` | External companions are clearly outside F1; evaluator quickstart and warnings are current; private GitHub repository created without public visibility. |
 
 Implementation task results are appended only after matching claims, tests, receipts, and `.agent/state.log` events exist.
