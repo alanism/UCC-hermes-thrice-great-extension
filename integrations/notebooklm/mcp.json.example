@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "notebooklm-mcp": {
+      "command": "notebooklm-mcp",
+      "args": [],
+      "env": {},
+      "description": "Hermes Thrice Great ↔ Gemini Notebook (NotebookLM) bridge via notebooklm-mcp-cli. Requires `nlm login` first. See integrations/notebooklm/README.md"
+    }
+  },
+  "_alternatives": {
+    "uvx_no_install": {
+      "command": "uvx",
+      "args": ["--from", "notebooklm-mcp-cli", "notebooklm-mcp"]
+    },
+    "full_path_for_claude_desktop": {
+      "command": "/Users/YOU/.local/bin/notebooklm-mcp",
+      "note": "Find yours with `which notebooklm-mcp`"
+    },
+    "hermes_profile_overlay": {
+      "note": "For ~/.hermes/profiles/ucc/config.yaml — do NOT commit into F1 payload",
+      "yaml": "mcp_servers:\n  notebooklm-mcp:\n    command: notebooklm-mcp"
+    }
+  }
+}

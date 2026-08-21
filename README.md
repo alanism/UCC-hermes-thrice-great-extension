@@ -114,7 +114,17 @@ A family charter notebook — pace, style, values, and constraints — used as t
 
 ---
 
-## Optional Curriculum DLC / Benchmark Packs
+## Optional DLCs
+
+### NotebookLM Bridge — Textbook Factory (Meso ↔ Micro)
+
+Connect Hermes to **Google NotebookLM / Gemini Notebook** via [`notebooklm-mcp-cli`](https://github.com/jacob-bd/gemini-notebook-mcp-cli) (forked to [`alanism/gemini-notebook-mcp-cli`](https://github.com/alanism/gemini-notebook-mcp-cli)).
+
+> The same bridge we use locally (`~/projects/gemini-notebook-mcp-cli` @ `0.9.4`, 43 tools, `nlm` + `notebooklm-mcp`). Powers `coach-cards/workflows/_textbook_workflow.md` — role card → 12-chapter outline → weekly cron delivery.
+
+**Quick connect:** `uv tool install notebooklm-mcp-cli && nlm login && nlm setup add <client>` — full guide at [`integrations/notebooklm/README.md`](integrations/notebooklm/README.md) (includes `mcp.json.example` + `setup.sh`). Not part of F1 offline proof — opt-in only.
+
+### Curriculum DLC / Benchmark Packs
 
 **California Common Core Curriculum + Singapore MoE Curriculum DLC + IB PYP**
 
@@ -148,6 +158,8 @@ The repository must remain private unless the human explicitly authorizes a publ
 | Project home / website | [landing-page-vj-wbg25ukt3a-as.a.run.app/hermes](https://landing-page-vj-wbg25ukt3a-as.a.run.app/hermes) | Project overview |
 | UCC Assessment Lab (Micro layer) | [ucc-assessment-test-notebook-598682781761.asia-southeast1.run.app](https://ucc-assessment-test-notebook-598682781761.asia-southeast1.run.app/) | External web app — see Companion Resources |
 | UCC School Model Canvas (Macro layer) | [ucc-school-model-canvas-notebook-wbg25ukt3a-uc.a.run.app](https://ucc-school-model-canvas-notebook-wbg25ukt3a-uc.a.run.app/) | External web app — see Companion Resources |
+| NotebookLM Bridge (fork) | [github.com/alanism/gemini-notebook-mcp-cli](https://github.com/alanism/gemini-notebook-mcp-cli) | Fork of jacob-bd/gemini-notebook-mcp-cli — 43 tools, opt-in DLC (not F1) |
+| NotebookLM setup guide | [integrations/notebooklm/README.md](integrations/notebooklm/README.md) | Local mirror of `~/projects/gemini-notebook-mcp-cli` @ 0.9.4 |
 | Live lens demo — Feynman chapter | [atoms-in-motion-598682781761.asia-southeast1.run.app](https://atoms-in-motion-598682781761.asia-southeast1.run.app/) | Standalone demo, unrelated to the F1 proof |
 | Live lens demo — Lockhart chapter | [the-jungle-and-the-stones-598682781761.asia-southeast1.run.app](https://the-jungle-and-the-stones-598682781761.asia-southeast1.run.app/) | Standalone demo, unrelated to the F1 proof |
 
